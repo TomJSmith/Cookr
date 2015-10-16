@@ -24,5 +24,15 @@ namespace WpfApplication1
         {
             InitializeComponent();
         }
+
+        private void SearchBox_Focused(object sender, KeyboardFocusChangedEventArgs e)
+        {
+            searchBox.Text = "";
+        }
+
+        private void SearchBox_Lost_Focus(object sender, KeyboardFocusChangedEventArgs e)
+        {
+            searchBox.Text = "(e.g. pickles, Thai, sandwiches)";
+        }
     }
 }
