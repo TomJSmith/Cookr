@@ -1,19 +1,19 @@
-﻿<Window x:Class="WpfApplication1.MainWindow"
+﻿<Window x:Name="HomePage" x:Class="WpfApplication1.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="411.08" Width="407.687">
+        Title="Home" Height="411.08" Width="407.687">
     <Grid>
-        <TextBox x:Name="searchBox" HorizontalAlignment="Left" Height="19" Margin="111,68,0,0" TextWrapping="Wrap" Text="(e.g. pickles, Thai, sandwiches)" VerticalAlignment="Top" Width="219" GotKeyboardFocus="SearchBox_Focused" LostKeyboardFocus="SearchBox_Lost_Focus"/>
+        <Button x:Name="searchButton" Content="Search" HorizontalAlignment="Left" Margin="70,68,0,0" VerticalAlignment="Top" Width="41" Height="19"/>
+        <TextBox x:Name="searchBox" HorizontalAlignment="Left" Height="19" Margin="111,68,0,0" TextWrapping="Wrap" Text="(e.g. pickles, Thai, sandwiches)" VerticalAlignment="Top" Width="219" GotKeyboardFocus="SearchBox_Focused" LostKeyboardFocus="SearchBox_Lost_Focus" TextChanged="searchBox_TextChanged"/>
         <Button x:Name="signUpButton" Content="Sign up" HorizontalAlignment="Left" Margin="283,15,0,0" VerticalAlignment="Top" Width="47" Height="20"/>
         <Button x:Name="logInButton" Content="Log in" HorizontalAlignment="Left" Margin="231,15,0,0" VerticalAlignment="Top" Width="47"/>
-        <Button x:Name="topRatedButton" Content="Top Rated" HorizontalAlignment="Left" VerticalAlignment="Top" Width="260" Margin="70,100,0,0" Height="50"/>
-        <Button x:Name="discoverButton" Content="Discover" HorizontalAlignment="Left" VerticalAlignment="Top" Width="260" Margin="70,165,0,0" Height="50"/>
-        <Button x:Name="quickAndEasyButton" Content="Quick and Easy" HorizontalAlignment="Left" VerticalAlignment="Top" Width="260" Margin="70,230,0,0" Height="50"/>
+        <Button x:Name="discoverButton" Content="Discover" HorizontalAlignment="Left" VerticalAlignment="Top" Width="260" Margin="70,100,0,0" Height="50" Click="discoverButton_Click"/>
+        <Button x:Name="quickAndEasyButton" Content="Quick and Easy" HorizontalAlignment="Left" VerticalAlignment="Top" Width="260" Margin="70,165,0,0" Height="50"/>
+        <Button x:Name="catagoriesButton" Content="Catagories" HorizontalAlignment="Left" VerticalAlignment="Top" Width="260" Margin="70,230,0,0" Height="50"/>
         <Button x:Name="favouritesButton" Content="Favourites" HorizontalAlignment="Left" VerticalAlignment="Top" Width="260" Margin="70,295,0,0" Height="50"/>
-        <Button x:Name="searchButton" Content="Search" HorizontalAlignment="Left" Margin="70,68,0,0" VerticalAlignment="Top" Width="41" Height="19"/>
     </Grid>
 </Window>
