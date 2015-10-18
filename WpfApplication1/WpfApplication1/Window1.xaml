@@ -5,19 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
-        Title="Discover" Height="411.08" Width="407.687">
-    <Grid>
-        <Button x:Name="searchButton" Content="Search" HorizontalAlignment="Left" Margin="70,68,0,0" VerticalAlignment="Top" Width="41" Height="19"/>
-        <TextBox x:Name="searchBox" HorizontalAlignment="Left" Height="19" Margin="111,68,0,0" TextWrapping="Wrap" Text="(e.g. pickles, Thai, sandwiches)" VerticalAlignment="Top" Width="219" GotKeyboardFocus="SearchBox_Focused" LostKeyboardFocus="SearchBox_Lost_Focus" TextChanged="searchBox_TextChanged"/>
-        <Button x:Name="signUpButton" Content="Sign up" HorizontalAlignment="Left" Margin="283,15,0,0" VerticalAlignment="Top" Width="47" Height="20"/>
-        <Button x:Name="logInButton" Content="Log in" HorizontalAlignment="Left" Margin="231,15,0,0" VerticalAlignment="Top" Width="47"/>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="59,146,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="141,253,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="button2" Content="Button" HorizontalAlignment="Left" Margin="217,155,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="button3" Content="Button" HorizontalAlignment="Left" Margin="59,226,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="button1_Copy" Content="Button" HorizontalAlignment="Left" Margin="59,276,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="button1_Copy1" Content="Button" HorizontalAlignment="Left" Margin="231,276,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="button1_Copy2" Content="Button" HorizontalAlignment="Left" Margin="141,191,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="logoButton" Content="Logo here" HorizontalAlignment="Left" Margin="70,15,0,0" VerticalAlignment="Top" Width="64" Height="48" Click="Logo_Click"/>
+        Title="Discover" Height="500" Width="420">
+    <Grid Margin="0,0,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="35"/>
+            <ColumnDefinition Width="340"/>
+            <ColumnDefinition Width="35"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="340"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="searchButton" Content="Search" HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top" Width="40" Height="19" Grid.Column="1"/>
+        <TextBox x:Name="searchBox" HorizontalAlignment="Left" Height="19" Margin="50,71,0,0" TextWrapping="Wrap" Text="(e.g. pickles, Thai, sandwiches)" VerticalAlignment="Top" Width="281" GotKeyboardFocus="SearchBox_Focused" LostKeyboardFocus="SearchBox_Lost_Focus" TextChanged="searchBox_TextChanged" Grid.Column="1"/>
+        <Button x:Name="signUpButton" Content="Sign up" HorizontalAlignment="Left" Margin="273,10,0,0" VerticalAlignment="Top" Width="47" Height="20" Grid.Column="1"/>
+        <Button x:Name="logInButton" Content="Log in" HorizontalAlignment="Left" Margin="221,10,0,0" VerticalAlignment="Top" Width="47" Height="20" Grid.Column="1"/>
+        <Button x:Name="button" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="10,11,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100" Height="100"/>
+        <Button x:Name="button_Copy" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="120,11,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100" Height="100"/>
+        <Button x:Name="button_Copy1" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="230,11,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100" Height="100"/>
+        <Button x:Name="button_Copy2" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="10,120,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100" Height="100"/>
+        <Button x:Name="button_Copy3" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="10,230,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100" Height="100"/>
+        <Button x:Name="button_Copy4" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="120,120,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100" Height="100"/>
+        <Button x:Name="button_Copy5" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="230,120,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100" Height="100"/>
+        <Button x:Name="button_Copy6" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="120,230,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100" Height="100"/>
+        <Button x:Name="button_Copy7" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="230,230,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100" Height="100"/>
+        <Image x:Name="CookrLogo_png" Grid.Column="1" Margin="10,10,274,34" Source="CookrLogo.png" Stretch="Fill"/>
     </Grid>
 </Window>

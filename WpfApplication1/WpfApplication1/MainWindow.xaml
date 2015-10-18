@@ -5,15 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
-        Title="Home" Height="411.08" Width="407.687">
-    <Grid>
-        <Button x:Name="searchButton" Content="Search" HorizontalAlignment="Left" Margin="70,68,0,0" VerticalAlignment="Top" Width="41" Height="19"/>
-        <TextBox x:Name="searchBox" HorizontalAlignment="Left" Height="19" Margin="111,68,0,0" TextWrapping="Wrap" Text="(e.g. pickles, Thai, sandwiches)" VerticalAlignment="Top" Width="219" GotKeyboardFocus="SearchBox_Focused" LostKeyboardFocus="SearchBox_Lost_Focus" TextChanged="searchBox_TextChanged"/>
-        <Button x:Name="signUpButton" Content="Sign up" HorizontalAlignment="Left" Margin="283,15,0,0" VerticalAlignment="Top" Width="47" Height="20"/>
-        <Button x:Name="logInButton" Content="Log in" HorizontalAlignment="Left" Margin="231,15,0,0" VerticalAlignment="Top" Width="47"/>
-        <Button x:Name="discoverButton" Content="Discover" HorizontalAlignment="Left" VerticalAlignment="Top" Width="260" Margin="70,100,0,0" Height="50" Click="discoverButton_Click"/>
-        <Button x:Name="quickAndEasyButton" Content="Quick and Easy" HorizontalAlignment="Left" VerticalAlignment="Top" Width="260" Margin="70,165,0,0" Height="50"/>
-        <Button x:Name="catagoriesButton" Content="Catagories" HorizontalAlignment="Left" VerticalAlignment="Top" Width="260" Margin="70,230,0,0" Height="50"/>
-        <Button x:Name="favouritesButton" Content="Favourites" HorizontalAlignment="Left" VerticalAlignment="Top" Width="260" Margin="70,295,0,0" Height="50"/>
+       Title="Main" Height="500" Width="420">
+    <Grid Margin="0,0,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="35"/>
+            <ColumnDefinition Width="340"/>
+            <ColumnDefinition Width="35"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="340"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="searchButton" Content="Search" HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top" Width="40" Height="19" Grid.Column="1"/>
+        <TextBox x:Name="searchBox" HorizontalAlignment="Left" Height="19" Margin="50,71,0,0" TextWrapping="Wrap" Text="(e.g. pickles, Thai, sandwiches)" VerticalAlignment="Top" Width="281" GotKeyboardFocus="SearchBox_Focused" LostKeyboardFocus="SearchBox_Lost_Focus" TextChanged="searchBox_TextChanged" Grid.Column="1"/>
+        <Button x:Name="signUpButton" Content="Sign up" HorizontalAlignment="Left" Margin="273,10,0,0" VerticalAlignment="Top" Width="47" Height="20" Grid.Column="1"/>
+        <Button x:Name="logInButton" Content="Log in" HorizontalAlignment="Left" Margin="221,10,0,0" VerticalAlignment="Top" Width="47" Height="20" Grid.Column="1"/>
+        <Button x:Name="discoverButton" Content="Discover" HorizontalAlignment="Left" VerticalAlignment="Top" Width="321" Margin="10,10,0,0" Height="70" Click="discoverButton_Click" Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name="quickAndEasyButton" Content="Quick and Easy" HorizontalAlignment="Left" VerticalAlignment="Top" Width="321" Margin="10,95,0,0" Height="70" Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name="catagoriesButton" Content="Catagories" HorizontalAlignment="Left" VerticalAlignment="Top" Width="321" Margin="10,180,0,0" Height="70" Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name="myFavouritesButton" Content="My Favourites" HorizontalAlignment="Left" VerticalAlignment="Top" Width="321" Margin="10,265,0,0" Height="70" Grid.Column="1" Grid.Row="1"/>
+        <Image x:Name="CookrLogo_png" Margin="70,7,274,317" Source="CookrLogo.png" Stretch="Fill" RenderTransformOrigin="1.321,0.607"/>
+        <Image x:Name="CookrLogo_png_Copy" Grid.Column="1" Margin="10,10,274,34" Source="CookrLogo.png" Stretch="Fill"/>
     </Grid>
 </Window>
