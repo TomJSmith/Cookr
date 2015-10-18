@@ -46,6 +46,11 @@ namespace WpfApplication1
             this.Close();
         }
 
-
+        private void logo_click(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            main.Show();
+            this.Hide();
+        }
     }
 }
