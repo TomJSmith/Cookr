@@ -46,5 +46,19 @@ namespace WpfApplication1
             window.Show();
             this.Close();
         }
+
+        private void logInButton_Click(object sender, RoutedEventArgs e)
+        {
+            LogIn logInPage = new LogIn();
+            logInPage.Show();
+            this.Hide();
+        }
+
+        private void signUpButton_Click(object sender, RoutedEventArgs e)
+        {
+            LogIn logInPage = new LogIn();
+            logInPage.Show();
+            this.Hide();
+        }
     }
 }
