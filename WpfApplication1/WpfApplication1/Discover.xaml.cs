@@ -24,13 +24,6 @@ namespace WpfApplication1
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-            window2 win2 = new 
-            win2.Show();
-            this.Close();
-        
-        }
+       
     }
 }
