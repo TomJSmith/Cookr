@@ -17,7 +17,7 @@
             <RowDefinition Height="340"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Image x:Name="CookrLogo_png_Copy" Grid.Column="1" Margin="10,10,274,34" Source="CookrLogo.png" Stretch="Fill"/>
+        <Image x:Name="CookrLogo_png_Copy" Grid.Column="1" Margin="10,10,274,34" Source="Images/CookrLogo1.png" Stretch="Fill"/>
         <Label x:Name="logInLabel" Content="Log In" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Margin="0,82,0,0" Grid.RowSpan="2"/>
         <Label x:Name="signUpLabel" Content="Create Account" Grid.Column="1" HorizontalAlignment="Left" Margin="0,113,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
         <Grid Grid.Column="1" Margin="10,3,82,298" Grid.Row="1">

@@ -30,7 +30,7 @@
             <Button x:Name="button_Copy6" Content="Button" HorizontalAlignment="Left" Margin="110,219,0,0" VerticalAlignment="Top" Width="100" Height="100"/>
             <Button x:Name="button_Copy7" Content="Button" HorizontalAlignment="Left" Margin="220,219,0,0" VerticalAlignment="Top" Width="100" Height="100"/>
         </Grid>
-        <Image x:Name="CookrLogo_png" Grid.Column="1" Margin="10,10,309,34" Source="CookrLogo.png" Stretch="Fill" MouseLeftButtonUp="logo_click"/>
+        <Image x:Name="CookrLogo_png" Grid.Column="1" Margin="10,10,309,34" Source="Images/CookrLogo1.png" Stretch="Fill" MouseLeftButtonUp="logo_click"/>
         <Label x:Name="label" Content="Discover" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Top" Grid.Column="1" FontSize="18.667" FontWeight="Bold" Margin="128,0,163,0"/>
     </Grid>
 </Window>

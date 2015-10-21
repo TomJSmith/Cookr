@@ -18,7 +18,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Button x:Name="searchButton" Content="Search" HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top" Width="40" Height="19" Grid.Column="1"/>
-        <TextBox x:Name="searchBox" HorizontalAlignment="Left" Height="19" Margin="50,71,0,0" TextWrapping="Wrap" Text="(e.g. pickles, Thai, sandwiches)" VerticalAlignment="Top" Width="281" GotKeyboardFocus="SearchBox_Focused" LostKeyboardFocus="SearchBox_Lost_Focus" TextChanged="searchBox_TextChanged" Grid.Column="1"/>
+        <TextBox Name="searchBox" HorizontalAlignment="Left" Height="19" Margin="50,71,0,0" TextWrapping="Wrap" Text="(e.g. pickles, Thai, sandwiches)" VerticalAlignment="Top" Width="281" GotKeyboardFocus="SearchBox_Focused" LostKeyboardFocus="SearchBox_Lost_Focus" TextChanged="searchBox_TextChanged" Grid.Column="1"/>
         <Button x:Name="signUpButton" Content="Sign up" HorizontalAlignment="Left" Margin="273,10,0,0" VerticalAlignment="Top" Width="47" Height="20" Grid.Column="1" Click="signUpButton_Click"/>
         <Button x:Name="logInButton" Content="Log in" HorizontalAlignment="Left" Margin="221,10,0,0" VerticalAlignment="Top" Width="47" Height="20" Grid.Column="1" Click="logInButton_Click"/>
         <Button x:Name="discoverButton" Content="Discover" HorizontalAlignment="Left" VerticalAlignment="Top" Width="321" Margin="10,10,0,0" Height="70" Click="discoverButton_Click" Grid.Column="1" Grid.Row="1"/>
@@ -26,6 +26,6 @@
         <Button x:Name="catagoriesButton" Content="Catagories" HorizontalAlignment="Left" VerticalAlignment="Top" Width="321" Margin="10,180,0,0" Height="70" Grid.Column="1" Grid.Row="1"/>
         <Button x:Name="myFavouritesButton" Content="My Favourites" HorizontalAlignment="Left" VerticalAlignment="Top" Width="321" Margin="10,265,0,0" Height="70" Grid.Column="1" Grid.Row="1"/>
         <Image x:Name="CookrLogo_png" Margin="34,7,307,93" Source="CookrLogo.png" Stretch="Fill" RenderTransformOrigin="1.321,0.607" Grid.Column="1"/>
-        <Image x:Name="CookrLogo_png_Copy" Grid.Column="1" Margin="10,10,274,34" Source="CookrLogo.png" Stretch="Fill"/>
+        <Image x:Name="CookrLogo_png_Copy" Grid.Column="1" Margin="10,10,274,34" Source="Images/CookrLogo1.png" Stretch="Fill"/>
     </Grid>
 </Window>
