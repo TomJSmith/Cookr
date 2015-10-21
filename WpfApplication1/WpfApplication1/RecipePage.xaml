@@ -27,9 +27,9 @@
                     <RowDefinition Height="243"/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <Image x:Name="foodPic" HorizontalAlignment="Left" Height="48" Margin="10,10,0,0" VerticalAlignment="Top" Width="73" Source="Images/spahgetti.jpg"/>
-                <Label x:Name="label" Content="Recipe Name" HorizontalAlignment="Left" Margin="83,10,0,0" VerticalAlignment="Top" Width="79" Height="26"/>
-                <Label x:Name="label_Copy" Content="Total Steps: 5" HorizontalAlignment="Left" Margin="83,36,0,0" VerticalAlignment="Top" Width="79" Height="26"/>
+                <Image x:Name="foodPic" HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="73" Source="Images/spahgetti.jpg"/>
+                <Label x:Name="label" Content="Recipe Name" HorizontalAlignment="Left" Margin="73,0,0,0" VerticalAlignment="Top" Width="79" Height="26"/>
+                <Label x:Name="label_Copy" Content="Total Steps: 5" HorizontalAlignment="Left" Margin="73,26,0,0" VerticalAlignment="Top" Width="79" Height="26"/>
                 <Button x:Name="button" Content="Download" HorizontalAlignment="Left" Margin="256,10,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
                 <ScrollViewer HorizontalAlignment="Left" Height="243" Grid.Row="1" VerticalAlignment="Top" Width="331">
                     <Grid VerticalAlignment="Top" HorizontalAlignment="Left" Height="Auto" Width="311">
