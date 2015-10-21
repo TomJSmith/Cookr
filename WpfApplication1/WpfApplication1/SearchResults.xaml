@@ -19,8 +19,132 @@
         <TextBox x:Name="searchBox" HorizontalAlignment="Left" Height="19" Margin="50,71,0,0" TextWrapping="Wrap" Text="(e.g. pickles, Thai, sandwiches)" VerticalAlignment="Top" Width="281" Grid.Column="1"/>
         <Button x:Name="signUpButton" Content="Sign up" HorizontalAlignment="Left" Margin="273,10,0,0" VerticalAlignment="Top" Width="47" Height="20" Grid.Column="1"/>
         <Button x:Name="logInButton" Content="Log in" HorizontalAlignment="Left" Margin="221,10,0,0" VerticalAlignment="Top" Width="47" Height="20" Grid.Column="1"/>
-        <Grid Grid.Column="1" Margin="10,35,46,15" Grid.Row="1">
-            <ScrollBar x:Name="scrollBar" HorizontalAlignment="Left" Margin="303,0,0,0" VerticalAlignment="Top" Height="320"/>
+        <Grid Grid.Column="1" Margin="10,35,46,24" Grid.Row="1">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel HorizontalAlignment="Left"  Width="300" Height="Auto">
+                    <Button x:Name="button0" HorizontalAlignment="Left" Height="40" Margin="10,5,0,5" Width="290">
+                        <Grid Margin="0,0,0,0" HorizontalAlignment="Left" Width="290" Height="40">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.5*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="0.5*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" x:Name="pic" HorizontalAlignment="Left" TextWrapping="Wrap" Width="36">pic</TextBlock>
+                            <TextBlock Grid.Column="1" x:Name="Name" HorizontalAlignment="Left" TextWrapping="Wrap" Width="58">Recipe Name</TextBlock>
+                            <TextBlock Grid.Column="2" x:Name="Rating" HorizontalAlignment="Center" TextWrapping="Wrap" Width="73">Rating</TextBlock>
+                            <TextBlock Grid.Column="3" x:Name="Difficulty" HorizontalAlignment="Center" TextWrapping="Wrap" Width="72">Difficulty</TextBlock>
+                            <TextBlock Grid.Column="4" x:Name="Time" HorizontalAlignment="Left" TextWrapping="Wrap" Width="37">Time</TextBlock>
+                        </Grid>
+                    </Button>
+                    
+                    <Button x:Name="button1" HorizontalAlignment="Left" Height="40" Margin="10,5,0,5" Width="290">
+                        <Grid Margin="0,0,0,0" HorizontalAlignment="Left" Width="290" Height="40">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.5*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="0.5*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" x:Name="pic1" HorizontalAlignment="Left" TextWrapping="Wrap" Width="36">pic</TextBlock>
+                            <TextBlock Grid.Column="1" x:Name="Name1" HorizontalAlignment="Left" TextWrapping="Wrap" Width="58">Recipe Name</TextBlock>
+                            <TextBlock Grid.Column="2" x:Name="Rating1" HorizontalAlignment="Center" TextWrapping="Wrap" Width="73">Rating</TextBlock>
+                            <TextBlock Grid.Column="3" x:Name="Difficulty1" HorizontalAlignment="Center" TextWrapping="Wrap" Width="72">Difficulty</TextBlock>
+                            <TextBlock Grid.Column="4" x:Name="Time1" HorizontalAlignment="Left" TextWrapping="Wrap" Width="37">Time</TextBlock>
+                        </Grid>
+                    </Button>
+
+                    <Button x:Name="button2" HorizontalAlignment="Left" Height="40" Margin="10,5,0,5" Width="290">
+                        <Grid Margin="0,0,0,0" HorizontalAlignment="Left" Width="290" Height="40">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.5*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="0.5*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" x:Name="pic2" HorizontalAlignment="Left" TextWrapping="Wrap" Width="36">picture</TextBlock>
+                            <TextBlock Grid.Column="1" x:Name="Name2" HorizontalAlignment="Left" TextWrapping="Wrap" Width="58">Recipe Name</TextBlock>
+                            <TextBlock Grid.Column="2" x:Name="Rating2" HorizontalAlignment="Center" TextWrapping="Wrap" Width="73">Rating</TextBlock>
+                            <TextBlock Grid.Column="3" x:Name="Difficulty2" HorizontalAlignment="Center" TextWrapping="Wrap" Width="72">Difficulty</TextBlock>
+                            <TextBlock Grid.Column="4" x:Name="Time2" HorizontalAlignment="Left" TextWrapping="Wrap" Width="37">Time</TextBlock>
+                        </Grid>
+                    </Button>
+
+                    <Button x:Name="button3" HorizontalAlignment="Left" Height="40" Margin="10,5,0,5" Width="290">
+                        <Grid Margin="0,0,0,0" HorizontalAlignment="Left" Width="290" Height="40">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.5*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="0.5*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" x:Name="pic3" HorizontalAlignment="Left" TextWrapping="Wrap" Width="36">picture</TextBlock>
+                            <TextBlock Grid.Column="1" x:Name="Name3" HorizontalAlignment="Left" TextWrapping="Wrap" Width="58">Recipe Name</TextBlock>
+                            <TextBlock Grid.Column="2" x:Name="Rating3" HorizontalAlignment="Center" TextWrapping="Wrap" Width="73">Rating</TextBlock>
+                            <TextBlock Grid.Column="3" x:Name="Difficulty3" HorizontalAlignment="Center" TextWrapping="Wrap" Width="72">Difficulty</TextBlock>
+                            <TextBlock Grid.Column="4" x:Name="Time3" HorizontalAlignment="Left" TextWrapping="Wrap" Width="37">Time</TextBlock>
+                        </Grid>
+                    </Button>
+                    
+                    <Button x:Name="button4" HorizontalAlignment="Left" Height="40" Margin="10,5,0,5" Width="290">
+                        <Grid Margin="0,0,0,0" HorizontalAlignment="Left" Width="290" Height="40">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.5*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="0.5*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" x:Name="pic4" HorizontalAlignment="Left" TextWrapping="Wrap" Width="36">picture</TextBlock>
+                            <TextBlock Grid.Column="1" x:Name="Name4" HorizontalAlignment="Left" TextWrapping="Wrap" Width="58">Recipe Name</TextBlock>
+                            <TextBlock Grid.Column="2" x:Name="Rating4" HorizontalAlignment="Center" TextWrapping="Wrap" Width="73">Rating</TextBlock>
+                            <TextBlock Grid.Column="3" x:Name="Difficulty4" HorizontalAlignment="Center" TextWrapping="Wrap" Width="72">Difficulty</TextBlock>
+                            <TextBlock Grid.Column="4" x:Name="Time4" HorizontalAlignment="Left" TextWrapping="Wrap" Width="37">Time</TextBlock>
+                        </Grid>
+                    </Button>
+
+                    <Button x:Name="button5" HorizontalAlignment="Left" Height="40" Margin="10,5,0,5" Width="290">
+                        <Grid Margin="0,0,0,0" HorizontalAlignment="Left" Width="290" Height="40">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.5*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="0.5*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" x:Name="pic5" HorizontalAlignment="Left" TextWrapping="Wrap" Width="36">picture</TextBlock>
+                            <TextBlock Grid.Column="1" x:Name="Name5" HorizontalAlignment="Left" TextWrapping="Wrap" Width="58">Recipe Name</TextBlock>
+                            <TextBlock Grid.Column="2" x:Name="Rating5" HorizontalAlignment="Center" TextWrapping="Wrap" Width="73">Rating</TextBlock>
+                            <TextBlock Grid.Column="3" x:Name="Difficulty5" HorizontalAlignment="Center" TextWrapping="Wrap" Width="72">Difficulty</TextBlock>
+                            <TextBlock Grid.Column="4" x:Name="Time5" HorizontalAlignment="Left" TextWrapping="Wrap" Width="37">Time</TextBlock>
+                        </Grid>
+                    </Button>
+
+                    <Button x:Name="button6" HorizontalAlignment="Left" Height="40" Margin="10,5,0,5" Width="290">
+                        <Grid Margin="0,0,0,0" HorizontalAlignment="Left" Width="290" Height="40">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.5*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="0.5*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" x:Name="pic6" HorizontalAlignment="Left" TextWrapping="Wrap" Width="36">picture</TextBlock>
+                            <TextBlock Grid.Column="1" x:Name="Name6" HorizontalAlignment="Left" TextWrapping="Wrap" Width="58">Recipe Name</TextBlock>
+                            <TextBlock Grid.Column="2" x:Name="Rating6" HorizontalAlignment="Center" TextWrapping="Wrap" Width="73">Rating</TextBlock>
+                            <TextBlock Grid.Column="3" x:Name="Difficulty6" HorizontalAlignment="Center" TextWrapping="Wrap" Width="72">Difficulty</TextBlock>
+                            <TextBlock Grid.Column="4" x:Name="Time6" HorizontalAlignment="Left" TextWrapping="Wrap" Width="37">Time</TextBlock>
+                        </Grid>
+                    </Button>
+
+                </StackPanel>
+
+
+            </ScrollViewer>
         </Grid>
         <Image x:Name="CookrLogo_png" Grid.Column="1" Margin="10,10,309,34" Source="Images/CookrLogo1.png" Stretch="Fill"/>
         <ComboBox x:Name="comboBox" IsEditable="True" IsReadOnly="True" Text="Sort by" Grid.Column="1" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="80">
