@@ -21,7 +21,7 @@
         <Button x:Name="logInButton" Content="Log in" HorizontalAlignment="Left" Margin="221,10,0,0" VerticalAlignment="Top" Width="47" Height="20" Grid.Column="1"/>
         <Image x:Name="CookrLogo_png_Copy1" Grid.Column="1" Margin="10,10,309,35" Source="Images/CookrLogo1.png" Stretch="Fill"/>
         <ScrollViewer Grid.Column="1" HorizontalAlignment="Left" Height="378" Grid.Row="1" VerticalAlignment="Top" Width="366">
-            <Grid Grid.Column="1" HorizontalAlignment="Left" Height="Auto" Grid.Row="1" VerticalAlignment="Top" Width="331">
+            <Grid Grid.Column="1" HorizontalAlignment="Left" Height="589" Grid.Row="1" VerticalAlignment="Top" Width="331">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="70"/>
                     <RowDefinition Height="243"/>
@@ -66,7 +66,8 @@
                 <Button x:Name="button1" Content="Share" HorizontalAlignment="Left" Height="26" Margin="10,5,0,0" Grid.Row="2" VerticalAlignment="Top" Width="73"/>
                 <Button x:Name="button1_Copy" Content="Favourite" HorizontalAlignment="Left" Height="26" Margin="248,5,0,0" Grid.Row="2" VerticalAlignment="Top" Width="73"/>
                 <Button x:Name="button1_Copy1" Content="Rate" HorizontalAlignment="Center" Height="26" Grid.Row="2" VerticalAlignment="Top" Width="73" Margin="129,5,129,0"/>
-                <TextBlock x:Name="textBox5" HorizontalAlignment="Left" Height="Auto" Margin="10,66,0,0" Grid.Row="2" TextWrapping="Wrap" Text="UserName: In tempus ornare condimentum. Praesent arcu est, cursus vitae consequat vitae, hendrerit id turpis. Maecenas tortor magna, aliquet non metus nec, sagittis vestibulum sem. Nullam nulla nisl, cursus non egestas ut, tristique at quam. Phasellus vitae diam viverra, gravida enim eget, pretium est." VerticalAlignment="Top" Width="321"/>
+                <TextBlock x:Name="textBox5" HorizontalAlignment="Left" Height="Auto" Margin="10,66,0,0" Grid.Row="2" TextWrapping="Wrap" Text="UserName:       In tempus ornare condimentum. Praesent arcu est, cursus vitae consequat vitae, hendrerit id turpis. Maecenas tortor magna, aliquet non metus nec, sagittis vestibulum sem. Nullam nulla nisl, cursus non egestas ut, tristique at quam. Phasellus vitae diam viverra, gravida enim eget, pretium est." VerticalAlignment="Top" Width="321"/>
+                <TextBlock x:Name="textBox5_Copy" HorizontalAlignment="Left" Height="Auto" Margin="10,180,0,0" Grid.Row="2" TextWrapping="Wrap" Text="UserName:      In tempus ornare condimentum. Praesent arcu est, cursus vitae consequat vitae, hendrerit id turpis. Maecenas tortor magna, aliquet non metus nec, sagittis vestibulum sem. Nullam nulla nisl, cursus non egestas ut, tristique at quam. Phasellus vitae diam viverra, gravida enim eget, pretium est." VerticalAlignment="Top" Width="321"/>
 
             </Grid>
         </ScrollViewer>

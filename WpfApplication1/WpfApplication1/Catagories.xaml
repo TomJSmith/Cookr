@@ -20,5 +20,117 @@
         <Button x:Name="signUpButton" Content="Sign up" HorizontalAlignment="Left" Margin="273,10,0,0" VerticalAlignment="Top" Width="47" Height="20" Grid.Column="1"/>
         <Button x:Name="logInButton" Content="Log in" HorizontalAlignment="Left" Margin="221,10,0,0" VerticalAlignment="Top" Width="47" Height="20" Grid.Column="1"/>
         <Image x:Name="CookrLogo_png" Grid.Column="1" Margin="10,10,309,34" Source="Images/CookrLogo1.png" Stretch="Fill"/>
+        <ScrollViewer Grid.Column="1" HorizontalAlignment="Left" Height="378" Grid.Row="1" VerticalAlignment="Top" Width="366" Margin="0,0,0,-8">
+            <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Height="821" Width="345">
+                <Grid HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Width="345">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35*"/>
+                        <RowDefinition Height="87*"/>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="label" Content="A" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18.667" Height="35" Width="22"/>
+                    <Button x:Name="recipe" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55"/>
+                    <Button x:Name="recipe_Copy" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="60,0,0,0"/>
+                    <Button x:Name="recipe_Copy1" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="120,0,0,0"/>
+                    <Button x:Name="recipe_Copy2" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="180,0,0,0"/>
+                    <Button x:Name="recipe_Copy3" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="240,0,0,0"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Width="345" Margin="0,90,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35*"/>
+                        <RowDefinition Height="87*"/>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="label1" Content="B" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18.667" Height="35" Width="22"/>
+                    <Button x:Name="recipe1" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55"/>
+                    <Button x:Name="recipe_Copy4" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="60,0,0,0"/>
+                    <Button x:Name="recipe_Copy5" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="120,0,0,0"/>
+                    <Button x:Name="recipe_Copy6" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="180,0,0,0"/>
+                    <Button x:Name="recipe_Copy7" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="240,0,0,0"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Width="345" Margin="0,180,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35*"/>
+                        <RowDefinition Height="87*"/>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="label2" Content="C" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18.667" Height="35" Width="22"/>
+                    <Button x:Name="recipe2" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55"/>
+                    <Button x:Name="recipe_Copy8" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="60,0,0,0"/>
+                    <Button x:Name="recipe_Copy9" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="120,0,0,0"/>
+                    <Button x:Name="recipe_Copy10" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="180,0,0,0"/>
+                    <Button x:Name="recipe_Copy11" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="240,0,0,0"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Width="345" Margin="0,270,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35*"/>
+                        <RowDefinition Height="87*"/>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="label3" Content="D" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18.667" Height="35" Width="22"/>
+                    <Button x:Name="recipe3" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55"/>
+                    <Button x:Name="recipe_Copy12" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="60,0,0,0"/>
+                    <Button x:Name="recipe_Copy13" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="120,0,0,0"/>
+                    <Button x:Name="recipe_Copy14" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="180,0,0,0"/>
+                    <Button x:Name="recipe_Copy15" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="240,0,0,0"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Width="345" Margin="0,356,0,-64">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35*"/>
+                        <RowDefinition Height="87*"/>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="label4" Content="E" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18.667" Height="35" Width="22"/>
+                    <Button x:Name="recipe4" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55"/>
+                    <Button x:Name="recipe_Copy16" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="60,0,0,0"/>
+                    <Button x:Name="recipe_Copy17" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="120,0,0,0"/>
+                    <Button x:Name="recipe_Copy18" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="180,0,0,0"/>
+                    <Button x:Name="recipe_Copy19" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="240,0,0,0"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Width="345" Margin="0,446,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35*"/>
+                        <RowDefinition Height="87*"/>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="label5" Content="F" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18.667" Height="35" Width="22"/>
+                    <Button x:Name="recipe5" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55"/>
+                    <Button x:Name="recipe_Copy20" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="60,0,0,0"/>
+                    <Button x:Name="recipe_Copy21" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="120,0,0,0"/>
+                    <Button x:Name="recipe_Copy22" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="180,0,0,0"/>
+                    <Button x:Name="recipe_Copy23" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="240,0,0,0"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Width="345" Margin="0,541,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35*"/>
+                        <RowDefinition Height="87*"/>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="label6" Content="G" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18.667" Height="35" Width="22"/>
+                    <Button x:Name="recipe6" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55"/>
+                    <Button x:Name="recipe_Copy24" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="60,0,0,0"/>
+                    <Button x:Name="recipe_Copy25" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="120,0,0,0"/>
+                    <Button x:Name="recipe_Copy26" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="180,0,0,0"/>
+                    <Button x:Name="recipe_Copy27" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="240,0,0,0"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Width="345" Margin="0,631,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35*"/>
+                        <RowDefinition Height="87*"/>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="label7" Content="H" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18.667" Height="35" Width="22"/>
+                    <Button x:Name="recipe7" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55"/>
+                    <Button x:Name="recipe_Copy28" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="60,0,0,0"/>
+                    <Button x:Name="recipe_Copy29" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="120,0,0,0"/>
+                    <Button x:Name="recipe_Copy30" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="180,0,0,0"/>
+                    <Button x:Name="recipe_Copy31" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="240,0,0,0"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Width="345" Margin="0,721,0,-40">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35*"/>
+                        <RowDefinition Height="87*"/>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="label8" Content="J" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18.667" Height="35" Width="22"/>
+                    <Button x:Name="recipe8" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55"/>
+                    <Button x:Name="recipe_Copy32" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="60,0,0,0"/>
+                    <Button x:Name="recipe_Copy33" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="120,0,0,0"/>
+                    <Button x:Name="recipe_Copy34" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="180,0,0,0"/>
+                    <Button x:Name="recipe_Copy35" Content="recipe" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Height="55" Grid.Row="1" VerticalAlignment="Top" Width="55" Margin="240,0,0,0"/>
+                </Grid>
+            </Grid>
+        </ScrollViewer>
     </Grid>
 </Window>
