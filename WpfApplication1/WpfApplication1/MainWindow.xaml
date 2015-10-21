@@ -25,7 +25,7 @@
         <Button x:Name="quickAndEasyButton" Content="Quick and Easy" HorizontalAlignment="Left" VerticalAlignment="Top" Width="321" Margin="10,95,0,0" Height="70" Grid.Column="1" Grid.Row="1"/>
         <Button x:Name="catagoriesButton" Content="Catagories" HorizontalAlignment="Left" VerticalAlignment="Top" Width="321" Margin="10,180,0,0" Height="70" Grid.Column="1" Grid.Row="1"/>
         <Button x:Name="myFavouritesButton" Content="My Favourites" HorizontalAlignment="Left" VerticalAlignment="Top" Width="321" Margin="10,265,0,0" Height="70" Grid.Column="1" Grid.Row="1"/>
-        <Image x:Name="CookrLogo_png" Margin="34,7,307,93" Source="CookrLogo.png" Stretch="Fill" RenderTransformOrigin="1.321,0.607" Grid.Column="1"/>
+        <Image x:Name="CookrLogo_png" Margin="34,7,307,93" Source="Images/CookrLogo1.png" Stretch="Fill" RenderTransformOrigin="1.321,0.607" Grid.Column="1"/>
         <Image x:Name="CookrLogo_png_Copy" Grid.Column="1" Margin="10,10,274,34" Source="Images/CookrLogo1.png" Stretch="Fill"/>
     </Grid>
 </Window>
