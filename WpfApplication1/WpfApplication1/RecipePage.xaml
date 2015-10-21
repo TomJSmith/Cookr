@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
-        Title="RecipePage" Height="300" Width="300">
-    <Grid>
-        
+        Title="RecipePage" Height="520" Width="420">
+    <Grid Margin="0,0,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="35"/>
+            <ColumnDefinition Width="376"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="369"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="searchButton" Content="Search" HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top" Width="40" Height="19" Grid.Column="1"/>
+        <TextBox x:Name="searchBox" HorizontalAlignment="Left" Height="19" Margin="50,71,0,0" TextWrapping="Wrap" Text="(e.g. pickles, Thai, sandwiches)" VerticalAlignment="Top" Width="281" GotKeyboardFocus="SearchBox_Focused" LostKeyboardFocus="SearchBox_Lost_Focus" TextChanged="searchBox_TextChanged" Grid.Column="1"/>
+        <Button x:Name="signUpButton" Content="Sign up" HorizontalAlignment="Left" Margin="273,10,0,0" VerticalAlignment="Top" Width="47" Height="20" Grid.Column="1"/>
+        <Button x:Name="logInButton" Content="Log in" HorizontalAlignment="Left" Margin="221,10,0,0" VerticalAlignment="Top" Width="47" Height="20" Grid.Column="1"/>
+        <Image x:Name="CookrLogo_png_Copy1" Grid.Column="1" Margin="10,10,309,35" Source="Images/CookrLogo1.png" Stretch="Fill"/>
+
+
     </Grid>
 </Window>
