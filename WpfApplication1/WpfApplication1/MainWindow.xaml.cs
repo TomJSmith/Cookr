@@ -42,7 +42,7 @@ namespace WpfApplication1
 
         private void discoverButton_Click(object sender, RoutedEventArgs e)
         {
-            Window1 window = new Window1();
+            SearchResults window = new SearchResults();
             window.Show();
             this.Close();
         }
