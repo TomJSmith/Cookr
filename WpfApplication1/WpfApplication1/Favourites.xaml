@@ -26,6 +26,6 @@
             <Button x:Name="button_Copy2" Content="Tomato Soup" HorizontalAlignment="Left" Margin="0,109,0,0" VerticalAlignment="Top" Width="100" Height="100"/>
         </Grid>
         <Image x:Name="CookrLogo_png" Grid.Column="1" Margin="10,10,309,34" Source="Images/CookrLogo1.png" Stretch="Fill"/>
-        <Label x:Name="Label" Content="Favourites" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Top" Grid.Column="1" FontSize="18.667" FontWeight="Bold" Width="106" Margin="117,0,153,0"/>
+        <Label x:Name="Label" Content="My Favourites" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Top" Grid.Column="1" FontSize="18.667" FontWeight="Bold" Width="140" Margin="100,0,136,0"/>
     </Grid>
 </Window>
