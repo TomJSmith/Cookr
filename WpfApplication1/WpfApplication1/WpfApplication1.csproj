@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Catagories.xaml.cs">
+      <DependentUpon>Catagories.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Favourites.xaml.cs">
       <DependentUpon>Favourites.xaml</DependentUpon>
     </Compile>
@@ -70,6 +73,10 @@
     <Compile Include="Discover.xaml.cs">
       <DependentUpon>Discover.xaml</DependentUpon>
     </Compile>
+    <Page Include="Catagories.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Favourites.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

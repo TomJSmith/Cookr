@@ -19,21 +19,23 @@
         <TextBox x:Name="searchBox" HorizontalAlignment="Left" Height="19" Margin="50,71,0,0" TextWrapping="Wrap" Text="(e.g. pickles, Thai, sandwiches)" VerticalAlignment="Top" Width="281" Grid.Column="1"/>
         <Button x:Name="signUpButton" Content="Sign up" HorizontalAlignment="Left" Margin="273,10,0,0" VerticalAlignment="Top" Width="47" Height="20" Grid.Column="1"/>
         <Button x:Name="logInButton" Content="Log in" HorizontalAlignment="Left" Margin="221,10,0,0" VerticalAlignment="Top" Width="47" Height="20" Grid.Column="1"/>
-        <Grid Grid.Column="1" Margin="10,35,46,15" Grid.Row="1"/>
+        <Grid Grid.Column="1" Margin="10,35,46,15" Grid.Row="1">
+            <ScrollBar x:Name="scrollBar" HorizontalAlignment="Left" Margin="303,0,0,0" VerticalAlignment="Top" Height="320"/>
+        </Grid>
         <Image x:Name="CookrLogo_png" Grid.Column="1" Margin="10,10,309,34" Source="Images/CookrLogo1.png" Stretch="Fill"/>
-        <ComboBox x:Name="comboBox" Text="Sort by" Grid.Column="1" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="80">
+        <ComboBox x:Name="comboBox" IsEditable="True" IsReadOnly="True" Text="Sort by" Grid.Column="1" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="80">
             <ComboBoxItem HorizontalContentAlignment="Center">Alphabetical</ComboBoxItem>
             <ComboBoxItem HorizontalContentAlignment="Center">Difficulty</ComboBoxItem>
             <ComboBoxItem HorizontalContentAlignment="Center">Rating</ComboBoxItem>
             <ComboBoxItem HorizontalContentAlignment="Center">Time</ComboBoxItem>
         </ComboBox>
-        <ComboBox x:Name="comboBox_Copy" Grid.Column="1" HorizontalAlignment="Left" Margin="251,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="80">
+        <ComboBox IsEditable="True" IsReadOnly="True" Text="Time" x:Name="comboBox_Copy" Grid.Column="1" HorizontalAlignment="Left" Margin="251,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="80">
             <ComboBoxItem HorizontalContentAlignment="Center">0 - 15</ComboBoxItem>
             <ComboBoxItem HorizontalContentAlignment="Center">15 - 30</ComboBoxItem>
             <ComboBoxItem HorizontalContentAlignment="Center">30 - 45</ComboBoxItem>
             <ComboBoxItem HorizontalContentAlignment="Center">45+</ComboBoxItem>
         </ComboBox>
-        <ComboBox x:Name="comboBox_Copy1" Grid.Column="1" HorizontalAlignment="Left" Margin="129,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="80">
+        <ComboBox x:Name="comboBox_Copy1" IsEditable="True" IsReadOnly="True" Text="Difficulty" Grid.Column="1" HorizontalAlignment="Left" Margin="129,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="80">
             <ComboBoxItem HorizontalContentAlignment="Center">Easy</ComboBoxItem>
             <ComboBoxItem HorizontalContentAlignment="Center">Medium</ComboBoxItem>
             <ComboBoxItem HorizontalContentAlignment="Center">Hard</ComboBoxItem>
