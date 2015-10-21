@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Window2" Height="300" Width="300">
     <Grid>
-        <Image x:Name="logo" Source="CookrLogo.png" HorizontalAlignment="Left" Height="63" Margin="10,10,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.5,0.5"/>
+        <Image x:Name="logo" HorizontalAlignment="Left" Height="63" Margin="10,10,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.5,0.5"/>
         <Button x:Name="logIn" Content="Log in" HorizontalAlignment="Left" Margin="144,10,0,0" VerticalAlignment="Top" Width="58" />
         <Button Content="Sign up" HorizontalAlignment="Left" Margin="217,10,0,0" VerticalAlignment="Top" Width="55"/>
         <TextBox HorizontalAlignment="Left" Height="18" Margin="70,74,0,0" TextWrapping="Wrap" Text="Snacks (sandwiches, eggs)" VerticalAlignment="Top" Width="202" FontSize="10"/>
