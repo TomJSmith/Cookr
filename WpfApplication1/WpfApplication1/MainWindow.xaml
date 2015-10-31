@@ -5,27 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
-       Title="Main" Height="520" Width="420">
+       Title="Main" Height="1024" Width="768">
     <Grid Margin="0,0,0,0">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="35"/>
-            <ColumnDefinition Width="340"/>
-            <ColumnDefinition Width="35"/>
-        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="100"/>
-            <RowDefinition Height="344"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="255"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Button x:Name="searchButton" Content="Search" HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top" Width="40" Height="19" Grid.Column="1"/>
-        <TextBox Name="searchBox" HorizontalAlignment="Left" Height="19" Margin="50,71,0,0" TextWrapping="Wrap" Text="(e.g. pickles, Thai, sandwiches)" VerticalAlignment="Top" Width="281" GotKeyboardFocus="SearchBox_Focused" LostKeyboardFocus="SearchBox_Lost_Focus" TextChanged="searchBox_TextChanged" Grid.Column="1"/>
-        <Button x:Name="signUpButton" Content="Sign up" HorizontalAlignment="Left" Margin="273,10,0,0" VerticalAlignment="Top" Width="47" Height="20" Grid.Column="1" Click="signUpButton_Click"/>
-        <Button x:Name="logInButton" Content="Log in" HorizontalAlignment="Left" Margin="221,10,0,0" VerticalAlignment="Top" Width="47" Height="20" Grid.Column="1" Click="logInButton_Click"/>
-        <Button x:Name="discoverButton" Content="Discover" HorizontalAlignment="Left" VerticalAlignment="Top" Width="321" Margin="10,10,0,0" Height="70" Click="discoverButton_Click" Grid.Column="1" Grid.Row="1"/>
-        <Button x:Name="quickAndEasyButton" Content="Quick and Easy" HorizontalAlignment="Left" VerticalAlignment="Top" Width="321" Margin="10,95,0,0" Height="70" Grid.Column="1" Grid.Row="1"/>
-        <Button x:Name="catagoriesButton" Content="Catagories" HorizontalAlignment="Left" VerticalAlignment="Top" Width="321" Margin="10,180,0,0" Height="70" Grid.Column="1" Grid.Row="1"/>
-        <Button x:Name="myFavouritesButton" Content="My Favourites" HorizontalAlignment="Left" VerticalAlignment="Top" Width="321" Margin="10,265,0,0" Height="70" Grid.Column="1" Grid.Row="1"/>
-        <Image x:Name="CookrLogo_png" Margin="34,7,307,93" Source="Images/CookrLogo1.png" Stretch="Fill" RenderTransformOrigin="1.321,0.607" Grid.Column="1"/>
-        <Image x:Name="CookrLogo_png_Copy" Grid.Column="1" Margin="10,10,274,34" Source="Images/CookrLogo1.png" Stretch="Fill"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="70"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="searchButton" Content="Search" HorizontalAlignment="Left" Margin="0,177,0,0" VerticalAlignment="Top" Width="103" Height="40" Grid.Column="1" Grid.Row="1" FontSize="24"/>
+        <TextBox Name="searchBox" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="40" Margin="103,177,0,0" TextWrapping="Wrap" Text="(e.g. pickles, Thai, sandwiches)" VerticalAlignment="Top" Width="517" GotKeyboardFocus="SearchBox_Focused" LostKeyboardFocus="SearchBox_Lost_Focus" TextChanged="searchBox_TextChanged" Grid.Column="1" Grid.Row="1" FontSize="24"/>
+        <Image x:Name="CookrLogo_png_Copy" Source="Images/CookrLogo1.png" Stretch="Uniform" RenderTransformOrigin="0.58,0.22" Height="150" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" Width="156"/>
+        <Button x:Name="button" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="190,38,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Height="75"/>
+        <Button x:Name="button_Copy" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="323,38,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Height="75"/>
+        <Grid x:Name="MainContent" HorizontalAlignment="Left" Height="668" Grid.Row="2" VerticalAlignment="Top" Width="760" Grid.ColumnSpan="3"/>
     </Grid>
 </Window>
