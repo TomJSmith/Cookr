@@ -11,14 +11,76 @@
 
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
-            <RowDefinition/>
+            <RowDefinition Height="33*"/>
+            <RowDefinition Height="33*"/>
+            <RowDefinition Height="33*"/>
         </Grid.RowDefinitions>
-        <Rectangle Fill="White" HorizontalAlignment="Left" Height="608" Grid.Row="1" VerticalAlignment="Top" Width="760" Margin="0,10,0,0"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="608" Grid.Row="1" VerticalAlignment="Top" Width="760" Margin="0,10,0,0" Grid.RowSpan="3"/>
 
         <Button x:Name="button" Content="Discover" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="138" Height="40" FontSize="18.667" Background="White" Foreground="#FFE8685D" Margin="311,0" BorderBrush="#FFE8685D" BorderThickness="2"/>
         <Button x:Name="button_Copy" Content="My Cookbook" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="138" Height="40" Margin="449,0,173,0" FontSize="18.667" Background="White" Foreground="#FFE8685D" BorderBrush="#FFE8685D" BorderThickness="2"/>
         <Button x:Name="button_Copy1" Content="Catagories" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="141" Height="50" Margin="170,0,449,0" BorderBrush="#FFE8685D" FontSize="18.667" Background="#FFE8685D" Foreground="White"/>
         <Rectangle Fill="#FFE8685D" HorizontalAlignment="Left" Height="10" Grid.Row="1" VerticalAlignment="Top" Width="760"/>
 
+        <Grid Height="191" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="144" Grid.Row="1" Margin="233,0,383,10">
+            <Label x:Name="label3" Content="Catagory Name" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
+            <Image x:Name="image3" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0"/>
+            <Button x:Name="button2" HorizontalAlignment="Left" Height="191" VerticalAlignment="Top" Width="144" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        </Grid>
+        <Grid Height="191" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="144" Grid.Row="1" Margin="382,0,234,10">
+            <Label x:Name="label1" Content="Catagory Name" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
+            <Image x:Name="image1" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0"/>
+            <Button x:Name="button3" HorizontalAlignment="Left" Height="191" VerticalAlignment="Top" Width="144" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        </Grid>
+        <Grid Height="191" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="144" Grid.Row="1" Margin="0,0,85,10">
+            <Label x:Name="label2" Content="Catagory Name" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
+            <Image x:Name="image2" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0"/>
+            <Button x:Name="button4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="144" Height="191" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        </Grid>
+        <Grid Height="191" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="144" Grid.Row="1" Margin="84,0,0,10">
+            <Label x:Name="label4" Content="Catagory Name" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
+            <Image x:Name="image4" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0"/>
+            <Button x:Name="button1"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="144" Height="191" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}"/>
+            <Grid Height="191" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="144" Margin="149,0,-149,-196">
+                <Label x:Name="label5" Content="Catagory Name" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
+                <Image x:Name="image5" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0"/>
+                <Button x:Name="button5" HorizontalAlignment="Left" Height="191" VerticalAlignment="Top" Width="144" Background="{x:Null}" BorderBrush="{x:Null}"/>
+            </Grid>
+            <Grid Height="191" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="144" Margin="298,0,-298,-196">
+                <Label x:Name="label6" Content="Catagory Name" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
+                <Image x:Name="image6" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0"/>
+                <Button x:Name="button6" HorizontalAlignment="Left" Height="191" VerticalAlignment="Top" Width="144" BorderBrush="{x:Null}" Background="{x:Null}"/>
+            </Grid>
+            <Grid Height="191" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="144" Margin="0,0,-447,-196">
+                <Label x:Name="label7" Content="Catagory Name" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
+                <Image x:Name="image7" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0"/>
+                <Button x:Name="button7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="144" Height="191" Background="{x:Null}" BorderBrush="{x:Null}"/>
+            </Grid>
+            <Grid Height="191" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="144" Margin="0,0,0,-196">
+                <Label x:Name="label8" Content="Catagory Name" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
+                <Image x:Name="image8" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0"/>
+                <Button x:Name="button8"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="144" Height="191" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}"/>
+            </Grid>
+            <Grid Height="191" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="144" Margin="149,0,-149,-402">
+                <Label x:Name="label9" Content="Catagory Name" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
+                <Image x:Name="image9" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0"/>
+                <Button x:Name="button9" HorizontalAlignment="Left" Height="191" VerticalAlignment="Top" Width="144" Background="{x:Null}" BorderBrush="{x:Null}"/>
+            </Grid>
+            <Grid Height="191" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="144" Margin="298,0,-298,-402">
+                <Label x:Name="label10" Content="Catagory Name" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
+                <Image x:Name="image10" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0"/>
+                <Button x:Name="button10" HorizontalAlignment="Left" Height="191" VerticalAlignment="Top" Width="144" BorderBrush="{x:Null}" Background="{x:Null}"/>
+            </Grid>
+            <Grid Height="191" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="144" Margin="0,0,-447,-402">
+                <Label x:Name="label11" Content="Catagory Name" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
+                <Image x:Name="image11" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0"/>
+                <Button x:Name="button11" HorizontalAlignment="Left" VerticalAlignment="Top" Width="144" Height="191" Background="{x:Null}" BorderBrush="{x:Null}"/>
+            </Grid>
+            <Grid Height="191" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="144" Margin="0,0,0,-402">
+                <Label x:Name="label12" Content="Catagory Name" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
+                <Image x:Name="image12" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0"/>
+                <Button x:Name="button12"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="144" Height="191" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}"/>
+            </Grid>
+        </Grid>
     </Grid>
 </UserControl>

@@ -21,8 +21,8 @@
         <Button x:Name="searchButton" Content="Search" HorizontalAlignment="Left" Margin="0,177,0,0" VerticalAlignment="Top" Width="103" Height="40" Grid.Column="1" Grid.Row="1" FontSize="24"/>
         <TextBox Name="searchBox" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="40" Margin="103,177,0,0" TextWrapping="Wrap" Text="(e.g. pickles, Thai, sandwiches)" VerticalAlignment="Top" Width="517" GotKeyboardFocus="SearchBox_Focused" LostKeyboardFocus="SearchBox_Lost_Focus" TextChanged="searchBox_TextChanged" Grid.Column="1" Grid.Row="1" FontSize="24"/>
         <Image x:Name="CookrLogo_png_Copy" Source="Images/CookrLogo1.png" Stretch="Uniform" RenderTransformOrigin="0.58,0.22" Height="150" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" Width="156"/>
-        <Button x:Name="button" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="190,38,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Height="75" Background="#FFE8685D"/>
-        <Button x:Name="button_Copy" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="323,38,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Height="75"/>
+        <Button x:Name="button" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="192,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Height="75" Background="#FFE8685D"/>
+        <Button x:Name="button_Copy" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="305,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Height="75"/>
         <Grid x:Name="MainContent" HorizontalAlignment="Left" Height="668" Grid.Row="2" VerticalAlignment="Top" Width="760" Grid.ColumnSpan="3"/>
     </Grid>
 </Window>
