@@ -37,6 +37,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -57,6 +59,12 @@
     </ApplicationDefinition>
     <Compile Include="Catagories.xaml.cs">
       <DependentUpon>Catagories.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CatagoriesTab.xaml.cs">
+      <DependentUpon>CatagoriesTab.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FavoritesTab.xaml.cs">
+      <DependentUpon>FavoritesTab.xaml</DependentUpon>
     </Compile>
     <Compile Include="Favourites.xaml.cs">
       <DependentUpon>Favourites.xaml</DependentUpon>
@@ -83,6 +91,14 @@
       <DependentUpon>Window3.xaml</DependentUpon>
     </Compile>
     <Page Include="Catagories.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CatagoriesTab.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FavoritesTab.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

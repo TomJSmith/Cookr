@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="WpfApplication1.UserControl1"
+﻿<UserControl x:Class="WpfApplication1.FavoritesTab"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -15,9 +15,9 @@
         </Grid.RowDefinitions>
         <Rectangle Fill="White" HorizontalAlignment="Left" Height="608" Grid.Row="1" VerticalAlignment="Top" Width="760" Margin="0,10,0,0"/>
 
-        <Button x:Name="button" Content="Discover" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="148" Height="50" FontSize="24" Background="#FFE8685D" Foreground="White" Margin="306,0" BorderBrush="#FFE8685D"/>
-        <Button x:Name="button_Copy" Content="My Cookbook" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="138" Height="40" Margin="454,0,168,0" FontSize="18.667" Background="White" Foreground="#FFE8685D" BorderBrush="#FFE8685D" BorderThickness="2"/>
-        <Button x:Name="button_Copy1" Content="Catagories" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="136" Height="40" Margin="170,0,454,0" BorderBrush="#FFE8685D" FontSize="18.667" Background="White" Foreground="#FFE8685D" BorderThickness="2"/>
+        <Button x:Name="button" Content="Discover" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="138" Height="40" FontSize="18.667" Background="White" Foreground="#FFE8685D" Margin="311,0" BorderBrush="#FFE8685D" BorderThickness="2"/>
+        <Button x:Name="button_Copy" Content="My Cookbook" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="166" Height="50" Margin="449,0,145,0" FontSize="24" Background="#FFE8685D" Foreground="White" BorderBrush="#FFE8685D"/>
+        <Button x:Name="button_Copy1" Content="Catagories" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="136" Height="40" Margin="175,0,449,0" BorderBrush="#FFE8685D" FontSize="18.667" Background="White" Foreground="#FFE8685D" BorderThickness="2"/>
         <Rectangle Fill="#FFE8685D" HorizontalAlignment="Left" Height="10" Grid.Row="1" VerticalAlignment="Top" Width="760"/>
         <Button x:Name="button1" Content=" Top Rated" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" Height="188" Margin="60,102,0,0" Grid.Row="1" VerticalAlignment="Top" Width="372" FontSize="24"/>
         <Grid HorizontalAlignment="Left" Height="188" Margin="321,353,0,0" Grid.Row="1" VerticalAlignment="Top" Width="379">
