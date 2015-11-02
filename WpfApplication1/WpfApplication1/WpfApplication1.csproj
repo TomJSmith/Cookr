@@ -69,11 +69,17 @@
     <Compile Include="Favourites.xaml.cs">
       <DependentUpon>Favourites.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ListItem.xaml.cs">
+      <DependentUpon>ListItem.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LogIn.xaml.cs">
       <DependentUpon>LogIn.xaml</DependentUpon>
     </Compile>
     <Compile Include="RecipePage.xaml.cs">
       <DependentUpon>RecipePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SearchBarHeader.xaml.cs">
+      <DependentUpon>SearchBarHeader.xaml</DependentUpon>
     </Compile>
     <Compile Include="SearchResults.xaml.cs">
       <DependentUpon>SearchResults.xaml</DependentUpon>
@@ -90,6 +96,9 @@
     <Compile Include="Window3.xaml.cs">
       <DependentUpon>Window3.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Window4.xaml.cs">
+      <DependentUpon>Window4.xaml</DependentUpon>
+    </Compile>
     <Page Include="Catagories.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -103,6 +112,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Favourites.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListItem.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -126,6 +139,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="SearchBarHeader.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="SearchResults.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -143,6 +160,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Window3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window4.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -182,6 +203,42 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="catagorieslist.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\5stars1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\timer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\homeIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Home_512px_1177960_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\heart_445px_1194482_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ingredients.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cooking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Star-grey-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\backArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\greyHeart.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

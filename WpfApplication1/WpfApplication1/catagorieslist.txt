@@ -1,6 +1,5 @@
 ﻿appetizers and snacks
 breakfast
-curry
 dessert
 drinks and smoothies
 lunch
@@ -8,5 +7,6 @@ pasta
 salads
 sandwiches
 seafood
+sides
 soups
 vegan

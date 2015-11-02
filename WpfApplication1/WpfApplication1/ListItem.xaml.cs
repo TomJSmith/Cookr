@@ -16,20 +16,13 @@ using System.Windows.Shapes;
 namespace WpfApplication1
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for ListItem.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ListItem : UserControl
     {
-        public MainWindow()
+        public ListItem()
         {
             InitializeComponent();
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            SearchResults searchPage = new SearchResults();
-            this.Hide();
-            searchPage.Show();
         }
     }
 }

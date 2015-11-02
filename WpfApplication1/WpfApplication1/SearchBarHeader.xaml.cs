@@ -16,20 +16,13 @@ using System.Windows.Shapes;
 namespace WpfApplication1
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for SearchBarHeader.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class SearchBarHeader : UserControl
     {
-        public MainWindow()
+        public SearchBarHeader()
         {
             InitializeComponent();
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            SearchResults searchPage = new SearchResults();
-            this.Hide();
-            searchPage.Show();
         }
     }
 }
