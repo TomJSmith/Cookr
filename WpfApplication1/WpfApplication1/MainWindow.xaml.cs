@@ -27,9 +27,12 @@ namespace WpfApplication1
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            SearchResults searchPage = new SearchResults();
+           TopRatedWindow TopRated1 =  new TopRatedWindow();
             this.Hide();
-            searchPage.Show();
+            TopRated1.Show();
+           
         }
+
+      
     }
 }

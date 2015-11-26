@@ -16,22 +16,13 @@ using System.Windows.Shapes;
 namespace WpfApplication1
 {
     /// <summary>
-    /// Interaction logic for UserControl1.xaml
+    /// Interaction logic for discoverTab.xaml
     /// </summary>
-    public partial class UserControl1 : UserControl
+    public partial class discoverTab : UserControl
     {
-        public UserControl1()
+        public discoverTab()
         {
             InitializeComponent();
         }
-
-        private void TopRatedClick(object sender, RoutedEventArgs e)
-        {
-           SearchResults openSearchResults =  new SearchResults();
-         
-           openSearchResults.Show();
-
-        }
-        
     }
 }

@@ -10,28 +10,20 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WpfApplication1
 {
     /// <summary>
-    /// Interaction logic for UserControl1.xaml
+    /// Interaction logic for TopRatedWindow.xaml
     /// </summary>
-    public partial class UserControl1 : UserControl
+    public partial class TopRatedWindow : Window
     {
-        public UserControl1()
+        public TopRatedWindow()
         {
             InitializeComponent();
+            SearchBarHeader sh1 =  new SearchBarHeader();
+            headerSearchPanel.Children.Add(sh1);
         }
-
-        private void TopRatedClick(object sender, RoutedEventArgs e)
-        {
-           SearchResults openSearchResults =  new SearchResults();
-         
-           openSearchResults.Show();
-
-        }
-        
     }
 }
