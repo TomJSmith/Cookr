@@ -27,10 +27,16 @@ namespace WpfApplication1
             headerSearchPanel.Children.Add(sh1);
 
             // this is for the list itme
-            ListItem li1 = new ListItem();
-            li1.RecipeName = "Meatballs";
-            this.recipeListPanel.Children.Add(li1);
-
+           ListItem recipeListItem =  new ListItem();
+            recipeListItem.recipeName.Content = "whatever";
+            trStackPanel.Children.Add(recipeListItem);
+            /*
+             * so this works. what you need to do is make sure that there are 5 slots for top rated recipes..so
+             * you need 5 different stackpanel or grid. id go with a stack panel.
+             * so it scrolls 
+             * 
+             * 
+             */
 
         }// end of TopRatedWindow
     }

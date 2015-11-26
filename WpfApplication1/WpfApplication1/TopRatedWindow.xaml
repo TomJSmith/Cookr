@@ -5,10 +5,10 @@
     <Grid>
         <Grid Name="contentGrid" HorizontalAlignment="Left" Height="973" Margin="10,10,0,0" VerticalAlignment="Top" Width="740">
             <StackPanel Name="headerSearchPanel"  HorizontalAlignment="Left" Height="250" Margin="10,10,0,0" VerticalAlignment="Top" Width="720"/>
-            <ScrollViewer Name="topRatedScrollViewer" HorizontalAlignment="Left" Height="708" Margin="0,265,0,0" VerticalAlignment="Top" Width="730">
-                <StackPanel Name="recipeListPanel" Height="auto" Width="auto"/>
-
+            <ScrollViewer Name="trScrollViewer" HorizontalAlignment="Left" Height="703" Margin="10,260,0,0" VerticalAlignment="Top" Width="720">
+                <StackPanel Name="trStackPanel" Height="auto" Width="auto"/>
             </ScrollViewer>
+
 
 
 
