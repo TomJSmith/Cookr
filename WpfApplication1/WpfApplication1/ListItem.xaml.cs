@@ -20,6 +20,40 @@ namespace WpfApplication1
     /// </summary>
     public partial class ListItem : UserControl
     {
+
+        public string RecipeName;
+        private string recipe_name;
+    //    private int Rating;
+        public int TimeRequired;
+        private int time_required;
+
+        private string RTitle
+        {
+            get { return recipe_name; }
+
+            set
+            {
+                recipe_name= value;
+                recipeName.Content = this.RecipeName;
+            }
+
+
+        } // end of RTitle
+
+
+        private int RTime
+        {
+            get { return time_required; }
+
+            set
+            {
+                time_required = value;
+                time.Content = RTime;
+            }
+        }// end of RTime
+
+
+
         public ListItem()
         {
             InitializeComponent();

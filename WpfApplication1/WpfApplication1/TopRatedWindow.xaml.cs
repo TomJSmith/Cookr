@@ -22,8 +22,16 @@ namespace WpfApplication1
         public TopRatedWindow()
         {
             InitializeComponent();
+            // this is for the header and the searchbar usercontrol
             SearchBarHeader sh1 =  new SearchBarHeader();
             headerSearchPanel.Children.Add(sh1);
-        }
+
+            // this is for the list itme
+            ListItem li1 = new ListItem();
+            li1.RecipeName = "Meatballs";
+            this.recipeListPanel.Children.Add(li1);
+
+
+        }// end of TopRatedWindow
     }
 }
