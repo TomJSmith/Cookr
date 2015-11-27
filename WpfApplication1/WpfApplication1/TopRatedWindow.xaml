@@ -3,11 +3,23 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="TopRatedWindow" Height="1024" Width="768">
     <Grid>
-        <Grid Name="contentGrid" HorizontalAlignment="Left" Height="973" Margin="10,10,0,0" VerticalAlignment="Top" Width="740">
+        <Grid Name="contentGrid" HorizontalAlignment="Left" Height="1024" Margin="10,10,0,0" VerticalAlignment="Top" Width="760">
             <StackPanel Name="headerSearchPanel"  HorizontalAlignment="Left" Height="250" Margin="10,10,0,0" VerticalAlignment="Top" Width="720"/>
-            <ScrollViewer Name="trScrollViewer" HorizontalAlignment="Left" Height="703" Margin="10,260,0,0" VerticalAlignment="Top" Width="720">
-                <StackPanel Name="trStackPanel" Height="auto" Width="auto"/>
+            <ScrollViewer Name="ratedScroller" HorizontalAlignment="Left" Height="400" Margin="10,289,0,0" VerticalAlignment="Top" Width="720" RenderTransformOrigin="0.5,0.5">
+                <Grid Name="ratedGrid" Height="auto" Width="auto">
+                    <StackPanel Name="item1" HorizontalAlignment="Left" Height="100" Margin="0,28,0,0" VerticalAlignment="Top" Width="696"/>
+                    <StackPanel Name="item2" HorizontalAlignment="Left" Height="100" Margin="0,128,-3,0" VerticalAlignment="Top" Width="696"/>
+                    <StackPanel Name="item3" HorizontalAlignment="Left" Height="100" Margin="0,228,0,0" VerticalAlignment="Top" Width="696"/>
+                    <StackPanel Name="item4" HorizontalAlignment="Left" Height="100" Margin="0,328,0,0" VerticalAlignment="Top" Width="696"/>
+                    <StackPanel Name="item5" HorizontalAlignment="Left" Height="100" Margin="0,428,0,0" VerticalAlignment="Top" Width="696"/>
+
+
+
+
+                </Grid>
+
             </ScrollViewer>
+
 
 
 
