@@ -84,6 +84,9 @@
     <Compile Include="SearchResults.xaml.cs">
       <DependentUpon>SearchResults.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Spaghetti.xaml.cs">
+      <DependentUpon>Spaghetti.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TopRatedWindow.xaml.cs">
       <DependentUpon>TopRatedWindow.xaml</DependentUpon>
     </Compile>
@@ -147,6 +150,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SearchResults.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Spaghetti.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -246,6 +253,90 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\greyHeart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\-measuring-cup-set-1-600x600.jpg" />
+    <Resource Include="Pics\10 inch non stick pan.jpg" />
+    <Resource Include="Pics\12 inch-Non-Stick Pan.jpg" />
+    <Resource Include="Pics\15 liter stainless-steel-pot.jpg" />
+    <Resource Include="Pics\7litre pot.jpg" />
+    <Resource Include="Pics\Avocado.jpg" />
+    <Resource Include="Pics\Beef-Taco.jpg" />
+    <Resource Include="Pics\blackpepper.jpg" />
+    <Resource Include="Pics\Blender.jpg" />
+    <Resource Include="Pics\boil-pasta.jpg" />
+    <Resource Include="Pics\boiling water.jpg" />
+    <Resource Include="Pics\broccoli.jpg" />
+    <Resource Include="Pics\Canola-Oil.jpg" />
+    <Resource Include="Pics\cantaloupe.jpg" />
+    <Resource Include="Pics\Category-Apetizers.jpg" />
+    <Resource Include="Pics\Category-Bereakfast.jpg" />
+    <Resource Include="Pics\Category-Desert.jpg" />
+    <Resource Include="Pics\Category-Drinks and Smoothies.jpg" />
+    <Resource Include="Pics\Category-Lunch.jpg" />
+    <Resource Include="Pics\Category-Pasta.jpg" />
+    <Resource Include="Pics\Category-Salad.jpg" />
+    <Resource Include="Pics\Category-Sandwich.jpg" />
+    <Resource Include="Pics\Category-Seafood.jpg" />
+    <Resource Include="Pics\Category-Sides.jpg" />
+    <Resource Include="Pics\Category-Soup.jpg" />
+    <Resource Include="Pics\Category-Vegan.jpg" />
+    <Resource Include="Pics\Chefs-Knife.jpg" />
+    <Resource Include="Pics\chicken thigh.jpg" />
+    <Resource Include="Pics\Chicken-Broccoli-and-pineapple-stir-fry.jpg" />
+    <Resource Include="Pics\chile pepper.jpg" />
+    <Resource Include="Pics\cinnamon.jpg" />
+    <Resource Include="Pics\cornstarch.jpg" />
+    <Resource Include="Pics\crushedtomatoes.jpg" />
+    <Resource Include="Pics\cumin.jpg" />
+    <Resource Include="Pics\dg311-kraft-parmesan-cheese-125g.jpg" />
+    <Resource Include="Pics\driedbasil.jpg" />
+    <Resource Include="Pics\driedcilantro.jpg" />
+    <Resource Include="Pics\driedoregano.jpg" />
+    <Resource Include="Pics\driedparsley.jpg" />
+    <Resource Include="Pics\frozenstraberries.jpg" />
+    <Resource Include="Pics\garlic.jpg" />
+    <Resource Include="Pics\ginger.jpg" />
+    <Resource Include="Pics\Green Onion.jpg" />
+    <Resource Include="Pics\Grill.jpg" />
+    <Resource Include="Pics\groundbeef.jpg" />
+    <Resource Include="Pics\Hawaiian-Smoothie.jpg" />
+    <Resource Include="Pics\iceberg lettuce.jpg" />
+    <Resource Include="Pics\Italianbread.jpeg" />
+    <Resource Include="Pics\kikkoman-soy-sauce.jpg" />
+    <Resource Include="Pics\Large mixing bowl.jpg" />
+    <Resource Include="Pics\lime.jpg" />
+    <Resource Include="Pics\limejuice.jpg" />
+    <Resource Include="Pics\making-meatballs-06.jpg" />
+    <Resource Include="Pics\mandarain orange.jpg" />
+    <Resource Include="Pics\mango.jpg" />
+    <Resource Include="Pics\measuring set.jpg" />
+    <Resource Include="Pics\MGF-SF-Salad-Dressing-Asian.jpg" />
+    <Resource Include="Pics\Olive oil.jpg" />
+    <Resource Include="Pics\onion.jpg" />
+    <Resource Include="Pics\Orange Juice.jpg" />
+    <Resource Include="Pics\pasta spoon.jpg" />
+    <Resource Include="Pics\PCMediumSoftFlourTortillasEN500x500.jpg" />
+    <Resource Include="Pics\peanut-butter.jpg" />
+    <Resource Include="Pics\peanuts.jpg" />
+    <Resource Include="Pics\pepper.jpg" />
+    <Resource Include="Pics\pinapplejuice.jpg" />
+    <Resource Include="Pics\pineapple chunks.jpg" />
+    <Resource Include="Pics\Red Bell Pepper.jpg" />
+    <Resource Include="Pics\salt.png" />
+    <Resource Include="Pics\scallion.jpg" />
+    <Resource Include="Pics\spaghetti-and-meatballs.jpg" />
+    <Resource Include="Pics\spaghetti.jpg" />
+    <Resource Include="Pics\stainless-steel-slotted-spoon.jpg" />
+    <Resource Include="Pics\Sun-Valley-Foods-Bread-Crumbs-White.jpg" />
+    <Resource Include="Pics\taco-seasoning.jpg" />
+    <Resource Include="Pics\thaichickendole.jpg" />
+    <Resource Include="Pics\tostitos_medium.jpg" />
+    <Resource Include="Pics\whisk.jpg" />
+    <Resource Include="Pics\Wok.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\eggs.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,124 @@
+﻿<Window x:Class="WpfApplication1.Spaghetti"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="Spaghetti" Height="1024" Width="768">
+    <Grid Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="244"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="620"/>
+            <ColumnDefinition Width="70"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="244" VerticalAlignment="Top" Width="760" Background="#FFF9D08B"/>
+        <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
+            <local:SearchBarHeader Margin="0,-56,0,56" Loaded="SearchBarHeader_Loaded"/>
+        </Grid>
+        <ScrollViewer HorizontalAlignment="Left" Height="1948" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-1199">
+            <Grid Grid.Column="1" HorizontalAlignment="Center" Height="1946" Grid.Row="1" VerticalAlignment="Top" Width="620">
+                <Image x:Name="image" HorizontalAlignment="Left" Height="168" Margin="10,50,0,0" VerticalAlignment="Top" Width="168" Source="Pics/spaghetti-and-meatballs.jpg"/>
+                <Label x:Name="label" Content="Spaghetti and Meatballs" Margin="258,45,78,1678" FontSize="24" />
+                <Image x:Name="image1" HorizontalAlignment="Left" Height="100" Margin="273,78,0,0" VerticalAlignment="Top" Width="100"/>
+                <Image x:Name="image2" HorizontalAlignment="Left" Height="63" Margin="258,92,0,0" VerticalAlignment="Top" Width="152" Source="Images/5stars1.png"/>
+                <Label x:Name="label1" Content="Serves:" HorizontalAlignment="Left" Height="36" Margin="467,99,0,0" VerticalAlignment="Top" Width="75" FontSize="21.333"/>
+                <Image x:Name="image3" HorizontalAlignment="Left" Height="47" Margin="467,140,0,0" VerticalAlignment="Top" Width="48" Source="Images/timer.png" RenderTransformOrigin="-0.083,0.489"/>
+                <Label x:Name="label1_Copy" Content="30 min" HorizontalAlignment="Left" Height="36" Margin="529,146,0,0" VerticalAlignment="Top" Width="81" FontSize="21.333"/>
+                <ComboBox x:Name="comboBox" IsEditable="True" IsReadOnly="True" HorizontalAlignment="Left" Margin="547,101,0,0" VerticalAlignment="Top" Width="63" Height="36" SelectedIndex="1" FontSize="21.333">
+                    <ComboBoxItem HorizontalContentAlignment="Center">1</ComboBoxItem>
+                    <ComboBoxItem HorizontalContentAlignment="Center">2</ComboBoxItem>
+                    <ComboBoxItem HorizontalContentAlignment="Center">3</ComboBoxItem>
+                    <ComboBoxItem HorizontalContentAlignment="Center">4</ComboBoxItem>
+                </ComboBox>
+                <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="310" Margin="10,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="18.667"><Run FontSize="18.667" FontFamily="Segoe UI" Text="No pasta's more iconic than spaghetti and meatballs, and now, it's a breeze to make -- the meatballs simmer right in the sauce"/><Run FontSize="18.667" FontFamily="Segoe UI" Text="!"/><LineBreak/><Run Text=""/></TextBlock>
+                <Label x:Name="label2" Content="Nutrition Information" HorizontalAlignment="Left" Margin="335,210,0,0" VerticalAlignment="Top" Width="285" FontSize="21.333"/>
+                <Label x:Name="label2_Copy" Content="Calories 636" HorizontalAlignment="Left" Margin="335,248,0,0" VerticalAlignment="Top" Width="207" FontSize="18.667" FontWeight="Bold"/>
+                <Label x:Name="label2_Copy1" Content="Total Fat 38 g" HorizontalAlignment="Left" Margin="335,283,0,0" VerticalAlignment="Top" Width="207" FontSize="18.667" FontWeight="Bold"/>
+                <Label x:Name="label2_Copy2" Content="Saturated Fat 9.2 g" HorizontalAlignment="Left" Margin="367,313,0,0" VerticalAlignment="Top" Width="175" FontSize="18.667"/>
+                <Label x:Name="label2_Copy3" Content="Trans Fat 0.5 g" HorizontalAlignment="Left" Margin="367,348,0,0" VerticalAlignment="Top" Width="175" FontSize="18.667"/>
+                <Label x:Name="label2_Copy4" Content="Carbohydrates 45 g" HorizontalAlignment="Left" Margin="335,388,0,0" VerticalAlignment="Top" Width="207" FontSize="18.667" FontWeight="Bold"/>
+                <Label x:Name="label2_Copy5" Content="Protein 28.7 g" HorizontalAlignment="Left" Margin="335,423,0,0" VerticalAlignment="Top" Width="207" FontSize="18.667" FontWeight="Bold"/>
+                <Label x:Name="label2_Copy6" Content="Vitamin A 9.8 %" HorizontalAlignment="Left" Margin="335,458,0,0" VerticalAlignment="Top" Width="143" FontSize="16"/>
+                <Label x:Name="label2_Copy7" Content="Vitamin C 21.9 %" HorizontalAlignment="Left" Margin="467,458,0,0" VerticalAlignment="Top" Width="130" FontSize="14.667"/>
+                <Label x:Name="label2_Copy8" Content="Calcium 7.1%" HorizontalAlignment="Left" Margin="335,493,0,0" VerticalAlignment="Top" Width="119" FontSize="16"/>
+                <Label x:Name="label2_Copy9" Content="Iron 21.8 %" HorizontalAlignment="Left" Margin="467,493,0,0" VerticalAlignment="Top" Width="119" FontSize="16"/>
+                <Label x:Name="label3" Content="Utensils" HorizontalAlignment="Left" Height="48" Margin="9,507,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
+                <Image x:Name="image4" HorizontalAlignment="Left" Height="60" Margin="10,555,0,0" VerticalAlignment="Top" Width="60" Source="Pics/7litre pot.jpg"/>
+                <Label x:Name="label4" Content="2 - 7 Litre Pots" HorizontalAlignment="Left" Height="43" Margin="75,560,0,0" VerticalAlignment="Top" Width="134" FontSize="18.667"/>
+                <Image x:Name="image4_Copy" HorizontalAlignment="Left" Height="60" Margin="323,555,0,0" VerticalAlignment="Top" Width="60" Source="Pics/whisk.jpg"/>
+                <Label x:Name="label4_Copy" Content="Whisk" HorizontalAlignment="Left" Height="43" Margin="393,560,0,0" VerticalAlignment="Top" Width="122" FontSize="18.667"/>
+                <Label x:Name="label3_Copy" Content="Ingredients" HorizontalAlignment="Left" Height="48" Margin="0,731,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
+                <Image x:Name="image4_Copy1" HorizontalAlignment="Left" Height="60" Margin="10,784,0,0" VerticalAlignment="Top" Width="60" Source="Pics/salt.png"/>
+                <Label x:Name="label4_Copy1" Content="2 tablespoons Salt" HorizontalAlignment="Left" Height="43" Margin="70,784,0,0" VerticalAlignment="Top" Width="210" FontSize="18.667"/>
+                <Image x:Name="image4_Copy2" HorizontalAlignment="Left" Height="60" Margin="9,863,0,0" VerticalAlignment="Top" Width="60" Source="Pics/driedparsley.jpg"/>
+                <Label x:Name="label4_Copy5" Content="1.4 cup dried parsley" HorizontalAlignment="Left" Height="43" Margin="75,863,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Label x:Name="label4_Copy6" Content="Substitutes:" HorizontalAlignment="Left" Height="28" Margin="75,892,0,0" VerticalAlignment="Top" Width="210" FontSize="14.667"/>
+                <Label x:Name="label4_Copy7" Content="1/2 teaspoon of Ingredient" HorizontalAlignment="Left" Height="30" Margin="84,920,0,0" VerticalAlignment="Top" Width="210" FontSize="14.667"/>
+                <Image x:Name="image4_Copy3" HorizontalAlignment="Left" Height="60" Margin="323,784,0,0" VerticalAlignment="Top" Width="60" Source="ingredients.jpg"/>
+                <Label x:Name="label4_Copy8" Content="1/4 cup finely grated &#xD;&#xA;Parmesan" HorizontalAlignment="Left" Height="65" Margin="389,784,-1,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Image x:Name="image4_Copy4" HorizontalAlignment="Left" Height="60" Margin="323,860,0,0" VerticalAlignment="Top" Width="60" Source="Pics/garlic.jpg"/>
+                <Label x:Name="label4_Copy9" Content="2 garlic cloves" HorizontalAlignment="Left" Height="43" Margin="388,863,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Image x:Name="image4_Copy5" HorizontalAlignment="Left" Height="60" Margin="323,955,0,0" VerticalAlignment="Top" Width="60" Source="Pics/groundbeef.jpg"/>
+                <Label x:Name="label4_Copy10" Content="1 pound ground beef" HorizontalAlignment="Left" Height="43" Margin="389,955,-1,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Rectangle Fill="#FFE8685D" Margin="1,1231,-1,0" Stroke="Black" Height="116" VerticalAlignment="Top"/>
+                <Image x:Name="image12" HorizontalAlignment="Left" Height="60" Margin="1,1267,0,0" VerticalAlignment="Top" Width="60" Source="Pics/boiling water.jpg"/>
+                <Label x:Name="label23_Copy" Content="Instructions" HorizontalAlignment="Left" Height="48" Margin="0,1183,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
+                <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="111" Margin="75,1236,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Span FontSize="16"><Run Text="Set a large pot of salted water to boil"/></Span></TextBlock>
+                <Label x:Name="label5" Content="Step 1" HorizontalAlignment="Left" Height="36" Margin="1,1231,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
+                <Rectangle HorizontalAlignment="Left" Height="116" Margin="0,1347,0,0" VerticalAlignment="Top" Width="620"/>
+                <Image x:Name="image12_Copy" HorizontalAlignment="Left" Height="45" Margin="1,1388,0,0" VerticalAlignment="Top" Width="60" Source="Pics/boil-pasta.jpg"/>
+                <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Height="111" Margin="70,1352,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run Text="P"/><Run Text="lace spaghetti in boiling water, cook pasta until al dente. Drain, and return to pot"/></TextBlock>
+                <Label x:Name="label5_Copy" Content="Step 2" HorizontalAlignment="Left" Height="36" Margin="1,1347,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
+                <Rectangle Fill="#FFE8685D" HorizontalAlignment="Left" Height="116" Margin="0,1438,0,0" Stroke="Black" VerticalAlignment="Top" Width="620"/>
+                <Image x:Name="image12_Copy1" HorizontalAlignment="Left" Height="60" Margin="1,1479,0,0" VerticalAlignment="Top" Width="60" Source="Images/cooking.png"/>
+                <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Height="111" Margin="75,1443,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run FontFamily="Segoe UI" Text="In a bowl, using the whisk, combine Parmesan, parsley, garlic, egg, 1 teaspoon salt, and 1 teaspoon pepper. Add beef and breadcrumbs; mix gently with hands. Form into 16 balls."/><LineBreak/><Run Text=""/></TextBlock>
+                <Label x:Name="label5_Copy1" Content="Step 3" HorizontalAlignment="Left" Height="36" Margin="1,1438,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
+                <Rectangle HorizontalAlignment="Left" Height="116" Margin="1,1554,-1,0" VerticalAlignment="Top" Width="620"/>
+                <Image x:Name="image12_Copy2" HorizontalAlignment="Left" Height="60" Margin="1,1595,0,0" VerticalAlignment="Top" Width="60" Source="Images/cooking.png"/>
+                <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Height="111" Margin="75,1559,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run Text="In "/><Run Text="a pot, heat oil over medium. Add meatballs, and cook, turning occasionally with the slotted spoon, until browned, 8 to 10 minutes. "/></TextBlock>
+                <Label x:Name="label5_Copy2" Content="Step 4" HorizontalAlignment="Left" Height="36" Margin="0,1554,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
+                <Rectangle Fill="#FFE8685D" HorizontalAlignment="Left" Height="116" Margin="0,1670,0,0" Stroke="Black" VerticalAlignment="Top" Width="620"/>
+                <Image x:Name="image12_Copy3" HorizontalAlignment="Left" Height="60" Margin="1,1711,0,0" VerticalAlignment="Top" Width="60" Source="Images/cooking.png"/>
+                <TextBlock x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Height="111" Margin="75,1675,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run FontFamily="Segoe UI" Text="Add tomatoes; bring to a boil. Reduce to a simmer; cover partially, and cook, stirring occasionally, until meatballs are cooked through, 10 to 12 minutes."/><LineBreak/><Run Text=""/></TextBlock>
+                <Label x:Name="label5_Copy3" Content="Step 5" HorizontalAlignment="Left" Height="36" Margin="0,1670,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
+                <Label x:Name="label6" Content="Rate this recipe:" HorizontalAlignment="Left" Margin="122,1902,0,0" VerticalAlignment="Top" Height="47" Width="163" FontSize="21.333"/>
+                <Image x:Name="image5" HorizontalAlignment="Left" Height="26" Margin="300,1907,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                <Image x:Name="image5_Copy" HorizontalAlignment="Left" Height="26" Margin="335,1907,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                <Image x:Name="image5_Copy1" HorizontalAlignment="Left" Height="26" Margin="370,1907,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                <Image x:Name="image5_Copy2" HorizontalAlignment="Left" Height="26" Margin="405,1907,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                <Image x:Name="image5_Copy3" HorizontalAlignment="Left" Height="26" Margin="440,1907,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png"/>
+                <Rectangle HorizontalAlignment="Left" Height="50" Margin="128,168,0,0" VerticalAlignment="Top" Width="50" Fill="White" Stroke="#FFE8685D" StrokeThickness="3"/>
+                <Image x:Name="image7" HorizontalAlignment="Left" Height="39" Margin="133,174,0,0" VerticalAlignment="Top" Width="39" Source="Images/greyHeart.png"/>
+                <Image Margin="9,613,551,1401" Source="Pics/pasta spoon.jpg"/>
+                <Image x:Name="image4_Copy6" HorizontalAlignment="Left" Height="60" Margin="9,955,0,0" VerticalAlignment="Top" Width="60" Source="Pics/eggs.jpg"/>
+                <Label x:Name="label4_Copy2" Content="1 large egg" HorizontalAlignment="Left" Height="43" Margin="75,955,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Label x:Name="label4_Copy3" Content="1/2 cup plain &#xD;&#xA;dried breadcrumbs" HorizontalAlignment="Left" Height="60" Margin="75,1032,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Label x:Name="label4_Copy4" Content="1 can crushed tomatoes" HorizontalAlignment="Left" Height="43" Margin="75,1118,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Label x:Name="label4_Copy11" Content="1 tablespoon olive oil" HorizontalAlignment="Left" Height="43" Margin="388,1032,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Label x:Name="label4_Copy12" Content="1 package of spaghetti" HorizontalAlignment="Left" Height="43" Margin="388,1118,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Image x:Name="image4_Copy7" HorizontalAlignment="Left" Height="60" Margin="9,1032,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Sun-Valley-Foods-Bread-Crumbs-White.jpg"/>
+                <Image x:Name="image4_Copy8" HorizontalAlignment="Left" Height="60" Margin="323,1032,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Olive oil.jpg"/>
+                <Image x:Name="image4_Copy9" HorizontalAlignment="Left" Height="60" Margin="323,1118,0,0" VerticalAlignment="Top" Width="60" Source="Pics/spaghetti.jpg"/>
+                <Image x:Name="image4_Copy10" HorizontalAlignment="Left" Height="60" Margin="9,1118,0,0" VerticalAlignment="Top" Width="60" Source="Pics/crushedtomatoes.jpg"/>
+                <Image Margin="328,613,232,1401" Source="Pics/Large mixing bowl.jpg"/>
+                <Label x:Name="label4_Copy13" Content="Mixing Bowl" HorizontalAlignment="Left" Height="43" Margin="393,613,0,0" VerticalAlignment="Top" Width="122" FontSize="18.667"/>
+                <Label x:Name="label4_Copy14" Content="Spaghetti Spoon" HorizontalAlignment="Left" Height="43" Margin="84,613,0,0" VerticalAlignment="Top" Width="151" FontSize="18.667"/>
+                <Rectangle HorizontalAlignment="Left" Height="116" Margin="0,1786,0,0" VerticalAlignment="Top" Width="620"/>
+                <Label x:Name="label5_Copy4" Content="Step 6" HorizontalAlignment="Left" Height="36" Margin="0,1786,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
+                <TextBlock x:Name="textBlock1_Copy4" HorizontalAlignment="Left" Height="111" Margin="75,1791,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run FontFamily="Segoe UI" Text="Add meatballs and sauce to the pot with spaghetti, and toss gently. Serve with Parmesan."/><LineBreak/><Run Text=""/></TextBlock>
+                <Image x:Name="image12_Copy4" HorizontalAlignment="Left" Height="60" Margin="1,1827,0,0" VerticalAlignment="Top" Width="60" Source="Images/cooking.png"/>
+                <Image Margin="10,667,550,1347" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
+                <Label x:Name="label4_Copy15" Content="Slotted Spoon" HorizontalAlignment="Left" Height="43" Margin="84,667,0,0" VerticalAlignment="Top" Width="151" FontSize="18.667"/>
+
+            </Grid>
+        </ScrollViewer>
+       
+
+    </Grid>
+</Window>
