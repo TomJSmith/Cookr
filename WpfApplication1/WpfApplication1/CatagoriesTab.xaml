@@ -17,10 +17,10 @@
         </Grid.RowDefinitions>
         <Rectangle Fill="White" HorizontalAlignment="Left" Height="608" Grid.Row="1" VerticalAlignment="Top" Width="760" Margin="0,10,0,0" Grid.RowSpan="3"/>
 
-        <Button x:Name="button" Content="Discover" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="138" Height="40" FontSize="18.667" Background="White" Foreground="#FFE8685D" Margin="311,0" BorderBrush="#FFE8685D" BorderThickness="2"/>
+        <Button x:Name="button" Content="Discover" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="138" Height="40" FontSize="18.667" Background="White" Foreground="#FFE8685D" Margin="311,0" BorderBrush="#FF9F0251" BorderThickness="2"/>
         <Button x:Name="button_Copy" Content="My Cookbook" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="138" Height="40" Margin="449,0,173,0" FontSize="18.667" Background="White" Foreground="#FFE8685D" BorderBrush="#FFE8685D" BorderThickness="2"/>
-        <Button x:Name="button_Copy1" Content="Catagories" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="141" Height="50" Margin="170,0,449,0" BorderBrush="#FFE8685D" FontSize="18.667" Background="#FFE8685D" Foreground="White"/>
-        <Rectangle Fill="#FFE8685D" HorizontalAlignment="Left" Height="10" Grid.Row="1" VerticalAlignment="Top" Width="760"/>
+        <Button x:Name="button_Copy1" Content="Catagories" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="141" Height="50" Margin="170,0,449,0" BorderBrush="#FF4D8963" FontSize="18.667" Background="#FF4D8963" Foreground="White"/>
+        <Rectangle Fill="#FF4D8963" HorizontalAlignment="Left" Height="10" Grid.Row="1" VerticalAlignment="Top" Width="760"/>
 
         <Grid Height="191" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="144" Grid.Row="1" Margin="233,0,383,10">
             <Label x:Name="label3" Content="Breakfast" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
