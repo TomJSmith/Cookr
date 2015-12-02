@@ -18,11 +18,24 @@ namespace WpfApplication1
     /// <summary>
     /// Interaction logic for CatagoriesTab.xaml
     /// </summary>
+    /// catagories tab
     public partial class CatagoriesTab : UserControl
     {
-        public CatagoriesTab()
+        private MainWindow myMain;
+        public CatagoriesTab(MainWindow mainWindow)
         {
+            myMain = mainWindow;
             InitializeComponent();
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            myMain.switchToDiscover();
+        }
+
+        private void button_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            myMain.switchToFavs();
         }
     }
 }

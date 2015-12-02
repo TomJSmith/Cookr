@@ -18,9 +18,9 @@
         </Grid.ColumnDefinitions>
         <Grid Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="244" VerticalAlignment="Top" Width="760" Background="#FFF9D08B"/>
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
-          <local:SearchBarHeader Margin="0,-56,0,56"/> 
+            <local:SearchBarHeader Margin="0,-56,0,56"/>
         </Grid>
-        <ScrollViewer HorizontalAlignment="Left" Height="1948" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-1199">
+        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="1946" Grid.Row="1" VerticalAlignment="Top" Width="620">
                 <Image x:Name="image" HorizontalAlignment="Left" Height="168" Margin="10,50,0,0" VerticalAlignment="Top" Width="168" Source="Pics/spaghetti-and-meatballs.jpg"/>
                 <Label x:Name="label" Content="Spaghetti and Meatballs" Margin="258,45,78,1678" FontSize="24" />
@@ -35,7 +35,7 @@
                     <ComboBoxItem HorizontalContentAlignment="Center">3</ComboBoxItem>
                     <ComboBoxItem HorizontalContentAlignment="Center">4</ComboBoxItem>
                 </ComboBox>
-                <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="310" Margin="10,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="18.667"><Run FontSize="18.667" FontFamily="Segoe UI" Text="No pasta's more iconic than spaghetti and meatballs, and now, it's a breeze to make -- the meatballs simmer right in the sauce"/><Run FontSize="18.667" FontFamily="Segoe UI" Text="!"/><LineBreak/><Run Text=""/></TextBlock>
+                <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="310" Margin="10,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="18.667"><Run FontSize="18.667" FontFamily="Segoe UI" Text="No pasta is more iconic than spaghetti and meatballs, and now, it's a breeze to make -- the meatballs simmer right in the sauce"/><Run FontSize="18.667" FontFamily="Segoe UI" Text="!"/><LineBreak/><Run Text=""/></TextBlock>
                 <Label x:Name="label2" Content="Nutrition Information" HorizontalAlignment="Left" Margin="335,210,0,0" VerticalAlignment="Top" Width="285" FontSize="21.333"/>
                 <Label x:Name="label2_Copy" Content="Calories 636" HorizontalAlignment="Left" Margin="335,248,0,0" VerticalAlignment="Top" Width="207" FontSize="18.667" FontWeight="Bold"/>
                 <Label x:Name="label2_Copy1" Content="Total Fat 38 g" HorizontalAlignment="Left" Margin="335,283,0,0" VerticalAlignment="Top" Width="207" FontSize="18.667" FontWeight="Bold"/>
@@ -118,7 +118,7 @@
 
             </Grid>
         </ScrollViewer>
-       
+
 
     </Grid>
 </Window>

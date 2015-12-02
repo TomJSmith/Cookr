@@ -8,13 +8,10 @@
              d:DesignHeight="225" d:DesignWidth="620">
     <Grid>
         <Image x:Name="CookrLogo_png_Copy" Source="Images/CookrLogo1.png" Stretch="Uniform" RenderTransformOrigin="0.58,0.22" Height="150" VerticalAlignment="Top"  HorizontalAlignment="Left" Width="156" Margin="10,10,0,0"/>
-        <Button x:Name="searchButton" Content="Search" HorizontalAlignment="Left" Margin="10,175,0,0" VerticalAlignment="Top" Width="103" Height="40" FontSize="24"/>
-        <TextBox x:Name="searchBox" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="40" Margin="113,175,0,0" TextWrapping="Wrap" Text="(e.g. pickles, Thai, sandwiches)" VerticalAlignment="Top" Width="497" FontSize="24"/>
-        <Rectangle Fill="#FFE8685D" HorizontalAlignment="Left" Height="75" Margin="171,15,0,0" VerticalAlignment="Top" Width="75"/>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="64" Margin="177,20,0,0" VerticalAlignment="Top" Width="64" Source="Images/Home_512px_1177960_easyicon.net.png"/>
-        <Rectangle Fill="#FFE8685D" HorizontalAlignment="Left" Height="75" Margin="262,15,0,0" VerticalAlignment="Top" Width="75"/>
-        <Image x:Name="image_Copy" HorizontalAlignment="Left" Height="64" Margin="268,26,0,0" VerticalAlignment="Top" Width="64" Source="Images/heart_445px_1194482_easyicon.net.png"/>
-
+        <Button x:Name="searchButton" Content="Search" HorizontalAlignment="Left" Margin="10,175,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" VerticalAlignment="Top" Width="103" Height="40" FontSize="24" Background="#FFE8685D" Foreground="#FFFEF3E5" BorderBrush="#FFEA685D" FontFamily="Segoe UI Semibold"/>
+        <TextBox x:Name="searchBox"  HorizontalAlignment="Left" VerticalContentAlignment="Top" Height="40" Margin="113,175,0,0" TextWrapping="Wrap" Text="(e.g. pickles, Thai, sandwiches)" VerticalAlignment="Top" Width="497" FontSize="24" BorderBrush="#FFEA685D" BorderThickness="2"/>
+        <Image x:Name="homeButton" HorizontalAlignment="Left" Height="87" Margin="164,10,0,0" VerticalAlignment="Top" Width="87" Source="Images/homeButton.png"/>
+        <Image x:Name="favButton" HorizontalAlignment="Left" Height="87" Margin="256,10,0,0" VerticalAlignment="Top" Width="87" Source="Images/favouriteButton.png"/>
 
     </Grid>
 </UserControl>

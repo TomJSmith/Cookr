@@ -18,11 +18,24 @@ namespace WpfApplication1
     /// <summary>
     /// Interaction logic for FavoritesTab.xaml
     /// </summary>
+    /// favorites tab
     public partial class FavoritesTab : UserControl
     {
-        public FavoritesTab()
+        private MainWindow myMain;
+        public FavoritesTab(MainWindow mainWindow)
         {
+            myMain = mainWindow;
             InitializeComponent();
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            myMain.switchToDiscover();
+        }
+
+        private void button_Copy1_Click(object sender, RoutedEventArgs e)
+        {
+            myMain.switchToCatagories();
         }
     }
 }

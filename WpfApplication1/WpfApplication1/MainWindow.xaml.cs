@@ -20,19 +20,46 @@ namespace WpfApplication1
     /// </summary>
     public partial class MainWindow : Window
     {
+        private FavoritesTab favTab;
+        private UserControl1 disTab;
+        private CatagoriesTab catTab;
+
         public MainWindow()
         {
+            favTab = new FavoritesTab(this);
+            disTab = new UserControl1(this);
+            catTab = new CatagoriesTab(this);
             InitializeComponent();
+            switchToDiscover();
         }
+
+        public void switchToDiscover()
+        {
+            MainContent.Children.Clear();
+            MainContent.Children.Add(disTab);
+        }
+
+        public void switchToCatagories()
+        {
+            MainContent.Children.Clear();
+            MainContent.Children.Add(catTab);
+        }
+
+        public void switchToFavs()
+        {
+            MainContent.Children.Clear();
+            MainContent.Children.Add(favTab);
+        }
+
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
 
             
          
-           TopRatedWindow TopRated1 =  new TopRatedWindow();
+           Spaghetti spaghettiPage =  new Spaghetti();
             this.Hide();
-            TopRated1.Show();
+            spaghettiPage.Show();
           
         }
 

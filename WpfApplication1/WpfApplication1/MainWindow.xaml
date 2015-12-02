@@ -18,7 +18,6 @@
             <ColumnDefinition Width="70"/>
         </Grid.ColumnDefinitions>
         <Grid x:Name="MainContent" HorizontalAlignment="Left" Height="668" Grid.Row="2" VerticalAlignment="Top" Width="760" Grid.ColumnSpan="3" Background="#FFF9D08B">
-            <local:FavoritesTab Loaded="FavoritesTab_Loaded"/>
         </Grid>
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" Grid.Row="1" VerticalAlignment="Top" Width="642" Grid.ColumnSpan="2">
             <local:SearchBarHeader/>

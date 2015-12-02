@@ -18,10 +18,13 @@ namespace WpfApplication1
     /// <summary>
     /// Interaction logic for UserControl1.xaml
     /// </summary>
+    /// discover tab
     public partial class UserControl1 : UserControl
     {
-        public UserControl1()
+        private MainWindow myMain;
+        public UserControl1(MainWindow mainWindow)
         {
+            myMain = mainWindow;
             InitializeComponent();
         }
 
@@ -32,6 +35,15 @@ namespace WpfApplication1
            openSearchResults.Show();
 
         }
-        
+
+        private void catagoriesClick(object sender, RoutedEventArgs e)
+        {
+            myMain.switchToCatagories();
+        }
+
+        private void favsClick(object sender, RoutedEventArgs e)
+        {
+            myMain.switchToFavs();
+        }
     }
 }
