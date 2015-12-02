@@ -75,9 +75,6 @@
     <Compile Include="SearchResults.xaml.cs">
       <DependentUpon>SearchResults.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SeparatorBetweenListItems.xaml.cs">
-      <DependentUpon>SeparatorBetweenListItems.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Spaghetti.xaml.cs">
       <DependentUpon>Spaghetti.xaml</DependentUpon>
     </Compile>
@@ -123,10 +120,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SearchResults.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="SeparatorBetweenListItems.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

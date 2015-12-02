@@ -27,10 +27,12 @@ namespace WpfApplication1
         public TopRatedWindow()
         {
             InitializeComponent();
+            Spaghetti test = new Spaghetti();
 
             ListItem item1ListItem = new ListItem();
             item1ListItem.recipeName.Content = "Spaghetti and \n Meatballs";
             item1ListItem.time.Content = " 30 Mins";
+           
             Sp1.Children.Add(item1ListItem);
 
             ListItem item2ListItem = new ListItem();
@@ -41,6 +43,7 @@ namespace WpfApplication1
             ListItem item3ListItem = new ListItem();
             item3ListItem.recipeName.Content = "Strawberry, Mango,\n and Yogurt \n Smoothie";
             item3ListItem.time.Content = "5 Mins";
+            
             Sp1.Children.Add(item3ListItem);
 
 

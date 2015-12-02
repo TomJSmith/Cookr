@@ -60,5 +60,10 @@ namespace WpfApplication1
         {
             InitializeComponent();
         }
+
+        private void listItemButtonClick(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }
