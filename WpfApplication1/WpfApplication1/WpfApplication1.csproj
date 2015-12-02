@@ -66,11 +66,17 @@
     <Compile Include="ListItem.xaml.cs">
       <DependentUpon>ListItem.xaml</DependentUpon>
     </Compile>
+    <Compile Include="RecipeWindow.xaml.cs">
+      <DependentUpon>RecipeWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SearchBarHeader.xaml.cs">
       <DependentUpon>SearchBarHeader.xaml</DependentUpon>
     </Compile>
     <Compile Include="SearchResults.xaml.cs">
       <DependentUpon>SearchResults.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SeparatorBetweenListItems.xaml.cs">
+      <DependentUpon>SeparatorBetweenListItems.xaml</DependentUpon>
     </Compile>
     <Compile Include="Spaghetti.xaml.cs">
       <DependentUpon>Spaghetti.xaml</DependentUpon>
@@ -108,11 +114,19 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="RecipeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="SearchBarHeader.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SearchResults.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SeparatorBetweenListItems.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -200,6 +214,9 @@
     <Resource Include="Images\Star-grey-icon.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Images\backArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="Images\greyHeart.png" />
   </ItemGroup>
   <ItemGroup>
@@ -285,15 +302,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Pics\eggs.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\addFavouritedButton.png" />
-    <Resource Include="Images\filledFavouritedButton.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\backArrow.png" />
-    <Resource Include="Images\favouriteButton.png" />
-    <Resource Include="Images\homeButton.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

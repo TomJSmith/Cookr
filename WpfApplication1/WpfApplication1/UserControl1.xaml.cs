@@ -30,9 +30,9 @@ namespace WpfApplication1
 
         private void TopRatedClick(object sender, RoutedEventArgs e)
         {
-           SearchResults openSearchResults =  new SearchResults();
-         
-           openSearchResults.Show();
+           TopRatedWindow topRatedWindow =  new TopRatedWindow();
+
+           topRatedWindow.Show();
 
         }
 

@@ -56,11 +56,9 @@ namespace WpfApplication1
         {
 
             
-         
-           Spaghetti spaghettiPage =  new Spaghetti();
+      TopRatedWindow tp1 =  new TopRatedWindow();
             this.Hide();
-            spaghettiPage.Show();
-          
+            tp1.Show();
         }
 
         private void FavoritesTab_Loaded(object sender, RoutedEventArgs e)

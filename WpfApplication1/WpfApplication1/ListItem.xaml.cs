@@ -23,7 +23,7 @@ namespace WpfApplication1
 
         public string RecipeName;
         private string recipe_name;
-    //    private int Rating;
+    
         public int TimeRequired;
         private int time_required;
 
@@ -34,7 +34,7 @@ namespace WpfApplication1
             set
             {
                 recipe_name= value;
-                recipeName.Content = this.RecipeName;
+                recipeName.Content = this.RecipeName; //updating the recipeName in XML with the RecipeName of  Class
             }
 
 
@@ -51,6 +51,8 @@ namespace WpfApplication1
                 time.Content = RTime;
             }
         }// end of RTime
+
+
 
 
 
