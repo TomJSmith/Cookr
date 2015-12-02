@@ -23,9 +23,20 @@ namespace WpfApplication1
 
         public string RecipeName;
         private string recipe_name;
-    
+
+        public Window TargetWindow;
+        private Window target_window;
+
         public int TimeRequired;
         private int time_required;
+
+        public ListItem(string name, string time1)
+        {
+            InitializeComponent();
+            recipeName.Content = name;
+            time.Content = time1;
+
+        }
 
         private string RTitle
         {
@@ -52,7 +63,18 @@ namespace WpfApplication1
             }
         }// end of RTime
 
+        private Window RWindow
+        {
+            get { return target_window; }
 
+            set
+            {
+                target_window = value;
+                
+            }
+
+
+        }
 
 
 
@@ -63,7 +85,8 @@ namespace WpfApplication1
 
         private void listItemButtonClick(object sender, RoutedEventArgs e)
         {
-            
+            Window.GetWindow(this).Close();
+            TargetWindow.Show();
         }
     }
 }
