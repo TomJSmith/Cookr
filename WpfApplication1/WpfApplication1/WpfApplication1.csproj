@@ -66,9 +66,6 @@
     <Compile Include="ListItem.xaml.cs">
       <DependentUpon>ListItem.xaml</DependentUpon>
     </Compile>
-    <Compile Include="RecipePage.xaml.cs">
-      <DependentUpon>RecipePage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="SearchBarHeader.xaml.cs">
       <DependentUpon>SearchBarHeader.xaml</DependentUpon>
     </Compile>
@@ -111,10 +108,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="RecipePage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="SearchBarHeader.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -207,9 +200,6 @@
     <Resource Include="Images\Star-grey-icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\backArrow.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\greyHeart.png" />
   </ItemGroup>
   <ItemGroup>
@@ -298,8 +288,11 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\addFavouritedButton.png" />
-    <Resource Include="Images\favouriteButton.png" />
     <Resource Include="Images\filledFavouritedButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\backArrow.png" />
+    <Resource Include="Images\favouriteButton.png" />
     <Resource Include="Images\homeButton.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

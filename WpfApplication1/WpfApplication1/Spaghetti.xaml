@@ -5,6 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
+        WindowStartupLocation="Manual" 
+        Left="10" Top="10"
         Title="Spaghetti" Height="1024" Width="768">
     <Grid Margin="0,0,0,0">
         <Grid.RowDefinitions>
@@ -92,9 +94,8 @@
                 <Image x:Name="image5_Copy1" HorizontalAlignment="Left" Height="26" Margin="370,1907,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
                 <Image x:Name="image5_Copy2" HorizontalAlignment="Left" Height="26" Margin="405,1907,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
                 <Image x:Name="image5_Copy3" HorizontalAlignment="Left" Height="26" Margin="440,1907,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
-                <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png"/>
-                <Rectangle HorizontalAlignment="Left" Height="50" Margin="128,168,0,0" VerticalAlignment="Top" Width="50" Fill="White" Stroke="#FFE8685D" StrokeThickness="3"/>
-                <Image x:Name="image7" HorizontalAlignment="Left" Height="39" Margin="133,174,0,0" VerticalAlignment="Top" Width="39" Source="Images/greyHeart.png"/>
+                <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png" RenderTransformOrigin="1,1.667" Margin="0,3,0,0"/>
+                <Image x:Name="image7" HorizontalAlignment="Left" Height="45" Margin="133,174,0,0" VerticalAlignment="Top" Width="45" Source="Images/addFavouritedButton.png"/>
                 <Image Margin="9,613,551,1401" Source="Pics/pasta spoon.jpg"/>
                 <Image x:Name="image4_Copy6" HorizontalAlignment="Left" Height="60" Margin="9,955,0,0" VerticalAlignment="Top" Width="60" Source="Pics/eggs.jpg"/>
                 <Label x:Name="label4_Copy2" Content="1 large egg" HorizontalAlignment="Left" Height="43" Margin="75,955,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>

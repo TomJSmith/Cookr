@@ -5,6 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
+        WindowStartupLocation="Manual" 
+        Left="10" Top="10"
        Title="Main" Height="1024" Width="768">
     <Grid Margin="0,0,0,0">
         <Grid.ColumnDefinitions>

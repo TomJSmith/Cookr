@@ -24,5 +24,35 @@ namespace WpfApplication1
         {
             InitializeComponent();
         }
+
+        private void clicked(object sender, KeyboardFocusChangedEventArgs e)
+        {
+            searchBox.Text = "";
+        }
+
+        private void homeButtonClick(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            Window parentWindow = Window.GetWindow(this);
+            parentWindow.Close();
+            main.Show();
+        }
+
+        private void favButtonClick(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            Window parentWindow = Window.GetWindow(this);
+            main.switchToFavs();
+            parentWindow.Close();
+            main.Show();
+        }
+
+        private void logoClicked(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            Window parentWindow = Window.GetWindow(this);
+            parentWindow.Close();
+            main.Show();
+        }
     }
 }

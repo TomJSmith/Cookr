@@ -5,6 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
+        WindowStartupLocation="Manual" 
+        Left="10" Top="10"
         Title="Main" Height="1024" Width="768">
     <Grid Margin="0,0,0,0">
         <Grid.RowDefinitions>
@@ -96,9 +98,8 @@
                 <Image x:Name="image5_Copy1" HorizontalAlignment="Left" Height="26" Margin="354,1718,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
                 <Image x:Name="image5_Copy2" HorizontalAlignment="Left" Height="26" Margin="384,1718,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
                 <Image x:Name="image5_Copy3" HorizontalAlignment="Left" Height="26" Margin="414,1718,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
-                <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png"/>
-                <Rectangle HorizontalAlignment="Left" Height="50" Margin="203,163,0,0" VerticalAlignment="Top" Width="50" Fill="White" Stroke="#FFE8685D" StrokeThickness="3"/>
-                <Image x:Name="image7" HorizontalAlignment="Left" Height="39" Margin="208,170,0,0" VerticalAlignment="Top" Width="39" Source="Images/greyHeart.png"/>
+                <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png" RenderTransformOrigin="1,1.667" Margin="0,3,0,0"/>
+                <Image x:Name="image7" HorizontalAlignment="Left" Height="45" Margin="208,168,0,0" VerticalAlignment="Top" Width="45" Source="Images/addFavouritedButton.png"/>
 
             </Grid>
         </ScrollViewer>
