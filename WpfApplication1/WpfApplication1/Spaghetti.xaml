@@ -18,7 +18,7 @@
         </Grid.ColumnDefinitions>
         <Grid Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="244" VerticalAlignment="Top" Width="760" Background="#FFF9D08B"/>
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
-            <local:SearchBarHeader Margin="0,-56,0,56" Loaded="SearchBarHeader_Loaded"/>
+          <local:SearchBarHeader Margin="0,-56,0,56"/> 
         </Grid>
         <ScrollViewer HorizontalAlignment="Left" Height="1948" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-1199">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="1946" Grid.Row="1" VerticalAlignment="Top" Width="620">

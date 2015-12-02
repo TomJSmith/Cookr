@@ -23,5 +23,11 @@ namespace WpfApplication1
         {
             InitializeComponent();
         }
+        /*
+        private void SearchBarHeader_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+        */
     }
 }
