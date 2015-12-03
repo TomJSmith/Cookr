@@ -33,6 +33,7 @@ namespace WpfApplication1
         private void defaultView()
         {
             Sp1.Children.Clear();
+            
             ListItem item1ListItem = new ListItem();
             item1ListItem.recipeName.Content = "Spaghetti and \n Meatballs";
             item1ListItem.time.Content = " 30 Mins";

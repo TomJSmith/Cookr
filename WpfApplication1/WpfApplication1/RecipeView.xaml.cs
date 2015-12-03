@@ -24,5 +24,16 @@ namespace WpfApplication1
         {
             InitializeComponent();
         }
+
+        private void addFavourite(object sender, MouseButtonEventArgs e)
+        {
+            favButton.Source = new BitmapImage(new Uri(@"/Images/filledFavouritedButton.png", UriKind.Relative));
+        }
+
+        private void goBack(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow mainWindow = (MainWindow)Window.GetWindow(this);
+            mainWindow.switchPrevView();
+        }
     }
 }

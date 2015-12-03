@@ -22,9 +22,19 @@ namespace WpfApplication1
     {
 
         public string RecipeName;
+        // dont use this anymore
         public Window TargetWindow;
+        // use this userControl to store where the button links to
+        public UserControl targetUserControl;
         public int TimeRequired;
         
+        public ListItem(string aName, string aTime, UserControl aUserControl)
+        {
+            InitializeComponent();
+            recipeName.Content = aName;
+            time.Content = aTime;
+            targetUserControl = aUserControl;
+        }
 
         public ListItem(string name, string time1, Window Twindow)
         {
@@ -40,7 +50,6 @@ namespace WpfApplication1
             InitializeComponent();
             recipeName.Content = name;
             time.Content = time1;
-
         }
 
         private string RTitle
@@ -96,9 +105,18 @@ namespace WpfApplication1
 
         private void listItemButtonClick(object sender, RoutedEventArgs e)
         {
-           
-            Window.GetWindow(this).Close();
-            TargetWindow.Show();
+            //we are using user controls now, no more closing and showing windows
+            //Window.GetWindow(this).Close();
+            //TargetWindow.Show();
+        }
+
+        // event handler for clicking on a list item
+        private void ListItemClick(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow main = (MainWindow)Window.GetWindow(this);
+            if (targetUserControl == null)
+                targetUserControl = new RecipeView();
+            main.switchToView(targetUserControl);
         }
     }
 }

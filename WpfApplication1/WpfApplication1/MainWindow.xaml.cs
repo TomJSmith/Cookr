@@ -26,6 +26,8 @@ namespace WpfApplication1
         public SearchView search;
         public MainView mainView;
         public TopRatedView topRated;
+        UserControl prevView;
+
 
         public MainWindow()
         {
@@ -62,20 +64,38 @@ namespace WpfApplication1
 
         public void switchSearchView()
         {
+            prevView = (UserControl) contentView.Children[0];
             contentView.Children.Clear();
             contentView.Children.Add(search);
         }
 
         public void switchMainView()
         {
+            prevView = (UserControl)contentView.Children[0];
             contentView.Children.Clear();
             contentView.Children.Add(mainView);
         }
 
         public void switchTopRatedView()
         {
+            prevView = (UserControl)contentView.Children[0];
             contentView.Children.Clear();
             contentView.Children.Add(topRated);
+        }
+
+        public void switchToView(UserControl aUserControl)
+        {
+            prevView = (UserControl)contentView.Children[0];
+            contentView.Children.Clear();
+            contentView.Children.Add(aUserControl);
+        }
+
+        public void switchPrevView()
+        {
+            UserControl tempPrev = (UserControl)contentView.Children[0];
+            contentView.Children.Clear();
+            contentView.Children.Add(prevView);
+            prevView = tempPrev;
         }
     }
 }
