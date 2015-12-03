@@ -20,8 +20,10 @@ namespace WpfApplication1
     /// </summary>
     public partial class SearchBarHeader : UserControl
     {
+        private MainWindow main;
         public SearchBarHeader()
         {
+            main = (MainWindow)Window.GetWindow(this);
             InitializeComponent();
         }
 
@@ -32,27 +34,33 @@ namespace WpfApplication1
 
         private void homeButtonClick(object sender, MouseButtonEventArgs e)
         {
-            MainWindow main = new MainWindow();
-            Window parentWindow = Window.GetWindow(this);
-            parentWindow.Close();
-            main.Show();
+            if (main == null)
+                main = (MainWindow)Window.GetWindow(this);
+            main.switchToDiscover();
+            main.switchMainView();            
         }
 
         private void favButtonClick(object sender, MouseButtonEventArgs e)
         {
-            MainWindow main = new MainWindow();
-            Window parentWindow = Window.GetWindow(this);
+            if (main == null)
+                main = (MainWindow)Window.GetWindow(this);
             main.switchToFavs();
-            parentWindow.Close();
-            main.Show();
+            main.switchMainView();
         }
 
         private void logoClicked(object sender, MouseButtonEventArgs e)
         {
-            MainWindow main = new MainWindow();
-            Window parentWindow = Window.GetWindow(this);
-            parentWindow.Close();
-            main.Show();
+            if (main == null)
+                main = (MainWindow)Window.GetWindow(this);
+            main.switchToDiscover();
+            main.switchMainView();
+        }
+
+        private void searchButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (main == null)
+                main = (MainWindow)Window.GetWindow(this);
+            main.switchSearchView();
         }
     }
 }
