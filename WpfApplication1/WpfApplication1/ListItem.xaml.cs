@@ -85,6 +85,7 @@ namespace WpfApplication1
 
         private void listItemButtonClick(object sender, RoutedEventArgs e)
         {
+           
             Window.GetWindow(this).Close();
             TargetWindow.Show();
         }
