@@ -30,10 +30,7 @@ namespace WpfApplication1
 
         private void TopRatedClick(object sender, RoutedEventArgs e)
         {
-           TopRatedWindow topRatedWindow =  new TopRatedWindow();
-
-           topRatedWindow.Show();
-
+            myMain.switchTopRatedView();
         }
 
         private void catagoriesClick(object sender, RoutedEventArgs e)
@@ -43,7 +40,7 @@ namespace WpfApplication1
 
         private void favsClick(object sender, RoutedEventArgs e)
         {
-            myMain.switchToFavs();
+           myMain.switchToFavs();
         }
     }
 }

@@ -8,22 +8,6 @@
         WindowStartupLocation="Manual" 
         Left="10" Top="10"
        Title="Main" Height="1024" Width="768">
-    <Grid Margin="0,0,0,0" Background="#FFF9D08B">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="70"/>
-            <RowDefinition Height="255"/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="70"/>
-            <ColumnDefinition Width="620"/>
-            <ColumnDefinition Width="70"/>
-        </Grid.ColumnDefinitions>
-        <Grid x:Name="MainContent" HorizontalAlignment="Left" Height="668" Grid.Row="2" VerticalAlignment="Top" Width="760" Grid.ColumnSpan="3" Background="#FFF9D08B">
-        </Grid>
-        <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" Grid.Row="1" VerticalAlignment="Top" Width="642" Grid.ColumnSpan="2">
-            <local:SearchBarHeader/>
-        </Grid>
-        <Button x:Name="button" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Height="67" Margin="475,37,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="135" Click="button_Click"/>
-    </Grid>
+    <Grid Name="contentView" HorizontalAlignment="Left" Height="995" VerticalAlignment="Top" Width="758" Margin="0,0,0,-2"/>
+
 </Window>

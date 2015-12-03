@@ -66,8 +66,11 @@
     <Compile Include="ListItem.xaml.cs">
       <DependentUpon>ListItem.xaml</DependentUpon>
     </Compile>
-    <Compile Include="RecipeWindow.xaml.cs">
-      <DependentUpon>RecipeWindow.xaml</DependentUpon>
+    <Compile Include="MainView.xaml.cs">
+      <DependentUpon>MainView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RecipeView.xaml.cs">
+      <DependentUpon>RecipeView.xaml</DependentUpon>
     </Compile>
     <Compile Include="SearchBarHeader.xaml.cs">
       <DependentUpon>SearchBarHeader.xaml</DependentUpon>
@@ -75,8 +78,17 @@
     <Compile Include="SearchResults.xaml.cs">
       <DependentUpon>SearchResults.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SearchView.xaml.cs">
+      <DependentUpon>SearchView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Spaghetti.xaml.cs">
       <DependentUpon>Spaghetti.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SpaghettiRecipeView.xaml.cs">
+      <DependentUpon>SpaghettiRecipeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TopRatedView.xaml.cs">
+      <DependentUpon>TopRatedView.xaml</DependentUpon>
     </Compile>
     <Compile Include="TopRatedWindow.xaml.cs">
       <DependentUpon>TopRatedWindow.xaml</DependentUpon>
@@ -99,6 +111,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="MainView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -111,7 +127,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="RecipeWindow.xaml">
+    <Page Include="RecipeView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -123,7 +139,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="SearchView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Spaghetti.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SpaghettiRecipeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TopRatedView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

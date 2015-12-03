@@ -20,51 +20,62 @@ namespace WpfApplication1
     /// </summary>
     public partial class MainWindow : Window
     {
-        private FavoritesTab favTab;
-        private UserControl1 disTab;
-        private CatagoriesTab catTab;
+        public FavoritesTab favTab;
+        public UserControl1 disTab;
+        public CatagoriesTab catTab;
+        public SearchView search;
+        public MainView mainView;
+        public TopRatedView topRated;
 
         public MainWindow()
         {
             favTab = new FavoritesTab(this);
             disTab = new UserControl1(this);
             catTab = new CatagoriesTab(this);
+            search = new SearchView();
+            mainView = new MainView();
+            topRated = new TopRatedView();
             InitializeComponent();
-            switchToDiscover();
+            contentView.Children.Clear();
+            contentView.Children.Add(mainView);
+            mainView.MainContent.Children.Clear();
+            mainView.MainContent.Children.Add(disTab);
         }
 
         public void switchToDiscover()
         {
-            MainContent.Children.Clear();
-            MainContent.Children.Add(disTab);
+            mainView.MainContent.Children.Clear();
+            mainView.MainContent.Children.Add(disTab);
         }
 
         public void switchToCatagories()
         {
-            MainContent.Children.Clear();
-            MainContent.Children.Add(catTab);
+            mainView.MainContent.Children.Clear();
+            mainView.MainContent.Children.Add(catTab);
         }
 
         public void switchToFavs()
         {
-            MainContent.Children.Clear();
-            MainContent.Children.Add(favTab);
+            mainView.MainContent.Children.Clear();
+            mainView.MainContent.Children.Add(favTab);
         }
 
-
-        private void button_Click(object sender, RoutedEventArgs e)
+        public void switchSearchView()
         {
-
-            
-    Spaghetti sp1 =  new Spaghetti();
-            sp1.Show();
+            contentView.Children.Clear();
+            contentView.Children.Add(search);
         }
 
-        private void FavoritesTab_Loaded(object sender, RoutedEventArgs e)
+        public void switchMainView()
         {
-
+            contentView.Children.Clear();
+            contentView.Children.Add(mainView);
         }
 
-      
+        public void switchTopRatedView()
+        {
+            contentView.Children.Clear();
+            contentView.Children.Add(topRated);
+        }
     }
 }
