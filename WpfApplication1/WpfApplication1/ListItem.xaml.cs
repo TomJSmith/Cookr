@@ -22,13 +22,18 @@ namespace WpfApplication1
     {
 
         public string RecipeName;
-        private string recipe_name;
-
         public Window TargetWindow;
-        private Window target_window;
-
         public int TimeRequired;
-        private int time_required;
+        
+
+        public ListItem(string name, string time1, Window Twindow)
+        {
+            InitializeComponent();
+            recipeName.Content = name;
+            time.Content = time1;
+            TargetWindow = Twindow;
+
+        }
 
         public ListItem(string name, string time1)
         {
@@ -40,11 +45,14 @@ namespace WpfApplication1
 
         private string RTitle
         {
-            get { return recipe_name; }
+            get
+            {
+                return RecipeName;
+            }
 
             set
             {
-                recipe_name= value;
+                RecipeName = value;
                 recipeName.Content = this.RecipeName; //updating the recipeName in XML with the RecipeName of  Class
             }
 
@@ -54,29 +62,32 @@ namespace WpfApplication1
 
         private int RTime
         {
-            get { return time_required; }
+            get
+            {
+                return TimeRequired;
+            }
 
             set
             {
-                time_required = value;
+                TimeRequired = value;
                 time.Content = RTime;
             }
         }// end of RTime
 
         private Window RWindow
         {
-            get { return target_window; }
+            get
+            {
+                return TargetWindow;
+            }
 
             set
             {
-                target_window = value;
+                TargetWindow = value;
                 
             }
 
-
         }
-
-
 
         public ListItem()
         {
