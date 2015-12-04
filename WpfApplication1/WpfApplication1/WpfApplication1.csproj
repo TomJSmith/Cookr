@@ -99,6 +99,9 @@
     <Compile Include="StirFry.xaml.cs">
       <DependentUpon>StirFry.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Sundae.xaml.cs">
+      <DependentUpon>Sundae.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TopRatedView.xaml.cs">
       <DependentUpon>TopRatedView.xaml</DependentUpon>
     </Compile>
@@ -176,6 +179,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="StirFry.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sundae.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -412,6 +419,42 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Pics\chicken on serving plae.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\honey.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\maraschino cherries.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\pound cake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\whipped cream.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\vanilla ice cream.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="brown sugar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\brown sugar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\butter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\skillet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\melt butter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\ice-cream-dishes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\sundae.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
