@@ -413,6 +413,21 @@
   <ItemGroup>
     <Resource Include="Pics\chicken on serving plae.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\15star.png" />
+    <Resource Include="Images\1star.png" />
+    <Resource Include="Images\25star.png" />
+    <Resource Include="Images\2star.png" />
+    <Resource Include="Images\35star.png" />
+    <Resource Include="Images\3star.png" />
+    <Resource Include="Images\45star.png" />
+    <Resource Include="Images\4star.png" />
+    <Resource Include="Images\5star.png" />
+    <Resource Include="Images\halfstar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\timerIcon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
