@@ -33,30 +33,27 @@ namespace WpfApplication1
         private void defaultView()
         {
             SpaghettiRecipeView spaghetti = new SpaghettiRecipeView();
+            BeefTacosView beefTacos = new BeefTacosView();
+            HawaiianSmoothie hSmoothie = new HawaiianSmoothie();
+            OrangeAvocadoChicken orangeChicken = new OrangeAvocadoChicken();
+            StirFry stirFry = new StirFry();
             Sp1.Children.Clear();
-            
+
 
             ListItem item1ListItem = new ListItem("Spaghetti and \n Meatballs", " 30 Mins", spaghetti);
             Sp1.Children.Add(item1ListItem);
 
-            ListItem item2ListItem = new ListItem();
-            item2ListItem.recipeName.Content = "Good Ol' \n Beef Tacos";
-            item2ListItem.time.Content = "25 mins";
+            ListItem item2ListItem = new ListItem("Good Ol' \n Beef Tacos", "25 mins", beefTacos);
             Sp1.Children.Add(item2ListItem);
 
-            ListItem item3ListItem = new ListItem();
-            item3ListItem.recipeName.Content = "Hawaii Smoothie";
-            item3ListItem.time.Content = "5 Mins";
+            ListItem item3ListItem = new ListItem("Hawaii Smoothie", "5 Mins", hSmoothie);
             Sp1.Children.Add(item3ListItem);
 
-            ListItem item4ListItem = new ListItem();
-            item4ListItem.recipeName.Content = "Orange and Avocado Thai Grilled \n Chicken Thighs";
-            item4ListItem.time.Content = "25 Mins";
+            ListItem item4ListItem = new ListItem("Orange and Avocado Thai Grilled \n Chicken Thighs", "25 Mins",
+                orangeChicken);
             Sp1.Children.Add(item4ListItem);
 
-            ListItem item5ListItem = new ListItem();
-            item5ListItem.recipeName.Content = "Chicken, Broccoli & \n Pineapple Stir-Fry";
-            item5ListItem.time.Content = "30 Mins";
+            ListItem item5ListItem = new ListItem("Chicken, Broccoli & \n Pineapple Stir-Fry", "30 Mins", stirFry);
             Sp1.Children.Add(item5ListItem);
 
         }
@@ -64,26 +61,23 @@ namespace WpfApplication1
         private void AlphabeticalSelected(object sender, RoutedEventArgs e)
         {
             SpaghettiRecipeView spaghetti = new SpaghettiRecipeView();
+            BeefTacosView beefTacos = new BeefTacosView();
+            HawaiianSmoothie hSmoothie = new HawaiianSmoothie();
+            OrangeAvocadoChicken orangeChicken = new OrangeAvocadoChicken();
+            StirFry stirFry = new StirFry();
             Sp1.Children.Clear();
 
-            ListItem item5ListItem = new ListItem();
-            item5ListItem.recipeName.Content = "Chicken, Broccoli & \n Pineapple Stir-Fry";
-            item5ListItem.time.Content = "30 Mins";
+            ListItem item5ListItem = new ListItem("Chicken, Broccoli & \n Pineapple Stir-Fry", "30 Mins", stirFry);
             Sp1.Children.Add(item5ListItem);
 
-            ListItem item2ListItem = new ListItem();
-            item2ListItem.recipeName.Content = "Good Ol' \n Beef Tacos";
-            item2ListItem.time.Content = "25 mins";
+            ListItem item2ListItem = new ListItem("Good Ol' \n Beef Tacos", "25 mins", beefTacos);
             Sp1.Children.Add(item2ListItem);
 
-            ListItem item3ListItem = new ListItem();
-            item3ListItem.recipeName.Content = "Hawaii Smoothie";
-            item3ListItem.time.Content = "5 Mins";
+            ListItem item3ListItem = new ListItem("Hawaii Smoothie", "5 Mins", hSmoothie);
             Sp1.Children.Add(item3ListItem);
 
-            ListItem item4ListItem = new ListItem();
-            item4ListItem.recipeName.Content = "Orange and Avocado Thai Grilled \n Chicken Thighs";
-            item4ListItem.time.Content = "25 Mins";
+            ListItem item4ListItem = new ListItem("Orange and Avocado Thai Grilled \n Chicken Thighs", "25 Mins",
+                orangeChicken);
             Sp1.Children.Add(item4ListItem);
 
             ListItem item1ListItem = new ListItem("Spaghetti and \n Meatballs", " 30 Mins", spaghetti);
@@ -96,29 +90,26 @@ namespace WpfApplication1
         private void TimeSelected(object sender, RoutedEventArgs e)
         {
             SpaghettiRecipeView spaghetti = new SpaghettiRecipeView();
+            BeefTacosView beefTacos = new BeefTacosView();
+            HawaiianSmoothie hSmoothie = new HawaiianSmoothie();
+            OrangeAvocadoChicken orangeChicken = new OrangeAvocadoChicken();
+            StirFry stirFry = new StirFry();
             Sp1.Children.Clear();
 
-            ListItem item3ListItem = new ListItem();
-            item3ListItem.recipeName.Content = "Hawaii Smoothie";
-            item3ListItem.time.Content = "5 Mins";
+            ListItem item3ListItem = new ListItem("Hawaii Smoothie", "5 Mins", hSmoothie);
             Sp1.Children.Add(item3ListItem);
 
-            ListItem item2ListItem = new ListItem();
-            item2ListItem.recipeName.Content = "Good Ol' \n Beef Tacos";
-            item2ListItem.time.Content = "25 mins";
+            ListItem item2ListItem = new ListItem("Good Ol' \n Beef Tacos", "25 mins", beefTacos);
             Sp1.Children.Add(item2ListItem);
 
-            ListItem item4ListItem = new ListItem();
-            item4ListItem.recipeName.Content = "Orange and Avocado Thai Grilled \n Chicken Thighs";
-            item4ListItem.time.Content = "25 Mins";
+            ListItem item4ListItem = new ListItem("Orange and Avocado Thai Grilled \n Chicken Thighs", "25 Mins",
+                orangeChicken);
             Sp1.Children.Add(item4ListItem);
 
             ListItem item1ListItem = new ListItem("Spaghetti and \n Meatballs", " 30 Mins", spaghetti);
             Sp1.Children.Add(item1ListItem);
 
-            ListItem item5ListItem = new ListItem();
-            item5ListItem.recipeName.Content = "Chicken, Broccoli & \n Pineapple Stir-Fry";
-            item5ListItem.time.Content = "30 Mins";
+            ListItem item5ListItem = new ListItem("Chicken, Broccoli & \n Pineapple Stir-Fry", "30 Mins", stirFry);
             Sp1.Children.Add(item5ListItem);
 
         }
@@ -127,31 +118,31 @@ namespace WpfApplication1
         {
 
             SpaghettiRecipeView spaghetti = new SpaghettiRecipeView();
+            BeefTacosView beefTacos = new BeefTacosView();
+            HawaiianSmoothie hSmoothie = new HawaiianSmoothie();
+            OrangeAvocadoChicken orangeChicken = new OrangeAvocadoChicken();
+            StirFry stirFry = new StirFry();
             Sp1.Children.Clear();
+
+
             ListItem item1ListItem = new ListItem("Spaghetti and \n Meatballs", " 30 Mins", spaghetti);
             Sp1.Children.Add(item1ListItem);
 
-            ListItem item2ListItem = new ListItem();
-            item2ListItem.recipeName.Content = "Good Ol' \n Beef Tacos";
-            item2ListItem.time.Content = "25 mins";
+            ListItem item2ListItem = new ListItem("Good Ol' \n Beef Tacos", "25 mins", beefTacos);
             Sp1.Children.Add(item2ListItem);
 
-            ListItem item3ListItem = new ListItem();
-            item3ListItem.recipeName.Content = "Hawaii Smoothie";
-            item3ListItem.time.Content = "5 Mins";
+            ListItem item3ListItem = new ListItem("Hawaii Smoothie", "5 Mins", hSmoothie);
             Sp1.Children.Add(item3ListItem);
 
-            ListItem item4ListItem = new ListItem();
-            item4ListItem.recipeName.Content = "Orange and Avocado Thai Grilled \n Chicken Thighs";
-            item4ListItem.time.Content = "25 Mins";
+            ListItem item4ListItem = new ListItem("Orange and Avocado Thai Grilled \n Chicken Thighs", "25 Mins",
+                orangeChicken);
             Sp1.Children.Add(item4ListItem);
 
-            ListItem item5ListItem = new ListItem();
-            item5ListItem.recipeName.Content = "Chicken, Broccoli & \n Pineapple Stir-Fry";
-            item5ListItem.time.Content = "30 Mins";
+            ListItem item5ListItem = new ListItem("Chicken, Broccoli & \n Pineapple Stir-Fry", "30 Mins", stirFry);
             Sp1.Children.Add(item5ListItem);
+
+
         }
-
-
     }
+
 }
