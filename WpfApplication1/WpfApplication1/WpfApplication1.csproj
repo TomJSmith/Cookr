@@ -90,9 +90,6 @@
     <Compile Include="SearchView.xaml.cs">
       <DependentUpon>SearchView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Spaghetti.xaml.cs">
-      <DependentUpon>Spaghetti.xaml</DependentUpon>
-    </Compile>
     <Compile Include="SpaghettiRecipeView.xaml.cs">
       <DependentUpon>SpaghettiRecipeView.xaml</DependentUpon>
     </Compile>
@@ -164,10 +161,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SearchView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Spaghetti.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

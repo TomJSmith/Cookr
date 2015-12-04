@@ -90,7 +90,7 @@
                 <Image x:Name="image5_Copy2" HorizontalAlignment="Left" Height="26" Margin="402,1832,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
                 <Image x:Name="image5_Copy3" HorizontalAlignment="Left" Height="26" Margin="437,1832,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
                 <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" MouseUp="goBack" Source="Images/backArrow.png" RenderTransformOrigin="1,1.667" Margin="0,3,0,0"/>
-                <Image x:Name="image7" HorizontalAlignment="Left" Height="45" Margin="133,121,0,0" VerticalAlignment="Top" Width="45" Source="Images/addFavouritedButton.png"/>
+                <Image x:Name="favButton" HorizontalAlignment="Left" Height="45" Margin="133,121,0,0" VerticalAlignment="Top" Width="45" Source="Images/addFavouritedButton.png" MouseUp="addFavourite"/>
                 <Image Margin="9,613,551,1401" Source="Pics/pasta spoon.jpg"/>
                 <Image x:Name="image4_Copy6" HorizontalAlignment="Left" Height="60" Margin="9,955,0,0" VerticalAlignment="Top" Width="60" Source="Pics/chicken thigh.jpg"/>
                 <Label x:Name="label4_Copy2" Content="1 lb chicken thighs" HorizontalAlignment="Left" Height="43" Margin="75,955,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>

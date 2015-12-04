@@ -71,7 +71,7 @@
                 <Image x:Name="image5_Copy2" HorizontalAlignment="Left" Height="26" Margin="406,1071,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
                 <Image x:Name="image5_Copy3" HorizontalAlignment="Left" Height="26" Margin="441,1071,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
                 <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png" RenderTransformOrigin="1,1.667" MouseUp="goBack" Margin="0,3,0,0"/>
-                <Image x:Name="image7" HorizontalAlignment="Left" Height="45" Margin="133,174,0,0" VerticalAlignment="Top" Width="45" Source="Images/addFavouritedButton.png"/>
+                <Image x:Name="favButton" HorizontalAlignment="Left" Height="45" Margin="133,174,0,0" VerticalAlignment="Top" Width="45" Source="Images/addFavouritedButton.png" MouseUp="addFavourite"/>
                 <Image Margin="9,613,551,1401" Source="Pics/pasta spoon.jpg"/>
                 <Image Margin="328,613,232,1401" Source="Pics/Large mixing bowl.jpg"/>
                 <Image Margin="10,667,550,1347" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
