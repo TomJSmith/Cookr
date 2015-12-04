@@ -96,6 +96,9 @@
     <Compile Include="StirFry.xaml.cs">
       <DependentUpon>StirFry.xaml</DependentUpon>
     </Compile>
+    <Compile Include="sundaeDessert.xaml.cs">
+      <DependentUpon>sundaeDessert.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TopRatedView.xaml.cs">
       <DependentUpon>TopRatedView.xaml</DependentUpon>
     </Compile>
@@ -169,6 +172,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="StirFry.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="sundaeDessert.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
