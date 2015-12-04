@@ -24,31 +24,31 @@
 
         <Grid Height="191" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="144" Grid.Row="1" Margin="233,0,383,10">
             <Label x:Name="label3" Content="Breakfast" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
-            <Image x:Name="image3" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="ingredients.jpg"/>
+            <Image x:Name="image3" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="Pics/Category-Bereakfast.jpg"/>
             <Button x:Name="button2" HorizontalAlignment="Left" Height="191" VerticalAlignment="Top" Width="144" Background="{x:Null}" BorderBrush="{x:Null}"/>
         </Grid>
         <Grid Height="191" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="144" Grid.Row="1" Margin="382,0,234,10">
             <Label x:Name="label1" Content="Desert" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
-            <Image x:Name="image1" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="ingredients.jpg"/>
+            <Image x:Name="image1" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="Pics/Category-Desert.jpg"/>
             <Button x:Name="button3" HorizontalAlignment="Left" Height="191" VerticalAlignment="Top" Width="144" BorderBrush="{x:Null}" Background="{x:Null}"/>
         </Grid>
         <Grid Height="191" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="144" Grid.Row="1" Margin="0,0,85,10">
             <Label x:Name="label2" Content="Drinks and Smoothies" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="-10,160,-10,0" VerticalAlignment="Top" Width="164" FontSize="16"/>
-            <Image x:Name="image2" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="ingredients.jpg"/>
+            <Image x:Name="image2" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="Pics/Category-Drinks and Smoothies.jpg"/>
             <Button x:Name="button4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="144" Height="191" Background="{x:Null}" BorderBrush="{x:Null}"/>
         </Grid>
         <Grid Height="191" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="144" Grid.Row="1" Margin="84,0,0,10">
             <Label x:Name="label4" Content="Apetizers and Snacks" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="-12,160,-13,0" VerticalAlignment="Top" Width="169" FontSize="16"/>
-            <Image x:Name="image4" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="ingredients.jpg"/>
+            <Image x:Name="image4" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="Pics/Category-Apetizers.jpg"/>
             <Button x:Name="button1"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="144" Height="191" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}"/>
             <Grid Height="191" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="144" Margin="149,0,-149,-196">
                 <Label x:Name="label5" Content="Pasta" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
-                <Image x:Name="image5" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="ingredients.jpg"/>
+                <Image x:Name="image5" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="Pics/Category-Pasta.jpg"/>
                 <Button x:Name="button5" HorizontalAlignment="Left" Height="191" VerticalAlignment="Top" Width="144" Background="{x:Null}" BorderBrush="{x:Null}"/>
             </Grid>
             <Grid Height="191" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="144" Margin="298,0,-298,-196">
                 <Label x:Name="label6" Content="Salads" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
-                <Image x:Name="image6" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="ingredients.jpg"/>
+                <Image x:Name="image6" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="Pics/Category-Salad.jpg"/>
                 <Button x:Name="button6" HorizontalAlignment="Left" Height="191" VerticalAlignment="Top" Width="144" BorderBrush="{x:Null}" Background="{x:Null}"/>
             </Grid>
             <Grid Height="191" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="144" Margin="0,0,-447,-196">
@@ -58,27 +58,34 @@
             </Grid>
             <Grid Height="191" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="144" Margin="0,0,0,-196">
                 <Label x:Name="label8" Content="Lunch" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
-                <Image x:Name="image8" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="ingredients.jpg"/>
+                <Image x:Name="image8" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="Pics/Category-Lunch.jpg"/>
                 <Button x:Name="button8"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="144" Height="191" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}"/>
             </Grid>
             <Grid Height="191" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="144" Margin="149,0,-149,-402">
                 <Label x:Name="label9" Content="Sides" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
-                <Image x:Name="image9" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="ingredients.jpg"/>
+                <Image x:Name="image9" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="Pics/Category-Sides.jpg"/>
                 <Button x:Name="button9" HorizontalAlignment="Left" Height="191" VerticalAlignment="Top" Width="144" Background="{x:Null}" BorderBrush="{x:Null}"/>
             </Grid>
             <Grid Height="191" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="144" Margin="298,0,-298,-402">
                 <Label x:Name="label10" Content="Soups" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
-                <Image x:Name="image10" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="ingredients.jpg"/>
+                <Image x:Name="image10" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="Pics/Category-Soup.jpg"/>
                 <Button x:Name="button10" HorizontalAlignment="Left" Height="191" VerticalAlignment="Top" Width="144" BorderBrush="{x:Null}" Background="{x:Null}"/>
             </Grid>
             <Grid Height="191" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="144" Margin="0,0,-447,-402">
                 <Label x:Name="label11" Content="Vegan" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
-                <Image x:Name="image11" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="ingredients.jpg"/>
+                <Image x:Name="image11" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="Pics/Category-Vegan.jpg"/>
                 <Button x:Name="button11" HorizontalAlignment="Left" VerticalAlignment="Top" Width="144" Height="191" Background="{x:Null}" BorderBrush="{x:Null}"/>
             </Grid>
             <Grid Height="191" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="144" Margin="0,0,0,-402">
                 <Label x:Name="label12" Content="Seafood" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
-                <Image x:Name="image12" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="ingredients.jpg"/>
+                <Image x:Name="image12" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="Pics/Category-Seafood.jpg">
+                    <Image.OpacityMask>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black" Offset="0"/>
+                            <GradientStop Color="White" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Image.OpacityMask>
+                </Image>
                 <Button x:Name="button12"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="144" Height="191" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}"/>
             </Grid>
         </Grid>

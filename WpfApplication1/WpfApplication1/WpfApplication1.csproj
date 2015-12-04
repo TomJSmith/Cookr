@@ -63,11 +63,17 @@
     <Compile Include="FavoritesTab.xaml.cs">
       <DependentUpon>FavoritesTab.xaml</DependentUpon>
     </Compile>
+    <Compile Include="HawaiianSmoothie.xaml.cs">
+      <DependentUpon>HawaiianSmoothie.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ListItem.xaml.cs">
       <DependentUpon>ListItem.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainView.xaml.cs">
       <DependentUpon>MainView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OrangeAvocadoChicken.xaml.cs">
+      <DependentUpon>OrangeAvocadoChicken.xaml</DependentUpon>
     </Compile>
     <Compile Include="RecipeView.xaml.cs">
       <DependentUpon>RecipeView.xaml</DependentUpon>
@@ -87,6 +93,9 @@
     <Compile Include="SpaghettiRecipeView.xaml.cs">
       <DependentUpon>SpaghettiRecipeView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="StirFry.xaml.cs">
+      <DependentUpon>StirFry.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TopRatedView.xaml.cs">
       <DependentUpon>TopRatedView.xaml</DependentUpon>
     </Compile>
@@ -96,6 +105,9 @@
     <Compile Include="UserControl1.xaml.cs">
       <DependentUpon>UserControl1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserControl2.xaml.cs">
+      <DependentUpon>beefTacosView</DependentUpon>
+    </Compile>
     <Compile Include="Window4.xaml.cs">
       <DependentUpon>Window4.xaml</DependentUpon>
     </Compile>
@@ -104,6 +116,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="FavoritesTab.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HawaiianSmoothie.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -127,6 +143,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="OrangeAvocadoChicken.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="RecipeView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -151,6 +171,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="StirFry.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="TopRatedView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -163,6 +187,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <None Include="beefTacosView">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </None>
     <Page Include="Window4.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -329,6 +357,61 @@
     <Resource Include="Images\favouriteButton.png" />
     <Resource Include="Images\filledFavouritedButton.png" />
     <Resource Include="Images\homeButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\whisking.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\meatballs in sauce.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\fry meatballs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\frying ground beef.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\heating oil in pan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\shred lettuce.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\spoon beef on tortilla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\blending a smoothiw.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="strawberry.jpg" />
+    <Resource Include="yogurt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\mango2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\apple juice.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\chicken broth.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\oil in wok.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\chicken in a wok.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\wok ingredients.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\heatgrill.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\orange and avacado chicken.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\chicken on serving plae.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
