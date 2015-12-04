@@ -20,9 +20,29 @@ namespace WpfApplication1
     /// </summary>
     public partial class HawaiianSmoothie : UserControl
     {
+        private bool isFav = false;
         public HawaiianSmoothie()
         {
             InitializeComponent();
+        }
+        private void goBack(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow mainWindow = (MainWindow)Window.GetWindow(this);
+            mainWindow.switchPrevView();
+        }
+
+        private void addFavourite(object sender, MouseButtonEventArgs e)
+        {
+            if (isFav)
+            {
+                isFav = false;
+                favButton.Source = new BitmapImage(new Uri(@"/Images/addFavouritedButton.png", UriKind.Relative));
+            }
+            else
+            {
+                isFav = true;
+                favButton.Source = new BitmapImage(new Uri(@"/Images/filledFavouritedButton.png", UriKind.Relative));
+            }
         }
     }
 }

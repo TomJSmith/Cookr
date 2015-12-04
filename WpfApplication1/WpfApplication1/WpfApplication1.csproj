@@ -90,17 +90,11 @@
     <Compile Include="SearchView.xaml.cs">
       <DependentUpon>SearchView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Spaghetti.xaml.cs">
-      <DependentUpon>Spaghetti.xaml</DependentUpon>
-    </Compile>
     <Compile Include="SpaghettiRecipeView.xaml.cs">
       <DependentUpon>SpaghettiRecipeView.xaml</DependentUpon>
     </Compile>
     <Compile Include="StirFry.xaml.cs">
       <DependentUpon>StirFry.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Sundae.xaml.cs">
-      <DependentUpon>Sundae.xaml</DependentUpon>
     </Compile>
     <Compile Include="TopRatedView.xaml.cs">
       <DependentUpon>TopRatedView.xaml</DependentUpon>
@@ -170,19 +164,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Spaghetti.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="SpaghettiRecipeView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="StirFry.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Sundae.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -421,40 +407,19 @@
     <Resource Include="Pics\chicken on serving plae.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Pics\honey.jpg" />
+    <Resource Include="Images\15star.png" />
+    <Resource Include="Images\1star.png" />
+    <Resource Include="Images\25star.png" />
+    <Resource Include="Images\2star.png" />
+    <Resource Include="Images\35star.png" />
+    <Resource Include="Images\3star.png" />
+    <Resource Include="Images\45star.png" />
+    <Resource Include="Images\4star.png" />
+    <Resource Include="Images\5star.png" />
+    <Resource Include="Images\halfstar.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Pics\maraschino cherries.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Pics\pound cake.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Pics\whipped cream.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Pics\vanilla ice cream.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="brown sugar.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Pics\brown sugar.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Pics\butter.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Pics\skillet.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Pics\melt butter.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Pics\ice-cream-dishes.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Pics\sundae.jpg" />
+    <Resource Include="Images\timerIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -20,6 +20,7 @@ namespace WpfApplication1
     /// </summary>
     public partial class RecipeView : UserControl
     {
+        private bool isFav = false;
         public RecipeView()
         {
             InitializeComponent();
@@ -27,7 +28,16 @@ namespace WpfApplication1
 
         private void addFavourite(object sender, MouseButtonEventArgs e)
         {
-            favButton.Source = new BitmapImage(new Uri(@"/Images/filledFavouritedButton.png", UriKind.Relative));
+            if (isFav)
+            {
+                isFav = false;
+                favButton.Source = new BitmapImage(new Uri(@"/Images/addFavouritedButton.png", UriKind.Relative));
+            }
+            else
+            {
+                isFav = true;
+                favButton.Source = new BitmapImage(new Uri(@"/Images/filledFavouritedButton.png", UriKind.Relative));
+            }
         }
 
         private void goBack(object sender, MouseButtonEventArgs e)
