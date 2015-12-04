@@ -39,7 +39,7 @@
                     <ComboBoxItem HorizontalContentAlignment="Center">3</ComboBoxItem>
                     <ComboBoxItem HorizontalContentAlignment="Center">4</ComboBoxItem>
                 </ComboBox>
-                <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="310" Margin="10,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="18.667"><Run FontSize="18.667" FontFamily="Segoe UI" Text="No pasta is more iconic than spaghetti and meatballs, and now, it's a breeze to make -- the meatballs simmer right in the sauce"/><Run FontSize="18.667" FontFamily="Segoe UI" Text="!"/><LineBreak/><Run Text=""/></TextBlock>
+                <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="310" Margin="10,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="18.667"><Run FontSize="18.667" FontFamily="Segoe UI" Text="A fresh, fruity, and fun dessert!"/><LineBreak/><Run Text=""/></TextBlock>
                 <Label x:Name="label2" Content="Nutrition Information" HorizontalAlignment="Left" Margin="335,210,0,0" VerticalAlignment="Top" Width="285" FontSize="21.333"/>
                 <Label x:Name="label2_Copy" Content="Calories 786" HorizontalAlignment="Left" Margin="335,248,0,0" VerticalAlignment="Top" Width="207" FontSize="18.667" FontWeight="Bold"/>
                 <Label x:Name="label2_Copy1" Content="Total Fat 38 g" HorizontalAlignment="Left" Margin="335,283,0,0" VerticalAlignment="Top" Width="207" FontSize="18.667" FontWeight="Bold"/>
