@@ -42,7 +42,6 @@
 
         <ComboBox x:Name="ratingBox" IsEditable="True" IsReadOnly="True" Grid.Column="1" HorizontalAlignment="Left" Margin="45,126,0,0" Grid.Row="1" VerticalAlignment="Top" Width="101" SelectedIndex="2" FontSize="18.667">
             <ComboBoxItem x:Name="Alphabetical"  HorizontalContentAlignment="Center" Selected="AlphabeticalSelected">Alphabetical</ComboBoxItem>
-            <ComboBoxItem HorizontalContentAlignment="Center">Difficulty</ComboBoxItem>
             <ComboBoxItem Name="Rating"  HorizontalContentAlignment="Center" IsSelected="True" Selected="RatingSelected">Rating</ComboBoxItem>
             <ComboBoxItem Name="Time" HorizontalContentAlignment="Center" Selected="TimeSelected">Time</ComboBoxItem>
         </ComboBox>
