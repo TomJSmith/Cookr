@@ -21,30 +21,24 @@ namespace WpfApplication1
     public partial class ListItem : UserControl
     {
 
-        public string RecipeName;
-        // dont use this anymore
-        public Window TargetWindow;
-        // use this userControl to store where the button links to
         public UserControl targetUserControl;
-        public int TimeRequired;
+        
+
+        public ListItem()
+        {
+            InitializeComponent();
+        }
         
         public ListItem(string aName, string aTime, UserControl aUserControl)
         {
             InitializeComponent();
             recipeName.Content = aName;
+          
             time.Content = aTime;
             targetUserControl = aUserControl;
         }
 
-        public ListItem(string name, string time1, Window Twindow)
-        {
-            InitializeComponent();
-            recipeName.Content = name;
-            time.Content = time1;
-            TargetWindow = Twindow;
-
-        }
-
+      
         public ListItem(string name, string time1)
         {
             InitializeComponent();
@@ -52,71 +46,18 @@ namespace WpfApplication1
             time.Content = time1;
         }
 
-        private string RTitle
-        {
-            get
-            {
-                return RecipeName;
-            }
-
-            set
-            {
-                RecipeName = value;
-                recipeName.Content = this.RecipeName; //updating the recipeName in XML with the RecipeName of  Class
-            }
-
-
-        } // end of RTitle
-
-
-        private int RTime
-        {
-            get
-            {
-                return TimeRequired;
-            }
-
-            set
-            {
-                TimeRequired = value;
-                time.Content = RTime;
-            }
-        }// end of RTime
-
-        private Window RWindow
-        {
-            get
-            {
-                return TargetWindow;
-            }
-
-            set
-            {
-                TargetWindow = value;
-                
-            }
-
-        }
-
-        public ListItem()
-        {
-            InitializeComponent();
-        }
 
         private void listItemButtonClick(object sender, RoutedEventArgs e)
         {
-            //we are using user controls now, no more closing and showing windows
-            //Window.GetWindow(this).Close();
-            //TargetWindow.Show();
-        }
 
-        // event handler for clicking on a list item
-        private void ListItemClick(object sender, MouseButtonEventArgs e)
-        {
             MainWindow main = (MainWindow)Window.GetWindow(this);
             if (targetUserControl == null)
                 targetUserControl = new RecipeView();
-            main.switchToView(targetUserControl);
+            main.switchToView(this.targetUserControl);
+
         }
+
+        
+
     }
 }
