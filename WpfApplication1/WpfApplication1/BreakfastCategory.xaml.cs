@@ -20,10 +20,12 @@ namespace WpfApplication1
     /// </summary>
     public partial class BreakfastCategory : UserControl
     {
-        public BreakfastCategory()
+        private MainWindow myMain;
+        public BreakfastCategory(MainWindow aMain)
         {
             InitializeComponent();
-           // defaultView();
+            myMain = aMain;
+            defaultView();
 
         }
 
@@ -35,7 +37,7 @@ namespace WpfApplication1
 
 
             Sp1.Children.Clear();
-            ListItem item1ListItem = new ListItem("Spaghetti & \n Meatballs", " 30 Mins", spaghetti);
+            ListItem item1ListItem = new ListItem("Spaghetti & \n Meatballs", " 30 Mins", myMain.spaghetti);
             Sp1.Children.Add(item1ListItem);
 
             ListItem item2ListItem = new ListItem("Good Ol' \n Beef Tacos", "25 mins", recipeView);

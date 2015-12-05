@@ -43,5 +43,10 @@ namespace WpfApplication1
          
             myMain.switchBreakFastView();
         }
+
+        private void BreakfastClick(object sender, MouseButtonEventArgs e)
+        {
+            myMain.switchBreakFastView();
+        }
     }
 }

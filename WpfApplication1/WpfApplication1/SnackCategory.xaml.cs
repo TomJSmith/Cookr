@@ -20,8 +20,10 @@ namespace WpfApplication1
     /// </summary>
     public partial class SnackCategory : UserControl
     {
-        public SnackCategory()
+        private MainWindow myMain;
+        public SnackCategory(MainWindow aMain)
         {
+            myMain = aMain;
             InitializeComponent();
         }
     }

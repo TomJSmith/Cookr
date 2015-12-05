@@ -20,12 +20,18 @@ namespace WpfApplication1
     /// </summary>
     public partial class MainWindow : Window
     {
+        // tabs for main page
         public FavoritesTab favTab;
         public UserControl1 disTab;
         public CatagoriesTab catTab;
+
         public SearchView search;
         public MainView mainView;
+
+        // search result pages
         public TopRatedView topRated;
+
+        // catagories
         public BreakfastCategory breakFast;
         public LunchCategory lunch;
         public DinnerCategory dinner;
@@ -33,18 +39,47 @@ namespace WpfApplication1
         public SnackCategory snack;
         public DrinkCategory drink;
 
+        // recipes
+        public BeefTacosView beefTacos;
+        public HawaiianSmoothie hawiianSmoothie;
+        public OrangeAvocadoChicken orangeAvoChicken;
+        public SpaghettiRecipeView spaghetti;
+        public StirFry stirFry;
+        public sundaeDessert aSundae;
+
 
         UserControl prevView;
 
 
         public MainWindow()
         {
+            // recipes
+            beefTacos = new BeefTacosView();
+            hawiianSmoothie = new HawaiianSmoothie();
+            orangeAvoChicken = new OrangeAvocadoChicken();
+            spaghetti = new SpaghettiRecipeView();
+            stirFry = new StirFry();
+            aSundae = new sundaeDessert();
+
+            // tabs
             favTab = new FavoritesTab(this);
             disTab = new UserControl1(this);
             catTab = new CatagoriesTab(this);
+
             search = new SearchView();
             mainView = new MainView();
-            topRated = new TopRatedView();
+
+            // search result
+            topRated = new TopRatedView(this);
+
+            // catagories
+            breakFast = new BreakfastCategory(this);
+            lunch = new LunchCategory(this);
+            dinner = new DinnerCategory(this);
+            desert = new DesertCategory(this);
+            snack = new SnackCategory(this);
+            drink = new DrinkCategory(this);
+
             InitializeComponent();
             contentView.Children.Clear();
             contentView.Children.Add(mainView);

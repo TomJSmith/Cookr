@@ -20,8 +20,10 @@ namespace WpfApplication1
     /// </summary>
     public partial class DesertCategory : UserControl
     {
-        public DesertCategory()
+        private MainWindow myMain;
+        public DesertCategory(MainWindow aMain)
         {
+            myMain = aMain;
             InitializeComponent();
         }
     }
