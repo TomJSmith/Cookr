@@ -26,6 +26,14 @@ namespace WpfApplication1
         public SearchView search;
         public MainView mainView;
         public TopRatedView topRated;
+        public BreakfastCategory breakFast;
+        public LunchCategory lunch;
+        public DinnerCategory dinner;
+        public DesertCategory desert;
+        public SnackCategory snack;
+        public DrinkCategory drink;
+
+
         UserControl prevView;
 
 
@@ -96,6 +104,47 @@ namespace WpfApplication1
             contentView.Children.Clear();
             contentView.Children.Add(prevView);
             prevView = tempPrev;
+        }
+
+        public void switchBreakFastView()
+        {
+            prevView = (UserControl)contentView.Children[0];
+            contentView.Children.Clear();
+            contentView.Children.Add(breakFast);
+        }
+
+        public void switchLunchView()
+        {
+            prevView = (UserControl)contentView.Children[0];
+            contentView.Children.Clear();
+            contentView.Children.Add(lunch);
+        }
+        public void switchDinnerView()
+        {
+            prevView = (UserControl)contentView.Children[0];
+            contentView.Children.Clear();
+            contentView.Children.Add(dinner);
+        }
+
+        public void switchDesertView()
+        {
+            prevView = (UserControl)contentView.Children[0];
+            contentView.Children.Clear();
+            contentView.Children.Add(desert);
+        }
+
+        public void switchSnackView()
+        {
+            prevView = (UserControl)contentView.Children[0];
+            contentView.Children.Clear();
+            contentView.Children.Add(snack);
+        }
+
+        public void switchDrinkView()
+        {
+            prevView = (UserControl)contentView.Children[0];
+            contentView.Children.Clear();
+            contentView.Children.Add(drink);  
         }
     }
 }

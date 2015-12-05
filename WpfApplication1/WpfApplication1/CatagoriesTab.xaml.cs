@@ -37,5 +37,11 @@ namespace WpfApplication1
         {
             myMain.switchToFavs();
         }
+
+        private void clickBreakFast(object sender, RoutedEventArgs e)
+        {
+         
+            myMain.switchBreakFastView();
+        }
     }
 }

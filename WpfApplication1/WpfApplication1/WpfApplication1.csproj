@@ -60,8 +60,20 @@
     <Compile Include="BeefTacosView.xaml.cs">
       <DependentUpon>BeefTacosView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BreakfastCategory.xaml.cs">
+      <DependentUpon>BreakfastCategory.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CatagoriesTab.xaml.cs">
       <DependentUpon>CatagoriesTab.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DesertCategory.xaml.cs">
+      <DependentUpon>DesertCategory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DinnerCategory.xaml.cs">
+      <DependentUpon>DinnerCategory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DrinkCategory.xaml.cs">
+      <DependentUpon>DrinkCategory.xaml</DependentUpon>
     </Compile>
     <Compile Include="FavoritesTab.xaml.cs">
       <DependentUpon>FavoritesTab.xaml</DependentUpon>
@@ -71,6 +83,9 @@
     </Compile>
     <Compile Include="ListItem.xaml.cs">
       <DependentUpon>ListItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LunchCategory.xaml.cs">
+      <DependentUpon>LunchCategory.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainView.xaml.cs">
       <DependentUpon>MainView.xaml</DependentUpon>
@@ -89,6 +104,9 @@
     </Compile>
     <Compile Include="SearchView.xaml.cs">
       <DependentUpon>SearchView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SnackCategory.xaml.cs">
+      <DependentUpon>SnackCategory.xaml</DependentUpon>
     </Compile>
     <Compile Include="SpaghettiRecipeView.xaml.cs">
       <DependentUpon>SpaghettiRecipeView.xaml</DependentUpon>
@@ -115,7 +133,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="BreakfastCategory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="CatagoriesTab.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DesertCategory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DinnerCategory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DrinkCategory.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -128,6 +162,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ListItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LunchCategory.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -164,6 +202,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SearchView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SnackCategory.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
