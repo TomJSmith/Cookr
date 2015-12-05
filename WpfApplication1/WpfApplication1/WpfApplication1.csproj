@@ -63,6 +63,9 @@
     <Compile Include="BreakfastCategory.xaml.cs">
       <DependentUpon>BreakfastCategory.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BreakfastPage.xaml.cs">
+      <DependentUpon>BreakfastPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CatagoriesTab.xaml.cs">
       <DependentUpon>CatagoriesTab.xaml</DependentUpon>
     </Compile>
@@ -128,6 +131,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="BreakfastCategory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BreakfastPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

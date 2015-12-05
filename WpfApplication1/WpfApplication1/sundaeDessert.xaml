@@ -20,7 +20,7 @@
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
             <local:SearchBarHeader Margin="0,-56,0,56"/>
         </Grid>
-        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-1112">
+        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-2528">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="1946" Grid.Row="1" VerticalAlignment="Top" Width="620">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="83*"/>
@@ -69,6 +69,7 @@
                 <Label x:Name="label4_Copy10" Content="1 pint vanilla ice cream" HorizontalAlignment="Left" Height="43" Margin="389,42.5,-1,0" VerticalAlignment="Top" Width="232" FontSize="18.667" Grid.Row="1"/>
                 <Rectangle Fill="#FFE8685D" Margin="1,318.5,-1,0" Stroke="#FFE8685D" Height="116" VerticalAlignment="Top" Grid.Row="1"/>
                 <Image x:Name="image12" HorizontalAlignment="Left" Height="60" Margin="1,354.5,0,0" VerticalAlignment="Top" Width="60" Source="Pics/melt butter.jpg" Grid.Row="1"/>
+                <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="453" Margin="0,731,0,0" VerticalAlignment="Top" Width="620" Grid.RowSpan="2"/>
                 <Label x:Name="label23_Copy" Content="Instructions" HorizontalAlignment="Left" Height="48" Margin="0,270.5,0,0" VerticalAlignment="Top" Width="197" FontSize="24" Grid.Row="1"/>
                 <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="111" Margin="75,323.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16" Grid.Row="1" Text="In a small heavy skillet, melt butter over medium heat. Stir in brown sugar, honey and cinnamon. Bring to boiling; reduce heat. Simmer, uncovered, for 2 minutes. "/>
                 <Label x:Name="label5" Content="Step 1" HorizontalAlignment="Left" Height="36" Margin="1,318.5,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667" Grid.Row="1"/>
@@ -80,12 +81,14 @@
                 <Image x:Name="image12_Copy1" HorizontalAlignment="Left" Height="60" Margin="1,592,0,0" VerticalAlignment="Top" Width="60" Source="Pics/ice-cream-dishes.jpg" Grid.Row="1"/>
                 <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Height="111" Margin="75,556,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16" Grid.Row="1"><Run FontFamily="Segoe UI" Text="Scoop ice cream into four dishes. Top with crumbled cake, warm pineapple mixture, whipped cream and a cherry. Serve immediately."/></TextBlock>
                 <Label x:Name="label5_Copy1" Content="Step 3" HorizontalAlignment="Left" Height="36" Margin="1,551,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667" Grid.Row="1"/>
-                <Label x:Name="label6" Content="Rate this recipe:" HorizontalAlignment="Left" Margin="122,691,0,0" VerticalAlignment="Top" Height="47" Width="163" FontSize="21.333" Grid.Row="1"/>
-                <Image x:Name="image5" HorizontalAlignment="Left" Height="26" Margin="290,693,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615" Grid.Row="1"/>
-                <Image x:Name="image5_Copy" HorizontalAlignment="Left" Height="26" Margin="320,693,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615" Grid.Row="1"/>
-                <Image x:Name="image5_Copy1" HorizontalAlignment="Left" Height="26" Margin="355,693,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615" Grid.Row="1"/>
-                <Image x:Name="image5_Copy2" HorizontalAlignment="Left" Height="26" Margin="393,693,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615" Grid.Row="1"/>
-                <Image x:Name="image5_Copy3" HorizontalAlignment="Left" Height="26" Margin="423,693,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615" Grid.Row="1"/>
+                <Grid HorizontalAlignment="Left" Height="52" Margin="122,667,0,0" VerticalAlignment="Top" Width="345" Grid.Row="1">
+                    <Label x:Name="label6" Content="Rate this recipe:" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Height="47" Width="163" FontSize="21.333"/>
+                    <Image x:Name="image5" HorizontalAlignment="Left" Height="26" Margin="178,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                    <Image x:Name="image5_Copy" HorizontalAlignment="Left" Height="26" Margin="213,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                    <Image x:Name="image5_Copy1" HorizontalAlignment="Left" Height="26" Margin="248,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                    <Image x:Name="image5_Copy2" HorizontalAlignment="Left" Height="26" Margin="278,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                    <Image x:Name="image5_Copy3" HorizontalAlignment="Left" Height="26" Margin="315,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                </Grid>
                 <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png" RenderTransformOrigin="1,1.667" Margin="0,3,0,0" MouseUp="goBack"/>
                 <Image x:Name="favButton" HorizontalAlignment="Left" Height="45" Margin="133,174,0,0" VerticalAlignment="Top" Width="45" Source="Images/addFavouritedButton.png" MouseUp="addFavourite"/>
                 <Image Margin="9,613,551,299.5" Source="Pics/pasta spoon.jpg"/>
@@ -101,7 +104,7 @@
                 <Image Margin="10,667,550,245.5" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
                 <Label x:Name="label4_Copy15" Content="Slotted Spoon" HorizontalAlignment="Left" Height="43" Margin="383,582,0,0" VerticalAlignment="Top" Width="151" FontSize="18.667"/>
                 <Image x:Name="image4_Copy12" HorizontalAlignment="Left" Height="60" Margin="323,582,0,0" VerticalAlignment="Top" Width="60" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
-                <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="453" Margin="0,731,0,0" VerticalAlignment="Top" Width="620" Grid.RowSpan="2"/>
+                <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="396" Margin="0,271,0,0" VerticalAlignment="Top" Width="620" Grid.Row="1"/>
 
 
             </Grid>

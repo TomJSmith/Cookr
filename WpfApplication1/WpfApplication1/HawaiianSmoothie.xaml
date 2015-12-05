@@ -20,7 +20,7 @@
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
             <local:SearchBarHeader Margin="0,-56,0,56"/>
         </Grid>
-        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-358">
+        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-206">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="1946" Grid.Row="1" VerticalAlignment="Top" Width="620">
                 <Image x:Name="image" HorizontalAlignment="Left" Height="168" Margin="10,50,0,0" VerticalAlignment="Top" Width="168" Source="Pics/Hawaiian-Smoothie.jpg"/>
                 <Label x:Name="label" Content="Hawaii Smoothie" Margin="178,50,158,1673" FontSize="24" />
@@ -54,24 +54,27 @@
                 <Image x:Name="image4_Copy" HorizontalAlignment="Left" Height="60" Margin="323,560,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Chefs-Knife.jpg"/>
                 <Label x:Name="label4_Copy" Content="Chef's Knife" HorizontalAlignment="Left" Height="43" Margin="393,560,0,0" VerticalAlignment="Top" Width="122" FontSize="18.667"/>
                 <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="180" Margin="1,694,0,0" VerticalAlignment="Top" Width="619"/>
-                <Label x:Name="label3_Copy" Content="Ingredients" HorizontalAlignment="Left" Height="48" Margin="0,680,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
+                <Label x:Name="label3_Copy" Content="Ingredients" HorizontalAlignment="Left" Height="48" Margin="0,685,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
                 <Image x:Name="image4_Copy1" HorizontalAlignment="Left" Height="60" Margin="9,804,0,0" VerticalAlignment="Top" Width="60" Source="strawberry.jpg"/>
                 <Label x:Name="label4_Copy1" Content="1 and 1/4 cup apple Juice" HorizontalAlignment="Left" Height="43" Margin="75,728,0,0" VerticalAlignment="Top" Width="219" FontSize="18.667"/>
                 <Label x:Name="label4_Copy6" Content="Substitutes:" HorizontalAlignment="Left" Height="28" Margin="75,750,0,0" VerticalAlignment="Top" Width="210" FontSize="14.667"/>
                 <Label x:Name="label4_Copy7" Content="1 and 1/4 cup orange juice" HorizontalAlignment="Left" Height="30" Margin="75,774,0,0" VerticalAlignment="Top" Width="210" FontSize="14.667"/>
                 <Image x:Name="image4_Copy3" HorizontalAlignment="Left" Height="60" Margin="323,804,0,0" VerticalAlignment="Top" Width="60" Source="Pics/mango2.jpg"/>
                 <Label x:Name="label4_Copy8" Content="2 cups fresh &#xD;&#xA;or frozen mango chunks" HorizontalAlignment="Left" Height="65" Margin="389,804,-1,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
-                <Rectangle Fill="#FFE8685D" Margin="9,922,-9,0" Stroke="#FFE8685D" Height="116" VerticalAlignment="Top"/>
+                <Rectangle Fill="#FFE8685D" Margin="1,922,-1,0" Stroke="#FFE8685D" Height="116" VerticalAlignment="Top"/>
                 <Image x:Name="image12" HorizontalAlignment="Left" Height="60" Margin="10,958,0,0" VerticalAlignment="Top" Width="60" Source="Pics/blending a smoothiw.jpg"/>
-                <Label x:Name="label23_Copy" Content="Instructions" HorizontalAlignment="Left" Height="48" Margin="10,874,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
+                <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="165" Margin="1,873,0,0" VerticalAlignment="Top" Width="619"/>
+                <Label x:Name="label23_Copy" Content="Instructions" HorizontalAlignment="Left" Height="48" Margin="1,874,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
                 <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="111" Margin="75,927,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run FontFamily="Segoe UI" Text="In a blender, combine all ingredients and puree until smooth."/><LineBreak/><Run FontFamily="Segoe UI" Text=""/></TextBlock>
                 <Label x:Name="label5" Content="Step 1" HorizontalAlignment="Left" Height="36" Margin="10,922,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
-                <Label x:Name="label6" Content="Rate this recipe:" HorizontalAlignment="Left" Margin="133,1071,0,0" VerticalAlignment="Top" Height="47" Width="163" FontSize="21.333"/>
-                <Image x:Name="image5" HorizontalAlignment="Left" Height="26" Margin="301,1071,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
-                <Image x:Name="image5_Copy" HorizontalAlignment="Left" Height="26" Margin="336,1071,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
-                <Image x:Name="image5_Copy1" HorizontalAlignment="Left" Height="26" Margin="371,1071,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
-                <Image x:Name="image5_Copy2" HorizontalAlignment="Left" Height="26" Margin="406,1071,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
-                <Image x:Name="image5_Copy3" HorizontalAlignment="Left" Height="26" Margin="441,1071,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                <Grid HorizontalAlignment="Left" Height="52" Margin="133,1043,0,0" VerticalAlignment="Top" Width="345">
+                    <Label x:Name="label6" Content="Rate this recipe:" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Height="47" Width="163" FontSize="21.333"/>
+                    <Image x:Name="image5" HorizontalAlignment="Left" Height="26" Margin="178,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                    <Image x:Name="image5_Copy" HorizontalAlignment="Left" Height="26" Margin="213,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                    <Image x:Name="image5_Copy1" HorizontalAlignment="Left" Height="26" Margin="248,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                    <Image x:Name="image5_Copy2" HorizontalAlignment="Left" Height="26" Margin="278,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                    <Image x:Name="image5_Copy3" HorizontalAlignment="Left" Height="26" Margin="315,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                </Grid>
                 <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png" RenderTransformOrigin="1,1.667" MouseUp="goBack" Margin="0,3,0,0"/>
                 <Image x:Name="favButton" HorizontalAlignment="Left" Height="45" Margin="133,174,0,0" VerticalAlignment="Top" Width="45" Source="Images/addFavouritedButton.png" MouseUp="addFavourite"/>
                 <Image Margin="9,613,551,1401" Source="Pics/pasta spoon.jpg"/>
