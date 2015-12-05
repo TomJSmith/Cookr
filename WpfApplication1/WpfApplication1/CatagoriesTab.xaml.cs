@@ -48,5 +48,30 @@ namespace WpfApplication1
         {
             myMain.switchBreakFastView();
         }
+
+        private void LunchClick(object sender, MouseButtonEventArgs e)
+        {
+            myMain.switchLunchView();
+        }
+
+        private void DinnerClick(object sender, MouseButtonEventArgs e)
+        {
+            myMain.switchDinnerView();
+        }
+
+        private void SnacksClick(object sender, MouseButtonEventArgs e)
+        {
+            myMain.switchSnackView();
+        }
+
+        private void DrinksClick(object sender, MouseButtonEventArgs e)
+        {
+            myMain.switchDrinkView();
+        }
+
+        private void DesertClick(object sender, MouseButtonEventArgs e)
+        {
+            myMain.switchDesertView();
+        }
     }
 }
