@@ -23,9 +23,8 @@
         <Rectangle Fill="#FF4D8963" HorizontalAlignment="Left" Height="10" Grid.Row="1" VerticalAlignment="Top" Width="760"/>
 
         <Grid Name="G2" Height="191" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="144" Grid.Row="1" Margin="233,0,383,10">
-            <Label x:Name="label3" Content="Breakfast" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>
-            <Image x:Name="image3" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="Pics/Category-Bereakfast.jpg"/>
-            <Button x:Name="button2" HorizontalAlignment="Left" Height="191" VerticalAlignment="Top" Width="144" Background="{x:Null}" Click="clickBreakFast" BorderBrush="{x:Null}"/>
+            <Label x:Name="label3" Content="Breakfast" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16" MouseUp="BreakfastClick"/>
+            <Image x:Name="image3" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="Pics/Category-Bereakfast.jpg" MouseUp="BreakfastClick"/>
         </Grid>
         <Grid Name="G3" Height="191" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="144" Grid.Row="1" Margin="382,0,234,10">
             <Label x:Name="label1" Content="Desert" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16"/>

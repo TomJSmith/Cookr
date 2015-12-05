@@ -15,10 +15,10 @@
             <RowDefinition Height="100"/>
             <RowDefinition Height="369"/>
         </Grid.RowDefinitions>
-        <Grid Grid.Column="1" Margin="10,35,46,24" Grid.Row="1">
+        <Grid Grid.Column="1" Margin="10,36,46,23" Grid.Row="1">
             <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,136,-342,-541" Height="716" VerticalAlignment="Top">
                 <StackPanel Name="Sp1" HorizontalAlignment="Center"  Width="480" Height="Auto">
-                   <!-- <local:ListItem Margin="0, 10, 0, 0"/>
+                    <!-- <local:ListItem Margin="0, 10, 0, 0"/>
                     <local:ListItem Margin="0, 10, 0, 0"/>
                     <local:ListItem Margin="0, 10, 0, 0"/>
                     <local:ListItem Margin="0, 10, 0, 0"/>
@@ -34,18 +34,18 @@
 
             </ScrollViewer>
         </Grid>
-        <ComboBox x:Name="comboBox" IsEditable="True" IsReadOnly="True" Grid.Column="1" HorizontalAlignment="Left" Margin="45,126,0,0" Grid.Row="1" VerticalAlignment="Top" Width="101" SelectedIndex="2" FontSize="18.667">
+        <ComboBox x:Name="comboBox" IsEditable="True" IsReadOnly="True" Grid.Column="1" HorizontalAlignment="Left" Margin="101,144,0,0" Grid.Row="1" VerticalAlignment="Top" Width="140" SelectedIndex="2" FontSize="18.667" BorderBrush="#FFE8685D">
             <ComboBoxItem HorizontalContentAlignment="Center">Alphabetical</ComboBoxItem>
-            <ComboBoxItem HorizontalContentAlignment="Center">Difficulty</ComboBoxItem>
             <ComboBoxItem HorizontalContentAlignment="Center" IsSelected="True">Rating</ComboBoxItem>
             <ComboBoxItem HorizontalContentAlignment="Center">Time</ComboBoxItem>
         </ComboBox>
-        <ComboBox IsEditable="True" IsReadOnly="True" Text="Time" x:Name="comboBox_Copy" Grid.Column="1" HorizontalAlignment="Left" Margin="162,126,0,0" Grid.Row="1" VerticalAlignment="Top" Width="103" Height="31" FontSize="18.667">
-            <ComboBoxItem HorizontalContentAlignment="Center" Content="0 - 15"/>
-            <ComboBoxItem HorizontalContentAlignment="Center" Content="15 - 30"/>
-            <ComboBoxItem HorizontalContentAlignment="Center" Content="30 - 45"/>
-            <ComboBoxItem HorizontalContentAlignment="Center" Content="45+"/>
+        <ComboBox IsEditable="True" IsReadOnly="True" Text="Time" x:Name="comboBox_Copy" Grid.Column="1" Margin="246,144,0,0" Grid.Row="1" VerticalAlignment="Top" Height="31" FontSize="18.667" HorizontalAlignment="Left" Width="104">
+            <ComboBoxItem HorizontalContentAlignment="Center" Content="0 - 10"/>
+            <ComboBoxItem HorizontalContentAlignment="Center" Content="10 - 20"/>
+            <ComboBoxItem HorizontalContentAlignment="Center" Content="20 - 30"/>
+            <ComboBoxItem HorizontalContentAlignment="Center" Content="30 - 40"/>
         </ComboBox>
         <local:SearchBarHeader Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="222" Width="622" Margin="33,0,-278,0" Grid.RowSpan="2"/>
+        <Label x:Name="label" Content="Sorting:" Grid.Column="1" HorizontalAlignment="Left" Margin="97,110,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="21.333"/>
     </Grid>
 </UserControl>
