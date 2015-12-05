@@ -20,14 +20,14 @@
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
             <local:SearchBarHeader Margin="0,-56,0,56"/>
         </Grid>
-        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-1206">
+        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-1109">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="1946" Grid.Row="1" VerticalAlignment="Top" Width="620">
                 <Image x:Name="image" HorizontalAlignment="Left" Height="116" Margin="10,50,0,0" VerticalAlignment="Top" Width="168" Source="Pics/orange and avacado chicken.jpg"/>
-                <Label x:Name="label" Content="Orange and Avocado &#xD;&#xA; Chicken Thighs" Margin="258,45,78,1678" FontSize="24" />
+                <Label x:Name="label" Content="Orange and Avocado &#xD;&#xA; Chicken Thighs" Margin="178,50,158,1673" FontSize="24" />
                 <Image x:Name="image1" HorizontalAlignment="Left" Height="100" Margin="273,78,0,0" VerticalAlignment="Top" Width="100"/>
-                <Image x:Name="image2" HorizontalAlignment="Left" Height="63" Margin="258,115,0,0" VerticalAlignment="Top" Width="152" Source="Images/5stars1.png"/>
+                <Image x:Name="image2" HorizontalAlignment="Left" Height="63" Margin="178,119,0,0" VerticalAlignment="Top" Width="152" Source="Images/4star.png"/>
                 <Label x:Name="label1" Content="Serves:" HorizontalAlignment="Left" Height="36" Margin="467,99,0,0" VerticalAlignment="Top" Width="75" FontSize="21.333"/>
-                <Image x:Name="image3" HorizontalAlignment="Left" Height="47" Margin="467,140,0,0" VerticalAlignment="Top" Width="48" Source="Images/timer.png" RenderTransformOrigin="-0.083,0.489"/>
+                <Image x:Name="image3" HorizontalAlignment="Left" Height="47" Margin="467,140,0,0" VerticalAlignment="Top" Width="48" Source="Images/timerIcon.png" RenderTransformOrigin="-0.083,0.489"/>
                 <Label x:Name="label1_Copy" Content="25 min" HorizontalAlignment="Left" Height="36" Margin="529,146,0,0" VerticalAlignment="Top" Width="81" FontSize="21.333"/>
                 <ComboBox x:Name="comboBox" IsEditable="True" IsReadOnly="True" HorizontalAlignment="Left" Margin="547,101,0,0" VerticalAlignment="Top" Width="63" Height="36" SelectedIndex="1" FontSize="21.333">
                     <ComboBoxItem HorizontalContentAlignment="Center">1</ComboBoxItem>
@@ -47,22 +47,24 @@
                 <Label x:Name="label2_Copy7" Content="Vitamin C 70 %" HorizontalAlignment="Left" Margin="467,458,0,0" VerticalAlignment="Top" Width="130" FontSize="14.667"/>
                 <Label x:Name="label2_Copy8" Content="Calcium 6%" HorizontalAlignment="Left" Margin="335,493,0,0" VerticalAlignment="Top" Width="119" FontSize="16"/>
                 <Label x:Name="label2_Copy9" Content="Iron 15 %" HorizontalAlignment="Left" Margin="467,493,0,0" VerticalAlignment="Top" Width="119" FontSize="16"/>
-                <Label x:Name="label3" Content="Utensils" HorizontalAlignment="Left" Height="48" Margin="9,507,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
-                <Image x:Name="image4" HorizontalAlignment="Left" Height="60" Margin="10,555,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Grill.jpg"/>
-                <Label x:Name="label4" Content="Grill" HorizontalAlignment="Left" Height="43" Margin="75,560,0,0" VerticalAlignment="Top" Width="134" FontSize="18.667"/>
-                <Image x:Name="image4_Copy" HorizontalAlignment="Left" Height="60" Margin="323,555,0,0" VerticalAlignment="Top" Width="60" Source="Pics/whisk.jpg"/>
-                <Label x:Name="label4_Copy" Content="Whisk" HorizontalAlignment="Left" Height="43" Margin="393,560,0,0" VerticalAlignment="Top" Width="122" FontSize="18.667"/>
-                <Label x:Name="label3_Copy" Content="Ingredients" HorizontalAlignment="Left" Height="48" Margin="0,731,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
-                <Image x:Name="image4_Copy1" HorizontalAlignment="Left" Height="60" Margin="10,784,0,0" VerticalAlignment="Top" Width="60" Source="Pics/salt.png"/>
-                <Label x:Name="label4_Copy1" Content="2 teaspoons Salt" HorizontalAlignment="Left" Height="43" Margin="70,784,0,0" VerticalAlignment="Top" Width="210" FontSize="18.667"/>
-                <Image x:Name="image4_Copy2" HorizontalAlignment="Left" Height="60" Margin="9,863,0,0" VerticalAlignment="Top" Width="60" Source="Pics/peanut-butter.jpg"/>
-                <Label x:Name="label4_Copy5" Content="2 tablespoons&#xD;&#xA; peanut butter" HorizontalAlignment="Left" Height="60" Margin="75,863,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
-                <Image x:Name="image4_Copy3" HorizontalAlignment="Left" Height="60" Margin="323,784,0,0" VerticalAlignment="Top" Width="60" Source="Pics/MGF-SF-Salad-Dressing-Asian.jpg"/>
-                <Label x:Name="label4_Copy8" Content="1/3 cup sesame salad &#xD;&#xA;dressing" HorizontalAlignment="Left" Height="65" Margin="389,784,-1,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
-                <Image x:Name="image4_Copy4" HorizontalAlignment="Left" Height="60" Margin="323,860,0,0" VerticalAlignment="Top" Width="60" Source="Pics/limejuice.jpg"/>
-                <Label x:Name="label4_Copy9" Content="2 tablespoons lime juice" HorizontalAlignment="Left" Height="43" Margin="388,863,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
-                <Image x:Name="image4_Copy5" HorizontalAlignment="Left" Height="60" Margin="323,955,0,0" VerticalAlignment="Top" Width="60" Source="Pics/mandarain orange.jpg"/>
-                <Label x:Name="label4_Copy10" Content="1 can (15 oz.) Mandarin &#xD;&#xA;Orange " HorizontalAlignment="Left" Height="60" Margin="389,955,-1,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="224" Margin="1,524,0,0" VerticalAlignment="Top" Width="619"/>
+                <Label x:Name="label3" Content="Utensils" HorizontalAlignment="Left" Height="48" Margin="9,529,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
+                <Image x:Name="image4" HorizontalAlignment="Left" Height="60" Margin="9,582,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Grill.jpg"/>
+                <Label x:Name="label4" Content="Grill" HorizontalAlignment="Left" Height="43" Margin="75,582,0,0" VerticalAlignment="Top" Width="134" FontSize="18.667"/>
+                <Image x:Name="image4_Copy" HorizontalAlignment="Left" Height="60" Margin="323,582,0,0" VerticalAlignment="Top" Width="60" Source="Pics/whisk.jpg"/>
+                <Label x:Name="label4_Copy" Content="Whisk" HorizontalAlignment="Left" Height="43" Margin="393,582,0,0" VerticalAlignment="Top" Width="122" FontSize="18.667"/>
+                <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="384" Margin="0,748,0,0" VerticalAlignment="Top" Width="619"/>
+                <Label x:Name="label3_Copy" Content="Ingredients" HorizontalAlignment="Left" Height="48" Margin="0,753,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
+                <Image x:Name="image4_Copy1" HorizontalAlignment="Left" Height="60" Margin="9,812,0,0" VerticalAlignment="Top" Width="60" Source="Pics/salt.png"/>
+                <Label x:Name="label4_Copy1" Content="2 teaspoons Salt" HorizontalAlignment="Left" Height="43" Margin="70,801,0,0" VerticalAlignment="Top" Width="210" FontSize="18.667"/>
+                <Image x:Name="image4_Copy2" HorizontalAlignment="Left" Height="60" Margin="9,892,0,0" VerticalAlignment="Top" Width="60" Source="Pics/peanut-butter.jpg"/>
+                <Label x:Name="label4_Copy5" Content="2 tablespoons&#xD;&#xA; peanut butter" HorizontalAlignment="Left" Height="60" Margin="75,892,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Image x:Name="image4_Copy3" HorizontalAlignment="Left" Height="60" Margin="323,812,0,0" VerticalAlignment="Top" Width="60" Source="Pics/MGF-SF-Salad-Dressing-Asian.jpg"/>
+                <Label x:Name="label4_Copy8" Content="1/3 cup sesame salad &#xD;&#xA;dressing" HorizontalAlignment="Left" Height="65" Margin="389,812,-1,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Image x:Name="image4_Copy4" HorizontalAlignment="Left" Height="60" Margin="323,892,0,0" VerticalAlignment="Top" Width="60" Source="Pics/limejuice.jpg"/>
+                <Label x:Name="label4_Copy9" Content="2 tablespoons lime juice" HorizontalAlignment="Left" Height="43" Margin="388,892,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Image x:Name="image4_Copy5" HorizontalAlignment="Left" Height="60" Margin="323,972,0,0" VerticalAlignment="Top" Width="60" Source="Pics/mandarain orange.jpg"/>
+                <Label x:Name="label4_Copy10" Content="1 can (15 oz.) Mandarin &#xD;&#xA;Orange " HorizontalAlignment="Left" Height="60" Margin="393,972,-5,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
                 <Rectangle Fill="#FFE8685D" Margin="1,1231,-1,0" Stroke="#FFE8685D" Height="116" VerticalAlignment="Top"/>
                 <Image x:Name="image12" HorizontalAlignment="Left" Height="60" Margin="1,1267,0,0" VerticalAlignment="Top" Width="60" Source="Pics/whisking.jpg"/>
                 <Label x:Name="label23_Copy" Content="Instructions" HorizontalAlignment="Left" Height="48" Margin="0,1183,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
@@ -92,18 +94,18 @@
                 <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" MouseUp="goBack" Source="Images/backArrow.png" RenderTransformOrigin="1,1.667" Margin="0,3,0,0"/>
                 <Image x:Name="favButton" HorizontalAlignment="Left" Height="45" Margin="133,121,0,0" VerticalAlignment="Top" Width="45" Source="Images/addFavouritedButton.png" MouseUp="addFavourite"/>
                 <Image Margin="9,613,551,1401" Source="Pics/pasta spoon.jpg"/>
-                <Image x:Name="image4_Copy6" HorizontalAlignment="Left" Height="60" Margin="9,955,0,0" VerticalAlignment="Top" Width="60" Source="Pics/chicken thigh.jpg"/>
-                <Label x:Name="label4_Copy2" Content="1 lb chicken thighs" HorizontalAlignment="Left" Height="43" Margin="75,955,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
-                <Label x:Name="label4_Copy3" Content="1 Avocado, chopped" HorizontalAlignment="Left" Height="60" Margin="75,1032,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
-                <Label x:Name="label4_Copy11" Content="1/4 Cup chopped peanuts" HorizontalAlignment="Left" Height="43" Margin="388,1032,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
-                <Image x:Name="image4_Copy7" HorizontalAlignment="Left" Height="60" Margin="9,1032,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Avocado.jpg"/>
-                <Image x:Name="image4_Copy8" HorizontalAlignment="Left" Height="60" Margin="323,1032,0,0" VerticalAlignment="Top" Width="60" Source="Pics/peanuts.jpg"/>
+                <Image x:Name="image4_Copy6" HorizontalAlignment="Left" Height="60" Margin="10,972,0,0" VerticalAlignment="Top" Width="60" Source="Pics/chicken thigh.jpg"/>
+                <Label x:Name="label4_Copy2" Content="1 lb chicken thighs" HorizontalAlignment="Left" Height="43" Margin="75,972,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Label x:Name="label4_Copy3" Content="1 Avocado, chopped" HorizontalAlignment="Left" Height="60" Margin="75,1050,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Label x:Name="label4_Copy11" Content="1/4 Cup chopped peanuts" HorizontalAlignment="Left" Height="43" Margin="388,1050,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Image x:Name="image4_Copy7" HorizontalAlignment="Left" Height="60" Margin="9,1050,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Avocado.jpg"/>
+                <Image x:Name="image4_Copy8" HorizontalAlignment="Left" Height="60" Margin="323,1050,0,0" VerticalAlignment="Top" Width="60" Source="Pics/peanuts.jpg"/>
                 <Image Margin="328,613,232,1401" Source="Pics/Large mixing bowl.jpg"/>
-                <Label x:Name="label4_Copy13" Content="Mixing Bowl" HorizontalAlignment="Left" Height="43" Margin="393,613,0,0" VerticalAlignment="Top" Width="122" FontSize="18.667"/>
+                <Label x:Name="label4_Copy13" Content="Mixing Bowl" HorizontalAlignment="Left" Height="43" Margin="393,647,0,0" VerticalAlignment="Top" Width="122" FontSize="18.667"/>
                 <Image Margin="10,667,550,1347" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
-                <Label x:Name="label4_Copy15" Content="Slotted Spoon" HorizontalAlignment="Left" Height="43" Margin="75,613,0,0" VerticalAlignment="Top" Width="151" FontSize="18.667"/>
-                <Image x:Name="image4_Copy12" HorizontalAlignment="Left" Height="60" Margin="9,620,0,0" VerticalAlignment="Top" Width="60" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
-                <Image x:Name="image4_Copy13" HorizontalAlignment="Left" Height="60" Margin="323,620,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Large mixing bowl.jpg"/>
+                <Label x:Name="label4_Copy15" Content="Slotted Spoon" HorizontalAlignment="Left" Height="43" Margin="70,647,0,0" VerticalAlignment="Top" Width="151" FontSize="18.667"/>
+                <Image x:Name="image4_Copy12" HorizontalAlignment="Left" Height="60" Margin="9,647,0,0" VerticalAlignment="Top" Width="60" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
+                <Image x:Name="image4_Copy13" HorizontalAlignment="Left" Height="60" Margin="323,647,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Large mixing bowl.jpg"/>
                 <Image x:Name="image12_Copy" HorizontalAlignment="Left" Height="60" Margin="1,1388,0,0" VerticalAlignment="Top" Width="60" Source="Pics/heatgrill.jpg"/>
 
             </Grid>

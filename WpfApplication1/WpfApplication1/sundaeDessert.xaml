@@ -20,18 +20,18 @@
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
             <local:SearchBarHeader Margin="0,-56,0,56"/>
         </Grid>
-        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-1200">
+        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-1112">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="1946" Grid.Row="1" VerticalAlignment="Top" Width="620">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="83*"/>
                     <RowDefinition Height="94*"/>
                 </Grid.RowDefinitions>
                 <Image x:Name="image" HorizontalAlignment="Left" Height="168" Margin="10,50,0,0" VerticalAlignment="Top" Width="168" Source="Pics/sundae.jpg"/>
-                <Label x:Name="label" Content="Pineapple Upside-Down&#xD;&#xA; Cake Sundaes" Margin="258,45,78,644.5" FontSize="24" />
+                <Label x:Name="label" Content="Pineapple Upside-Down&#xD;&#xA; Cake Sundaes" Margin="183,50,153,639" FontSize="24" />
                 <Image x:Name="image1" HorizontalAlignment="Left" Height="100" Margin="273,78,0,0" VerticalAlignment="Top" Width="100"/>
-                <Image x:Name="image2" HorizontalAlignment="Left" Height="63" Margin="258,115,0,0" VerticalAlignment="Top" Width="152" Source="Images/5stars1.png"/>
+                <Image x:Name="image2" HorizontalAlignment="Left" Height="63" Margin="183,115,0,0" VerticalAlignment="Top" Width="152" Source="Images/45star.png"/>
                 <Label x:Name="label1" Content="Serves:" HorizontalAlignment="Left" Height="36" Margin="467,99,0,0" VerticalAlignment="Top" Width="75" FontSize="21.333"/>
-                <Image x:Name="image3" HorizontalAlignment="Left" Height="47" Margin="467,140,0,0" VerticalAlignment="Top" Width="48" Source="Images/timer.png" RenderTransformOrigin="-0.083,0.489"/>
+                <Image x:Name="image3" HorizontalAlignment="Left" Height="47" Margin="467,140,0,0" VerticalAlignment="Top" Width="48" Source="Images/timerIcon.png" RenderTransformOrigin="-0.083,0.489"/>
                 <Label x:Name="label1_Copy" Content="30 min" HorizontalAlignment="Left" Height="36" Margin="529,146,0,0" VerticalAlignment="Top" Width="81" FontSize="21.333"/>
                 <ComboBox x:Name="comboBox" IsEditable="True" IsReadOnly="True" HorizontalAlignment="Left" Margin="547,101,0,0" VerticalAlignment="Top" Width="63" Height="36" SelectedIndex="1" FontSize="21.333">
                     <ComboBoxItem HorizontalContentAlignment="Center">1</ComboBoxItem>
@@ -40,7 +40,7 @@
                     <ComboBoxItem HorizontalContentAlignment="Center">4</ComboBoxItem>
                 </ComboBox>
                 <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="310" Margin="10,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="18.667"><Run FontSize="18.667" FontFamily="Segoe UI" Text="A fresh, fruity, and fun dessert!"/><LineBreak/><Run Text=""/></TextBlock>
-                <Label x:Name="label2" Content="Nutrition Information" HorizontalAlignment="Left" Margin="335,210,0,0" VerticalAlignment="Top" Width="285" FontSize="21.333"/>
+                <Label x:Name="label2" Content="Nutrition Information" HorizontalAlignment="Left" Margin="336,210,-1,0" VerticalAlignment="Top" Width="285" FontSize="21.333"/>
                 <Label x:Name="label2_Copy" Content="Calories 786" HorizontalAlignment="Left" Margin="335,248,0,0" VerticalAlignment="Top" Width="207" FontSize="18.667" FontWeight="Bold"/>
                 <Label x:Name="label2_Copy1" Content="Total Fat 38 g" HorizontalAlignment="Left" Margin="335,283,0,0" VerticalAlignment="Top" Width="207" FontSize="18.667" FontWeight="Bold"/>
                 <Label x:Name="label2_Copy2" Content="Saturated Fat 9.2 g" HorizontalAlignment="Left" Margin="367,313,0,0" VerticalAlignment="Top" Width="175" FontSize="18.667"/>
@@ -51,9 +51,11 @@
                 <Label x:Name="label2_Copy7" Content="Vitamin C 21.9 %" HorizontalAlignment="Left" Margin="467,458,0,0" VerticalAlignment="Top" Width="130" FontSize="14.667"/>
                 <Label x:Name="label2_Copy8" Content="Calcium 7.1%" HorizontalAlignment="Left" Margin="335,493,0,0" VerticalAlignment="Top" Width="119" FontSize="16"/>
                 <Label x:Name="label2_Copy9" Content="Iron 21.8 %" HorizontalAlignment="Left" Margin="467,493,0,0" VerticalAlignment="Top" Width="119" FontSize="16"/>
-                <Label x:Name="label3" Content="Utensils" HorizontalAlignment="Left" Height="48" Margin="9,507,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
-                <Image x:Name="image4" HorizontalAlignment="Left" Height="60" Margin="10,555,0,0" VerticalAlignment="Top" Width="60" Source="Pics/skillet.jpg"/>
-                <Label x:Name="label4" Content="skillet" HorizontalAlignment="Left" Height="43" Margin="75,560,0,0" VerticalAlignment="Top" Width="134" FontSize="18.667"/>
+                <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="198" Margin="0,533,0,0" VerticalAlignment="Top" Width="620">
+                    <Label x:Name="label3" Content="Utensils" HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="197" FontSize="24" Margin="-1,-1,0,0"/>
+                </Border>
+                <Image x:Name="image4" HorizontalAlignment="Left" Height="60" Margin="0,582,0,0" VerticalAlignment="Top" Width="60" Source="Pics/skillet.jpg"/>
+                <Label x:Name="label4" Content="skillet" HorizontalAlignment="Left" Height="43" Margin="75,582,0,0" VerticalAlignment="Top" Width="134" FontSize="18.667"/>
                 <Label x:Name="label3_Copy" Content="Ingredients" HorizontalAlignment="Left" Height="48" Margin="0,731,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
                 <Image x:Name="image4_Copy1" HorizontalAlignment="Left" Height="60" Margin="10,784,0,0" VerticalAlignment="Top" Width="60" Source="Pics/butter.jpg"/>
                 <Label x:Name="label4_Copy1" Content="1/4 cup butter" HorizontalAlignment="Left" Height="43" Margin="75,779,0,0" VerticalAlignment="Top" Width="210" FontSize="18.667"/>
@@ -97,8 +99,10 @@
                 <Image x:Name="image4_Copy10" HorizontalAlignment="Left" Height="60" Margin="9,205.5,0,0" VerticalAlignment="Top" Width="60" Source="Pics/maraschino cherries.jpg" Grid.Row="1"/>
                 <Image Margin="328,613,232,299.5" Source="Pics/Large mixing bowl.jpg"/>
                 <Image Margin="10,667,550,245.5" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
-                <Label x:Name="label4_Copy15" Content="Slotted Spoon" HorizontalAlignment="Left" Height="43" Margin="383,560,0,0" VerticalAlignment="Top" Width="151" FontSize="18.667"/>
-                <Image x:Name="image4_Copy12" HorizontalAlignment="Left" Height="60" Margin="323,560,0,0" VerticalAlignment="Top" Width="60" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
+                <Label x:Name="label4_Copy15" Content="Slotted Spoon" HorizontalAlignment="Left" Height="43" Margin="383,582,0,0" VerticalAlignment="Top" Width="151" FontSize="18.667"/>
+                <Image x:Name="image4_Copy12" HorizontalAlignment="Left" Height="60" Margin="323,582,0,0" VerticalAlignment="Top" Width="60" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
+                <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="453" Margin="0,731,0,0" VerticalAlignment="Top" Width="620" Grid.RowSpan="2"/>
+
 
             </Grid>
         </ScrollViewer>

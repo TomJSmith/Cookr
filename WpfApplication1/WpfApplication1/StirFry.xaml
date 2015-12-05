@@ -20,14 +20,14 @@
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
             <local:SearchBarHeader Margin="0,-56,0,56"/>
         </Grid>
-        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-976">
+        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-1048">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="1946" Grid.Row="1" VerticalAlignment="Top" Width="620">
                 <Image x:Name="image" HorizontalAlignment="Left" Height="168" Margin="10,50,0,0" VerticalAlignment="Top" Width="168" Source="Pics/Chicken-Broccoli-and-pineapple-stir-fry.jpg"/>
-                <Label x:Name="label" Content="Chicken, Broccoli &amp; &#xD;&#xA;Pineapple Stir-Fry" Margin="258,45,78,1678" FontSize="24" />
+                <Label x:Name="label" Content="Chicken, Broccoli &amp; &#xD;&#xA;Pineapple Stir-Fry" Margin="167,50,169,1673" FontSize="24" />
                 <Image x:Name="image1" HorizontalAlignment="Left" Height="100" Margin="273,78,0,0" VerticalAlignment="Top" Width="100"/>
-                <Image x:Name="image2" HorizontalAlignment="Left" Height="63" Margin="258,115,0,0" VerticalAlignment="Top" Width="152" Source="Images/5stars1.png"/>
+                <Image x:Name="image2" HorizontalAlignment="Left" Height="63" Margin="172,115,0,0" VerticalAlignment="Top" Width="152" Source="Images/3star.png"/>
                 <Label x:Name="label1" Content="Serves:" HorizontalAlignment="Left" Height="36" Margin="467,99,0,0" VerticalAlignment="Top" Width="75" FontSize="21.333"/>
-                <Image x:Name="image3" HorizontalAlignment="Left" Height="47" Margin="467,140,0,0" VerticalAlignment="Top" Width="48" Source="Images/timer.png" RenderTransformOrigin="-0.083,0.489"/>
+                <Image x:Name="image3" HorizontalAlignment="Left" Height="47" Margin="467,140,0,0" VerticalAlignment="Top" Width="48" Source="Images/timerIcon.png" RenderTransformOrigin="-0.083,0.489"/>
                 <Label x:Name="label1_Copy" Content="25 min" HorizontalAlignment="Left" Height="36" Margin="529,146,0,0" VerticalAlignment="Top" Width="81" FontSize="21.333"/>
                 <ComboBox x:Name="comboBox" IsEditable="True" IsReadOnly="True" HorizontalAlignment="Left" Margin="547,101,0,0" VerticalAlignment="Top" Width="63" Height="36" SelectedIndex="1" FontSize="21.333">
                     <ComboBoxItem HorizontalContentAlignment="Center">1</ComboBoxItem>
@@ -47,66 +47,70 @@
                 <Label x:Name="label2_Copy7" Content="Vitamin C 200 %" HorizontalAlignment="Left" Margin="467,458,0,0" VerticalAlignment="Top" Width="130" FontSize="14.667"/>
                 <Label x:Name="label2_Copy8" Content="Calcium 6 %" HorizontalAlignment="Left" Margin="335,493,0,0" VerticalAlignment="Top" Width="119" FontSize="16"/>
                 <Label x:Name="label2_Copy9" Content="Iron 10 %" HorizontalAlignment="Left" Margin="467,493,0,0" VerticalAlignment="Top" Width="119" FontSize="16"/>
-                <Label x:Name="label3" Content="Utensils" HorizontalAlignment="Left" Height="48" Margin="9,507,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
-                <Image x:Name="image4" HorizontalAlignment="Left" Height="60" Margin="10,555,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Wok.jpg"/>
-                <Label x:Name="label4" Content="Wok" HorizontalAlignment="Left" Height="43" Margin="75,560,0,0" VerticalAlignment="Top" Width="134" FontSize="18.667"/>
-                <Label x:Name="label4_Copy" Content="Slotted Spoon" HorizontalAlignment="Left" Height="43" Margin="393,560,0,0" VerticalAlignment="Top" Width="149" FontSize="18.667"/>
-                <Label x:Name="label3_Copy" Content="Ingredients" HorizontalAlignment="Left" Height="48" Margin="0,667,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
-                <Image x:Name="image4_Copy1" HorizontalAlignment="Left" Height="60" Margin="10,784,0,0" VerticalAlignment="Top" Width="60" Source="Pics/garlic.jpg"/>
-                <Label x:Name="label4_Copy1" Content="2 cloves of garlic &#xD;&#xA;chopped" HorizontalAlignment="Left" Height="60" Margin="70,784,0,0" VerticalAlignment="Top" Width="210" FontSize="18.667"/>
-                <Image x:Name="image4_Copy2" HorizontalAlignment="Left" Height="60" Margin="9,863,0,0" VerticalAlignment="Top" Width="60" Source="Pics/kikkoman-soy-sauce.jpg"/>
-                <Label x:Name="label4_Copy5" Content="1/4 cup of soy sauce" HorizontalAlignment="Left" Height="43" Margin="75,863,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
-                <Image x:Name="image4_Copy3" HorizontalAlignment="Left" Height="60" Margin="323,784,0,0" VerticalAlignment="Top" Width="60" Source="Pics/chicken broth.jpg"/>
-                <Label x:Name="label4_Copy8" Content="1 cup chicken broth" HorizontalAlignment="Left" Height="65" Margin="389,784,-1,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
-                <Image x:Name="image4_Copy4" HorizontalAlignment="Left" Height="60" Margin="323,860,0,0" VerticalAlignment="Top" Width="60" Source="Pics/cornstarch.jpg"/>
-                <Label x:Name="label4_Copy9" Content="1 tablespoon cornstarch" HorizontalAlignment="Left" Height="43" Margin="388,863,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
-                <Image x:Name="image4_Copy5" HorizontalAlignment="Left" Height="60" Margin="323,955,0,0" VerticalAlignment="Top" Width="60" Source="Pics/broccoli.jpg"/>
-                <Label x:Name="label4_Copy10" Content="2 cups brocolli" HorizontalAlignment="Left" Height="43" Margin="389,955,-1,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
-                <Rectangle Fill="#FFE8685D" Margin="1,1231,-1,0" Stroke="#FFE8685D" Height="116" VerticalAlignment="Top"/>
-                <Image x:Name="image12" HorizontalAlignment="Left" Height="60" Margin="1,1267,0,0" VerticalAlignment="Top" Width="60" Source="Pics/oil in wok.jpg"/>
-                <Label x:Name="label23_Copy" Content="Instructions" HorizontalAlignment="Left" Height="48" Margin="0,1183,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
-                <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="111" Margin="75,1236,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Span><Run Text="Heat oil in non-stick large wok. "/></Span></TextBlock>
-                <Label x:Name="label5" Content="Step 1" HorizontalAlignment="Left" Height="36" Margin="1,1231,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
-                <Rectangle HorizontalAlignment="Left" Height="116" Margin="0,1347,0,0" VerticalAlignment="Top" Width="620"/>
-                <Image x:Name="image12_Copy" HorizontalAlignment="Left" Height="45" Margin="1,1388,0,0" VerticalAlignment="Top" Width="60" Source="Pics/chicken in a wok.jpg"/>
-                <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Height="111" Margin="70,1352,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Span><Run Text="Add chicken; stir-fry 5 minutes. Remove to bowl."/></Span><LineBreak/><Run Text=""/></TextBlock>
-                <Label x:Name="label5_Copy" Content="Step 2" HorizontalAlignment="Left" Height="36" Margin="1,1347,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
-                <Rectangle Fill="#FFE8685D" HorizontalAlignment="Left" Height="116" Margin="1,1468,-1,0" Stroke="#FFE8685D" VerticalAlignment="Top" Width="620"/>
-                <Image x:Name="image12_Copy1" HorizontalAlignment="Left" Height="60" Margin="1,1506,0,0" VerticalAlignment="Top" Width="60" Source="Pics/whisking.jpg"/>
-                <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Height="111" Margin="75,1473,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run FontFamily="Segoe UI" Text="Add onion, ginger and garlic to same wok; stir-fry 2 minutes using the slotted spoon."/><LineBreak/><Run FontFamily="Segoe UI" Text=""/></TextBlock>
-                <Label x:Name="label5_Copy1" Content="Step 3" HorizontalAlignment="Left" Height="36" Margin="1,1470,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
-                <Rectangle HorizontalAlignment="Left" Height="116" Margin="1,1584,-1,0" VerticalAlignment="Top" Width="620"/>
-                <Image x:Name="image12_Copy2" HorizontalAlignment="Left" Height="60" Margin="1,1630,0,0" VerticalAlignment="Top" Width="60" Source="Pics/wok ingredients.jpg"/>
-                <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Height="111" Margin="84,1589,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run FontFamily="Segoe UI" Text="Using the slotted spoon, combine broth, soy sauce, cornstarch, and cinnamon; add to same wok. Add broccoli and bell pepper. Cook 2 to 3 minutes or until broccoli is tender-crisp. Stir in pineapple and chicken. Heat through."/><LineBreak/><Run Text=""/></TextBlock>
-                <Label x:Name="label5_Copy2" Content="Step 4" HorizontalAlignment="Left" Height="36" Margin="0,1589,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
-                <Label x:Name="label6" Content="Rate this recipe:" HorizontalAlignment="Left" Margin="160,1705,0,0" VerticalAlignment="Top" Height="47" Width="163" FontSize="21.333"/>
-                <Image x:Name="image5" HorizontalAlignment="Left" Height="26" Margin="323,1705,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
-                <Image x:Name="image5_Copy" HorizontalAlignment="Left" Height="26" Margin="358,1705,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
-                <Image x:Name="image5_Copy1" HorizontalAlignment="Left" Height="26" Margin="393,1705,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
-                <Image x:Name="image5_Copy2" HorizontalAlignment="Left" Height="26" Margin="424,1705,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
-                <Image x:Name="image5_Copy3" HorizontalAlignment="Left" Height="26" Margin="459,1705,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="171" Margin="1,524,0,0" VerticalAlignment="Top" Width="619"/>
+                <Label x:Name="label3" Content="Utensils" HorizontalAlignment="Left" Height="48" Margin="9,528,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
+                <Image x:Name="image4" HorizontalAlignment="Left" Height="60" Margin="9,570,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Wok.jpg"/>
+                <Label x:Name="label4" Content="Wok" HorizontalAlignment="Left" Height="43" Margin="75,570,0,0" VerticalAlignment="Top" Width="134" FontSize="18.667"/>
+                <Label x:Name="label4_Copy" Content="Slotted Spoon" HorizontalAlignment="Left" Height="43" Margin="393,570,0,0" VerticalAlignment="Top" Width="149" FontSize="18.667"/>
+                <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="529" Margin="1,695,0,0" VerticalAlignment="Top" Width="619"/>
+                <Label x:Name="label3_Copy" Content="Ingredients" HorizontalAlignment="Left" Height="48" Margin="0,695,0,0" VerticalAlignment="Top" Width="197" FontSize="24" RenderTransformOrigin="0.485,0.792"/>
+                <Image x:Name="image4_Copy1" HorizontalAlignment="Left" Height="60" Margin="9,819,0,0" VerticalAlignment="Top" Width="60" Source="Pics/garlic.jpg"/>
+                <Label x:Name="label4_Copy1" Content="2 cloves of garlic &#xD;&#xA;chopped" HorizontalAlignment="Left" Height="60" Margin="70,819,0,0" VerticalAlignment="Top" Width="210" FontSize="18.667"/>
+                <Image x:Name="image4_Copy2" HorizontalAlignment="Left" Height="60" Margin="9,904,0,0" VerticalAlignment="Top" Width="60" Source="Pics/kikkoman-soy-sauce.jpg"/>
+                <Label x:Name="label4_Copy5" Content="1/4 cup of soy sauce" HorizontalAlignment="Left" Height="43" Margin="75,904,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Image x:Name="image4_Copy3" HorizontalAlignment="Left" Height="60" Margin="323,819,0,0" VerticalAlignment="Top" Width="60" Source="Pics/chicken broth.jpg"/>
+                <Label x:Name="label4_Copy8" Content="1 cup chicken broth" HorizontalAlignment="Left" Height="65" Margin="389,814,-1,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Image x:Name="image4_Copy4" HorizontalAlignment="Left" Height="60" Margin="323,904,0,0" VerticalAlignment="Top" Width="60" Source="Pics/cornstarch.jpg"/>
+                <Label x:Name="label4_Copy9" Content="1 tablespoon cornstarch" HorizontalAlignment="Left" Height="43" Margin="383,904,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Image x:Name="image4_Copy5" HorizontalAlignment="Left" Height="60" Margin="323,985,0,0" VerticalAlignment="Top" Width="60" Source="Pics/broccoli.jpg"/>
+                <Label x:Name="label4_Copy10" Content="2 cups brocolli" HorizontalAlignment="Left" Height="43" Margin="389,985,-1,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Rectangle Fill="#FFE8685D" Margin="0,1277,0,0" Stroke="#FFE8685D" Height="116" VerticalAlignment="Top"/>
+                <Image x:Name="image12" HorizontalAlignment="Left" Height="60" Margin="1,1318,0,0" VerticalAlignment="Top" Width="60" Source="Pics/oil in wok.jpg"/>
+                <Label x:Name="label23_Copy" Content="Instructions" HorizontalAlignment="Left" Height="48" Margin="0,1224,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
+                <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="111" Margin="75,1282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Span><Run Text="Heat oil in non-stick large wok. "/></Span></TextBlock>
+                <Label x:Name="label5" Content="Step 1" HorizontalAlignment="Left" Height="36" Margin="1,1277,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
+                <Rectangle HorizontalAlignment="Left" Height="116" Margin="0,1398,0,0" VerticalAlignment="Top" Width="620"/>
+                <Image x:Name="image12_Copy" HorizontalAlignment="Left" Height="45" Margin="1,1434,0,0" VerticalAlignment="Top" Width="60" Source="Pics/chicken in a wok.jpg"/>
+                <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Height="111" Margin="66,1403,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Span><Run Text="Add chicken; stir-fry 5 minutes. Remove to bowl."/></Span><LineBreak/><Run Text=""/></TextBlock>
+                <Label x:Name="label5_Copy" Content="Step 2" HorizontalAlignment="Left" Height="36" Margin="1,1398,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
+                <Rectangle Fill="#FFE8685D" HorizontalAlignment="Left" Height="116" Margin="0,1514,0,0" Stroke="#FFE8685D" VerticalAlignment="Top" Width="620"/>
+                <Image x:Name="image12_Copy1" HorizontalAlignment="Left" Height="60" Margin="1,1550,0,0" VerticalAlignment="Top" Width="60" Source="Pics/whisking.jpg"/>
+                <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Height="111" Margin="75,1519,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run FontFamily="Segoe UI" Text="Add onion, ginger and garlic to same wok; stir-fry 2 minutes using the slotted spoon."/><LineBreak/><Run FontFamily="Segoe UI" Text=""/></TextBlock>
+                <Label x:Name="label5_Copy1" Content="Step 3" HorizontalAlignment="Left" Height="36" Margin="1,1514,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
+                <Rectangle HorizontalAlignment="Left" Height="116" Margin="1,1630,-1,0" VerticalAlignment="Top" Width="620"/>
+                <Image x:Name="image12_Copy2" HorizontalAlignment="Left" Height="60" Margin="1,1671,0,0" VerticalAlignment="Top" Width="60" Source="Pics/wok ingredients.jpg"/>
+                <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Height="111" Margin="75,1635,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run FontFamily="Segoe UI" Text="Using the slotted spoon, combine broth, soy sauce, cornstarch, and cinnamon; add to same wok. Add broccoli and bell pepper. Cook 2 to 3 minutes or until broccoli is tender-crisp. Stir in pineapple and chicken. Heat through."/><LineBreak/><Run Text=""/></TextBlock>
+                <Label x:Name="label5_Copy2" Content="Step 4" HorizontalAlignment="Left" Height="36" Margin="0,1630,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
                 <Image x:Name="image6" HorizontalAlignment="Left" Height="45" MouseUp="goBack" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png" RenderTransformOrigin="1,1.667" Margin="0,3,0,0"/>
                 <Image x:Name="favButton" HorizontalAlignment="Left" Height="45" Margin="122,173,0,0" VerticalAlignment="Top" Width="45" Source="Images/addFavouritedButton.png" RenderTransformOrigin="0.067,0.544" MouseUp="addFavourite"/>
                 <Image Margin="9,613,551,1401" Source="Pics/pasta spoon.jpg"/>
-                <Image x:Name="image4_Copy6" HorizontalAlignment="Left" Height="60" Margin="9,955,0,0" VerticalAlignment="Top" Width="60" Source="Pics/cinnamon.jpg"/>
-                <Label x:Name="label4_Copy2" Content="1/4 teaspoon cinnamon" HorizontalAlignment="Left" Height="43" Margin="75,955,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
-                <Label x:Name="label4_Copy3" Content="1 red bell pepper cut into&#xD;&#xA;chunks" HorizontalAlignment="Left" Height="60" Margin="75,1032,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
-                <Label x:Name="label4_Copy4" Content="2 cups of canned &#xD;&#xA;pineapple chunks " HorizontalAlignment="Left" Height="60" Margin="75,1118,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
-                <Label x:Name="label4_Copy11" Content="2 teaspoon olive oil" HorizontalAlignment="Left" Height="43" Margin="388,1032,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
-                <Image x:Name="image4_Copy7" HorizontalAlignment="Left" Height="60" Margin="9,1032,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Red Bell Pepper.jpg"/>
-                <Image x:Name="image4_Copy8" HorizontalAlignment="Left" Height="60" Margin="323,1032,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Olive oil.jpg"/>
-                <Image x:Name="image4_Copy10" HorizontalAlignment="Left" Height="60" Margin="9,1118,0,0" VerticalAlignment="Top" Width="60" Source="Pics/pineapple chunks.jpg"/>
+                <Image x:Name="image4_Copy6" HorizontalAlignment="Left" Height="60" Margin="9,985,0,0" VerticalAlignment="Top" Width="60" Source="Pics/cinnamon.jpg" RenderTransformOrigin="0.517,1.017"/>
+                <Label x:Name="label4_Copy2" Content="1/4 teaspoon cinnamon" HorizontalAlignment="Left" Height="43" Margin="75,985,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Label x:Name="label4_Copy3" Content="1 red bell pepper cut into&#xD;&#xA;chunks" HorizontalAlignment="Left" Height="60" Margin="75,1071,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Label x:Name="label4_Copy4" Content="2 cups of canned &#xD;&#xA;pineapple chunks " HorizontalAlignment="Left" Height="60" Margin="75,1144,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Label x:Name="label4_Copy11" Content="2 teaspoon olive oil" HorizontalAlignment="Left" Height="43" Margin="383,1071,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Image x:Name="image4_Copy7" HorizontalAlignment="Left" Height="60" Margin="9,1071,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Red Bell Pepper.jpg"/>
+                <Image x:Name="image4_Copy8" HorizontalAlignment="Left" Height="60" Margin="323,1071,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Olive oil.jpg"/>
+                <Image x:Name="image4_Copy10" HorizontalAlignment="Left" Height="60" Margin="9,1144,0,0" VerticalAlignment="Top" Width="60" Source="Pics/pineapple chunks.jpg"/>
                 <Image Margin="328,613,232,1401" Source="Pics/Large mixing bowl.jpg"/>
                 <Image Margin="10,667,550,1347" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
-                <Image x:Name="image4_Copy12" HorizontalAlignment="Left" Height="60" Margin="323,543,0,0" VerticalAlignment="Top" Width="60" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
-                <Label x:Name="label4_Copy13" Content="Substitutes:" HorizontalAlignment="Left" Height="28" Margin="389,1054,0,0" VerticalAlignment="Top" Width="210" FontSize="14.667"/>
-                <Label x:Name="label4_Copy14" Content="2 teaspoon canola oil" HorizontalAlignment="Left" Height="30" Margin="386,1071,0,0" VerticalAlignment="Top" Width="210" FontSize="14.667"/>
-                <Image x:Name="image4_Copy" HorizontalAlignment="Left" Height="60" Margin="9,706,0,0" VerticalAlignment="Top" Width="60" Source="Pics/salt.png"/>
-                <Label x:Name="label4_Copy15" Content="1/2 pound chicken breast&#xD;&#xA;cut into strips" HorizontalAlignment="Left" Height="73" Margin="70,706,0,0" VerticalAlignment="Top" Width="224" FontSize="18.667"/>
-                <Image x:Name="image4_Copy11" HorizontalAlignment="Left" Height="60" Margin="323,706,0,0" VerticalAlignment="Top" Width="60" Source="Pics/onion.jpg"/>
-                <Label x:Name="label4_Copy16" Content="1 medium onion, sliced" HorizontalAlignment="Left" Height="65" Margin="388,706,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
-                <Image x:Name="image4_Copy13" HorizontalAlignment="Left" Height="60" Margin="10,613,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Chefs-Knife.jpg"/>
-                <Label x:Name="label4_Copy17" Content="Chefs knife" HorizontalAlignment="Left" Height="43" Margin="75,613,0,0" VerticalAlignment="Top" Width="134" FontSize="18.667"/>
+                <Image x:Name="image4_Copy12" HorizontalAlignment="Left" Height="60" Margin="323,570,0,0" VerticalAlignment="Top" Width="60" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
+                <Label x:Name="label4_Copy13" Content="Substitutes:" HorizontalAlignment="Left" Height="28" Margin="400,1093,0,0" VerticalAlignment="Top" Width="210" FontSize="14.667"/>
+                <Label x:Name="label4_Copy14" Content="2 teaspoon canola oil" HorizontalAlignment="Left" Height="30" Margin="400,1114,0,0" VerticalAlignment="Top" Width="210" FontSize="14.667"/>
+                <Image x:Name="image4_Copy" HorizontalAlignment="Left" Height="60" Margin="9,738,0,0" VerticalAlignment="Top" Width="60" Source="Pics/salt.png"/>
+                <Label x:Name="label4_Copy15" Content="1/2 pound chicken breast&#xD;&#xA;cut into strips" HorizontalAlignment="Left" Height="73" Margin="75,738,0,0" VerticalAlignment="Top" Width="224" FontSize="18.667"/>
+                <Image x:Name="image4_Copy11" HorizontalAlignment="Left" Height="60" Margin="323,738,0,0" VerticalAlignment="Top" Width="60" Source="Pics/onion.jpg"/>
+                <Label x:Name="label4_Copy16" Content="1 medium onion, sliced" HorizontalAlignment="Left" Height="65" Margin="393,738,-5,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Image x:Name="image4_Copy13" HorizontalAlignment="Left" Height="60" Margin="10,630,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Chefs-Knife.jpg"/>
+                <Label x:Name="label4_Copy17" Content="Chefs knife" HorizontalAlignment="Left" Height="43" Margin="75,630,0,0" VerticalAlignment="Top" Width="134" FontSize="18.667"/>
+                <Grid HorizontalAlignment="Left" Height="52" Margin="133,1751,0,0" VerticalAlignment="Top" Width="345">
+                    <Label x:Name="label6" Content="Rate this recipe:" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Height="47" Width="163" FontSize="21.333"/>
+                    <Image x:Name="image5" HorizontalAlignment="Left" Height="26" Margin="178,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                    <Image x:Name="image5_Copy" HorizontalAlignment="Left" Height="26" Margin="213,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                    <Image x:Name="image5_Copy1" HorizontalAlignment="Left" Height="26" Margin="248,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                    <Image x:Name="image5_Copy2" HorizontalAlignment="Left" Height="26" Margin="278,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                    <Image x:Name="image5_Copy3" HorizontalAlignment="Left" Height="26" Margin="315,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                </Grid>
 
             </Grid>
         </ScrollViewer>
