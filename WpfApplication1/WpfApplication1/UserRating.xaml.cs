@@ -28,26 +28,31 @@ namespace WpfApplication1
         private void button_Click(object sender, RoutedEventArgs e)
         {
             userRating.Source = new BitmapImage(new Uri(@"/Images/1star.png", UriKind.Relative));
+            thanks.Content = "Thanks for rating!";
         }
 
         private void button_Copy1_Click(object sender, RoutedEventArgs e)
         {
             userRating.Source = new BitmapImage(new Uri(@"/Images/2star.png", UriKind.Relative));
+            thanks.Content = "Thanks for rating!";
         }
 
         private void button_Copy2_Click_1(object sender, RoutedEventArgs e)
         {
             userRating.Source = new BitmapImage(new Uri(@"/Images/3star.png", UriKind.Relative));
+            thanks.Content = "Thanks for rating!";
         }
 
         private void button_Copy3_Click(object sender, RoutedEventArgs e)
         {
             userRating.Source = new BitmapImage(new Uri(@"/Images/4star.png", UriKind.Relative));
+            thanks.Content = "Thanks for rating!";
         }
 
         private void button_Copy4_Click(object sender, RoutedEventArgs e)
         {
             userRating.Source = new BitmapImage(new Uri(@"/Images/5star.png", UriKind.Relative));
+            thanks.Content = "Thanks for rating!";
         }
     }
 }

@@ -19,7 +19,7 @@
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
             <local:SearchBarHeader Margin="0,-56,0,56"/>
         </Grid>
-        <ScrollViewer HorizontalAlignment="Left" Height="666" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3">
+        <ScrollViewer HorizontalAlignment="Left" Height="744" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="Auto" Grid.Row="1" VerticalAlignment="Top" Width="620">
                 <local:UserRating Margin="133,1661,57,72"></local:UserRating>
                 <Image x:Name="image" HorizontalAlignment="Left" Height="168" Margin="10,50,0,0" VerticalAlignment="Top" Width="243" Source="Images/spahgetti.jpg"/>

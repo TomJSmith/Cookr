@@ -20,7 +20,7 @@
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
             <local:SearchBarHeader Margin="0,-56,0,56"/>
         </Grid>
-        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-1264">
+        <ScrollViewer HorizontalAlignment="Left" Height="747" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="1946" Grid.Row="1" VerticalAlignment="Top" Width="620">
                 <Image x:Name="image" HorizontalAlignment="Left" Height="116" Margin="10,50,0,0" VerticalAlignment="Top" Width="168" Source="Pics/orange and avacado chicken.jpg"/>
                 <Label x:Name="name" Content="Orange and Avocado &#xD;&#xA; Chicken Thighs" Margin="178,50,158,1673" FontSize="24" />
@@ -86,14 +86,7 @@
                 <Image x:Name="image12_Copy3" HorizontalAlignment="Left" Height="60" Margin="10,1736,0,0" VerticalAlignment="Top" Width="60" Source="Pics/orange and avacado chicken.jpg" RenderTransformOrigin="0.45,-0.825"/>
                 <TextBlock x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Height="111" Margin="75,1700,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run Text="Sprinkle with salt. Top with mandarin oranges, avocado and drizzled with remaining 2 tablespoons dressing mixture.  Sprinkle with peanuts"/><Run Text="."/></TextBlock>
                 <Label x:Name="label5_Copy3" Content="Step 5" HorizontalAlignment="Left" Height="36" Margin="0,1695,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
-                <Grid HorizontalAlignment="Left" Height="52" Margin="133,1811,0,0" VerticalAlignment="Top" Width="345">
-                    <Label x:Name="label6" Content="Rate this recipe:" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Height="47" Width="163" FontSize="21.333"/>
-                    <Image x:Name="image5" HorizontalAlignment="Left" Height="26" Margin="178,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
-                    <Image x:Name="image5_Copy" HorizontalAlignment="Left" Height="26" Margin="213,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
-                    <Image x:Name="image5_Copy1" HorizontalAlignment="Left" Height="26" Margin="248,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
-                    <Image x:Name="image5_Copy2" HorizontalAlignment="Left" Height="26" Margin="278,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
-                    <Image x:Name="image5_Copy3" HorizontalAlignment="Left" Height="26" Margin="315,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
-                </Grid>
+                <Grid HorizontalAlignment="Left" Height="52" Margin="133,1811,0,0" VerticalAlignment="Top" Width="345"/>
                 <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" MouseUp="goBack" Source="Images/backArrow.png" RenderTransformOrigin="1,1.667" Margin="0,3,0,0"/>
                 <Image x:Name="favButton" HorizontalAlignment="Left" Height="45" Margin="133,121,0,0" VerticalAlignment="Top" Width="45" Source="Images/addFavouritedButton.png" MouseUp="addFavourite"/>
                 <Image Margin="9,613,551,1401" Source="Pics/pasta spoon.jpg"/>
@@ -110,6 +103,7 @@
                 <Image x:Name="image4_Copy12" HorizontalAlignment="Left" Height="60" Margin="9,647,0,0" VerticalAlignment="Top" Width="60" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
                 <Image x:Name="image4_Copy13" HorizontalAlignment="Left" Height="60" Margin="323,647,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Large mixing bowl.jpg"/>
                 <Image x:Name="image12_Copy" HorizontalAlignment="Left" Height="60" Margin="9,1388,0,0" VerticalAlignment="Top" Width="60" Source="Pics/heatgrill.jpg"/>
+                <local:UserRating Margin="133,1754,57,-21"></local:UserRating>
 
             </Grid>
         </ScrollViewer>

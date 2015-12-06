@@ -16,6 +16,7 @@
         <Button x:Name="button_Copy2" Opacity="0" Content="Button" HorizontalAlignment="Left" Margin="214,73,0,0" VerticalAlignment="Top" Width="27" Height="32" Click="button_Copy2_Click_1"/>
         <Button x:Name="button_Copy3" Opacity="0" Content="Button" HorizontalAlignment="Left" Margin="241,73,0,0" VerticalAlignment="Top" Width="26" Height="32" Click="button_Copy3_Click"/>
         <Button x:Name="button_Copy4" Opacity="0" Content="Button" HorizontalAlignment="Left" Margin="267,73,0,0" VerticalAlignment="Top" Width="26" Height="32" Click="button_Copy4_Click"/>
+        <Label x:Name="thanks" Content="" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="0,105,0,0" VerticalAlignment="Top" Width="300" FontSize="24"/>
 
     </Grid>
 </UserControl>
