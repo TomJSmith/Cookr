@@ -20,7 +20,7 @@
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
             <local:SearchBarHeader Margin="0,-56,0,56"/>
         </Grid>
-        <ScrollViewer HorizontalAlignment="Left" Height="743" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3">
+        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-1628">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="2110" Grid.Row="1" VerticalAlignment="Top" Width="620">
                 <Image x:Name="image" HorizontalAlignment="Left" Height="168" Margin="10,50,0,0" VerticalAlignment="Top" Width="168" Source="Pics/Beef-Taco.jpg"/>
                 <Label x:Name="name" Content="Good Ol'Beef Tacos" Margin="178,50,158,1673" FontSize="24" />
@@ -69,7 +69,7 @@
                 <Label x:Name="label4_Copy10" Content="1 pound ground beef" HorizontalAlignment="Left" Height="43" Margin="389,998,-1,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
                 <Rectangle Fill="#FFE8685D" Margin="0,1306,0,0" Stroke="#FFE8685D" Height="116" VerticalAlignment="Top"/>
                 <Image x:Name="image12" HorizontalAlignment="Left" Height="60" Margin="1,1362,0,0" VerticalAlignment="Top" Width="60" Source="Pics/heating oil in pan.jpg"/>
-                <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="735" Margin="1,1263,0,0" VerticalAlignment="Top" Width="619"/>
+                <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="629" Margin="1,1263,0,0" VerticalAlignment="Top" Width="619"/>
                 <Label x:Name="label23_Copy" Content="Instructions" HorizontalAlignment="Left" Height="48" Margin="3,1263,0,0" VerticalAlignment="Top" Width="196" FontSize="24"/>
                 <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="111" Margin="75,1311,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run FontFamily="Segoe UI" Text="In a non-stick pan, heat olive oil then add minced garlic and diced green chilies and sauté about 1 minute. Add cumin and taco seasoning and using the slotted spoon stir and cook for about 1 minute more. "/><LineBreak/><Run Text=""/></TextBlock>
                 <Label x:Name="label5" Content="Step 1" HorizontalAlignment="Left" Height="36" Margin="0,1306,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
@@ -78,16 +78,14 @@
                 <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Height="111" Margin="72,1422,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run FontFamily="Segoe UI" Text="Then add the ground beef and salt and cook over medium-high heat, breaking apart with the slotted spoon as it cooks. Cook about 5 minutes, or until beef is starting to brown."/><LineBreak/><Run Text=""/></TextBlock>
                 <Label x:Name="label5_Copy" Content="Step 2" HorizontalAlignment="Left" Height="36" Margin="1,1422,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
                 <Rectangle Fill="#FFE8685D" HorizontalAlignment="Left" Height="116" Margin="1,1538,-1,0" Stroke="#FFE8685D" VerticalAlignment="Top" Width="620"/>
-                <Image x:Name="image12_Copy1" HorizontalAlignment="Left" Height="60" Margin="0,1575,0,0" VerticalAlignment="Top" Width="60" Source="Pics/whisking.jpg"/>
-                <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Height="111" Margin="72,1543,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run FontFamily="Segoe UI" Text="In a bowl, using the whisk, combine Parmesan, parsley, garlic, egg, 1 teaspoon salt, and 1 teaspoon pepper. Add beef and breadcrumbs; mix gently with hands. Form into 16 balls."/><LineBreak/><Run Text=""/></TextBlock>
+                <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Height="111" Margin="72,1543,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run Text="Wash lettuce and shred lettuce using a chefs knife. "/><LineBreak/><Run FontFamily="Segoe UI" Text=""/></TextBlock>
+                <Image x:Name="image12_Copy1" HorizontalAlignment="Left" Height="60" Margin="0,1560,0,-840" VerticalAlignment="Top" Width="60" Source="Pics/shred lettuce.jpg" Grid.Row="1" Grid.Column="1"/>
                 <Label x:Name="label5_Copy1" Content="Step 3" HorizontalAlignment="Left" Height="36" Margin="3,1534,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
                 <Rectangle HorizontalAlignment="Left" Height="116" Margin="1,1659,-1,0" VerticalAlignment="Top" Width="620"/>
-                <Image x:Name="image12_Copy2" HorizontalAlignment="Left" Height="60" Margin="1,1700,0,0" VerticalAlignment="Top" Width="60" Source="Pics/shred lettuce.jpg"/>
-                <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Height="111" Margin="75,1664,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run FontFamily="Segoe UI" Text="Wash lettuce and shred lettuce using a chefs knife. "/></TextBlock>
+                <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Height="111" Margin="75,1664,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run Text="When beef is lightly browned, turn off heat, then stir in 1 cup cilantro using the slotted spoon"/><LineBreak/></TextBlock>
                 <Label x:Name="label5_Copy2" Content="Step 4" HorizontalAlignment="Left" Height="36" Margin="1,1659,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
                 <Rectangle Fill="#FFE8685D" HorizontalAlignment="Left" Height="116" Margin="0,1776,0,0" Stroke="#FFE8685D" VerticalAlignment="Top" Width="620"/>
-                <Image x:Name="image12_Copy3" HorizontalAlignment="Left" Height="60" Margin="1,1812,0,0" VerticalAlignment="Top" Width="60" Source="Pics/frying ground beef.jpg"/>
-                <TextBlock x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Height="111" Margin="75,1780,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run FontFamily="Segoe UI" Text="When beef is lightly browned, turn off heat, then stir in 1 cup cilantro using the slotted spoon"/><LineBreak/><Run Text=""/></TextBlock>
+                <TextBlock x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Height="111" Margin="75,1780,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run Text="Warm the tortillas in the microwave for 30 seconds. Spoon 2 to 3 large spoonfuls of beef mixture into each piece of tortilla. Top meat mixture with salsa and avocado slices."/><LineBreak/><Run/><LineBreak/><Run FontFamily="Segoe UI" Text=""/></TextBlock>
                 <Label x:Name="label5_Copy3" Content="Step 5" HorizontalAlignment="Left" Height="36" Margin="0,1776,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
                 <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png" MouseUp="goBack" RenderTransformOrigin="1,1.667" Margin="0,3,0,0"/>
                 <Image x:Name="favButton" HorizontalAlignment="Left" Height="45" Margin="133,174,0,0" VerticalAlignment="Top" Width="45" Source="Images/addFavouritedButton.png" MouseUp="addFavourite"/>
@@ -104,10 +102,6 @@
                 <Image x:Name="image4_Copy10" HorizontalAlignment="Left" Height="60" Margin="9,1166,0,0" VerticalAlignment="Top" Width="60" Source="Pics/taco-seasoning.jpg"/>
                 <Image Margin="323,624,237,1390" Source="Pics/Large mixing bowl.jpg"/>
                 <Label x:Name="label4_Copy14" Content="Slotted Spoon" HorizontalAlignment="Left" Height="43" Margin="75,624,0,0" VerticalAlignment="Top" Width="151" FontSize="18.667"/>
-                <Rectangle HorizontalAlignment="Left" Height="116" Margin="0,1897,0,0" VerticalAlignment="Top" Width="620"/>
-                <Label x:Name="label5_Copy4" Content="Step 6" HorizontalAlignment="Left" Height="36" Margin="1,1897,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667" RenderTransformOrigin="0.449,1.278"/>
-                <TextBlock x:Name="textBlock1_Copy4" HorizontalAlignment="Left" Height="111" Margin="75,1902,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run FontFamily="Segoe UI" Text="Warm the tortillas in the microwave for 30 seconds. Spoon 2 to 3 large spoonfuls of beef mixture into each piece of tortilla. Top meat mixture with salsa and avocado slices."/><LineBreak/><Run Text=""/></TextBlock>
-                <Image x:Name="image12_Copy4" HorizontalAlignment="Left" Height="60" Margin="1,1938,0,0" VerticalAlignment="Top" Width="60" Source="Pics/spoon beef on tortilla.jpg"/>
                 <Image x:Name="image4_Copy11" HorizontalAlignment="Left" Height="60" Margin="9,636,0,0" VerticalAlignment="Top" Width="60" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
                 <Image x:Name="image4_Copy12" HorizontalAlignment="Left" Height="60" Margin="9,762,0,0" VerticalAlignment="Top" Width="60" Source="Pics/salt.png"/>
                 <Image x:Name="image4_Copy13" HorizontalAlignment="Left" Height="60" Margin="323,762,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Avocado.jpg"/>
@@ -115,7 +109,9 @@
                 <Label x:Name="label4_Copy15" Content="1 cup sliced Avocado" HorizontalAlignment="Left" Height="43" Margin="388,762,0,0" VerticalAlignment="Top" Width="210" FontSize="18.667"/>
                 <Grid HorizontalAlignment="Left" Height="52" Margin="133,2003,0,0" VerticalAlignment="Top" Width="345"/>
                 <Label x:Name="label4_Copy16" Content="Mixing Bowl" HorizontalAlignment="Left" Height="43" Margin="393,636,0,0" VerticalAlignment="Top" Width="122" FontSize="18.667"/>
-                <local:UserRating Margin="147,1937,43,20"></local:UserRating>
+                <local:UserRating Margin="133,1832,57,125" Loaded="UserRating_Loaded"></local:UserRating>
+                <Image x:Name="image12_Copy2" HorizontalAlignment="Left" Height="60" Margin="1,1695,0,0" VerticalAlignment="Top" Width="60" Source="Pics/frying ground beef.jpg"/>
+                <Image x:Name="image12_Copy5" HorizontalAlignment="Left" Height="60" Margin="1,1812,0,0" VerticalAlignment="Top" Width="60" Source="Pics/spoon beef on tortilla.jpg"/>
 
             </Grid>
         </ScrollViewer>
