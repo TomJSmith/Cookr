@@ -19,8 +19,9 @@
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
             <local:SearchBarHeader Margin="0,-56,0,56"/>
         </Grid>
-        <ScrollViewer HorizontalAlignment="Left" Height="709" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3">
+        <ScrollViewer HorizontalAlignment="Left" Height="666" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="Auto" Grid.Row="1" VerticalAlignment="Top" Width="620">
+                <local:UserRating Margin="133,1661,57,72"></local:UserRating>
                 <Image x:Name="image" HorizontalAlignment="Left" Height="168" Margin="10,50,0,0" VerticalAlignment="Top" Width="243" Source="Images/spahgetti.jpg"/>
                 <Label x:Name="name" Content="Recipe Name" Margin="258,45,185,1678" FontSize="24" />
                 <Image x:Name="image1" HorizontalAlignment="Left" Height="100" Margin="273,78,0,0" VerticalAlignment="Top" Width="100"/>
@@ -90,10 +91,8 @@
                 <Image x:Name="image12_Copy3" HorizontalAlignment="Left" Height="60" Margin="10,1593,0,-10" VerticalAlignment="Top" Width="60" Source="Images/cooking.png"/>
                 <TextBlock x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Height="111" Margin="84,1562,0,-30" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="526" FontSize="16"><Run Text="Aliquam ac auctor purus, in congue leo. In dictum convallis ante in rhoncus. Maecenas neque orci, efficitur id odio sed, condimentum sodales neque.Suspendisse vestibulum fermentum luctus. In blandit eros nec commodo lacinia. Integer dui tellus, aliquam quis dui sed, ornare commodo metus."/></TextBlock>
                 <Label x:Name="label5_Copy3" Content="Step 5" HorizontalAlignment="Left" Height="36" Margin="10,1557,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
-                <Label x:Name="label6" Content="Rate this recipe:" HorizontalAlignment="Left" Margin="133,1708,0,0" VerticalAlignment="Top" Height="47" Width="163" FontSize="21.333"/>
                 <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png" RenderTransformOrigin="1,1.667" Margin="0,3,0,0" MouseUp="goBack"/>
                 <Image x:Name="favButton" HorizontalAlignment="Left" Height="45" Margin="208,168,0,0" VerticalAlignment="Top" Width="45" Source="Images/addFavouritedButton.png" MouseUp="addFavourite"/>
-                <Image x:Name="image5"  HorizontalAlignment="Left" Height="36" Margin="296,1713,0,0" VerticalAlignment="Top" Width="158" Source="Images/5star.png"/>
 
             </Grid>
         </ScrollViewer>

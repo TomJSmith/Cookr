@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="WpfApplication1.UserRating"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApplication1"
+             mc:Ignorable="d" 
+             d:DesignHeight="150" d:DesignWidth="300">
+    <Grid>
+        <Label x:Name="label" Content="Rate this recipe:" HorizontalAlignment="Left" Height="39" Margin="0,66,0,0" VerticalAlignment="Top" Width="161" FontSize="21.333"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="32" Margin="153,73,-13,0" VerticalAlignment="Top" Width="160" Source="Images/5starFaded.png"/>
+        <Image x:Name="userRating" HorizontalAlignment="Left" Height="32" Margin="153,73,-13,0" VerticalAlignment="Top" Width="160" />
+        <Button x:Name="button" Opacity="0" Content="Button" HorizontalAlignment="Left" Margin="161,73,0,0" VerticalAlignment="Top" Width="27" Height="32" Click="button_Click"/>
+        <Button x:Name="button_Copy" Opacity="0" Content="Button" HorizontalAlignment="Left" Margin="188,73,0,0" VerticalAlignment="Top" Width="26" Height="32"/>
+        <Button x:Name="button_Copy1" Opacity="0" Content="Button" HorizontalAlignment="Left" Margin="188,73,0,0" VerticalAlignment="Top" Width="26" Height="32" Click="button_Copy1_Click"/>
+        <Button x:Name="button_Copy2" Opacity="0" Content="Button" HorizontalAlignment="Left" Margin="214,73,0,0" VerticalAlignment="Top" Width="27" Height="32" Click="button_Copy2_Click_1"/>
+        <Button x:Name="button_Copy3" Opacity="0" Content="Button" HorizontalAlignment="Left" Margin="241,73,0,0" VerticalAlignment="Top" Width="26" Height="32" Click="button_Copy3_Click"/>
+        <Button x:Name="button_Copy4" Opacity="0" Content="Button" HorizontalAlignment="Left" Margin="267,73,0,0" VerticalAlignment="Top" Width="26" Height="32" Click="button_Copy4_Click"/>
+
+    </Grid>
+</UserControl>
