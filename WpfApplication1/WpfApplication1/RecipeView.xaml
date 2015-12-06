@@ -16,6 +16,7 @@
             <ColumnDefinition Width="620"/>
             <ColumnDefinition Width="70"/>
         </Grid.ColumnDefinitions>
+        <Grid Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="244" VerticalAlignment="Top" Width="760" Background="#FFF9D08B"/>
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
             <local:SearchBarHeader Margin="0,-56,0,56"/>
 

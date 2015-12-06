@@ -15,6 +15,7 @@
             <RowDefinition Height="100"/>
             <RowDefinition Height="369"/>
         </Grid.RowDefinitions>
+        <Grid Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="245" VerticalAlignment="Top" Width="758" Background="#FFF9D08B" Margin="0,0,-345,0" Grid.RowSpan="2"/>
         <Grid Grid.Column="1" Margin="10,35,46,24" Grid.Row="1">
             <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,136,-342,-541" Height="716" VerticalAlignment="Top">
                 <StackPanel Name="Sp1" HorizontalAlignment="Center"  Width="480" Height="Auto">
@@ -46,6 +47,5 @@
             <ComboBoxItem HorizontalContentAlignment="Center" Content="30 - 40"/>
         </ComboBox>
         <local:SearchBarHeader Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="222" Width="622" Margin="33,0,-278,0" Grid.RowSpan="2"/>
-        <Label x:Name="label" Content="Sorting:" Grid.Column="1" HorizontalAlignment="Left" Margin="97,110,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="21.333"/>
     </Grid>
 </UserControl>
