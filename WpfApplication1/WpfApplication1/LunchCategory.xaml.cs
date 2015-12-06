@@ -32,6 +32,8 @@ namespace WpfApplication1
         {
             ListItem item1 =  new ListItem(myMain.orangeAvoChicken.getName(),myMain.orangeAvoChicken.getTime(),myMain.orangeAvoChicken);
             Sp1.Children.Add(item1);
+            ListItem item2 = new ListItem(myMain.stirFry.getName(),myMain.stirFry.getTime(),myMain.stirFry);
+            Sp1.Children.Add(item2);
 
         }
     }

@@ -25,6 +25,14 @@ namespace WpfApplication1
         {
             myMain = aMain;
             InitializeComponent();
+            defaultView();
+        }
+
+        void defaultView()
+        {
+            Sp1.Children.Clear();
+            ListItem item1 = new ListItem(myMain.beefTacos.getName(),myMain.beefTacos.getTime(),myMain.beefTacos);
+            Sp1.Children.Add(item1);
         }
     }
 }
