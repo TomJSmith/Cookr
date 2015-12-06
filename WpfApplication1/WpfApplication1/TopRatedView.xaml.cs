@@ -33,20 +33,19 @@ namespace WpfApplication1
         {
             Sp1.Children.Clear();
 
-            ListItem item1ListItem = new ListItem("Spaghetti and Meatballs", " 30 Mins", myMain.spaghetti);
+            ListItem item1ListItem = new ListItem(myMain.spaghetti);
             Sp1.Children.Add(item1ListItem);
 
-            ListItem item2ListItem = new ListItem("Good Ol' Beef Tacos", "25 mins", myMain.beefTacos);
+            ListItem item2ListItem = new ListItem( myMain.beefTacos);
             Sp1.Children.Add(item2ListItem);
 
-            ListItem item3ListItem = new ListItem("Hawaii Smoothie", "5 Mins", myMain.hawiianSmoothie);
+            ListItem item3ListItem = new ListItem(myMain.hawiianSmoothie);
             Sp1.Children.Add(item3ListItem);
 
-            ListItem item4ListItem = new ListItem("Orange and Avocado Chicken Thighs", "25 Mins",
-                myMain.orangeAvoChicken);
+            ListItem item4ListItem = new ListItem( myMain.orangeAvoChicken);
             Sp1.Children.Add(item4ListItem);
 
-            ListItem item5ListItem = new ListItem("Chicken, Broccoli & Pineapple Stir-Fry", "30 Mins", myMain.stirFry);
+            ListItem item5ListItem = new ListItem(myMain.stirFry);
             Sp1.Children.Add(item5ListItem);
         }
 
@@ -54,20 +53,19 @@ namespace WpfApplication1
         {
             Sp1.Children.Clear();
 
-            ListItem item5ListItem = new ListItem("Chicken, Broccoli & Pineapple Stir-Fry", "30 Mins", myMain.stirFry);
+            ListItem item5ListItem = new ListItem(myMain.stirFry);
             Sp1.Children.Add(item5ListItem);
 
-            ListItem item2ListItem = new ListItem("Good Ol' Beef Tacos", "25 mins", myMain.beefTacos);
+            ListItem item2ListItem = new ListItem( myMain.beefTacos);
             Sp1.Children.Add(item2ListItem);
 
-            ListItem item3ListItem = new ListItem("Hawaii Smoothie", "5 Mins", myMain.hawiianSmoothie);
+            ListItem item3ListItem = new ListItem(myMain.hawiianSmoothie);
             Sp1.Children.Add(item3ListItem);
 
-            ListItem item4ListItem = new ListItem("Orange and Avocado Chicken Thighs", "25 Mins",
-                myMain.orangeAvoChicken);
+            ListItem item4ListItem = new ListItem(myMain.orangeAvoChicken);
             Sp1.Children.Add(item4ListItem);
 
-            ListItem item1ListItem = new ListItem("Spaghetti and Meatballs", " 30 Mins", myMain.spaghetti);
+            ListItem item1ListItem = new ListItem(myMain.spaghetti);
             Sp1.Children.Add(item1ListItem);
         }
 
@@ -77,41 +75,43 @@ namespace WpfApplication1
         {
             Sp1.Children.Clear();
 
-            ListItem item3ListItem = new ListItem("Hawaii Smoothie", "5 Mins", myMain.hawiianSmoothie);
+            ListItem item3ListItem = new ListItem(myMain.hawiianSmoothie);
             Sp1.Children.Add(item3ListItem);
 
-            ListItem item2ListItem = new ListItem("Good Ol' Beef Tacos", "25 mins", myMain.beefTacos);
+            ListItem item2ListItem = new ListItem(myMain.beefTacos);
             Sp1.Children.Add(item2ListItem);
 
-            ListItem item4ListItem = new ListItem("Orange and Avocado Chicken Thighs", "25 Mins",
-                myMain.orangeAvoChicken);
+            ListItem item4ListItem = new ListItem(myMain.orangeAvoChicken);
             Sp1.Children.Add(item4ListItem);
 
-            ListItem item1ListItem = new ListItem("Spaghetti and Meatballs", " 30 Mins", myMain.spaghetti);
+            ListItem item1ListItem = new ListItem(myMain.spaghetti);
             Sp1.Children.Add(item1ListItem);
 
-            ListItem item5ListItem = new ListItem("Chicken, Broccoli & Pineapple Stir-Fry", "30 Mins", myMain.stirFry);
+            ListItem item5ListItem = new ListItem(myMain.stirFry);
             Sp1.Children.Add(item5ListItem);
+        
+        
+        
+        
         }
 
         private void RatingSelected(object sender, RoutedEventArgs e)
         {
             Sp1.Children.Clear();
 
-            ListItem item1ListItem = new ListItem("Spaghetti and Meatballs", " 30 Mins", myMain.spaghetti);
+            ListItem item1ListItem = new ListItem(myMain.spaghetti);
             Sp1.Children.Add(item1ListItem);
 
-            ListItem item2ListItem = new ListItem("Good Ol' Beef Tacos", "25 mins", myMain.beefTacos);
+            ListItem item2ListItem = new ListItem(myMain.beefTacos);
             Sp1.Children.Add(item2ListItem);
 
-            ListItem item3ListItem = new ListItem("Hawaii Smoothie", "5 Mins", myMain.hawiianSmoothie);
+            ListItem item3ListItem = new ListItem( myMain.hawiianSmoothie);
             Sp1.Children.Add(item3ListItem);
 
-            ListItem item4ListItem = new ListItem("Orange and Avocado Chicken Thighs", "25 Mins",
-                myMain.orangeAvoChicken);
+            ListItem item4ListItem = new ListItem(myMain.orangeAvoChicken);
             Sp1.Children.Add(item4ListItem);
 
-            ListItem item5ListItem = new ListItem("Chicken, Broccoli & Pineapple Stir-Fry", "30 Mins", myMain.stirFry);
+            ListItem item5ListItem = new ListItem(myMain.stirFry);
             Sp1.Children.Add(item5ListItem);
         }
     }
