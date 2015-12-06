@@ -31,14 +31,14 @@ namespace WpfApplication1
 
         void defaultView()
         {
-           
-
-
 
             Sp1.Children.Clear();
-         
 
-           
+            ListItem item1 =  new ListItem(myMain.pancake.getName(),myMain.pancake.getTime(),myMain.pancake);
+
+            Sp1.Children.Add(item1);
+
+
         }
     
     
