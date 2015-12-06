@@ -101,6 +101,7 @@ namespace WpfApplication1
 
         public void switchToDiscover()
         {
+            disTab.randomRecipe(getRandomRecipe());
             mainView.MainContent.Children.Clear();
             mainView.MainContent.Children.Add(disTab);
         }
