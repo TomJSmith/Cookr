@@ -18,7 +18,7 @@ namespace WpfApplication1
     /// <summary>
     /// Interaction logic for OrangeAvocadoChicken.xaml
     /// </summary>
-    public partial class OrangeAvocadoChicken : UserControl
+    public partial class OrangeAvocadoChicken : UserControl, IRecipe
     {
         private bool isFav = false;
         public OrangeAvocadoChicken()
@@ -33,16 +33,30 @@ namespace WpfApplication1
 
         private void addFavourite(object sender, MouseButtonEventArgs e)
         {
+            MainWindow myMain = (MainWindow)Window.GetWindow(this);
             if (isFav)
             {
                 isFav = false;
                 favButton.Source = new BitmapImage(new Uri(@"/Images/addFavouritedButton.png", UriKind.Relative));
+                myMain.removeFav(this);
             }
             else
             {
                 isFav = true;
                 favButton.Source = new BitmapImage(new Uri(@"/Images/filledFavouritedButton.png", UriKind.Relative));
+                myMain.addFav(this);
             }
         }
+
+        public string getName()
+        {
+            return (string)name.Content;
+        }
+
+        public string getTime()
+        {
+            return (string)time.Content;
+        }
+
     }
 }

@@ -23,23 +23,45 @@ namespace WpfApplication1
      
     public partial class FavoritesTab : UserControl
     {
-        private ArrayList myFaves;
+        private List<IRecipe> myFaves;
+        private NoFavouritesMessage message;
         private MainWindow myMain;
         public FavoritesTab(MainWindow mainWindow)
         {
-            myFaves = new ArrayList();
+            message = new NoFavouritesMessage();
+            myFaves = new List<IRecipe>();
             myMain = mainWindow;
             InitializeComponent();
+            updateView();
         }
 
-        public void addFavorite(UserControl aRecipe)
+        private void updateView()
+        {
+            if (myFaves.Count == 0)
+            {
+                favStack.Children.Clear();
+                favStack.Children.Add(message);
+            }
+            else
+            {
+                favStack.Children.Clear();
+                for (int i = 0; i < myFaves.Count; i++)
+                {
+                    favStack.Children.Add(new ListItem(myFaves[i].getName(), myFaves[i].getTime(), (UserControl)myFaves[i]));
+                }
+            }
+        }
+
+        public void addFavorite(IRecipe aRecipe)
         {
             myFaves.Add(aRecipe);
+            updateView();
         }
 
-        public void removeFavourite(UserControl aRecipe)
+        public void removeFavourite(IRecipe aRecipe)
         {
             myFaves.Remove(aRecipe);
+            updateView();
         }
 
         private void button_Click(object sender, RoutedEventArgs e)

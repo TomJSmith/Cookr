@@ -84,6 +84,7 @@
     <Compile Include="HawaiianSmoothie.xaml.cs">
       <DependentUpon>HawaiianSmoothie.xaml</DependentUpon>
     </Compile>
+    <Compile Include="IRecipe.cs" />
     <Compile Include="ListItem.xaml.cs">
       <DependentUpon>ListItem.xaml</DependentUpon>
     </Compile>
@@ -93,6 +94,9 @@
     <Compile Include="MainView.xaml.cs">
       <DependentUpon>MainView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="NoFavouritesMessage.xaml.cs">
+      <DependentUpon>NoFavouritesMessage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="OrangeAvocadoChicken.xaml.cs">
       <DependentUpon>OrangeAvocadoChicken.xaml</DependentUpon>
     </Compile>
@@ -101,9 +105,6 @@
     </Compile>
     <Compile Include="SearchBarHeader.xaml.cs">
       <DependentUpon>SearchBarHeader.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="SearchResults.xaml.cs">
-      <DependentUpon>SearchResults.xaml</DependentUpon>
     </Compile>
     <Compile Include="SearchView.xaml.cs">
       <DependentUpon>SearchView.xaml</DependentUpon>
@@ -186,6 +187,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="NoFavouritesMessage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="OrangeAvocadoChicken.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -195,10 +200,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SearchBarHeader.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="SearchResults.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

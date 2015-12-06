@@ -87,6 +87,16 @@ namespace WpfApplication1
             mainView.MainContent.Children.Add(disTab);
         }
 
+        public void addFav(IRecipe aRecipe)
+        {
+            favTab.addFavorite(aRecipe);
+        }
+
+        public void removeFav(IRecipe aRecipe)
+        {
+            favTab.removeFavourite(aRecipe);
+        }
+
         public void switchToDiscover()
         {
             mainView.MainContent.Children.Clear();

@@ -20,7 +20,6 @@ namespace WpfApplication1
     /// </summary>
     public partial class ListItem : UserControl
     {
-
         public UserControl targetUserControl;
         
 
@@ -32,7 +31,7 @@ namespace WpfApplication1
         public ListItem(string aName, string aTime, UserControl aUserControl)
         {
             InitializeComponent();
-            recipeName.Content = aName;
+            recipeName.Text = aName;
           
             time.Content = aTime;
             targetUserControl = aUserControl;
@@ -42,7 +41,7 @@ namespace WpfApplication1
         public ListItem(string name, string time1)
         {
             InitializeComponent();
-            recipeName.Content = name;
+            recipeName.Text = name;
             time.Content = time1;
         }
 

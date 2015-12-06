@@ -37,19 +37,19 @@ namespace WpfApplication1
 
 
             Sp1.Children.Clear();
-            ListItem item1ListItem = new ListItem("Spaghetti & \n Meatballs", " 30 Mins", myMain.spaghetti);
+            ListItem item1ListItem = new ListItem("Spaghetti & Meatballs", " 30 Mins", myMain.spaghetti);
             Sp1.Children.Add(item1ListItem);
 
-            ListItem item2ListItem = new ListItem("Good Ol' \n Beef Tacos", "25 mins", recipeView);
+            ListItem item2ListItem = new ListItem("Good Ol' Beef Tacos", "25 mins", recipeView);
             Sp1.Children.Add(item2ListItem);
 
             ListItem item3ListItem = new ListItem("Hawaii Smoothie", "5 Mins", recipeView);
             Sp1.Children.Add(item3ListItem);
 
-            ListItem item4ListItem = new ListItem("Orange & Avocado Thai Grilled \n Chicken Thighs", "25 Mins", recipeView);
+            ListItem item4ListItem = new ListItem("Orange & Avocado Chicken Thighs", "25 Mins", recipeView);
             Sp1.Children.Add(item4ListItem);
 
-            ListItem item5ListItem = new ListItem("Chicken, Broccoli & \n Pineapple Stir-Fry", "30 Mins", recipeView);
+            ListItem item5ListItem = new ListItem("Chicken, Broccoli & Pineapple Stir-Fry", "30 Mins", recipeView);
             Sp1.Children.Add(item5ListItem);
         }
     
