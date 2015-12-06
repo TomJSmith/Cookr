@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,13 +20,26 @@ namespace WpfApplication1
     /// Interaction logic for FavoritesTab.xaml
     /// </summary>
     /// favorites tab
+     
     public partial class FavoritesTab : UserControl
     {
+        private ArrayList myFaves;
         private MainWindow myMain;
         public FavoritesTab(MainWindow mainWindow)
         {
+            myFaves = new ArrayList();
             myMain = mainWindow;
             InitializeComponent();
+        }
+
+        public void addFavorite(UserControl aRecipe)
+        {
+            myFaves.Add(aRecipe);
+        }
+
+        public void removeFavourite(UserControl aRecipe)
+        {
+            myFaves.Remove(aRecipe);
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
