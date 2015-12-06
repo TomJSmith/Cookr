@@ -46,6 +46,7 @@ namespace WpfApplication1
         public SpaghettiRecipeView spaghetti;
         public StirFry stirFry;
         public sundaeDessert aSundae;
+        public BreakfastPage pancake;
 
 
         UserControl prevView;

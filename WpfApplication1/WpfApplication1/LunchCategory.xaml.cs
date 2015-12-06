@@ -25,6 +25,14 @@ namespace WpfApplication1
         {
             myMain = aMain;
             InitializeComponent();
+            defaultView();
+        }
+
+        void defaultView()
+        {
+            ListItem item1 =  new ListItem(myMain.orangeAvoChicken.getName(),myMain.orangeAvoChicken.getTime(),myMain.orangeAvoChicken);
+            Sp1.Children.Add(item1);
+
         }
     }
 }
