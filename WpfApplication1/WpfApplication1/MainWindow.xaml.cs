@@ -46,6 +46,7 @@ namespace WpfApplication1
         public SpaghettiRecipeView spaghetti;
         public StirFry stirFry;
         public sundaeDessert aSundae;
+        public BreakfastPage pancake;
 
 
         UserControl prevView;
@@ -60,6 +61,7 @@ namespace WpfApplication1
             spaghetti = new SpaghettiRecipeView();
             stirFry = new StirFry();
             aSundae = new sundaeDessert();
+            pancake = new BreakfastPage();
 
             // tabs
             favTab = new FavoritesTab(this);

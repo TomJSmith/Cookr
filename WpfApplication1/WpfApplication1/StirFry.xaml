@@ -20,7 +20,7 @@
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
             <local:SearchBarHeader Margin="0,-56,0,56"/>
         </Grid>
-        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-1957">
+        <ScrollViewer HorizontalAlignment="Left" Height="742" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="1946" Grid.Row="1" VerticalAlignment="Top" Width="620">
                 <Image x:Name="image" HorizontalAlignment="Left" Height="168" Margin="10,50,0,0" VerticalAlignment="Top" Width="168" Source="Pics/Chicken-Broccoli-and-pineapple-stir-fry.jpg"/>
                 <Label x:Name="name" Content="Chicken, Broccoli &amp; &#xD;&#xA;Pineapple Stir-Fry" Margin="167,50,169,1673" FontSize="24" />
@@ -104,14 +104,8 @@
                 <Label x:Name="label4_Copy16" Content="1 medium onion, sliced" HorizontalAlignment="Left" Height="65" Margin="393,738,-5,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
                 <Image x:Name="image4_Copy13" HorizontalAlignment="Left" Height="60" Margin="10,630,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Chefs-Knife.jpg"/>
                 <Label x:Name="label4_Copy17" Content="Chefs knife" HorizontalAlignment="Left" Height="43" Margin="75,630,0,0" VerticalAlignment="Top" Width="134" FontSize="18.667"/>
-                <Grid HorizontalAlignment="Left" Height="52" Margin="133,1751,0,0" VerticalAlignment="Top" Width="345">
-                    <Label x:Name="label6" Content="Rate this recipe:" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Height="47" Width="163" FontSize="21.333"/>
-                    <Image x:Name="image5" HorizontalAlignment="Left" Height="26" Margin="178,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
-                    <Image x:Name="image5_Copy" HorizontalAlignment="Left" Height="26" Margin="213,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
-                    <Image x:Name="image5_Copy1" HorizontalAlignment="Left" Height="26" Margin="248,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
-                    <Image x:Name="image5_Copy2" HorizontalAlignment="Left" Height="26" Margin="278,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
-                    <Image x:Name="image5_Copy3" HorizontalAlignment="Left" Height="26" Margin="315,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
-                </Grid>
+                <Grid HorizontalAlignment="Left" Height="52" Margin="133,1751,0,0" VerticalAlignment="Top" Width="345"/>
+                <local:UserRating Margin="156,1691,34,42"></local:UserRating>
 
             </Grid>
         </ScrollViewer>

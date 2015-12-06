@@ -62,5 +62,10 @@ namespace WpfApplication1
         {
             return image.Source;
         }
+
+        public ImageSource getRating()
+        {
+            return image2.Source;
+        }
     }
 }

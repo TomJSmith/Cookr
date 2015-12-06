@@ -31,30 +31,14 @@ namespace WpfApplication1
 
         void defaultView()
         {
-            SpaghettiRecipeView spaghetti = new SpaghettiRecipeView();
-            RecipeView recipeView = new RecipeView();
 
             Sp1.Children.Clear();
-            ListItem item1ListItem = new ListItem(myMain.spaghetti);
-            Sp1.Children.Add(item1ListItem);
 
-            ListItem item2ListItem = new ListItem("Good Ol' Beef Tacos", "25 mins", recipeView);
-            Sp1.Children.Add(item2ListItem);
+            ListItem item1 =  new ListItem(myMain.pancake.getName(),myMain.pancake.getTime(),myMain.pancake);
 
-            ListItem item3ListItem = new ListItem("Hawaii Smoothie", "5 Mins", recipeView);
-            Sp1.Children.Add(item3ListItem);
+            Sp1.Children.Add(item1);
 
-            ListItem item4ListItem = new ListItem("Orange & Avocado Chicken Thighs", "25 Mins", recipeView);
-            Sp1.Children.Add(item4ListItem);
 
-            ListItem item5ListItem = new ListItem("Chicken, Broccoli & Pineapple Stir-Fry", "30 Mins", recipeView);
-            Sp1.Children.Add(item5ListItem);
-
-            ListItem item6ListItem = new ListItem();
-            Sp1.Children.Add(item6ListItem);
-
-            ListItem item7ListItem = new ListItem();
-            Sp1.Children.Add(item7ListItem);
         }
     
     
