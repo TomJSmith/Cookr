@@ -19,7 +19,11 @@
         <Button x:Name="button_Copy" Content="Favourites" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="138" Height="40" Margin="454,0,168,0" FontSize="18.667" Background="White" Foreground="#FFE8685D" BorderBrush="#FFE8685D" BorderThickness="2" Click="favsClick"/>
         <Button x:Name="button_Copy1" Content="Catagories" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="136" Height="40" Margin="170,0,454,0" BorderBrush="#FF4D8963" FontSize="18.667" Background="White" Foreground="#FF4D8963" BorderThickness="2" Click="catagoriesClick"/>
         <Rectangle Fill="#9F0251" HorizontalAlignment="Left" Height="10" Grid.Row="1" VerticalAlignment="Top" Width="760"/>
-        <Button x:Name="topRatedButton" Content=" Top Rated Recipes" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" Height="188" Margin="60,102,0,0" Grid.Row="1" VerticalAlignment="Top" Width="372" FontSize="24" Click="TopRatedClick"/>
+        <Button x:Name="topRatedButton" Content=" Top Rated Recipes" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" Height="188" Margin="60,102,0,0" Grid.Row="1" VerticalAlignment="Top" Width="372" FontSize="24" Click="TopRatedClick" FontWeight="Bold">
+            <Button.Background>
+                <ImageBrush ImageSource="Pics/spaghetti-and-meatballs2.jpg"/>
+            </Button.Background>
+        </Button>
         <Grid HorizontalAlignment="Left" Height="188" Margin="321,353,0,0" Grid.Row="1" VerticalAlignment="Top" Width="379" Background="#FFE8685D">
             <Grid HorizontalAlignment="Left" Height="178" Margin="5,0,0,0" VerticalAlignment="Top" Width="359"/>
             <Label x:Name="label" Content="Word of the day" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="42" VerticalAlignment="Top" Width="379" FontSize="24"/>
