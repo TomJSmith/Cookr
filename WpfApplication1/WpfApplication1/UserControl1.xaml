@@ -20,11 +20,14 @@
         <Button x:Name="button_Copy1" Content="Catagories" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="136" Height="40" Margin="170,0,454,0" BorderBrush="#FF4D8963" FontSize="18.667" Background="White" Foreground="#FF4D8963" BorderThickness="2" Click="catagoriesClick"/>
         <Rectangle Fill="#9F0251" HorizontalAlignment="Left" Height="10" Grid.Row="1" VerticalAlignment="Top" Width="760"/>
         <Button x:Name="topRatedButton" Content=" Top Rated Recipes" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" Height="188" Margin="60,102,0,0" Grid.Row="1" VerticalAlignment="Top" Width="372" FontSize="24" Click="TopRatedClick"/>
-        <Grid HorizontalAlignment="Left" Height="188" Margin="321,353,0,0" Grid.Row="1" VerticalAlignment="Top" Width="379">
+        <Grid HorizontalAlignment="Left" Height="188" Margin="321,353,0,0" Grid.Row="1" VerticalAlignment="Top" Width="379" Background="#FFE8685D">
+            <Grid HorizontalAlignment="Left" Height="178" Margin="5,0,0,0" VerticalAlignment="Top" Width="359"/>
             <Label x:Name="label" Content="Word of the day" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="42" VerticalAlignment="Top" Width="379" FontSize="24"/>
             <Label x:Name="label_Copy" Content="Simmer" HorizontalAlignment="Left" Height="31" Margin="10,42,0,0" VerticalAlignment="Top" Width="359" FontSize="18.667"/>
-            <TextBlock x:Name="textBlock" HorizontalAlignment="Left"  Margin="10,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top"  Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus nec est ut ultricies. Morbi bibendum rhoncus massa vel interdum. Aliquam nunc ex, tempus vitae finibus a, efficitur non eros. Nulla diam justo, lobortis ut nisi non, ultricies tincidunt ligula. Vestibulum fringilla id elit et gravida." Height="105" Width="359"/>
-            <Border BorderBrush="#FF8B8A8A" BorderThickness="5" HorizontalAlignment="Left" Height="188" VerticalAlignment="Top" Width="379"/>
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left"  Margin="10,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top"  Text="Simmering is a cooking technique that's used when making stocks or soups. It's gentler than boiling, simmering refers to cooking food in liquid (or cooking just the liquid itself) at a temperature slightly below the boiling point. It's trickier than boiling because it requires careful regulation of the temperature so that the surface of the liquid shimmers with a bubble coming up every few seconds." Height="105" Width="359"/>
+            <Border BorderBrush="#FF8B8A8A" BorderThickness="5" HorizontalAlignment="Left" Height="188" VerticalAlignment="Top" Width="379">
+                
+            </Border>
         </Grid>
         <Button x:Name="button1_Copy" Content="Recipe of the Day" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" Height="188" Margin="506,102,60,0" Grid.Row="1" VerticalAlignment="Top" FontSize="24"/>
         <Button x:Name="button1_Copy1" Content="Random Recipe" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" Height="188" Margin="60,353,0,0" Grid.Row="1" VerticalAlignment="Top" Width="194" FontSize="24"/>
