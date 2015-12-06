@@ -22,10 +22,12 @@ namespace WpfApplication1
     public partial class UserControl1 : UserControl
     {
         private MainWindow myMain;
+        private UserControl randRecipe;
         public UserControl1(MainWindow mainWindow)
         {
             myMain = mainWindow;
             InitializeComponent();
+            randomRecipe(myMain.getRandomRecipe());
         }
 
         private void TopRatedClick(object sender, RoutedEventArgs e)
@@ -41,6 +43,19 @@ namespace WpfApplication1
         private void favsClick(object sender, RoutedEventArgs e)
         {
            myMain.switchToFavs();
+        }
+
+        public void randomRecipe(UserControl aRecipe)
+        {
+            randRecipe = aRecipe;
+            IRecipe temp = (IRecipe)aRecipe;
+            RandRecipeImage.Source = (ImageSource)temp.getImage();
+            randRecipeName.Text = temp.getName();
+        }
+
+        private void RandRecipeClick(object sender, MouseButtonEventArgs e)
+        {
+            myMain.switchToView(randRecipe);
         }
     }
 }

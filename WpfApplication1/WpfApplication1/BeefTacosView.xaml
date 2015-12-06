@@ -29,11 +29,14 @@
                 <Label x:Name="label1" Content="Serves:" HorizontalAlignment="Left" Height="36" Margin="467,99,0,0" VerticalAlignment="Top" Width="75" FontSize="21.333"/>
                 <Image x:Name="image3" HorizontalAlignment="Left" Height="47" Margin="467,140,0,0" VerticalAlignment="Top" Width="48" Source="Images/timerIcon.png" RenderTransformOrigin="-0.083,0.489"/>
                 <Label x:Name="time" Content="25min" HorizontalAlignment="Left" Height="36" Margin="529,146,0,0" VerticalAlignment="Top" Width="81" FontSize="21.333"/>
-                <ComboBox x:Name="comboBox" IsEditable="True" IsReadOnly="True" HorizontalAlignment="Left" Margin="547,101,0,0" VerticalAlignment="Top" Width="63" Height="36" SelectedIndex="1" FontSize="21.333">
+                <ComboBox x:Name="comboBox" IsEditable="True" IsReadOnly="True" HorizontalAlignment="Left" Margin="547,101,0,0" VerticalAlignment="Top" Width="63" Height="36" SelectedIndex="5" FontSize="21.333">
                     <ComboBoxItem HorizontalContentAlignment="Center">1</ComboBoxItem>
                     <ComboBoxItem HorizontalContentAlignment="Center">2</ComboBoxItem>
                     <ComboBoxItem HorizontalContentAlignment="Center">3</ComboBoxItem>
                     <ComboBoxItem HorizontalContentAlignment="Center">4</ComboBoxItem>
+                    <ComboBoxItem HorizontalContentAlignment="Center">5</ComboBoxItem>
+                    <ComboBoxItem HorizontalContentAlignment="Center">6</ComboBoxItem>
+
                 </ComboBox>
                 <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="310" Margin="10,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="18.667"><Run FontSize="18.667" FontFamily="Segoe UI" Text="These tacos will make you think you're in a good ol'traditional Mexican restaurant."/><LineBreak/><Run Text=""/></TextBlock>
                 <Label x:Name="label2" Content="Nutrition Information" HorizontalAlignment="Left" Margin="335,210,0,0" VerticalAlignment="Top" Width="285" FontSize="21.333"/>
