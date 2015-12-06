@@ -19,7 +19,7 @@
 
         <Button x:Name="button" Content="Discover" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="138" Height="40" FontSize="18.667" Background="White" Foreground="#FF9F0251" Margin="311,0" BorderBrush="#FF9F0251" BorderThickness="2" Click="button_Click"/>
         <Button x:Name="button_Copy" Content="Favourites" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="138" Height="40" Margin="449,0,173,0" FontSize="18.667" Background="White" Foreground="#FFE8685D" BorderBrush="#FFE8685D" BorderThickness="2" Click="button_Copy_Click"/>
-        <Button x:Name="button_Copy1" Content="Catagories" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="141" Height="50" Margin="170,0,449,0" BorderBrush="#FF4D8963" FontSize="18.667" Background="#FF4D8963" Foreground="White"/>
+        <Button x:Name="button_Copy1" Content="Categories" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="141" Height="50" Margin="170,0,449,0" BorderBrush="#FF4D8963" FontSize="18.667" Background="#FF4D8963" Foreground="White"/>
         <Rectangle Fill="#FF4D8963" HorizontalAlignment="Left" Height="10" Grid.Row="1" VerticalAlignment="Top" Width="760"/>
 
         <Grid Name="G2" Height="191" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="144" Grid.Row="1" Margin="138,0,478,141" Grid.RowSpan="2">
