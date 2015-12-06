@@ -20,7 +20,7 @@
             <local:SearchBarHeader Margin="0,-56,0,56"/>
 
         </Grid>
-        <ScrollViewer HorizontalAlignment="Left" Height="744" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3">
+        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-673">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="Auto" Grid.Row="1" VerticalAlignment="Top" Width="620">
                 <local:UserRating Margin="133,1661,57,72"></local:UserRating>
                 <Image x:Name="image" HorizontalAlignment="Left" Height="168" Margin="10,50,0,0" VerticalAlignment="Top" Width="243" Source="Images/spahgetti.jpg"/>
@@ -50,6 +50,7 @@
                 <Label x:Name="label2_Copy7" Content="Vitamin C %" HorizontalAlignment="Left" Margin="467,458,0,0" VerticalAlignment="Top" Width="119" FontSize="18.667"/>
                 <Label x:Name="label2_Copy8" Content="Calcium %" HorizontalAlignment="Left" Margin="335,493,0,0" VerticalAlignment="Top" Width="119" FontSize="18.667"/>
                 <Label x:Name="label2_Copy9" Content="Iron %" HorizontalAlignment="Left" Margin="467,493,0,0" VerticalAlignment="Top" Width="119" FontSize="18.667"/>
+                <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="112" Margin="0,529,0,0" VerticalAlignment="Top" Width="620"/>
                 <Label x:Name="label3" Content="Utensils" HorizontalAlignment="Left" Height="48" Margin="0,528,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
                 <Image x:Name="image4" HorizontalAlignment="Left" Height="60" Margin="10,581,0,0" VerticalAlignment="Top" Width="60" Source="pan.jpg"/>
                 <Label x:Name="label4" Content="Utensil" HorizontalAlignment="Left" Height="43" Margin="75,581,0,0" VerticalAlignment="Top" Width="122" FontSize="18.667"/>
@@ -93,12 +94,15 @@
                 <TextBlock x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Height="111" Margin="84,1562,0,-30" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="526" FontSize="16"><Run Text="Aliquam ac auctor purus, in congue leo. In dictum convallis ante in rhoncus. Maecenas neque orci, efficitur id odio sed, condimentum sodales neque.Suspendisse vestibulum fermentum luctus. In blandit eros nec commodo lacinia. Integer dui tellus, aliquam quis dui sed, ornare commodo metus."/></TextBlock>
                 <Label x:Name="label5_Copy3" Content="Step 5" HorizontalAlignment="Left" Height="36" Margin="10,1557,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
                 <Image x:Name="favButton" HorizontalAlignment="Left" Height="45" Margin="208,168,0,0" VerticalAlignment="Top" Width="45" Source="Images/addFavouritedButton.png" MouseUp="addFavourite"/>
+                <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="302" Margin="0,641,0,0" VerticalAlignment="Top" Width="620"/>
+                <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="730" Margin="0,943,0,0" VerticalAlignment="Top" Width="620"/>
 
             </Grid>
         </ScrollViewer>
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="55" Margin="0,240,0,0" Grid.RowSpan="2">
             <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png" RenderTransformOrigin="1,1.667" MouseUp="goBack"/>
         </Grid>
+
 
     </Grid>
 </UserControl>

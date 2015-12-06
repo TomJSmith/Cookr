@@ -20,7 +20,7 @@
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
             <local:SearchBarHeader Margin="0,-56,0,56"/>
         </Grid>
-        <ScrollViewer HorizontalAlignment="Left" Height="744" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3">
+        <ScrollViewer HorizontalAlignment="Left" Height="742" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="1946" Grid.Row="1" VerticalAlignment="Top" Width="620">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="83*"/>
@@ -56,7 +56,6 @@
                 <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="198" Margin="0,533,0,0" VerticalAlignment="Top" Width="620">
                     <Label x:Name="label3" Content="Utensils" HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="197" FontSize="24" Margin="-1,-1,0,0"/>
                 </Border>
-                <Image x:Name="image4" HorizontalAlignment="Left" Height="60" Margin="0,582,0,0" VerticalAlignment="Top" Width="60" Source="Pics/skillet.jpg"/>
                 <Label x:Name="label4" Content="skillet" HorizontalAlignment="Left" Height="43" Margin="75,582,0,0" VerticalAlignment="Top" Width="134" FontSize="18.667"/>
                 <Label x:Name="label3_Copy" Content="Ingredients" HorizontalAlignment="Left" Height="48" Margin="0,731,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
                 <Image x:Name="image4_Copy1" HorizontalAlignment="Left" Height="60" Margin="10,784,0,0" VerticalAlignment="Top" Width="60" Source="Pics/butter.jpg"/>
@@ -100,7 +99,7 @@
                 <Image x:Name="image4_Copy12" HorizontalAlignment="Left" Height="60" Margin="323,582,0,0" VerticalAlignment="Top" Width="60" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
                 <local:UserRating Margin="151,606,139,166" Grid.Row="1"></local:UserRating>
                 <Image x:Name="image" HorizontalAlignment="Left" Height="168" Margin="10,50,0,0" VerticalAlignment="Top" Width="168" Source="sundae.jpg"/>
-                <Image x:Name="image4_Copy" HorizontalAlignment="Left" Height="60" Margin="0,582,0,0" VerticalAlignment="Top" Width="60" Source="skillet.jpg"/>
+                <Image x:Name="image4_Copy" HorizontalAlignment="Left" Height="60" Margin="9,582,0,0" VerticalAlignment="Top" Width="60" Source="skillet.jpg"/>
                 <Image x:Name="image4_Copy9" HorizontalAlignment="Left" Height="60" Margin="323,582,0,0" VerticalAlignment="Top" Width="60" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
                 <Image x:Name="image4_Copy11" HorizontalAlignment="Left" Height="60" Margin="10,784,0,0" VerticalAlignment="Top" Width="60" Source="butter.jpg"/>
                 <Image x:Name="image4_Copy13" HorizontalAlignment="Left" Height="60" Margin="9,863,0,0" VerticalAlignment="Top" Width="60" Source="honey.jpg" Grid.RowSpan="2"/>
