@@ -61,6 +61,7 @@ namespace WpfApplication1
             spaghetti = new SpaghettiRecipeView();
             stirFry = new StirFry();
             aSundae = new sundaeDessert();
+            pancake = new BreakfastPage();
 
             // tabs
             favTab = new FavoritesTab(this);
