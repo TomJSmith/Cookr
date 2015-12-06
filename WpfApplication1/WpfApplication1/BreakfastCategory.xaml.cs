@@ -34,10 +34,8 @@ namespace WpfApplication1
             SpaghettiRecipeView spaghetti = new SpaghettiRecipeView();
             RecipeView recipeView = new RecipeView();
 
-
-
             Sp1.Children.Clear();
-            ListItem item1ListItem = new ListItem("Spaghetti & Meatballs", " 30 Mins", myMain.spaghetti);
+            ListItem item1ListItem = new ListItem(myMain.spaghetti);
             Sp1.Children.Add(item1ListItem);
 
             ListItem item2ListItem = new ListItem("Good Ol' Beef Tacos", "25 mins", recipeView);
@@ -51,6 +49,12 @@ namespace WpfApplication1
 
             ListItem item5ListItem = new ListItem("Chicken, Broccoli & Pineapple Stir-Fry", "30 Mins", recipeView);
             Sp1.Children.Add(item5ListItem);
+
+            ListItem item6ListItem = new ListItem();
+            Sp1.Children.Add(item6ListItem);
+
+            ListItem item7ListItem = new ListItem();
+            Sp1.Children.Add(item7ListItem);
         }
     
     

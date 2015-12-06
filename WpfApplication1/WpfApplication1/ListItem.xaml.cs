@@ -26,6 +26,10 @@ namespace WpfApplication1
         public ListItem()
         {
             InitializeComponent();
+            IRecipe aRecipe = new RecipeView();
+            recipeName.Text = aRecipe.getName();
+            time.Content = aRecipe.getTime();
+            targetUserControl = (UserControl)aRecipe;
         }
         
         public ListItem(string aName, string aTime, UserControl aUserControl)
@@ -43,6 +47,14 @@ namespace WpfApplication1
             InitializeComponent();
             recipeName.Text = name;
             time.Content = time1;
+        }
+
+        public ListItem(IRecipe aRecipe)
+        {
+            InitializeComponent();
+            recipeName.Text = aRecipe.getName();
+            time.Content = aRecipe.getTime();
+            targetUserControl = (UserControl)aRecipe;
         }
 
 
