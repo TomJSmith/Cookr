@@ -99,7 +99,7 @@
                 </Grid>
                 <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png" RenderTransformOrigin="1,1.667" Margin="0,3,0,0" MouseUp="goBack"/>
                 <Image x:Name="favButton" HorizontalAlignment="Left" Height="45" Margin="133,174,0,0" VerticalAlignment="Top" Width="45" Source="Images/addFavouritedButton.png" MouseUp="addFavourite"/>
-                <Image Margin="9,613,551,1401" Source="Pics/pasta spoon.jpg"/>
+                <Image Margin="10,630,550,1384" Source="Pics/pasta spoon.jpg"/>
                 <Image x:Name="image4_Copy6" HorizontalAlignment="Left" Height="60" Margin="9,955,0,0" VerticalAlignment="Top" Width="60" Source="Pics/eggs.jpg"/>
                 <Label x:Name="label4_Copy2" Content="1 large egg" HorizontalAlignment="Left" Height="43" Margin="75,955,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
                 <Label x:Name="label4_Copy3" Content="1/2 cup plain &#xD;&#xA;dried breadcrumbs" HorizontalAlignment="Left" Height="60" Margin="75,1032,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
@@ -110,7 +110,7 @@
                 <Image x:Name="image4_Copy8" HorizontalAlignment="Left" Height="60" Margin="323,1032,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Olive oil.jpg"/>
                 <Image x:Name="image4_Copy9" HorizontalAlignment="Left" Height="60" Margin="323,1118,0,0" VerticalAlignment="Top" Width="60" Source="Pics/spaghetti.jpg"/>
                 <Image x:Name="image4_Copy10" HorizontalAlignment="Left" Height="60" Margin="9,1118,0,0" VerticalAlignment="Top" Width="60" Source="Pics/crushedtomatoes.jpg"/>
-                <Image Margin="328,613,232,1401" Source="Pics/Large mixing bowl.jpg"/>
+                <Image Margin="323,630,237,1384" Source="Pics/Large mixing bowl.jpg"/>
                 <Label x:Name="label4_Copy13" Content="Mixing Bowl" HorizontalAlignment="Left" Height="43" Margin="393,630,0,0" VerticalAlignment="Top" Width="122" FontSize="18.667"/>
                 <Label x:Name="label4_Copy14" Content="Spaghetti Spoon" HorizontalAlignment="Left" Height="43" Margin="70,630,0,0" VerticalAlignment="Top" Width="151" FontSize="18.667"/>
                 <Rectangle HorizontalAlignment="Left" Height="116" Margin="0,1786,0,0" VerticalAlignment="Top" Width="620"/>
@@ -119,9 +119,7 @@
                 <Image x:Name="image12_Copy4" HorizontalAlignment="Left" Height="60" Margin="10,1827,0,0" VerticalAlignment="Top" Width="60" Source="Pics/spaghetti-and-meatballs.jpg"/>
 
                 <Label x:Name="label4_Copy15" Content="Slotted Spoon" HorizontalAlignment="Left" Height="43" Margin="75,690,0,0" VerticalAlignment="Top" Width="151" FontSize="18.667"/>
-                <Image x:Name="image4_Copy11" HorizontalAlignment="Left" Height="60" Margin="10,630,0,0" VerticalAlignment="Top" Width="60" Source="Pics/pasta spoon.jpg"/>
-                <Image x:Name="image4_Copy12" HorizontalAlignment="Left" Height="60" Margin="10,690,0,0" VerticalAlignment="Top" Width="60" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
-                <Image x:Name="image4_Copy13" HorizontalAlignment="Left" Height="60" Margin="323,630,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Large mixing bowl.jpg"/>
+                <Image x:Name="image4_Copy12" HorizontalAlignment="Left" Height="60" Margin="9,695,0,0" VerticalAlignment="Top" Width="60" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
 
 
 

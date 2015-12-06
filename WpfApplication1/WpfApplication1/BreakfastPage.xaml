@@ -5,8 +5,103 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WpfApplication1"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
-    <Grid>
-            
+             d:DesignHeight="1024" d:DesignWidth="768">
+    <Grid Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="244"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="620"/>
+            <ColumnDefinition Width="70"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="244" VerticalAlignment="Top" Width="760" Background="#FFF9D08B"/>
+        <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
+            <local:SearchBarHeader Margin="0,-56,0,56"/>
+        </Grid>
+        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-1250">
+            <Grid Grid.Column="1" HorizontalAlignment="Center" Height="1530" Grid.Row="1" VerticalAlignment="Top" Width="620">
+                <Image x:Name="image" HorizontalAlignment="Left" Height="168" Margin="10,50,0,0" VerticalAlignment="Top" Width="168" Source="Pics/pancake.jpg"/>
+                <Label x:Name="label" Content="Pancakes" Margin="178,50,158,1431" FontSize="24" />
+                <Image x:Name="image1" HorizontalAlignment="Left" Height="100" Margin="273,78,0,0" VerticalAlignment="Top" Width="100"/>
+                <Image x:Name="image2" HorizontalAlignment="Left" Height="63" Margin="183,99,0,0" VerticalAlignment="Top" Width="152" Source="Images/3star.png"/>
+                <Label x:Name="label1" Content="Serves:" HorizontalAlignment="Left" Height="36" Margin="467,99,0,0" VerticalAlignment="Top" Width="75" FontSize="21.333"/>
+                <Image x:Name="image3" HorizontalAlignment="Left" Height="47" Margin="467,140,0,0" VerticalAlignment="Top" Width="48" Source="Images/timerIcon.png" RenderTransformOrigin="-0.083,0.489"/>
+                <Label x:Name="label1_Copy" Content="30 min" HorizontalAlignment="Left" Height="36" Margin="529,146,0,0" VerticalAlignment="Top" Width="81" FontSize="21.333"/>
+                <ComboBox x:Name="comboBox" IsEditable="True" IsReadOnly="True" HorizontalAlignment="Left" Margin="547,101,0,0" VerticalAlignment="Top" Width="63" Height="36" SelectedIndex="1" FontSize="21.333">
+                    <ComboBoxItem HorizontalContentAlignment="Center">1</ComboBoxItem>
+                    <ComboBoxItem HorizontalContentAlignment="Center">2</ComboBoxItem>
+                    <ComboBoxItem HorizontalContentAlignment="Center">3</ComboBoxItem>
+                    <ComboBoxItem HorizontalContentAlignment="Center">4</ComboBoxItem>
+                </ComboBox>
+                <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="310" Margin="10,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="18.667" Text="This recipe doesn't require much thought early in the morning, and tastes great!"/>
+                <Label x:Name="label2" Content="Nutrition Information" HorizontalAlignment="Left" Margin="335,210,0,0" VerticalAlignment="Top" Width="285" FontSize="21.333"/>
+                <Label x:Name="label2_Copy" Content="Calories 249" HorizontalAlignment="Left" Margin="335,248,0,0" VerticalAlignment="Top" Width="207" FontSize="18.667" FontWeight="Bold"/>
+                <Label x:Name="label2_Copy1" Content="Total Fat 9.6 g" HorizontalAlignment="Left" Margin="335,283,0,0" VerticalAlignment="Top" Width="207" FontSize="18.667" FontWeight="Bold"/>
+                <Label x:Name="label2_Copy2" Content="Saturated Fat 2.3 g" HorizontalAlignment="Left" Margin="367,313,0,0" VerticalAlignment="Top" Width="175" FontSize="18.667"/>
+                <Label x:Name="label2_Copy3" Content="Trans Fat 0.5 g" HorizontalAlignment="Left" Margin="367,348,0,0" VerticalAlignment="Top" Width="175" FontSize="18.667"/>
+                <Label x:Name="label2_Copy4" Content="Carbohydrates 33.5 g" HorizontalAlignment="Left" Margin="335,388,0,0" VerticalAlignment="Top" Width="207" FontSize="18.667" FontWeight="Bold"/>
+                <Label x:Name="label2_Copy5" Content="Protein 6.8 g" HorizontalAlignment="Left" Margin="335,423,0,0" VerticalAlignment="Top" Width="207" FontSize="18.667" FontWeight="Bold"/>
+                <Label x:Name="label2_Copy6" Content="Vitamin A 3 %" HorizontalAlignment="Left" Margin="335,458,0,0" VerticalAlignment="Top" Width="143" FontSize="16"/>
+                <Label x:Name="label2_Copy7" Content="Vitamin C 0 %" HorizontalAlignment="Left" Margin="467,458,0,0" VerticalAlignment="Top" Width="130" FontSize="14.667"/>
+                <Label x:Name="label2_Copy8" Content="Calcium 21 %" HorizontalAlignment="Left" Margin="335,493,0,0" VerticalAlignment="Top" Width="119" FontSize="16"/>
+                <Label x:Name="label2_Copy9" Content="Iron 9 %" HorizontalAlignment="Left" Margin="467,493,0,0" VerticalAlignment="Top" Width="119" FontSize="16"/>
+                <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="243" Margin="1,524,0,0" VerticalAlignment="Top" Width="619"/>
+                <Label x:Name="label3" Content="Utensils" HorizontalAlignment="Left" Height="48" Margin="9,524,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
+                <Image x:Name="image4" HorizontalAlignment="Left" Height="60" Margin="10,572,0,0" VerticalAlignment="Top" Width="60" Source="Pics/10 inch non stick pan.jpg"/>
+                <Label x:Name="label4" Content="10 inch &#xD;&#xA;non-stick pan" HorizontalAlignment="Left" Height="60" Margin="75,570,0,0" VerticalAlignment="Top" Width="134" FontSize="18.667"/>
+                <Image x:Name="image4_Copy" HorizontalAlignment="Left" Height="60" Margin="323,570,0,0" VerticalAlignment="Top" Width="60" Source="Pics/whisk.jpg" RenderTransformOrigin="0.483,0.908"/>
+                <Label x:Name="label4_Copy" Content="Whisk" HorizontalAlignment="Left" Height="43" Margin="393,572,0,0" VerticalAlignment="Top" Width="122" FontSize="18.667"/>
+                <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="369" Margin="1,767,0,0" VerticalAlignment="Top" Width="619"/>
+                <Label x:Name="label3_Copy" Content="Ingredients" HorizontalAlignment="Left" Height="48" Margin="9,767,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
+                <Image x:Name="image4_Copy1" HorizontalAlignment="Left" Height="60" Margin="9,803,0,0" VerticalAlignment="Top" Width="60" Source="Pics/salt.png"/>
+                <Label x:Name="label4_Copy1" Content="1 teaspoon Salt" HorizontalAlignment="Left" Height="43" Margin="70,798,0,0" VerticalAlignment="Top" Width="210" FontSize="18.667"/>
+                <Image x:Name="image4_Copy2" HorizontalAlignment="Left" Height="60" Margin="9,868,0,0" VerticalAlignment="Top" Width="60" Source="Pics/sugar-1-kilo-bag-zF7y.jpg"/>
+                <Label x:Name="label4_Copy5" Content="2 tablespoons sugar" HorizontalAlignment="Left" Height="43" Margin="75,863,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Image x:Name="image4_Copy3" HorizontalAlignment="Left" Height="60" Margin="323,798,0,0" VerticalAlignment="Top" Width="60" Source="flour-american-all-purpose-flour-2.2kg-5lb-10079-p.jpg"/>
+                <Label x:Name="label4_Copy8" Content="1 cup All-purpose flour" HorizontalAlignment="Left" Height="65" Margin="389,798,-1,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Image x:Name="image4_Copy4" HorizontalAlignment="Left" Height="60" Margin="323,868,0,0" VerticalAlignment="Top" Width="60" Source="Pics/magic-baking-powder.jpg"/>
+                <Label x:Name="label4_Copy9" Content="Baking pouder" HorizontalAlignment="Left" Height="43" Margin="388,863,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Image x:Name="image4_Copy5" HorizontalAlignment="Left" Height="60" Margin="323,955,0,0" VerticalAlignment="Top" Width="60" Source="Pics/milk.jpg"/>
+                <Label x:Name="label4_Copy10" Content="1 cup milk" HorizontalAlignment="Left" Height="43" Margin="389,955,-1,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Rectangle Fill="#FFE8685D" Margin="1,1231,-1,0" Stroke="#FFE8685D" Height="116" VerticalAlignment="Top"/>
+                <Image x:Name="image12" HorizontalAlignment="Left" Height="60" Margin="9,1267,0,0" VerticalAlignment="Top" Width="60" Source="Pics/whisking.jpg"/>
+                <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="327" Margin="0,1136,-1,0" VerticalAlignment="Top" Width="621"/>
+                <Label x:Name="label23_Copy" Content="Instructions" HorizontalAlignment="Left" Height="48" Margin="1,1141,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
+                <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="111" Margin="75,1236,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run Text="In a large bowl, mix"/><Run Text=" using a whisk,"/><Run Text=" flour, sugar, baking powder"/><Run Text=", "/><Run Text="salt."/><Run Text=", "/><Run Text="milk, egg and oil. Mix until smooth."/></TextBlock>
+                <Label x:Name="label5" Content="Step 1" HorizontalAlignment="Left" Height="36" Margin="1,1231,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
+                <Rectangle HorizontalAlignment="Left" Margin="0,1347,0,617" Width="620"/>
+                <Image x:Name="image12_Copy" HorizontalAlignment="Left" Height="45" Margin="9,1388,0,0" VerticalAlignment="Top" Width="60" Source="Pics/making pancakes.jpg"/>
+                <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Height="111" Margin="70,1352,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" FontSize="16"><Run Text="Heat a lightly oiled frying pan over medium high heat. "/><Run Text="Scoop, using the ladle "/><Run Text="the batter onto the "/><Run Text="pan"/><Run Text=", using approximately 1/4 cup for each pancake. "/><Run Text="Make sure it's lightly b"/><Run Text="rown on both sides and serve hot."/></TextBlock>
+                <Label x:Name="label5_Copy" Content="Step 2" HorizontalAlignment="Left" Height="36" Margin="1,1347,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667"/>
+                <Grid HorizontalAlignment="Left" Height="52" Margin="133,1468,0,0" VerticalAlignment="Top" Width="345">
+                    <Label x:Name="label6" Content="Rate this recipe:" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Height="47" Width="163" FontSize="21.333"/>
+                    <Image x:Name="image5" HorizontalAlignment="Left" Height="26" Margin="178,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                    <Image x:Name="image5_Copy" HorizontalAlignment="Left" Height="26" Margin="213,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                    <Image x:Name="image5_Copy1" HorizontalAlignment="Left" Height="26" Margin="248,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                    <Image x:Name="image5_Copy2" HorizontalAlignment="Left" Height="26" Margin="278,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                    <Image x:Name="image5_Copy3" HorizontalAlignment="Left" Height="26" Margin="315,10,0,0" VerticalAlignment="Top" Width="30" Source="Images/Star-grey-icon.png" RenderTransformOrigin="0.2,1.615"/>
+                </Grid>
+                <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png" RenderTransformOrigin="1,1.667" Margin="0,3,0,0" MouseUp="goBack"/>
+                <Image x:Name="favButton" HorizontalAlignment="Left" Height="45" Margin="133,174,0,0" VerticalAlignment="Top" Width="45" Source="Images/addFavouritedButton.png" MouseUp="addFavourite"/>
+                <Image x:Name="image4_Copy6" HorizontalAlignment="Left" Height="60" Margin="9,955,0,0" VerticalAlignment="Top" Width="60" Source="Pics/eggs.jpg"/>
+                <Label x:Name="label4_Copy2" Content="1 large egg" HorizontalAlignment="Left" Height="43" Margin="75,955,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Label x:Name="label4_Copy3" Content="2 tablespoons canola&#xD;&#xA;oil" HorizontalAlignment="Left" Height="60" Margin="75,1032,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Image x:Name="image4_Copy7" HorizontalAlignment="Left" Height="60" Margin="9,1032,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Canola-Oil.jpg"/>
+                <Image Margin="323,630,237,1384" Source="Pics/Large mixing bowl.jpg"/>
+                <Label x:Name="label4_Copy13" Content="Mixing Bowl" HorizontalAlignment="Left" Height="43" Margin="393,630,0,0" VerticalAlignment="Top" Width="122" FontSize="18.667"/>
+
+                <Label x:Name="label4_Copy15" Content="Ladle" HorizontalAlignment="Left" Height="43" Margin="75,630,0,0" VerticalAlignment="Top" Width="151" FontSize="18.667"/>
+                <Image x:Name="image4_Copy12" HorizontalAlignment="Left" Height="60" Margin="10,632,0,0" VerticalAlignment="Top" Width="60" Source="Pics/ladle-big.jpg"/>
+                <Image Margin="10,692,550,1322" Source="Pics/-measuring-cup-set-1-600x600.jpg"/>
+                <Label x:Name="label4_Copy4" Content="Measuring cups" HorizontalAlignment="Left" Height="43" Margin="75,692,0,0" VerticalAlignment="Top" Width="151" FontSize="18.667"/>
+
+
+
+            </Grid>
+        </ScrollViewer>
+
+
     </Grid>
 </UserControl>

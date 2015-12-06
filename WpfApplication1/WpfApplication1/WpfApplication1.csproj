@@ -463,6 +463,27 @@
   <ItemGroup>
     <Resource Include="Images\timerIcon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\pancake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\ladle-big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="flour-american-all-purpose-flour-2.2kg-5lb-10079-p.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\sugar-1-kilo-bag-zF7y.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\magic-baking-powder.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\milk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\making pancakes.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
