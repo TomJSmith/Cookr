@@ -27,7 +27,8 @@
             <Border BorderBrush="#FF8B8A8A" BorderThickness="5" HorizontalAlignment="Left" Height="188" VerticalAlignment="Top" Width="379"/>
         </Grid>
         <Button x:Name="button1_Copy" Content="Recipe of the Day" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" Height="188" Margin="506,102,60,0" Grid.Row="1" VerticalAlignment="Top" FontSize="24"/>
-        <Button x:Name="button1_Copy1" Content="Random Recipe" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" Height="188" Margin="60,353,0,0" Grid.Row="1" VerticalAlignment="Top" Width="194" FontSize="24"/>
+        <Image x:Name="RandRecipeImage" Source="/Images/homeButton.png" Width="194" Margin="60,353,506,77" Grid.Row="1" MouseUp="RandRecipeClick"/>
+        <TextBlock x:Name="randRecipeName" HorizontalAlignment="Left" Margin="60,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" Height="77" Width="240" FontSize="24" MouseUp="RandRecipeClick" VerticalAlignment="Bottom"/>
 
     </Grid>
 </UserControl>

@@ -48,7 +48,7 @@ namespace WpfApplication1
         public sundaeDessert aSundae;
         public BreakfastPage pancake;
 
-
+        private Random rnd = new Random();
         UserControl prevView;
 
 
@@ -192,6 +192,39 @@ namespace WpfApplication1
             prevView = (UserControl)contentView.Children[0];
             contentView.Children.Clear();
             contentView.Children.Add(drink);  
+        }
+
+        public UserControl getRandomRecipe()
+        {
+            int myCase = rnd.Next(7);
+            if (myCase == 0)
+            {
+                return beefTacos;
+            }
+            else if (myCase == 1)
+            {
+                return pancake;
+            }
+            else if (myCase == 2)
+            {
+                return hawiianSmoothie;
+            }
+            else if (myCase == 3)
+            {
+                return orangeAvoChicken;
+            }
+            else if (myCase == 4)
+            {
+                return spaghetti;
+            }
+            else if (myCase == 5)
+            {
+                return aSundae;
+            }
+            else 
+            {
+                return stirFry;
+            }
         }
     }
 }
