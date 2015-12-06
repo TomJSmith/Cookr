@@ -20,30 +20,47 @@ namespace WpfApplication1
     /// </summary>
     public partial class ListItem : UserControl
     {
-
         public UserControl targetUserControl;
         
 
         public ListItem()
         {
             InitializeComponent();
+            IRecipe aRecipe = new RecipeView();
+            recipeName.Text = aRecipe.getName();
+            time.Content = aRecipe.getTime();
+            targetUserControl = (UserControl)aRecipe;
+            image.Source = (ImageSource)aRecipe.getImage();
         }
         
-        public ListItem(string aName, string aTime, UserControl aUserControl)
+        public ListItem(string aName, string aTime, IRecipe aUserControl)
         {
             InitializeComponent();
-            recipeName.Content = aName;
+            recipeName.Text = aName;
           
             time.Content = aTime;
-            targetUserControl = aUserControl;
+            targetUserControl = (UserControl)aUserControl;
+            image.Source = (ImageSource)aUserControl.getImage();
         }
 
       
         public ListItem(string name, string time1)
         {
             InitializeComponent();
-            recipeName.Content = name;
+            IRecipe aRecipe = new RecipeView();
+            recipeName.Text = name;
             time.Content = time1;
+            targetUserControl = (UserControl)aRecipe;
+            image.Source = (ImageSource)aRecipe.getImage();
+        }
+
+        public ListItem(IRecipe aRecipe)
+        {
+            InitializeComponent();
+            recipeName.Text = aRecipe.getName();
+            time.Content = aRecipe.getTime();
+            image.Source = (ImageSource)aRecipe.getImage();
+            targetUserControl = (UserControl)aRecipe;
         }
 
 

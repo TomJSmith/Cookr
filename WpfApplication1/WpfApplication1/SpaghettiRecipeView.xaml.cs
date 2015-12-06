@@ -18,9 +18,9 @@ namespace WpfApplication1
     /// <summary>
     /// Interaction logic for SpaghettiRecipeView.xaml
     /// </summary>
-    public partial class SpaghettiRecipeView : UserControl
+    public partial class SpaghettiRecipeView : UserControl, IRecipe
     {
-        private bool isFav;
+        private bool isFav = false;
         public SpaghettiRecipeView()
         {
             InitializeComponent();
@@ -33,16 +33,34 @@ namespace WpfApplication1
 
         private void addFavourite(object sender, MouseButtonEventArgs e)
         {
+            MainWindow mainWindow = (MainWindow)Window.GetWindow(this);
             if (isFav)
             {
                 isFav = false;
                 favButton.Source = new BitmapImage(new Uri(@"/Images/addFavouritedButton.png", UriKind.Relative));
+                mainWindow.removeFav(this);
             }
             else
             {
                 isFav = true;
                 favButton.Source = new BitmapImage(new Uri(@"/Images/filledFavouritedButton.png", UriKind.Relative));
+                mainWindow.addFav(this);
             }
+        }
+
+        public string getName()
+        {
+            return (string)name.Content;
+        }
+
+        public string getTime()
+        {
+            return (string)time.Content;            
+        }
+
+        public object getImage()
+        {
+            return image.Source;
         }
     }
 }
