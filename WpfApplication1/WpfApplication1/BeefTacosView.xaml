@@ -20,7 +20,7 @@
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
             <local:SearchBarHeader Margin="0,-56,0,56"/>
         </Grid>
-        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-1628">
+        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-1299">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="2110" Grid.Row="1" VerticalAlignment="Top" Width="620">
                 <Image x:Name="image" HorizontalAlignment="Left" Height="168" Margin="10,50,0,0" VerticalAlignment="Top" Width="168" Source="Pics/Beef-Taco.jpg"/>
                 <Label x:Name="name" Content="Good Ol'Beef Tacos" Margin="178,50,158,1673" FontSize="24" />
@@ -112,9 +112,9 @@
                 <Label x:Name="label4_Copy15" Content="1 cup sliced Avocado" HorizontalAlignment="Left" Height="43" Margin="388,762,0,0" VerticalAlignment="Top" Width="210" FontSize="18.667"/>
                 <Grid HorizontalAlignment="Left" Height="52" Margin="133,2003,0,0" VerticalAlignment="Top" Width="345"/>
                 <Label x:Name="label4_Copy16" Content="Mixing Bowl" HorizontalAlignment="Left" Height="43" Margin="393,636,0,0" VerticalAlignment="Top" Width="122" FontSize="18.667"/>
-                <local:UserRating Margin="133,1832,57,125" Loaded="UserRating_Loaded"></local:UserRating>
                 <Image x:Name="image12_Copy2" HorizontalAlignment="Left" Height="60" Margin="1,1695,0,0" VerticalAlignment="Top" Width="60" Source="Pics/frying ground beef.jpg"/>
                 <Image x:Name="image12_Copy5" HorizontalAlignment="Left" Height="60" Margin="1,1812,0,0" VerticalAlignment="Top" Width="60" Source="Pics/spoon beef on tortilla.jpg"/>
+                <local:UserRating Margin="147,1937,43,20" ></local:UserRating>
 
             </Grid>
         </ScrollViewer>
