@@ -57,5 +57,10 @@ namespace WpfApplication1
         {
             return (string)time.Content;
         }
+
+        public object getImage()
+        {
+            return image.Source;
+        }
     }
 }

@@ -10,5 +10,6 @@ namespace WpfApplication1
     {
         string getName();
         string getTime();
+        object getImage();
     }
 }

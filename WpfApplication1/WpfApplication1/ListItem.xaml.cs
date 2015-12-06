@@ -30,23 +30,28 @@ namespace WpfApplication1
             recipeName.Text = aRecipe.getName();
             time.Content = aRecipe.getTime();
             targetUserControl = (UserControl)aRecipe;
+            image.Source = (ImageSource)aRecipe.getImage();
         }
         
-        public ListItem(string aName, string aTime, UserControl aUserControl)
+        public ListItem(string aName, string aTime, IRecipe aUserControl)
         {
             InitializeComponent();
             recipeName.Text = aName;
           
             time.Content = aTime;
-            targetUserControl = aUserControl;
+            targetUserControl = (UserControl)aUserControl;
+            image.Source = (ImageSource)aUserControl.getImage();
         }
 
       
         public ListItem(string name, string time1)
         {
             InitializeComponent();
+            IRecipe aRecipe = new RecipeView();
             recipeName.Text = name;
             time.Content = time1;
+            targetUserControl = (UserControl)aRecipe;
+            image.Source = (ImageSource)aRecipe.getImage();
         }
 
         public ListItem(IRecipe aRecipe)
@@ -54,6 +59,7 @@ namespace WpfApplication1
             InitializeComponent();
             recipeName.Text = aRecipe.getName();
             time.Content = aRecipe.getTime();
+            image.Source = (ImageSource)aRecipe.getImage();
             targetUserControl = (UserControl)aRecipe;
         }
 

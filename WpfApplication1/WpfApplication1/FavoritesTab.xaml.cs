@@ -47,7 +47,7 @@ namespace WpfApplication1
                 favStack.Children.Clear();
                 for (int i = 0; i < myFaves.Count; i++)
                 {
-                    favStack.Children.Add(new ListItem(myFaves[i].getName(), myFaves[i].getTime(), (UserControl)myFaves[i]));
+                    favStack.Children.Add(new ListItem(myFaves[i]));
                 }
             }
         }
