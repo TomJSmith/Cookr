@@ -197,7 +197,7 @@ namespace WpfApplication1
 
         public UserControl getRandomRecipe()
         {
-            int myCase = rnd.Next(7);
+            int myCase = rnd.Next(6);
             if (myCase == 0)
             {
                 return beefTacos;
@@ -217,10 +217,6 @@ namespace WpfApplication1
             else if (myCase == 4)
             {
                 return spaghetti;
-            }
-            else if (myCase == 5)
-            {
-                return aSundae;
             }
             else 
             {

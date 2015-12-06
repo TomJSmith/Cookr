@@ -30,10 +30,10 @@ namespace WpfApplication1
             randomRecipe(myMain.getRandomRecipe());
         }
 
-        private void TopRatedClick(object sender, RoutedEventArgs e)
-        {
-            myMain.switchTopRatedView();
-        }
+        //private void TopRatedClick(object sender, RoutedEventArgs e)
+        //{
+        //    myMain.switchTopRatedView();
+        //}
 
         private void catagoriesClick(object sender, RoutedEventArgs e)
         {
@@ -56,6 +56,16 @@ namespace WpfApplication1
         private void RandRecipeClick(object sender, MouseButtonEventArgs e)
         {
             myMain.switchToView(randRecipe);
+        }
+
+        private void TopRatedClick(object sender, MouseButtonEventArgs e)
+        {
+            myMain.switchTopRatedView();
+        }
+
+        private void ROTDClick(object sender, MouseButtonEventArgs e)
+        {
+            myMain.switchToView(myMain.aSundae);
         }
     }
 }
