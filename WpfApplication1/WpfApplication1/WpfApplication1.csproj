@@ -498,6 +498,42 @@
   <ItemGroup>
     <Resource Include="Pics\spaghetti-and-meatballs2.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="sundae.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="skillet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="butter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="honey.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="brown sugar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="vanilla ice cream.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pound cake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="whipped cream.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="maraschino cherries.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="melt butter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="melt butter1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ice-cream-dishes.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
