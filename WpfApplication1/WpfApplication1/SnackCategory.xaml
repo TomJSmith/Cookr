@@ -8,7 +8,7 @@
              d:DesignHeight="1024" d:DesignWidth="768">
     <Grid Margin="0,0,0,0">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="35"/>
+            <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="376"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
@@ -41,9 +41,9 @@
             <Label Content="Filter By:" HorizontalAlignment="Left" Height="36" Margin="232,108,-14,0" VerticalAlignment="Top" Width="103" FontSize="21.333"/>
         </Grid>
         <ComboBox x:Name="comboBox" IsEditable="True" IsReadOnly="True" Grid.Column="1" HorizontalAlignment="Left" Margin="101,176,0,0" Grid.Row="1" VerticalAlignment="Top" Width="140" SelectedIndex="2" FontSize="18.667" BorderBrush="#FFE8685D">
-            <ComboBoxItem HorizontalContentAlignment="Center">Alphabetical</ComboBoxItem>
-            <ComboBoxItem HorizontalContentAlignment="Center" IsSelected="True">Rating</ComboBoxItem>
-            <ComboBoxItem HorizontalContentAlignment="Center">Time</ComboBoxItem>
+            <ComboBoxItem Selected="AlphabeticalSort" HorizontalContentAlignment="Center">Alphabetical</ComboBoxItem>
+            <ComboBoxItem Selected="RatingSort" HorizontalContentAlignment="Center" IsSelected="True">Rating</ComboBoxItem>
+            <ComboBoxItem Selected="TimeSort" HorizontalContentAlignment="Center">Time</ComboBoxItem>
         </ComboBox>
         <ComboBox IsEditable="True" IsReadOnly="True" Text="Time" x:Name="comboBox_Copy" Grid.Column="1" Margin="246,176,0,0" Grid.Row="1" VerticalAlignment="Top" Height="31" FontSize="18.667" HorizontalAlignment="Left" Width="104">
             <ComboBoxItem HorizontalContentAlignment="Center" Content="0 - 10"/>

@@ -38,7 +38,7 @@ namespace WpfApplication1
 
         void initRecipes()
         {
-            ar = new RecipeView("Cheese Omlet", "30 min", 5);
+            ar = new RecipeView("French Toast", "30 min", 5);
             br = new RecipeView("Eggy in a basket", "35 min", 4);
             cr = new RecipeView("English Breakfast", "27 min", 3.5);
             dr = new RecipeView("Steak and Egg", "30 min", 3.5);
