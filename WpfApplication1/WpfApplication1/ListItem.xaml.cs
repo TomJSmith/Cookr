@@ -44,6 +44,7 @@ namespace WpfApplication1
             targetUserControl = (UserControl)aUserControl;
             image.Source = (ImageSource)aUserControl.getImage();
             image1.Source = aUserControl.getRating();
+            
 
         }
 
@@ -79,12 +80,6 @@ namespace WpfApplication1
                 targetUserControl = new RecipeView();
             main.switchToView(this.targetUserControl);
 
-        }
-
-        public double getRating()
-        {
-            IRecipe temp = (IRecipe)targetUserControl;
-            return temp.getRatingValue();
         }
 
         
