@@ -21,8 +21,10 @@ namespace WpfApplication1
     public partial class DinnerCategory : UserControl
     {
         private MainWindow myMain;
+        private RecipeView ar, br, cr, dr;
         public DinnerCategory(MainWindow aMain)
         {
+            initRecipes();
             myMain = aMain;
             InitializeComponent();
             defaultView();
@@ -33,24 +35,24 @@ namespace WpfApplication1
             mainWindow.switchPrevView();
         }
 
+        void initRecipes()
+        {
+           ar = new RecipeView("Steak", "03 min", 5);
+           br = new RecipeView("Sushi", "05 min", 4);
+           cr = new RecipeView("BBq Chicken", "07 min", 3.5);
+           dr = new RecipeView("Meatlovers Pizza", "09 min", 3.5);
+
+        }
+
         void defaultView()
         {
 
             Sp1.Children.Clear();
-
-
-            RecipeView ar = new RecipeView("Steak", "03 min", 5);
-            RecipeView br = new RecipeView("Sushi", "05 min", 4);
-            RecipeView cr = new RecipeView("BBq Chicken", "07 min", 3.5);
-            RecipeView dr = new RecipeView("Meatlovers Pizza", "09 min", 3.5);
-
             ListItem al = new ListItem(ar);
             ListItem bl = new ListItem(dr);
             ListItem cl = new ListItem(br);
             ListItem dl = new ListItem(cr);
             ListItem e1 = new ListItem(myMain.spaghetti);
-
-
 
             Sp1.Children.Add(bl);
             Sp1.Children.Add(cl);
@@ -61,18 +63,11 @@ namespace WpfApplication1
 
         private void AlphabeticalSelected(object sender, RoutedEventArgs e)
         {
-            RecipeView ar = new RecipeView("Steak", "03 min", 5);
-            RecipeView br = new RecipeView("Sushi", "05 min", 4);
-            RecipeView cr = new RecipeView("BBq Chicken", "07 min", 3.5);
-            RecipeView dr = new RecipeView("Meatlovers Pizza", "09 min", 3.5);
-
             myMain.itemOfLists[0] = new ListItem(ar);
             myMain.itemOfLists[1] = new ListItem(dr);
             myMain.itemOfLists[2] = new ListItem(br);
             myMain.itemOfLists[3] = new ListItem(cr);
             myMain.itemOfLists[4] = new ListItem(myMain.spaghetti);
-
-
 
             Sp1.Children.Clear();
 
@@ -88,18 +83,11 @@ namespace WpfApplication1
 
         private void RatingSelected(object sender, RoutedEventArgs e)
         {
-            RecipeView ar = new RecipeView("Steak", "03 min", 5);
-            RecipeView br = new RecipeView("Sushi", "05 min", 4);
-            RecipeView cr = new RecipeView("BBq Chicken", "07 min", 3.5);
-            RecipeView dr = new RecipeView("Meatlovers Pizza", "09 min", 3.5);
-
             myMain.itemOfLists[0] = new ListItem(ar);
             myMain.itemOfLists[1] = new ListItem(dr);
             myMain.itemOfLists[2] = new ListItem(br);
             myMain.itemOfLists[3] = new ListItem(cr);
             myMain.itemOfLists[4] = new ListItem(myMain.spaghetti);
-
-
 
             Sp1.Children.Clear();
 
@@ -114,18 +102,11 @@ namespace WpfApplication1
 
         private void TimeSelected(object sender, RoutedEventArgs e)
         {
-            RecipeView ar = new RecipeView("Steak", "03 min", 5);
-            RecipeView br = new RecipeView("Sushi", "05 min", 4);
-            RecipeView cr = new RecipeView("BBq Chicken", "07 min", 3.5);
-            RecipeView dr = new RecipeView("Meatlovers Pizza", "09 min", 3.5);
-
             myMain.itemOfLists[0] = new ListItem(ar);
             myMain.itemOfLists[1] = new ListItem(dr);
             myMain.itemOfLists[2] = new ListItem(br);
             myMain.itemOfLists[3] = new ListItem(cr);
             myMain.itemOfLists[4] = new ListItem(myMain.spaghetti);
-
-
 
             Sp1.Children.Clear();
 
