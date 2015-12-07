@@ -128,7 +128,7 @@ namespace WpfApplication1
             
             Sp1.Children.Clear();
 
-            myMain.sortAlphabetically();
+            myMain.sortRating();
 
             for (int i = 0; i < myMain.itemOfLists.Length; i++)
             {

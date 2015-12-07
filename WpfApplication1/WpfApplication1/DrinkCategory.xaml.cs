@@ -21,11 +21,21 @@ namespace WpfApplication1
     public partial class DrinkCategory : UserControl
     {
         private MainWindow myMain;
+        private RecipeView ar, br, cr, dr;
         public DrinkCategory(MainWindow aMain)
         {
+            initRecipes();
             myMain = aMain;
             InitializeComponent();
             defaultView();
+        }
+
+        void initRecipes()
+        {
+            ar = new RecipeView("Home made Coke", "30 min", 5);
+            br = new RecipeView("Jack and Coke", "03 min", 5);
+            cr = new RecipeView("Black Tooth Grin", "03 min", 5);
+            dr = new RecipeView("AMF", "04 min", 5);
         }
         private void goBack(object sender, MouseButtonEventArgs e)
         {
@@ -38,10 +48,6 @@ namespace WpfApplication1
             Sp1.Children.Clear();
 
 
-            RecipeView ar = new RecipeView("Jack And Coke", "03 min", 5);
-            RecipeView br = new RecipeView("Fruit Smoothie", "09 min", 4);
-            RecipeView cr = new RecipeView("A.M.F", "05 min", 3.5);
-            RecipeView dr = new RecipeView("White Russian", "03 min", 3.5);
 
             ListItem al = new ListItem(ar);
             ListItem bl = new ListItem(dr);
@@ -61,37 +67,9 @@ namespace WpfApplication1
 
         }
 
-        private void AlphabeticalSelected(object sender, RoutedEventArgs e)
+        private void AlphabeticalSort(object sender, RoutedEventArgs e)
         {
-           
 
-            RecipeView ar = new RecipeView("Jack And Coke", "03 min", 5);
-            RecipeView br = new RecipeView("Fruit Smoothie", "09 min", 4);
-            RecipeView cr = new RecipeView("A.M.F", "05 min", 3.5);
-            RecipeView dr = new RecipeView("White Russian", "03 min", 3.5);
-
-            ListItem al = new ListItem(ar);
-            ListItem bl = new ListItem(dr);
-            ListItem cl = new ListItem(br);
-            ListItem dl = new ListItem(cr);
-            ListItem e1 = new ListItem(myMain.hawiianSmoothie);
-            Sp1.Children.Clear();
-
-            myMain.sortAlphabetically();
-
-            for (int i = 0; i < myMain.itemOfLists.Length; i++)
-            {
-
-                Sp1.Children.Add(myMain.itemOfLists[i]);
-            }
-        }
-
-        private void RatingSelected(object sender, RoutedEventArgs e)
-        {
-             RecipeView ar = new RecipeView("Jack And Coke", "03 min", 5);
-            RecipeView br = new RecipeView("Fruit Smoothie", "09 min", 4);
-            RecipeView cr = new RecipeView("A.M.F", "05 min", 3.5);
-            RecipeView dr = new RecipeView("White Russian", "03 min", 3.5);
 
             ListItem al = new ListItem(ar);
             ListItem bl = new ListItem(dr);
@@ -99,9 +77,10 @@ namespace WpfApplication1
             ListItem dl = new ListItem(cr);
             ListItem e1 = new ListItem(myMain.hawiianSmoothie);
 
+
             Sp1.Children.Clear();
 
-            myMain.sortRating();
+         
 
             for (int i = 0; i < myMain.itemOfLists.Length; i++)
             {
@@ -109,40 +88,19 @@ namespace WpfApplication1
                 Sp1.Children.Add(myMain.itemOfLists[i]);
             }
 
-
         }
 
-        private void TimeSelected(object sender, RoutedEventArgs e)
-       {
-           Sp1.Children.Clear();
-             RecipeView ar = new RecipeView("Jack And Coke", "03 min", 5);
-            RecipeView br = new RecipeView("Fruit Smoothie", "09 min", 4);
-            RecipeView cr = new RecipeView("A.M.F", "05 min", 3.5);
-            RecipeView dr = new RecipeView("White Russian", "03 min", 3.5);
-
-            ListItem al = new ListItem(ar);
-            ListItem bl = new ListItem(dr);
-            ListItem cl = new ListItem(br);
-            ListItem dl = new ListItem(cr);
-            ListItem e1 = new ListItem(myMain.hawiianSmoothie);
-
-            Sp1.Children.Clear();
-
-            myMain.sortTime();
-
-            for (int i = 0; i < myMain.itemOfLists.Length; i++)
-            {
-
-                Sp1.Children.Add(myMain.itemOfLists[i]);
-            }
 
 
-        }
+       
+    }
 
 
 
 
            
        
+           
+       
     }
-}
+
