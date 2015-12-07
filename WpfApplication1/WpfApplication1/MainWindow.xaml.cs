@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Xaml;
 
 namespace WpfApplication1
 {
@@ -49,7 +50,8 @@ namespace WpfApplication1
         public sundaeDessert aSundae;
         public BreakfastPage pancake;
         public ListItem[] itemOfLists = new ListItem[5];
-
+        
+        
         private Random rnd = new Random();
         UserControl prevView;
 
@@ -150,13 +152,12 @@ namespace WpfApplication1
 
         public void sortAlphabetically()
         {
-           // for (int i = 0; i < itemOfLists.Length; i++)
+          
            
                 Array.Sort(itemOfLists, delegate(ListItem x, ListItem y)
                 { return (x.recipeName.Text).CompareTo(y.recipeName.Text);});
            
-            //itemOfLists.OrderByDescending(itemOfLists => this.(String)itemOfLists.recipeName())
-            //;
+          
 
         }// end of sort Alphabetically()
 
@@ -168,6 +169,20 @@ namespace WpfApplication1
             { return (x.time.Content.ToString()).CompareTo(y.time.Content.ToString()); });
 
         }
+
+        public void sortRating()
+        {
+            
+            Array.Sort(itemOfLists, delegate(ListItem x, ListItem y)
+            {
+
+            
+                return (y.getRating()).CompareTo(x.getRating());
+            });
+
+
+
+        }// end of sortRating
 
         public void switchPrevView()
         {
