@@ -83,7 +83,6 @@
                 <Label x:Name="label5_Copy1" Content="Step 3" HorizontalAlignment="Left" Height="36" Margin="1,551,0,0" VerticalAlignment="Top" Width="69" FontSize="18.667" Grid.Row="1"/>
                 <Grid HorizontalAlignment="Left" Height="52" Margin="122,667,0,0" VerticalAlignment="Top" Width="345" Grid.Row="1"/>
                 <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png" RenderTransformOrigin="1,1.667" Margin="0,3,0,0" MouseUp="goBack"/>
-                <Image x:Name="favButton" HorizontalAlignment="Left" Height="45" Margin="133,174,0,0" VerticalAlignment="Top" Width="45" Source="Images/addFavouritedButton.png" MouseUp="addFavourite"/>
                 <Image Margin="9,613,551,299.5" Source="Pics/pasta spoon.jpg"/>
                 <Image x:Name="image4_Copy6" HorizontalAlignment="Left" Height="60" Margin="9,42.5,0,0" VerticalAlignment="Top" Width="60" Source="Pics/pineapple chunks.jpg" Grid.Row="1"/>
                 <Label x:Name="label4_Copy2" Content="1 cup canned pineapple" HorizontalAlignment="Left" Height="43" Margin="75,42.5,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667" Grid.Row="1"/>
@@ -112,6 +111,8 @@
                 <Image x:Name="image12_Copy2" HorizontalAlignment="Left" Height="60" Margin="1,354.5,0,0" VerticalAlignment="Top" Width="60" Source="melt butter.jpg" Grid.Row="1"/>
                 <Image x:Name="image12_Copy3" HorizontalAlignment="Left" Height="45" Margin="1,475.5,0,0" VerticalAlignment="Top" Width="60" Source="melt butter1.jpg" Grid.Row="1"/>
                 <Image x:Name="image12_Copy4" HorizontalAlignment="Left" Height="60" Margin="1,592,0,0" VerticalAlignment="Top" Width="60" Source="ice-cream-dishes.jpg" Grid.Row="1"/>
+                <Image x:Name="favButton" HorizontalAlignment="Left" Height="45" Margin="133,174,0,0" VerticalAlignment="Top" Width="45" Source="Images/addFavouritedButton.png" MouseUp="addFavourite"/>
+
 
 
 
