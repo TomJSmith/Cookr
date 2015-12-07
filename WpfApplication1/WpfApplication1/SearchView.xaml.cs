@@ -31,6 +31,12 @@ namespace WpfApplication1
             myMain = aMain;
         }
 
+        private void goBack(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow mainWindow = (MainWindow)Window.GetWindow(this);
+            mainWindow.switchPrevView();
+        }
+
         public void initPasta()
         {
             RecipeView ar = new RecipeView("Alfredo", "30 min", 5);

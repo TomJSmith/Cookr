@@ -34,6 +34,9 @@
 
 
             </ScrollViewer>
+            <Grid HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="55">
+                <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png" RenderTransformOrigin="1,1.667" MouseUp="goBack" Margin="30,134,-20,-128"/>
+            </Grid>
             <Label Content="Sort By:" HorizontalAlignment="Left" Margin="93,108,0,0" VerticalAlignment="Top" Height="36" Width="134" FontSize="21.333"/>
             <Label Content="Filter By:" HorizontalAlignment="Left" Height="36" Margin="232,108,-14,0" VerticalAlignment="Top" Width="103" FontSize="21.333"/>
         </Grid>

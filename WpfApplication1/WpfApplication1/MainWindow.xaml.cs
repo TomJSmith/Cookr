@@ -54,6 +54,7 @@ namespace WpfApplication1
         
         private Random rnd = new Random();
         UserControl prevView;
+        private Stack<UserControl> historyStack;
 
 
         public MainWindow()
@@ -85,6 +86,8 @@ namespace WpfApplication1
             desert = new DesertCategory(this);
             snack = new SnackCategory(this);
             drink = new DrinkCategory(this);
+
+            historyStack = new Stack<UserControl>();
 
             InitializeComponent();
             contentView.Children.Clear();
@@ -125,6 +128,8 @@ namespace WpfApplication1
         public void switchSearchView()
         {
             prevView = (UserControl) contentView.Children[0];
+            if (contentView.Children[0] != null)
+            historyStack.Push((UserControl)contentView.Children[0]);
             contentView.Children.Clear();
             contentView.Children.Add(search);
         }
@@ -132,6 +137,8 @@ namespace WpfApplication1
         public void switchMainView()
         {
             prevView = (UserControl)contentView.Children[0];
+            if (contentView.Children[0] != null)
+                historyStack.Push((UserControl)contentView.Children[0]);
             contentView.Children.Clear();
             contentView.Children.Add(mainView);
         }
@@ -139,6 +146,8 @@ namespace WpfApplication1
         public void switchTopRatedView()
         {
             prevView = (UserControl)contentView.Children[0];
+            if (contentView.Children[0] != null)
+                historyStack.Push((UserControl)contentView.Children[0]);
             contentView.Children.Clear();
             contentView.Children.Add(topRated);
         }
@@ -146,6 +155,8 @@ namespace WpfApplication1
         public void switchToView(UserControl aUserControl)
         {
             prevView = (UserControl)contentView.Children[0];
+            if (contentView.Children[0] != null)
+                historyStack.Push((UserControl)contentView.Children[0]);
             contentView.Children.Clear();
             contentView.Children.Add(aUserControl);
         }
@@ -188,13 +199,15 @@ namespace WpfApplication1
         {
             UserControl tempPrev = (UserControl)contentView.Children[0];
             contentView.Children.Clear();
-            contentView.Children.Add(prevView);
+            contentView.Children.Add(historyStack.Pop());
             prevView = tempPrev;
         }
 
         public void switchBreakFastView()
         {
             prevView = (UserControl)contentView.Children[0];
+            if (contentView.Children[0] != null)
+                historyStack.Push((UserControl)contentView.Children[0]);
             contentView.Children.Clear();
             contentView.Children.Add(breakFast);
         }
@@ -202,12 +215,16 @@ namespace WpfApplication1
         public void switchLunchView()
         {
             prevView = (UserControl)contentView.Children[0];
+            if (contentView.Children[0] != null)
+                historyStack.Push((UserControl)contentView.Children[0]);
             contentView.Children.Clear();
             contentView.Children.Add(lunch);
         }
         public void switchDinnerView()
         {
             prevView = (UserControl)contentView.Children[0];
+            if (contentView.Children[0] != null)
+                historyStack.Push((UserControl)contentView.Children[0]);
             contentView.Children.Clear();
             contentView.Children.Add(dinner);
         }
@@ -215,6 +232,8 @@ namespace WpfApplication1
         public void switchDesertView()
         {
             prevView = (UserControl)contentView.Children[0];
+            if (contentView.Children[0] != null)
+                historyStack.Push((UserControl)contentView.Children[0]);
             contentView.Children.Clear();
             contentView.Children.Add(desert);
         }
@@ -222,6 +241,8 @@ namespace WpfApplication1
         public void switchSnackView()
         {
             prevView = (UserControl)contentView.Children[0];
+            if (contentView.Children[0] != null)
+                historyStack.Push((UserControl)contentView.Children[0]);
             contentView.Children.Clear();
             contentView.Children.Add(snack);
         }
@@ -229,6 +250,8 @@ namespace WpfApplication1
         public void switchDrinkView()
         {
             prevView = (UserControl)contentView.Children[0];
+            if (contentView.Children[0] != null)
+                historyStack.Push((UserControl)contentView.Children[0]);
             contentView.Children.Clear();
             contentView.Children.Add(drink);  
         }
