@@ -21,12 +21,22 @@ namespace WpfApplication1
     public partial class BreakfastCategory : UserControl
     {
         private MainWindow myMain;
+        private RecipeView ar, br, cr, dr;
         public BreakfastCategory(MainWindow aMain)
         {
+            initRecipes();
             myMain = aMain;
             InitializeComponent();
             defaultView();
 
+        }
+
+        void initRecipes()
+        {
+            ar = new RecipeView("Cheese Omlet", "30 min", 5);
+            br = new RecipeView("Eggy in a basket", "35 min", 4);
+            cr = new RecipeView("English Breakfast", "27 min", 3.5);
+            dr = new RecipeView("Steak and Egg", "30 min", 3.5);
         }
 
         void defaultView()
@@ -34,50 +44,27 @@ namespace WpfApplication1
 
             Sp1.Children.Clear();
 
-
-            RecipeView ar = new RecipeView("Cheese Omlet", "30 min", 5);
-            RecipeView br = new RecipeView("Eggy in a basket", "35 min", 4);
-            RecipeView cr = new RecipeView("English Breakfast", "27 min", 3.5);
-            RecipeView dr = new RecipeView("Steak and Egg", "30 min", 3.5);
-
             ListItem al = new ListItem(ar);
             ListItem bl = new ListItem(dr);
             ListItem cl = new ListItem(br);
             ListItem dl = new ListItem(cr);
             ListItem e1 = new ListItem(myMain.pancake);
 
-
-
-
-
             Sp1.Children.Add(bl);
             Sp1.Children.Add(cl);
             Sp1.Children.Add(al);
             Sp1.Children.Add(dl);
             Sp1.Children.Add(e1);
-
-
         }
 
         private void AlphabeticalSelected(object sender, RoutedEventArgs e)
         {
-            RecipeView ar = new RecipeView("Cheese Omlet", "30 min", 5);
-            RecipeView br = new RecipeView("Eggy in a basket", "35 min", 4);
-            RecipeView cr = new RecipeView("English Breakfast", "27 min", 3.5);
-            RecipeView dr = new RecipeView("Steak and Egg", "30 min", 3.5);
-
-            ListItem al = new ListItem(ar);
-            ListItem bl = new ListItem(dr);
-            ListItem cl = new ListItem(br);
-            ListItem dl = new ListItem(cr);
 
             myMain.itemOfLists[0] = new ListItem(ar);
             myMain.itemOfLists[1] = new ListItem(dr);
             myMain.itemOfLists[2] = new ListItem(br);
             myMain.itemOfLists[3] = new ListItem(cr);
             myMain.itemOfLists[4] = new ListItem(myMain.pancake);
-
-
 
             Sp1.Children.Clear();
 
@@ -88,28 +75,16 @@ namespace WpfApplication1
 
                 Sp1.Children.Add(myMain.itemOfLists[i]);
             }
-
         }
 
         private void TimeSelected(object sender, RoutedEventArgs e)
         {
-            RecipeView ar = new RecipeView("Cheese Omlet", "30 min", 5);
-            RecipeView br = new RecipeView("Eggy in a basket", "35 min", 4);
-            RecipeView cr = new RecipeView("English Breakfast", "27 min", 3.5);
-            RecipeView dr = new RecipeView("Steak and Egg", "30 min", 3.5);
-
-            ListItem al = new ListItem(ar);
-            ListItem bl = new ListItem(dr);
-            ListItem cl = new ListItem(br);
-            ListItem dl = new ListItem(cr);
 
             myMain.itemOfLists[0] = new ListItem(ar);
             myMain.itemOfLists[1] = new ListItem(dr);
             myMain.itemOfLists[2] = new ListItem(br);
             myMain.itemOfLists[3] = new ListItem(cr);
             myMain.itemOfLists[4] = new ListItem(myMain.pancake);
-
-
 
             Sp1.Children.Clear();
 
@@ -120,17 +95,10 @@ namespace WpfApplication1
 
                 Sp1.Children.Add(myMain.itemOfLists[i]);
             }
-
         }
 
         private void RatingSelected(object sender, RoutedEventArgs e)
         {
-
-            RecipeView ar = new RecipeView("Cheese Omlet", "30 min", 5);
-            RecipeView br = new RecipeView("Eggy in a basket", "35 min", 4);
-            RecipeView cr = new RecipeView("English Breakfast", "27 min", 3.5);
-            RecipeView dr = new RecipeView("Steak and Egg", "30 min", 3.5);
-
 
 
             myMain.itemOfLists[0] = new ListItem(ar);
@@ -148,12 +116,8 @@ namespace WpfApplication1
 
                 Sp1.Children.Add(myMain.itemOfLists[i]);
             }
-
-
         }
-    
-
-        }
+    }
       
 
 
