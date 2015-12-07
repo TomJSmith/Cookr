@@ -17,7 +17,7 @@
         </Grid.RowDefinitions>
         <Grid Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="222" VerticalAlignment="Top" Width="758" Background="#FFF9D08B" Margin="0,0,-345,0" Grid.RowSpan="2"/>
         <Grid Grid.Column="1" Margin="10,35,46,24" Grid.Row="1">
-            <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,180,-342,-575" Height="706" VerticalAlignment="Top">
+            <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,180,-342,-564" Height="695" VerticalAlignment="Top">
                 <StackPanel Name="Sp1" HorizontalAlignment="Center"  Width="480" Height="Auto">
                     <!-- <local:ListItem Margin="0, 10, 0, 0"/>
                     <local:ListItem Margin="0, 10, 0, 0"/>
@@ -38,18 +38,11 @@
                 <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png" RenderTransformOrigin="1,1.667" MouseUp="goBack" Margin="30,134,-20,-128"/>
             </Grid>
             <Label Content="Sort By:" HorizontalAlignment="Left" Margin="93,108,0,0" VerticalAlignment="Top" Height="36" Width="134" FontSize="21.333"/>
-            <Label Content="Filter By:" HorizontalAlignment="Left" Height="36" Margin="232,108,-14,0" VerticalAlignment="Top" Width="103" FontSize="21.333"/>
         </Grid>
         <ComboBox x:Name="comboBox" IsEditable="True" IsReadOnly="True" Grid.Column="1" HorizontalAlignment="Left" Margin="101,176,0,0" Grid.Row="1" VerticalAlignment="Top" Width="140" SelectedIndex="2" FontSize="18.667" BorderBrush="#FFE8685D">
             <ComboBoxItem Selected="AlphabeticalSort" HorizontalContentAlignment="Center">Alphabetical</ComboBoxItem>
             <ComboBoxItem Selected="RatingSort" HorizontalContentAlignment="Center" IsSelected="True">Rating</ComboBoxItem>
             <ComboBoxItem Selected="TimeSort" HorizontalContentAlignment="Center">Time</ComboBoxItem>
-        </ComboBox>
-        <ComboBox IsEditable="True" IsReadOnly="True" Text="Time" x:Name="comboBox_Copy" Grid.Column="1" Margin="246,176,0,0" Grid.Row="1" VerticalAlignment="Top" Height="31" FontSize="18.667" HorizontalAlignment="Left" Width="104">
-            <ComboBoxItem HorizontalContentAlignment="Center" Content="0 - 10"/>
-            <ComboBoxItem HorizontalContentAlignment="Center" Content="10 - 20"/>
-            <ComboBoxItem HorizontalContentAlignment="Center" Content="20 - 30"/>
-            <ComboBoxItem HorizontalContentAlignment="Center" Content="30 - 40"/>
         </ComboBox>
         <local:SearchBarHeader Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="222" Width="622" Margin="33,0,-278,0" Grid.RowSpan="2"/>
     </Grid>

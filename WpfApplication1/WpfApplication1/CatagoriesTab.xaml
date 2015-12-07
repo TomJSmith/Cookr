@@ -27,7 +27,7 @@
             <Image x:Name="image3" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="Pics/Category-Bereakfast.jpg" MouseUp="BreakfastClick"/>
         </Grid>
         <Grid Name="G3" Height="191" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="144" Grid.Row="2" Margin="473,0,143,140" Grid.RowSpan="2">
-            <Label x:Name="label1" Content="Desert" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16" MouseUp="DesertClick"/>
+            <Label x:Name="label1" Content="Dessert" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Height="31" Margin="0,160,0,0" VerticalAlignment="Top" Width="144" FontSize="16" MouseUp="DesertClick"/>
             <Image x:Name="image1" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="144" Margin="0,16,0,0" Source="Pics/Category-Desert.jpg" MouseUp="DesertClick"/>
         </Grid>
         <Grid Name="G4" Height="191" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="144" Grid.Row="2" Margin="0,0,305,140" Grid.RowSpan="2">

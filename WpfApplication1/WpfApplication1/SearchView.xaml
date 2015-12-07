@@ -29,18 +29,11 @@
                 <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png" RenderTransformOrigin="1,1.667" MouseUp="goBack" Margin="30,134,-20,-128"/>
             </Grid>
             <Label Content="Sort By:" HorizontalAlignment="Left" Margin="93,108,0,0" VerticalAlignment="Top" Height="36" Width="134" FontSize="21.333"/>
-            <Label Content="Filter By:" HorizontalAlignment="Left" Height="36" Margin="232,108,-14,0" VerticalAlignment="Top" Width="103" FontSize="21.333"/>
         </Grid>
         <ComboBox x:Name="comboBox" IsEditable="True" IsReadOnly="True" Grid.Column="1" HorizontalAlignment="Left" Margin="101,178,0,0" Grid.Row="1" VerticalAlignment="Top" Width="140" SelectedIndex="2" FontSize="18.667" BorderBrush="#FFE8685D">
             <ComboBoxItem HorizontalContentAlignment="Center" Selected="sortAlpha">Alphabetical</ComboBoxItem>
             <ComboBoxItem HorizontalContentAlignment="Center" IsSelected="True" Selected="sortRating">Rating</ComboBoxItem>
             <ComboBoxItem HorizontalContentAlignment="Center" Selected="sortTime">Time</ComboBoxItem>
-        </ComboBox>
-        <ComboBox IsEditable="True" IsReadOnly="True" Text="Time" x:Name="comboBox_Copy" Grid.Column="1" Margin="246,178,0,0" Grid.Row="1" VerticalAlignment="Top" Height="31" FontSize="18.667" HorizontalAlignment="Left" Width="104">
-            <ComboBoxItem HorizontalContentAlignment="Center" Content="0 - 10"/>
-            <ComboBoxItem HorizontalContentAlignment="Center" Content="10 - 20"/>
-            <ComboBoxItem HorizontalContentAlignment="Center" Content="20 - 30"/>
-            <ComboBoxItem HorizontalContentAlignment="Center" Content="30 - 40"/>
         </ComboBox>
         <local:SearchBarHeader Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="222" Width="622" Margin="33,0,-278,0" Grid.RowSpan="2"/>
     </Grid>
