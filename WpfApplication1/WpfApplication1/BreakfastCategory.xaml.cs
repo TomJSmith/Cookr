@@ -34,7 +34,24 @@ namespace WpfApplication1
 
             Sp1.Children.Clear();
 
+
+
             ListItem item1 =  new ListItem(myMain.pancake.getName(),myMain.pancake.getTime(),myMain.pancake);
+
+            RecipeView ar = new RecipeView("Alfredo", "30 min", 5);
+            RecipeView br = new RecipeView("Chicken Linguini", "35 min", 4);
+            RecipeView cr = new RecipeView("Penne", "27 min", 3.5);
+            RecipeView dr = new RecipeView("Mac and Cheese", "32 min", 3);
+            RecipeView er = new RecipeView("Fetuccini", "30 min", 3);
+            ListItem al = new ListItem(ar);
+            ListItem bl = new ListItem(myMain.spaghetti);
+            ListItem cl = new ListItem(br);
+            ListItem dl = new ListItem(cr);
+            ListItem el = new ListItem(dr);
+            ListItem fl = new ListItem(er);
+
+            
+
 
             Sp1.Children.Add(item1);
 
