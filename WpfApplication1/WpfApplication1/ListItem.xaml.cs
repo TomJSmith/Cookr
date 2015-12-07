@@ -45,6 +45,7 @@ namespace WpfApplication1
             image.Source = (ImageSource)aUserControl.getImage();
             image1.Source = aUserControl.getRating();
 
+
         }
 
 
@@ -70,6 +71,7 @@ namespace WpfApplication1
 
         }
 
+    /*
         public double getRating()
         {
 
@@ -77,7 +79,7 @@ namespace WpfApplication1
             return temp.getRatingValue();
         }
 
-
+    */
         private void listItemButtonClick(object sender, RoutedEventArgs e)
         {
 
@@ -88,7 +90,11 @@ namespace WpfApplication1
 
         }
 
-
+        public double getRating()
+        {
+            IRecipe temp = (IRecipe)targetUserControl;
+            return temp.getRatingValue();
+        }
 
         
 

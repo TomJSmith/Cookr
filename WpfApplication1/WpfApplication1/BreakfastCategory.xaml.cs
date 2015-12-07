@@ -35,31 +35,100 @@ namespace WpfApplication1
             Sp1.Children.Clear();
 
 
+            RecipeView ar = new RecipeView("Cheese Omlet", "30 min", 5);
+            RecipeView br = new RecipeView("Eggy in a basket", "35 min", 4);
+            RecipeView cr = new RecipeView("English Breakfast", "27 min", 3.5);
+            RecipeView dr = new RecipeView("Steak and Egg", "30 min", 3.5);
 
-            ListItem item1 =  new ListItem(myMain.pancake.getName(),myMain.pancake.getTime(),myMain.pancake);
-
-            RecipeView ar = new RecipeView("Alfredo", "30 min", 5);
-            RecipeView br = new RecipeView("Chicken Linguini", "35 min", 4);
-            RecipeView cr = new RecipeView("Penne", "27 min", 3.5);
-            RecipeView dr = new RecipeView("Mac and Cheese", "32 min", 3);
-            RecipeView er = new RecipeView("Fetuccini", "30 min", 3);
             ListItem al = new ListItem(ar);
-            ListItem bl = new ListItem(myMain.spaghetti);
+            ListItem bl = new ListItem(dr);
             ListItem cl = new ListItem(br);
             ListItem dl = new ListItem(cr);
-            ListItem el = new ListItem(dr);
-            ListItem fl = new ListItem(er);
-
+            ListItem e1 = new ListItem(myMain.pancake);
             
+       
 
 
-            Sp1.Children.Add(item1);
+          
+
+            Sp1.Children.Add(bl);
+            Sp1.Children.Add(cl);
+            Sp1.Children.Add(al);
+            Sp1.Children.Add(dl);
+            Sp1.Children.Add(e1);
 
 
         }
+
+        private void AlphabeticalSelected(object sender, RoutedEventArgs e)
+        {
+            RecipeView ar = new RecipeView("Cheese Omlet", "30 min", 5);
+            RecipeView br = new RecipeView("Eggy in a basket", "35 min", 4);
+            RecipeView cr = new RecipeView("English Breakfast", "27 min", 3.5);
+            RecipeView dr = new RecipeView("Steak and Egg", "30 min", 3.5);
+
+            ListItem al = new ListItem(ar);
+            ListItem bl = new ListItem(dr);
+            ListItem cl = new ListItem(br);
+            ListItem dl = new ListItem(cr);
+
+            myMain.itemOfLists[0] = new ListItem(ar);
+            myMain.itemOfLists[1] = new ListItem(dr);
+            myMain.itemOfLists[2] = new ListItem(br);
+            myMain.itemOfLists[3] = new ListItem(cr);
+            myMain.itemOfLists[4] = new ListItem(myMain.pancake);
+
+
+
+            Sp1.Children.Clear();
+
+            myMain.sortAlphabetically();
+
+            for (int i = 0; i < myMain.itemOfLists.Length; i++)
+            {
+
+                Sp1.Children.Add(myMain.itemOfLists[i]);
+            }
+
+        }
+
+        private void TimeSelected(object sender, RoutedEventArgs e)
+        {
+            RecipeView ar = new RecipeView("Cheese Omlet", "30 min", 5);
+            RecipeView br = new RecipeView("Eggy in a basket", "35 min", 4);
+            RecipeView cr = new RecipeView("English Breakfast", "27 min", 3.5);
+            RecipeView dr = new RecipeView("Steak and Egg", "30 min", 3.5);
+
+            ListItem al = new ListItem(ar);
+            ListItem bl = new ListItem(dr);
+            ListItem cl = new ListItem(br);
+            ListItem dl = new ListItem(cr);
+
+            myMain.itemOfLists[0] = new ListItem(ar);
+            myMain.itemOfLists[1] = new ListItem(dr);
+            myMain.itemOfLists[2] = new ListItem(br);
+            myMain.itemOfLists[3] = new ListItem(cr);
+            myMain.itemOfLists[4] = new ListItem(myMain.pancake);
+
+
+
+            Sp1.Children.Clear();
+
+            myMain.sortTime();
+
+            for (int i = 0; i < myMain.itemOfLists.Length; i++)
+            {
+
+                Sp1.Children.Add(myMain.itemOfLists[i]);
+            }
+
+        }
     
-    
-    }// end of BreakfastCategory
+
+        }
+      
+
+
 
 
 } // end of namespace
