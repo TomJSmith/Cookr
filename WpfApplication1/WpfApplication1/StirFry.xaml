@@ -20,7 +20,7 @@
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
             <local:SearchBarHeader Margin="0,-56,0,56"/>
         </Grid>
-        <ScrollViewer HorizontalAlignment="Left" Height="754" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3">
+        <ScrollViewer HorizontalAlignment="Left" Height="750" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="1946" Grid.Row="1" VerticalAlignment="Top" Width="620">
                 <Image x:Name="image" HorizontalAlignment="Left" Height="168" Margin="10,50,0,0" VerticalAlignment="Top" Width="168" Source="Pics/Chicken-Broccoli-and-pineapple-stir-fry.jpg"/>
                 <Label x:Name="name" Content="Chicken, Broccoli &amp; &#xD;&#xA;Pineapple Stir-Fry" Margin="167,50,169,1673" FontSize="24" />
@@ -98,7 +98,7 @@
                 <Image Margin="10,667,550,1347" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
                 <Image x:Name="image4_Copy12" HorizontalAlignment="Left" Height="60" Margin="323,570,0,0" VerticalAlignment="Top" Width="60" Source="Pics/stainless-steel-slotted-spoon.jpg"/>
                 <Label x:Name="label4_Copy13" Content="Substitutes:" HorizontalAlignment="Left" Height="28" Margin="400,1123,0,0" VerticalAlignment="Top" Width="210" FontSize="14.667"/>
-                <Label x:Name="label4_Copy14" Content="2 teaspoon canola oil" HorizontalAlignment="Left" Height="30" Margin="400,1144,0,0" VerticalAlignment="Top" Width="210" FontSize="14.667"/>
+                <Label x:Name="label4_Copy14" Content="2 teaspoon canola oil" HorizontalAlignment="Left" Height="60" Margin="400,1144,0,0" VerticalAlignment="Top" Width="220" FontSize="14.667"/>
                 <Image x:Name="image4_Copy" HorizontalAlignment="Left" Height="60" Margin="9,738,0,0" VerticalAlignment="Top" Width="60" Source="Pics/salt.png"/>
                 <Label x:Name="label4_Copy15" Content="1/2 pound chicken breast&#xD;&#xA;cut into strips" HorizontalAlignment="Left" Height="73" Margin="75,738,0,0" VerticalAlignment="Top" Width="224" FontSize="18.667"/>
                 <Image x:Name="image4_Copy11" HorizontalAlignment="Left" Height="60" Margin="323,738,0,0" VerticalAlignment="Top" Width="60" Source="Pics/onion.jpg"/>
