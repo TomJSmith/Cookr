@@ -45,10 +45,7 @@ namespace WpfApplication1
             ListItem dl = new ListItem(cr);
             ListItem e1 = new ListItem(myMain.hawiianSmoothie);
             
-       
-
-
-          
+  
 
             Sp1.Children.Add(bl);
             Sp1.Children.Add(cl);
@@ -59,9 +56,10 @@ namespace WpfApplication1
 
 
         }
+
         private void AlphabeticalSelected(object sender, RoutedEventArgs e)
         {
-
+           
 
             RecipeView ar = new RecipeView("Jack And Coke", "03 min", 5);
             RecipeView br = new RecipeView("Fruit Smoothie", "09 min", 4);
@@ -73,7 +71,6 @@ namespace WpfApplication1
             ListItem cl = new ListItem(br);
             ListItem dl = new ListItem(cr);
             ListItem e1 = new ListItem(myMain.hawiianSmoothie);
-
             Sp1.Children.Clear();
 
             myMain.sortAlphabetically();
@@ -83,7 +80,6 @@ namespace WpfApplication1
 
                 Sp1.Children.Add(myMain.itemOfLists[i]);
             }
-
         }
 
         private void RatingSelected(object sender, RoutedEventArgs e)
@@ -114,6 +110,7 @@ namespace WpfApplication1
 
         private void TimeSelected(object sender, RoutedEventArgs e)
        {
+           Sp1.Children.Clear();
              RecipeView ar = new RecipeView("Jack And Coke", "03 min", 5);
             RecipeView br = new RecipeView("Fruit Smoothie", "09 min", 4);
             RecipeView cr = new RecipeView("A.M.F", "05 min", 3.5);
