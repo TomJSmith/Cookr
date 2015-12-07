@@ -20,7 +20,7 @@
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
             <local:SearchBarHeader Margin="0,-56,0,56"/>
         </Grid>
-        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-528">
+        <ScrollViewer HorizontalAlignment="Left" Height="747" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="1946" Grid.Row="1" VerticalAlignment="Top" Width="620">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="83*"/>
@@ -32,11 +32,12 @@
                 <Label x:Name="label1" Content="Serves:" HorizontalAlignment="Left" Height="36" Margin="467,99,0,0" VerticalAlignment="Top" Width="75" FontSize="21.333"/>
                 <Image x:Name="image3" HorizontalAlignment="Left" Height="47" Margin="467,140,0,0" VerticalAlignment="Top" Width="48" Source="Images/timerIcon.png" RenderTransformOrigin="-0.083,0.489"/>
                 <Label x:Name="time" Content="30 min" HorizontalAlignment="Left" Height="36" Margin="529,146,0,0" VerticalAlignment="Top" Width="81" FontSize="21.333"/>
-                <ComboBox x:Name="comboBox" IsEditable="True" IsReadOnly="True" HorizontalAlignment="Left" Margin="547,101,0,0" VerticalAlignment="Top" Width="63" Height="36" SelectedIndex="1" FontSize="21.333">
-                    <ComboBoxItem HorizontalContentAlignment="Center">1</ComboBoxItem>
-                    <ComboBoxItem HorizontalContentAlignment="Center">2</ComboBoxItem>
-                    <ComboBoxItem HorizontalContentAlignment="Center">3</ComboBoxItem>
-                    <ComboBoxItem HorizontalContentAlignment="Center">4</ComboBoxItem>
+                <ComboBox x:Name="comboBox" IsEditable="True" IsReadOnly="True" HorizontalAlignment="Left" Margin="547,101,0,0" VerticalAlignment="Top" Width="63" Height="36" FontSize="21.333">
+                    <ComboBoxItem HorizontalContentAlignment="Center" Selected="serves1">1</ComboBoxItem>
+                    <ComboBoxItem HorizontalContentAlignment="Center" Selected="serves2">2</ComboBoxItem>
+                    <ComboBoxItem HorizontalContentAlignment="Center" Selected="serves3">3</ComboBoxItem>
+                    <ComboBoxItem HorizontalContentAlignment="Center" Selected="serves4">4</ComboBoxItem>
+                    <ComboBoxItem HorizontalContentAlignment="Center" Selected="serves5">5</ComboBoxItem>
                 </ComboBox>
                 <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="453" Margin="0,731,0,0" VerticalAlignment="Top" Width="620" Grid.RowSpan="2"/>
                 <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="396" Margin="0,271,0,0" VerticalAlignment="Top" Width="620" Grid.Row="1"/>
@@ -59,15 +60,15 @@
                 <Label x:Name="label4" Content="skillet" HorizontalAlignment="Left" Height="43" Margin="75,582,0,0" VerticalAlignment="Top" Width="134" FontSize="18.667"/>
                 <Label x:Name="label3_Copy" Content="Ingredients" HorizontalAlignment="Left" Height="48" Margin="0,731,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
                 <Image x:Name="image4_Copy1" HorizontalAlignment="Left" Height="60" Margin="10,784,0,0" VerticalAlignment="Top" Width="60" Source="Pics/butter.jpg"/>
-                <Label x:Name="label4_Copy1" Content="1/4 cup butter" HorizontalAlignment="Left" Height="43" Margin="75,779,0,0" VerticalAlignment="Top" Width="210" FontSize="18.667"/>
+                <Label x:Name="label4_Copy1" Content="1/4 cup butter" HorizontalAlignment="Left" Height="65" Margin="75,779,0,0" VerticalAlignment="Top" Width="210" FontSize="18.667"/>
                 <Image x:Name="image4_Copy2" HorizontalAlignment="Left" Height="60" Margin="9,863,0,0" VerticalAlignment="Top" Width="60" Source="Pics/honey.jpg" Grid.RowSpan="2"/>
-                <Label x:Name="label4_Copy5" Content="1 tablespoon honey&#xD;&#xA;" HorizontalAlignment="Left" Height="43" Margin="75,863,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Label x:Name="label4_Copy5" Content="1 tablespoon honey&#xD;&#xA;" HorizontalAlignment="Left" Height="60" Margin="75,863,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667" Grid.RowSpan="2"/>
                 <Image x:Name="image4_Copy3" HorizontalAlignment="Left" Height="60" Margin="323,784,0,0" VerticalAlignment="Top" Width="60" Source="Pics/brown sugar.jpg"/>
                 <Label x:Name="label4_Copy8" Content="1/4 cup packed&#xD;&#xA; brown sugar" HorizontalAlignment="Left" Height="65" Margin="389,784,-1,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
                 <Image x:Name="image4_Copy4" HorizontalAlignment="Left" Height="60" Margin="323,860,0,0" VerticalAlignment="Top" Width="60" Source="Pics/cinnamon.jpg" Grid.RowSpan="2"/>
                 <Label x:Name="label4_Copy9" Content="1/8 teaspoon ground&#xD;&#xA; cinnamon" HorizontalAlignment="Left" Height="60" Margin="388,863,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667" Grid.RowSpan="2"/>
                 <Image x:Name="image4_Copy5" HorizontalAlignment="Left" Height="60" Margin="323,42.5,0,0" VerticalAlignment="Top" Width="60" Source="Pics/vanilla ice cream.jpg" Grid.Row="1"/>
-                <Label x:Name="label4_Copy10" Content="1 pint vanilla ice cream" HorizontalAlignment="Left" Height="43" Margin="389,42.5,-1,0" VerticalAlignment="Top" Width="232" FontSize="18.667" Grid.Row="1"/>
+                <Label x:Name="label4_Copy10" Content="1 pint vanilla ice cream" HorizontalAlignment="Left" Height="60" Margin="389,43,-1,0" VerticalAlignment="Top" Width="232" FontSize="18.667" Grid.Row="1"/>
                 <Rectangle Fill="#FFE8685D" Margin="1,318.5,-1,0" Stroke="#FFE8685D" Height="116" VerticalAlignment="Top" Grid.Row="1"/>
                 <Image x:Name="image12" HorizontalAlignment="Left" Height="60" Margin="1,354.5,0,0" VerticalAlignment="Top" Width="60" Source="Pics/melt butter.jpg" Grid.Row="1"/>
                 <Label x:Name="label23_Copy" Content="Instructions" HorizontalAlignment="Left" Height="48" Margin="0,270.5,0,0" VerticalAlignment="Top" Width="197" FontSize="24" Grid.Row="1"/>
@@ -85,10 +86,10 @@
                 <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png" RenderTransformOrigin="1,1.667" Margin="0,3,0,0" MouseUp="goBack"/>
                 <Image Margin="9,613,551,299.5" Source="Pics/pasta spoon.jpg"/>
                 <Image x:Name="image4_Copy6" HorizontalAlignment="Left" Height="60" Margin="9,42.5,0,0" VerticalAlignment="Top" Width="60" Source="Pics/pineapple chunks.jpg" Grid.Row="1"/>
-                <Label x:Name="label4_Copy2" Content="1 cup canned pineapple" HorizontalAlignment="Left" Height="43" Margin="75,42.5,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667" Grid.Row="1"/>
-                <Label x:Name="label4_Copy3" Content="1/4 of a 10 3/4-ounce loaf frozen pound cake&#xD;&#xA; thawed and crumbled " HorizontalAlignment="Left" Height="60" Margin="75,119.5,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667" Grid.Row="1"/>
+                <Label x:Name="label4_Copy2" Content="1 cup canned pineapple" HorizontalAlignment="Left" Height="60" Margin="75,43,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667" Grid.Row="1"/>
+                <Label x:Name="label4_Copy3" Content="1/4 of a 10 3/4-ounce loaf frozen pound cake&#xD;&#xA; thawed and crumbled " HorizontalAlignment="Left" Height="60" Margin="75,119,0,0" VerticalAlignment="Top" Width="243" FontSize="18.667" Grid.Row="1"/>
                 <Label x:Name="label4_Copy4" Content="4 maraschino cherries&#xD;&#xA; with stems" HorizontalAlignment="Left" Height="60" Margin="75,205,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667" Grid.Row="1"/>
-                <Label x:Name="label4_Copy11" Content="Whipped cream" HorizontalAlignment="Left" Height="43" Margin="388,119.5,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667" Grid.Row="1"/>
+                <Label x:Name="label4_Copy11" Content="Whipped cream" HorizontalAlignment="Left" Height="60" Margin="388,119,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667" Grid.Row="1"/>
                 <Image x:Name="image4_Copy7" HorizontalAlignment="Left" Height="60" Margin="9,119.5,0,0" VerticalAlignment="Top" Width="60" Source="Pics/pound cake.jpg" Grid.Row="1"/>
                 <Image x:Name="image4_Copy8" HorizontalAlignment="Left" Height="60" Margin="323,119.5,0,0" VerticalAlignment="Top" Width="60" Source="Pics/whipped cream.jpg" Grid.Row="1"/>
                 <Image x:Name="image4_Copy10" HorizontalAlignment="Left" Height="60" Margin="9,205.5,0,0" VerticalAlignment="Top" Width="60" Source="Pics/maraschino cherries.jpg" Grid.Row="1"/>

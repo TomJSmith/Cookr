@@ -45,11 +45,10 @@ namespace WpfApplication1
             ListItem cl = new ListItem(br);
             ListItem dl = new ListItem(cr);
             ListItem e1 = new ListItem(myMain.pancake);
-            
-       
 
 
-          
+
+
 
             Sp1.Children.Add(bl);
             Sp1.Children.Add(cl);
