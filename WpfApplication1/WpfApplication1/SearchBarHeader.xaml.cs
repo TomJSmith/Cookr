@@ -60,7 +60,10 @@ namespace WpfApplication1
         {
             if (main == null)
                 main = (MainWindow)Window.GetWindow(this);
-            main.switchSearchView();
+            SearchView searchResults = new SearchView();
+            searchResults.setMain(main);
+            searchResults.initPasta();
+            main.switchToView(searchResults);
         }
     }
 }
