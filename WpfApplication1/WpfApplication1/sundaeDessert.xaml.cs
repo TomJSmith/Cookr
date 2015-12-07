@@ -20,10 +20,17 @@ namespace WpfApplication1
     /// </summary>
     public partial class sundaeDessert : UserControl, IRecipe
     {
+        public double recipeValue = 4.5;
         private bool isFav = false;
         public sundaeDessert()
         {
             InitializeComponent();
+        }
+
+
+        public double getRatingValue()
+        {
+            return recipeValue;
         }
 
         private void addFavourite(object sender, MouseButtonEventArgs e)

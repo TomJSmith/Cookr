@@ -20,10 +20,16 @@ namespace WpfApplication1
     /// </summary>
     public partial class BreakfastPage : UserControl, IRecipe
     {
+        public double recipeValue = 3.0;
         private bool isFav = false;
         public BreakfastPage()
         {
             InitializeComponent();
+        }
+
+        public double getRatingValue()
+        {
+            return recipeValue;
         }
 
         private void goBack(object sender, MouseButtonEventArgs e)

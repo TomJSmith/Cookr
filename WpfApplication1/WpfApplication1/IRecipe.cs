@@ -17,6 +17,7 @@ namespace WpfApplication1
 {
     public interface IRecipe
     {
+        double getRatingValue();
         string getName();
         string getTime();
         object getImage();

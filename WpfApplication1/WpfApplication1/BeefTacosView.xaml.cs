@@ -20,11 +20,17 @@ namespace WpfApplication1
     /// </summary>
     public partial class BeefTacosView : UserControl, IRecipe
     {
+        public double recipeValue = 4.0;
         private bool isFav = false;
         public BeefTacosView()
         {
             InitializeComponent();
             comboBox.SelectedIndex = 1;
+        }
+
+        public double getRatingValue()
+        {
+            return recipeValue;
         }
 
         private void goBack(object sender, MouseButtonEventArgs e)
