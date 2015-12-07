@@ -70,6 +70,13 @@ namespace WpfApplication1
 
         }
 
+        public double getRating()
+        {
+
+            IRecipe temp = (IRecipe)targetUserControl;
+            return temp.getRatingValue();
+        }
+
 
         private void listItemButtonClick(object sender, RoutedEventArgs e)
         {
@@ -81,11 +88,7 @@ namespace WpfApplication1
 
         }
 
-        public double getRating()
-        {
-            IRecipe temp = (IRecipe)targetUserControl;
-            return temp.getRatingValue();
-        }
+
 
         
 
