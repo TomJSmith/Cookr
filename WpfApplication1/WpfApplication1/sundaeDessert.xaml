@@ -20,7 +20,7 @@
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
             <local:SearchBarHeader Margin="0,-56,0,56"/>
         </Grid>
-        <ScrollViewer HorizontalAlignment="Left" Height="742" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3">
+        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-528">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="1946" Grid.Row="1" VerticalAlignment="Top" Width="620">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="83*"/>
@@ -87,7 +87,7 @@
                 <Image x:Name="image4_Copy6" HorizontalAlignment="Left" Height="60" Margin="9,42.5,0,0" VerticalAlignment="Top" Width="60" Source="Pics/pineapple chunks.jpg" Grid.Row="1"/>
                 <Label x:Name="label4_Copy2" Content="1 cup canned pineapple" HorizontalAlignment="Left" Height="43" Margin="75,42.5,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667" Grid.Row="1"/>
                 <Label x:Name="label4_Copy3" Content="1/4 of a 10 3/4-ounce loaf frozen pound cake&#xD;&#xA; thawed and crumbled " HorizontalAlignment="Left" Height="60" Margin="75,119.5,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667" Grid.Row="1"/>
-                <Label x:Name="label4_Copy4" Content="4 maraschino cherries with stems" HorizontalAlignment="Left" Height="43" Margin="75,205.5,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667" Grid.Row="1"/>
+                <Label x:Name="label4_Copy4" Content="4 maraschino cherries&#xD;&#xA; with stems" HorizontalAlignment="Left" Height="60" Margin="75,205,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667" Grid.Row="1"/>
                 <Label x:Name="label4_Copy11" Content="Whipped cream" HorizontalAlignment="Left" Height="43" Margin="388,119.5,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667" Grid.Row="1"/>
                 <Image x:Name="image4_Copy7" HorizontalAlignment="Left" Height="60" Margin="9,119.5,0,0" VerticalAlignment="Top" Width="60" Source="Pics/pound cake.jpg" Grid.Row="1"/>
                 <Image x:Name="image4_Copy8" HorizontalAlignment="Left" Height="60" Margin="323,119.5,0,0" VerticalAlignment="Top" Width="60" Source="Pics/whipped cream.jpg" Grid.Row="1"/>
