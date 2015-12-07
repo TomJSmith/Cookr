@@ -23,8 +23,8 @@ namespace WpfApplication1
         private MainWindow myMain;
         public BreakfastCategory(MainWindow aMain)
         {
-            InitializeComponent();
             myMain = aMain;
+            InitializeComponent();
             defaultView();
 
         }
@@ -120,6 +120,35 @@ namespace WpfApplication1
 
                 Sp1.Children.Add(myMain.itemOfLists[i]);
             }
+
+        }
+
+        private void RatingSelected(object sender, RoutedEventArgs e)
+        {
+
+            RecipeView ar = new RecipeView("Cheese Omlet", "30 min", 5);
+            RecipeView br = new RecipeView("Eggy in a basket", "35 min", 4);
+            RecipeView cr = new RecipeView("English Breakfast", "27 min", 3.5);
+            RecipeView dr = new RecipeView("Steak and Egg", "30 min", 3.5);
+
+
+
+            myMain.itemOfLists[0] = new ListItem(ar);
+            myMain.itemOfLists[1] = new ListItem(dr);
+            myMain.itemOfLists[2] = new ListItem(br);
+            myMain.itemOfLists[3] = new ListItem(cr);
+            myMain.itemOfLists[4] = new ListItem(myMain.pancake);
+            
+            Sp1.Children.Clear();
+
+           myMain.sortRating();
+
+            for (int i = 0; i < myMain.itemOfLists.Length; i++)
+            {
+
+                Sp1.Children.Add(myMain.itemOfLists[i]);
+            }
+
 
         }
     

@@ -39,7 +39,7 @@
         </Grid>
         <ComboBox x:Name="comboBox" IsEditable="True" IsReadOnly="True" Grid.Column="1" HorizontalAlignment="Left" Margin="101,175,0,0" Grid.Row="1" VerticalAlignment="Top" Width="140" SelectedIndex="2" FontSize="18.667" BorderBrush="#FFE8685D">
             <ComboBoxItem Selected="AlphabeticalSelected" HorizontalContentAlignment="Center">Alphabetical</ComboBoxItem>
-            <ComboBoxItem HorizontalContentAlignment="Center" IsSelected="True">Rating</ComboBoxItem>
+            <ComboBoxItem Selected="RatingSelected" HorizontalContentAlignment="Center" IsSelected="True">Rating</ComboBoxItem>
             <ComboBoxItem Selected="TimeSelected" HorizontalContentAlignment="Center">Time</ComboBoxItem>
         </ComboBox>
         <ComboBox IsEditable="True" IsReadOnly="True" Text="Time" x:Name="comboBox_Copy" Grid.Column="1" Margin="246,175,0,0" Grid.Row="1" VerticalAlignment="Top" Height="31" FontSize="18.667" HorizontalAlignment="Left" Width="104">
