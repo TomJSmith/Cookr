@@ -97,12 +97,12 @@
                 <Image x:Name="favButton" HorizontalAlignment="Left" Height="45" Margin="208,168,0,0" VerticalAlignment="Top" Width="45" Source="Images/addFavouritedButton.png" MouseUp="addFavourite"/>
                 <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="302" Margin="0,641,0,0" VerticalAlignment="Top" Width="620"/>
                 <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="730" Margin="0,943,0,0" VerticalAlignment="Top" Width="620"/>
+                <Grid HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="55">
+                    <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png" RenderTransformOrigin="1,1.667" MouseUp="goBack"/>
+                </Grid>
 
             </Grid>
         </ScrollViewer>
-        <Grid Grid.Column="1" HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="55" Margin="0,240,0,0" Grid.RowSpan="2">
-            <Image x:Name="image6" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="45" Source="Images/backArrow.png" RenderTransformOrigin="1,1.667" MouseUp="goBack"/>
-        </Grid>
 
 
     </Grid>

@@ -26,6 +26,53 @@ namespace WpfApplication1
             InitializeComponent();
         }
 
+        public RecipeView(string aName, string aTime, double aRating)
+        {
+            InitializeComponent();
+            name.Content = aName;
+            time.Content = aTime;
+            if (aRating == 0.5)
+            {
+                image2.Source = new BitmapImage(new Uri(@"/Images/halfstar.png", UriKind.Relative));
+            }
+            else if (aRating == 1.0)
+            {
+                image2.Source = new BitmapImage(new Uri(@"/Images/1star.png", UriKind.Relative));
+            }
+            else if (aRating == 1.5)
+            {
+                image2.Source = new BitmapImage(new Uri(@"/Images/15star.png", UriKind.Relative));
+            }
+            else if (aRating == 2.0)
+            {
+                image2.Source = new BitmapImage(new Uri(@"/Images/2star.png", UriKind.Relative));
+            }
+            else if (aRating == 2.5)
+            {
+                image2.Source = new BitmapImage(new Uri(@"/Images/25star.png", UriKind.Relative));
+            }
+            else if (aRating == 3.0)
+            {
+                image2.Source = new BitmapImage(new Uri(@"/Images/3star.png", UriKind.Relative));
+            }
+            else if (aRating == 3.5)
+            {
+                image2.Source = new BitmapImage(new Uri(@"/Images/35star.png", UriKind.Relative));
+            }
+            else if (aRating == 4.0)
+            {
+                image2.Source = new BitmapImage(new Uri(@"/Images/4star.png", UriKind.Relative));
+            }
+            else if (aRating == 4.5)
+            {
+                image2.Source = new BitmapImage(new Uri(@"/Images/45star.png", UriKind.Relative));
+            }
+            else
+            {
+                image2.Source = new BitmapImage(new Uri(@"/Images/5star.png", UriKind.Relative));
+            }
+        }
+
         private void addFavourite(object sender, MouseButtonEventArgs e)
         {
             MainWindow myMain = (MainWindow)Window.GetWindow(this);
