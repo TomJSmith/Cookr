@@ -67,7 +67,8 @@ namespace WpfApplication1
             myMain.itemOfLists[2] = new ListItem(myMain.aSundae);
             myMain.itemOfLists[3] = new ListItem(myMain.orangeAvoChicken);
             myMain.itemOfLists[4] = new ListItem(myMain.hawiianSmoothie);
-            
+
+           
 
             Sp1.Children.Clear();
 
