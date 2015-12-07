@@ -35,7 +35,6 @@
                     <ComboBoxItem HorizontalContentAlignment="Center" Selected="serves3">3</ComboBoxItem>
                     <ComboBoxItem HorizontalContentAlignment="Center" Selected="serves4">4</ComboBoxItem>
                     <ComboBoxItem HorizontalContentAlignment="Center" Selected="serves5">5</ComboBoxItem>
-                    <ComboBoxItem HorizontalContentAlignment="Center" Selected="serves6">6</ComboBoxItem>
                 </ComboBox>
                 <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="310" Margin="10,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="18.667"><Run FontSize="18.667" FontFamily="Segoe UI" Text="A Refreshing drink that will make you this you're on a tropical island! You can use fresh or frozen fruit in this smoothie."/><LineBreak/><Run Text=""/></TextBlock>
                 <Label x:Name="label2" Content="Nutrition Information" HorizontalAlignment="Left" Margin="335,210,0,0" VerticalAlignment="Top" Width="285" FontSize="21.333"/>
