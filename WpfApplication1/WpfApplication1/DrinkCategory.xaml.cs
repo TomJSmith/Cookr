@@ -33,10 +33,10 @@ namespace WpfApplication1
 
         void initRecipes()
         {
-            ar = new RecipeView("Home made Coke", "30 min", 5);
-            br = new RecipeView("Jack and Coke", "03 min", 5);
-            cr = new RecipeView("Black Tooth Grin", "03 min", 5);
-            dr = new RecipeView("AMF", "04 min", 5);
+            ar = new RecipeView("Home made Orange Juice", "30 min", 5);
+            br = new RecipeView("Jack and Coke", "03 min", 4);
+            cr = new RecipeView("Black Tooth Grin", "03 min", 4);
+            dr = new RecipeView("AMF", "04 min", 2.5);
         }
 
         private void goBack(object sender, MouseButtonEventArgs e)

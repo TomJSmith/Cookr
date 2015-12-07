@@ -37,10 +37,10 @@ namespace WpfApplication1
 
         void initRecipes()
         {
-           ar = new RecipeView("Steak", "03 min", 5);
-           br = new RecipeView("Sushi", "05 min", 4);
-           cr = new RecipeView("BBq Chicken", "07 min", 3.5);
-           dr = new RecipeView("Meatlovers Pizza", "09 min", 3.5);
+           ar = new RecipeView("Steak", "10 min", 5);
+           br = new RecipeView("Sushi", "25 min", 4);
+           cr = new RecipeView("BBq Chicken", "27 min", 3.5);
+           dr = new RecipeView("Meatlovers Pizza", "40 min", 3.5);
 
         }
 
@@ -49,16 +49,16 @@ namespace WpfApplication1
 
             Sp1.Children.Clear();
             ListItem al = new ListItem(ar);
-            ListItem bl = new ListItem(dr);
-            ListItem cl = new ListItem(br);
-            ListItem dl = new ListItem(cr);
+            ListItem bl = new ListItem(br);
+            ListItem cl = new ListItem(cr);
+            ListItem dl = new ListItem(dr);
             ListItem e1 = new ListItem(myMain.spaghetti);
 
+            Sp1.Children.Add(al);
+            Sp1.Children.Add(e1);
             Sp1.Children.Add(bl);
             Sp1.Children.Add(cl);
-            Sp1.Children.Add(al);
             Sp1.Children.Add(dl);
-            Sp1.Children.Add(e1);
         }
 
         private void AlphabeticalSelected(object sender, RoutedEventArgs e)

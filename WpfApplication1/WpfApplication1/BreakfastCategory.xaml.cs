@@ -50,16 +50,18 @@ namespace WpfApplication1
             Sp1.Children.Clear();
 
             ListItem al = new ListItem(ar);
-            ListItem bl = new ListItem(dr);
-            ListItem cl = new ListItem(br);
-            ListItem dl = new ListItem(cr);
+            ListItem bl = new ListItem(br);
+            ListItem cl = new ListItem(cr);
+            ListItem dl = new ListItem(dr);
             ListItem e1 = new ListItem(myMain.pancake);
 
+            Sp1.Children.Add(al);
             Sp1.Children.Add(bl);
             Sp1.Children.Add(cl);
-            Sp1.Children.Add(al);
             Sp1.Children.Add(dl);
             Sp1.Children.Add(e1);
+
+            
         }
 
         private void AlphabeticalSelected(object sender, RoutedEventArgs e)

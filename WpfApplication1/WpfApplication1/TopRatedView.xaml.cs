@@ -48,8 +48,8 @@ namespace WpfApplication1
             myMain.itemOfLists[4] = new ListItem(myMain.hawiianSmoothie);
 
             Sp1.Children.Clear();
-
-            myMain.sortAlphabetically();
+            myMain.sortRating();
+            
 
             for (int i = 0; i < myMain.itemOfLists.Length; i++)
             {

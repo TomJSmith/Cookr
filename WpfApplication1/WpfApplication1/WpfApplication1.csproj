@@ -97,6 +97,9 @@
     <Compile Include="NoFavouritesMessage.xaml.cs">
       <DependentUpon>NoFavouritesMessage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="noResults.xaml.cs">
+      <DependentUpon>noResults.xaml</DependentUpon>
+    </Compile>
     <Compile Include="OrangeAvocadoChicken.xaml.cs">
       <DependentUpon>OrangeAvocadoChicken.xaml</DependentUpon>
     </Compile>
@@ -191,6 +194,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="NoFavouritesMessage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="noResults.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

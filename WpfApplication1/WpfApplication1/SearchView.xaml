@@ -19,16 +19,7 @@
         <Grid Grid.Column="1" Margin="10,35,46,24" Grid.Row="1">
             <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,175,-342,-541" Height="677" VerticalAlignment="Top">
                 <StackPanel Name="items" HorizontalAlignment="Center"  Width="480" Height="Auto">
-                    <local:ListItem Margin="0, 10, 0, 0"/>
-                    <local:ListItem Margin="0, 10, 0, 0"/>
-                    <local:ListItem Margin="0, 10, 0, 0"/>
-                    <local:ListItem Margin="0, 10, 0, 0"/>
-                    <local:ListItem Margin="0, 10, 0, 0"/>
-                    <local:ListItem Margin="0, 10, 0, 0"/>
-                    <local:ListItem Margin="0, 10, 0, 0"/>
-                    <local:ListItem Margin="0, 10, 0, 0"/>
-                    <local:ListItem Margin="0, 10, 0, 0"/>
-                    <local:ListItem Margin="0, 10, 0, 0"/>
+                    <local:noResults></local:noResults>
 
                 </StackPanel>
 
