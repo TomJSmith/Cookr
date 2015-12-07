@@ -20,7 +20,7 @@
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
             <local:SearchBarHeader Margin="0,-56,0,56"/>
         </Grid>
-        <ScrollViewer HorizontalAlignment="Left" Height="748" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3">
+        <ScrollViewer HorizontalAlignment="Left" Height="751" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="1603" Grid.Row="1" VerticalAlignment="Top" Width="620">
                 <Image x:Name="image" HorizontalAlignment="Left" Height="168" Margin="10,50,0,0" VerticalAlignment="Top" Width="168" Source="Pics/pancake.jpg"/>
                 <Label x:Name="name" Content="Pancakes" Margin="178,50,158,1431" FontSize="24" />
@@ -56,7 +56,7 @@
                 <Image x:Name="image4" HorizontalAlignment="Left" Height="60" Margin="10,572,0,0" VerticalAlignment="Top" Width="60" Source="Pics/10 inch non stick pan.jpg"/>
                 <Label x:Name="label4" Content="10 inch &#xD;&#xA;non-stick pan" HorizontalAlignment="Left" Height="60" Margin="75,570,0,0" VerticalAlignment="Top" Width="134" FontSize="18.667"/>
                 <Image x:Name="image4_Copy" HorizontalAlignment="Left" Height="60" Margin="323,570,0,0" VerticalAlignment="Top" Width="60" Source="Pics/whisk.jpg" RenderTransformOrigin="0.483,0.908"/>
-                <Label x:Name="label4_Copy" Content="Whisk" HorizontalAlignment="Left" Height="43" Margin="393,572,0,0" VerticalAlignment="Top" Width="122" FontSize="18.667"/>
+                <Label x:Name="label4_Copy" Content="Whisk" HorizontalAlignment="Left" Height="43" Margin="393,577,0,0" VerticalAlignment="Top" Width="122" FontSize="18.667"/>
                 <Border BorderBrush="#FFE8685D" BorderThickness="1" HorizontalAlignment="Left" Height="369" Margin="1,767,0,0" VerticalAlignment="Top" Width="619"/>
                 <Label x:Name="label3_Copy" Content="Ingredients" HorizontalAlignment="Left" Height="48" Margin="9,767,0,0" VerticalAlignment="Top" Width="197" FontSize="24"/>
                 <Image x:Name="image4_Copy1" HorizontalAlignment="Left" Height="60" Margin="9,803,0,0" VerticalAlignment="Top" Width="60" Source="Pics/salt.png"/>
@@ -87,18 +87,19 @@
                 <Label x:Name="label4_Copy3" Content="2 tablespoons canola&#xD;&#xA;oil" HorizontalAlignment="Left" Height="60" Margin="75,1032,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
                 <Image x:Name="image4_Copy7" HorizontalAlignment="Left" Height="60" Margin="9,1032,0,0" VerticalAlignment="Top" Width="60" Source="Pics/Canola-Oil.jpg"/>
                 <Image Margin="323,630,237,1384" Source="Pics/Large mixing bowl.jpg"/>
-                <Label x:Name="label4_Copy13" Content="Mixing Bowl" HorizontalAlignment="Left" Height="43" Margin="393,635,0,0" VerticalAlignment="Top" Width="122" FontSize="18.667"/>
+                <Label x:Name="label4_Copy13" Content="Mixing Bowl" HorizontalAlignment="Left" Height="43" Margin="393,639,0,0" VerticalAlignment="Top" Width="122" FontSize="18.667"/>
                 <local:UserRating Margin="143,1401,142,-69"></local:UserRating>
 
 
-                <Label x:Name="label4_Copy15" Content="Ladle" HorizontalAlignment="Left" Height="43" Margin="75,630,0,0" VerticalAlignment="Top" Width="151" FontSize="18.667"/>
+                <Label x:Name="label4_Copy15" Content="Ladle" HorizontalAlignment="Left" Height="43" Margin="75,640,0,0" VerticalAlignment="Top" Width="151" FontSize="18.667"/>
                 <Image x:Name="image4_Copy12" HorizontalAlignment="Left" Height="60" Margin="10,632,0,0" VerticalAlignment="Top" Width="60" Source="Pics/ladle-big.jpg"/>
                 <Image Margin="10,692,550,1322" Source="Pics/-measuring-cup-set-1-600x600.jpg"/>
-                <Label x:Name="label4_Copy4" Content="Measuring cups" HorizontalAlignment="Left" Height="43" Margin="75,692,0,0" VerticalAlignment="Top" Width="151" FontSize="18.667"/>
+                <Label x:Name="label4_Copy4" Content="Measuring cups" HorizontalAlignment="Left" Height="43" Margin="75,698,0,0" VerticalAlignment="Top" Width="151" FontSize="18.667"/>
 
 
                 <Image x:Name="image5" Source="Pics/Large Mixing Bowl.jpg" HorizontalAlignment="Left" Height="76" Margin="324,635,0,0" VerticalAlignment="Top" Width="59"/>
                 <Label x:Name="label4_Copy6" Content="Egg Flipper" HorizontalAlignment="Left" Height="43" Margin="393,701,0,0" VerticalAlignment="Top" Width="122" FontSize="18.667"/>
+                <Image x:Name="image5_Copy1" Source="Pics/eggFlipper.jpg" HorizontalAlignment="Left" Height="76" Margin="324,693,0,0" VerticalAlignment="Top" Width="59"/>
 
             </Grid>
         </ScrollViewer>
