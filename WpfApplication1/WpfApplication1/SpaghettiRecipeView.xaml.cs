@@ -20,11 +20,18 @@ namespace WpfApplication1
     /// </summary>
     public partial class SpaghettiRecipeView : UserControl, IRecipe
     {
+        public double recipeValue = 5.0;
         private bool isFav = false;
         public SpaghettiRecipeView()
         {
             InitializeComponent();
         }
+
+        public double getRatingValue()
+        {
+            return recipeValue;
+        }
+
         private void goBack(object sender, MouseButtonEventArgs e)
         {
             MainWindow mainWindow = (MainWindow)Window.GetWindow(this);

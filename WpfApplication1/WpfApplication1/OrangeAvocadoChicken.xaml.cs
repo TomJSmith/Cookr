@@ -20,11 +20,18 @@ namespace WpfApplication1
     /// </summary>
     public partial class OrangeAvocadoChicken : UserControl, IRecipe
     {
+        public double recipeValue = 4.0;
         private bool isFav = false;
         public OrangeAvocadoChicken()
         {
             InitializeComponent();
         }
+
+        public double getRatingValue()
+        {
+            return recipeValue;
+        }
+
         private void goBack(object sender, MouseButtonEventArgs e)
         {
             MainWindow mainWindow = (MainWindow)Window.GetWindow(this);

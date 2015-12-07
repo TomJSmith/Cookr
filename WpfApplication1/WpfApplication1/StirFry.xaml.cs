@@ -20,10 +20,17 @@ namespace WpfApplication1
     /// </summary>
     public partial class StirFry : UserControl, IRecipe
     {
+        public double ratingValue = 3.0;
         private bool isFav = false;
         public StirFry()
         {
             InitializeComponent();
+        }
+
+
+        public double getRatingValue()
+        {
+            return ratingValue;
         }
 
         private void goBack(object sender, MouseButtonEventArgs e)

@@ -20,12 +20,19 @@ namespace WpfApplication1
     /// </summary>
     public partial class HawaiianSmoothie : UserControl, IRecipe
     {
+        public double recipeValue = 4.0;
         private bool isFav = false;
         public HawaiianSmoothie()
         {
             InitializeComponent();
             comboBox.SelectedIndex = 1;
         }
+
+        public double getRatingValue()
+        {
+            return recipeValue;
+        }
+
         private void goBack(object sender, MouseButtonEventArgs e)
         {
             MainWindow mainWindow = (MainWindow)Window.GetWindow(this);

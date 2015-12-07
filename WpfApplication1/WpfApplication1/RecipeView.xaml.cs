@@ -20,15 +20,24 @@ namespace WpfApplication1
     /// </summary>
     public partial class RecipeView : UserControl, IRecipe
     {
+        private double recipeValue = 0;
+
         private bool isFav = false;
         public RecipeView()
         {
             InitializeComponent();
+            recipeValue = 5.0;
+        }
+
+        public double getRatingValue()
+        {
+            return recipeValue;
         }
 
         public RecipeView(string aName, string aTime, double aRating)
         {
             InitializeComponent();
+            recipeValue = aRating;
             name.Content = aName;
             time.Content = aTime;
             if (aRating == 0.5)

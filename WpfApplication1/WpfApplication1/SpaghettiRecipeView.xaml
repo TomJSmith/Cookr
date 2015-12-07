@@ -20,7 +20,7 @@
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
             <local:SearchBarHeader Margin="0,-56,0,56"/>
         </Grid>
-        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-484">
+        <ScrollViewer HorizontalAlignment="Left" Height="749" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-584">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="2080" Grid.Row="1" VerticalAlignment="Top" Width="620">
                 <Image x:Name="image" HorizontalAlignment="Left" Height="168" Margin="10,50,0,0" VerticalAlignment="Top" Width="168" Source="Pics/spaghetti-and-meatballs.jpg"/>
                 <Label x:Name="name" Content="Spaghetti and Meatballs" Margin="178,50,158,1673" FontSize="24" />
@@ -58,9 +58,9 @@
                 <Image x:Name="image4_Copy1" HorizontalAlignment="Left" Height="60" Margin="9,803,0,0" VerticalAlignment="Top" Width="60" Source="Pics/salt.png"/>
                 <Label x:Name="label4_Copy1" Content="2 tablespoons Salt" HorizontalAlignment="Left" Height="43" Margin="70,798,0,0" VerticalAlignment="Top" Width="210" FontSize="18.667"/>
                 <Image x:Name="image4_Copy2" HorizontalAlignment="Left" Height="60" Margin="9,863,0,0" VerticalAlignment="Top" Width="60" Source="Pics/driedparsley.jpg"/>
-                <Label x:Name="label4_Copy5" Content="1.4 cup dried parsley" HorizontalAlignment="Left" Height="43" Margin="75,863,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
+                <Label x:Name="label4_Copy5" Content="1/4 cup dried parsley" HorizontalAlignment="Left" Height="43" Margin="75,863,0,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
                 <Label x:Name="label4_Copy6" Content="Substitutes:" HorizontalAlignment="Left" Height="28" Margin="75,892,0,0" VerticalAlignment="Top" Width="210" FontSize="14.667"/>
-                <Label x:Name="label4_Copy7" Content="1/2 teaspoon of Ingredient" HorizontalAlignment="Left" Height="30" Margin="84,920,0,0" VerticalAlignment="Top" Width="210" FontSize="14.667"/>
+                <Label x:Name="label4_Copy7" Content="1/4 cup of cilantro" HorizontalAlignment="Left" Height="30" Margin="84,920,0,0" VerticalAlignment="Top" Width="210" FontSize="14.667"/>
                 <Image x:Name="image4_Copy3" HorizontalAlignment="Left" Height="60" Margin="323,798,0,0" VerticalAlignment="Top" Width="60" Source="Pics/dg311-kraft-parmesan-cheese-125g.jpg"/>
                 <Label x:Name="label4_Copy8" Content="1/4 cup finely grated &#xD;&#xA;Parmesan" HorizontalAlignment="Left" Height="65" Margin="389,798,-1,0" VerticalAlignment="Top" Width="232" FontSize="18.667"/>
                 <Image x:Name="image4_Copy4" HorizontalAlignment="Left" Height="60" Margin="323,860,0,0" VerticalAlignment="Top" Width="60" Source="Pics/garlic.jpg"/>
