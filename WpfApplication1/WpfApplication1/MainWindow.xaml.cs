@@ -7,6 +7,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
+using System.Windows.Documents.DocumentStructures;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
@@ -47,6 +48,7 @@ namespace WpfApplication1
         public StirFry stirFry;
         public sundaeDessert aSundae;
         public BreakfastPage pancake;
+        public ListItem[] itemOfLists = new ListItem[5];
 
         private Random rnd = new Random();
         UserControl prevView;
@@ -144,6 +146,27 @@ namespace WpfApplication1
             prevView = (UserControl)contentView.Children[0];
             contentView.Children.Clear();
             contentView.Children.Add(aUserControl);
+        }
+
+        public void sortAlphabetically()
+        {
+           
+                Array.Sort(itemOfLists, delegate(ListItem x, ListItem y)
+                {
+                    return (x.recipeName.Text).CompareTo(y.recipeName.Text);
+                });
+          
+
+        }// end of sort Alphabetically()
+
+
+        public void sortByTime()
+        {
+            Array.Sort(itemOfLists, delegate(ListItem x, ListItem y)
+            {
+                return ((x.time.Content).ToString()).CompareTo((y.time.Content).ToString());
+            });
+
         }
 
         public void switchPrevView()

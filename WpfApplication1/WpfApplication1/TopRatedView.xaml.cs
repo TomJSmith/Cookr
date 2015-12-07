@@ -7,6 +7,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
+using System.Windows.Documents.DocumentStructures;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
@@ -21,6 +22,7 @@ namespace WpfApplication1
     public partial class TopRatedView : UserControl
     {
         private MainWindow myMain;
+
         public TopRatedView(MainWindow aMain)
         {
             myMain = aMain;
@@ -33,87 +35,71 @@ namespace WpfApplication1
         {
             Sp1.Children.Clear();
 
-            ListItem item1ListItem = new ListItem(myMain.spaghetti);
-            Sp1.Children.Add(item1ListItem);
+            // ListItem[] itemOfLists = new ListItem[5];
+            myMain.itemOfLists[0] = new ListItem(myMain.spaghetti);
+            myMain.itemOfLists[1] = new ListItem(myMain.beefTacos);
+            myMain.itemOfLists[2] = new ListItem(myMain.aSundae);
+            myMain.itemOfLists[3] = new ListItem(myMain.orangeAvoChicken);
+            myMain.itemOfLists[4] = new ListItem(myMain.hawiianSmoothie);
 
-            ListItem item2ListItem = new ListItem( myMain.beefTacos);
-            Sp1.Children.Add(item2ListItem);
 
-            ListItem item3ListItem = new ListItem(myMain.hawiianSmoothie);
-            Sp1.Children.Add(item3ListItem);
 
-            ListItem item4ListItem = new ListItem( myMain.orangeAvoChicken);
-            Sp1.Children.Add(item4ListItem);
-
-            ListItem item5ListItem = new ListItem(myMain.stirFry);
-            Sp1.Children.Add(item5ListItem);
         }
+
+
+
+
 
         private void AlphabeticalSelected(object sender, RoutedEventArgs e)
         {
             Sp1.Children.Clear();
 
-            ListItem item5ListItem = new ListItem(myMain.stirFry);
-            Sp1.Children.Add(item5ListItem);
+            myMain.sortAlphabetically();
 
-            ListItem item2ListItem = new ListItem( myMain.beefTacos);
-            Sp1.Children.Add(item2ListItem);
+            for (int i = 0; i < myMain.itemOfLists.Length; i++)
+            {
 
-            ListItem item3ListItem = new ListItem(myMain.hawiianSmoothie);
-            Sp1.Children.Add(item3ListItem);
+                Sp1.Children.Add(myMain.itemOfLists[i]);
+            }
 
-            ListItem item4ListItem = new ListItem(myMain.orangeAvoChicken);
-            Sp1.Children.Add(item4ListItem);
 
-            ListItem item1ListItem = new ListItem(myMain.spaghetti);
-            Sp1.Children.Add(item1ListItem);
+
         }
 
 
 
         private void TimeSelected(object sender, RoutedEventArgs e)
         {
+
             Sp1.Children.Clear();
 
-            ListItem item3ListItem = new ListItem(myMain.hawiianSmoothie);
-            Sp1.Children.Add(item3ListItem);
+            myMain.sortAlphabetically();
 
-            ListItem item2ListItem = new ListItem(myMain.beefTacos);
-            Sp1.Children.Add(item2ListItem);
+            for (int i = 0; i < myMain.itemOfLists.Length; i++)
+            {
 
-            ListItem item4ListItem = new ListItem(myMain.orangeAvoChicken);
-            Sp1.Children.Add(item4ListItem);
+                Sp1.Children.Add(myMain.itemOfLists[i]);
+            }
 
-            ListItem item1ListItem = new ListItem(myMain.spaghetti);
-            Sp1.Children.Add(item1ListItem);
 
-            ListItem item5ListItem = new ListItem(myMain.stirFry);
-            Sp1.Children.Add(item5ListItem);
-        
-        
-        
-        
         }
+
 
         private void RatingSelected(object sender, RoutedEventArgs e)
         {
             Sp1.Children.Clear();
 
-            ListItem item1ListItem = new ListItem(myMain.spaghetti);
-            Sp1.Children.Add(item1ListItem);
+            myMain.sortAlphabetically();
 
-            ListItem item2ListItem = new ListItem(myMain.beefTacos);
-            Sp1.Children.Add(item2ListItem);
+            for (int i = 0; i < myMain.itemOfLists.Length; i++)
+            {
 
-            ListItem item3ListItem = new ListItem( myMain.hawiianSmoothie);
-            Sp1.Children.Add(item3ListItem);
+                Sp1.Children.Add(myMain.itemOfLists[i]);
+            }
 
-            ListItem item4ListItem = new ListItem(myMain.orangeAvoChicken);
-            Sp1.Children.Add(item4ListItem);
 
-            ListItem item5ListItem = new ListItem(myMain.stirFry);
-            Sp1.Children.Add(item5ListItem);
         }
-    }
 
-}
+
+    }
+}// end of TopRated
