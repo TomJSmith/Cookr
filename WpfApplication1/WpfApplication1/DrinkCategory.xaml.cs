@@ -44,18 +44,18 @@ namespace WpfApplication1
             RecipeView dr = new RecipeView("White Russian", "03 min", 3.5);
 
             ListItem al = new ListItem(ar);
-            ListItem bl = new ListItem(dr);
-            ListItem cl = new ListItem(br);
-            ListItem dl = new ListItem(cr);
+            ListItem bl = new ListItem(br);
+            ListItem cl = new ListItem(cr);
+            ListItem dl = new ListItem(dr);
             ListItem e1 = new ListItem(myMain.hawiianSmoothie);
             
   
 
-            Sp1.Children.Add(bl);
-            Sp1.Children.Add(cl);
             Sp1.Children.Add(al);
-            Sp1.Children.Add(dl);
+            Sp1.Children.Add(bl);
             Sp1.Children.Add(e1);
+            Sp1.Children.Add(cl);
+            Sp1.Children.Add(dl);
 
 
 
@@ -70,11 +70,11 @@ namespace WpfApplication1
             RecipeView cr = new RecipeView("A.M.F", "05 min", 3.5);
             RecipeView dr = new RecipeView("White Russian", "03 min", 3.5);
 
-            ListItem al = new ListItem(ar);
-            ListItem bl = new ListItem(dr);
-            ListItem cl = new ListItem(br);
-            ListItem dl = new ListItem(cr);
-            ListItem e1 = new ListItem(myMain.hawiianSmoothie);
+            myMain.itemOfLists[0] = new ListItem(ar);
+            myMain.itemOfLists[1] = new ListItem(dr);
+            myMain.itemOfLists[2] = new ListItem(br);
+            myMain.itemOfLists[3] = new ListItem(cr);
+            myMain.itemOfLists[4] = new ListItem(myMain.hawiianSmoothie);
             Sp1.Children.Clear();
 
             myMain.sortAlphabetically();
@@ -93,11 +93,11 @@ namespace WpfApplication1
             RecipeView cr = new RecipeView("A.M.F", "05 min", 3.5);
             RecipeView dr = new RecipeView("White Russian", "03 min", 3.5);
 
-            ListItem al = new ListItem(ar);
-            ListItem bl = new ListItem(dr);
-            ListItem cl = new ListItem(br);
-            ListItem dl = new ListItem(cr);
-            ListItem e1 = new ListItem(myMain.hawiianSmoothie);
+            myMain.itemOfLists[0] = new ListItem(ar);
+            myMain.itemOfLists[1] = new ListItem(dr);
+            myMain.itemOfLists[2] = new ListItem(br);
+            myMain.itemOfLists[3] = new ListItem(cr);
+            myMain.itemOfLists[4] = new ListItem(myMain.hawiianSmoothie);
 
             Sp1.Children.Clear();
 
@@ -120,11 +120,11 @@ namespace WpfApplication1
             RecipeView cr = new RecipeView("A.M.F", "05 min", 3.5);
             RecipeView dr = new RecipeView("White Russian", "03 min", 3.5);
 
-            ListItem al = new ListItem(ar);
-            ListItem bl = new ListItem(dr);
-            ListItem cl = new ListItem(br);
-            ListItem dl = new ListItem(cr);
-            ListItem e1 = new ListItem(myMain.hawiianSmoothie);
+            myMain.itemOfLists[0] = new ListItem(ar);
+            myMain.itemOfLists[1] = new ListItem(dr);
+            myMain.itemOfLists[2] = new ListItem(br);
+            myMain.itemOfLists[3] = new ListItem(cr);
+            myMain.itemOfLists[4] = new ListItem(myMain.hawiianSmoothie);
 
             Sp1.Children.Clear();
 
