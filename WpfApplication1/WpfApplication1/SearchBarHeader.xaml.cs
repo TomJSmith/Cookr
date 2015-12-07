@@ -60,9 +60,24 @@ namespace WpfApplication1
         {
             if (main == null)
                 main = (MainWindow)Window.GetWindow(this);
+            string searchText = searchBox.Text.ToString();
+            Console.WriteLine(searchText);
             SearchView searchResults = new SearchView();
             searchResults.setMain(main);
-            searchResults.initPasta();
+            if (searchText.ToLower() == "pasta")
+            {
+                searchResults.initPasta();
+            }
+            else if (searchText.ToLower() == "breakfast")
+            {
+                main.switchBreakFastView();
+                return;
+            }
+            else if (searchText.ToLower() == "chicken")
+            {
+                searchResults.initChicken();
+            }
+            
             main.switchToView(searchResults);
         }
     }
