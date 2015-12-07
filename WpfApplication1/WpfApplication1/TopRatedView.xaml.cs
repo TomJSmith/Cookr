@@ -42,6 +42,16 @@ namespace WpfApplication1
             myMain.itemOfLists[3] = new ListItem(myMain.orangeAvoChicken);
             myMain.itemOfLists[4] = new ListItem(myMain.hawiianSmoothie);
 
+            Sp1.Children.Clear();
+
+            myMain.sortAlphabetically();
+
+            for (int i = 0; i < myMain.itemOfLists.Length; i++)
+            {
+
+                Sp1.Children.Add(myMain.itemOfLists[i]);
+            }
+
 
 
         }
@@ -52,6 +62,12 @@ namespace WpfApplication1
 
         private void AlphabeticalSelected(object sender, RoutedEventArgs e)
         {
+            myMain.itemOfLists[0] = new ListItem(myMain.spaghetti);
+            myMain.itemOfLists[1] = new ListItem(myMain.beefTacos);
+            myMain.itemOfLists[2] = new ListItem(myMain.aSundae);
+            myMain.itemOfLists[3] = new ListItem(myMain.orangeAvoChicken);
+            myMain.itemOfLists[4] = new ListItem(myMain.hawiianSmoothie);
+
             Sp1.Children.Clear();
 
             myMain.sortAlphabetically();
@@ -71,9 +87,15 @@ namespace WpfApplication1
         private void TimeSelected(object sender, RoutedEventArgs e)
         {
 
-            Sp1.Children.Clear();
+            myMain.itemOfLists[0] = new ListItem(myMain.spaghetti);
+            myMain.itemOfLists[1] = new ListItem(myMain.beefTacos);
+            myMain.itemOfLists[2] = new ListItem(myMain.aSundae);
+            myMain.itemOfLists[3] = new ListItem(myMain.orangeAvoChicken);
+            myMain.itemOfLists[4] = new ListItem(myMain.hawiianSmoothie);
 
-            myMain.sortAlphabetically();
+            Sp1.Children.Clear(); 
+
+            myMain.sortTime();
 
             for (int i = 0; i < myMain.itemOfLists.Length; i++)
             {
@@ -82,11 +104,21 @@ namespace WpfApplication1
             }
 
 
+
         }
 
 
         private void RatingSelected(object sender, RoutedEventArgs e)
         {
+
+            myMain.itemOfLists[0] = new ListItem(myMain.spaghetti);
+            myMain.itemOfLists[1] = new ListItem(myMain.beefTacos);
+            myMain.itemOfLists[2] = new ListItem(myMain.aSundae);
+            myMain.itemOfLists[3] = new ListItem(myMain.orangeAvoChicken);
+            myMain.itemOfLists[4] = new ListItem(myMain.hawiianSmoothie);
+
+          
+            
             Sp1.Children.Clear();
 
             myMain.sortAlphabetically();
