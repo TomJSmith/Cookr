@@ -21,11 +21,21 @@ namespace WpfApplication1
     public partial class DesertCategory : UserControl
     {
         private MainWindow myMain;
+        private RecipeView ar, br, cr, dr;
         public DesertCategory(MainWindow aMain)
         {
+            initRecipes();
             myMain = aMain;
             InitializeComponent();
             defaultView();
+        }
+
+        void initRecipes()
+        {
+            ar = new RecipeView("Cheese Cake", "30 min", 5);
+            br = new RecipeView("Lemon Pie", "35 min", 4);
+            cr = new RecipeView("Brownies", "27 min", 3.5);
+            dr = new RecipeView("Monster and IceCream Float", "30 min", 3.5);
         }
 
         void defaultView()
@@ -37,10 +47,7 @@ namespace WpfApplication1
             Sp1.Children.Clear();
 
 
-            RecipeView ar = new RecipeView("Chocolate Rush", "03 min", 5);
-            RecipeView br = new RecipeView("Diabetes in a bowl", "05 min", 4);
-            RecipeView cr = new RecipeView("Sugar Rush", "07 min", 3.5);
-            RecipeView dr = new RecipeView("Monster and IceCream Float", "09 min", 3.5);
+           
 
             ListItem al = new ListItem(ar);
             ListItem bl = new ListItem(dr);
@@ -61,14 +68,6 @@ namespace WpfApplication1
 
         private void AlphabeticalSelected(object sender, RoutedEventArgs e)
         {
-            RecipeView ar = new RecipeView("Chocolate Rush", "03 min", 5);
-            RecipeView br = new RecipeView("Diabetes in a bowl", "05 min", 4);
-            RecipeView cr = new RecipeView("Sugar Rush", "07 min", 3.5);
-            RecipeView dr = new RecipeView("Monster and IceCream Float", "09 min", 3.5);
-
-           
-
-
             myMain.itemOfLists[0] = new ListItem(ar);
             myMain.itemOfLists[1] = new ListItem(dr);
             myMain.itemOfLists[2] = new ListItem(br);
@@ -91,14 +90,6 @@ namespace WpfApplication1
 
         private void TimeSelected(object sender, RoutedEventArgs e)
         {
-            RecipeView ar = new RecipeView("Chocolate Rush", "03 min", 5);
-            RecipeView br = new RecipeView("Diabetes in a bowl", "05 min", 4);
-            RecipeView cr = new RecipeView("Sugar Rush", "07 min", 3.5);
-            RecipeView dr = new RecipeView("Monster and IceCream Float", "09 min", 3.5);
-
-
-
-
             myMain.itemOfLists[0] = new ListItem(ar);
             myMain.itemOfLists[1] = new ListItem(dr);
             myMain.itemOfLists[2] = new ListItem(br);
@@ -121,14 +112,6 @@ namespace WpfApplication1
         private void RatingSelected(object sender, RoutedEventArgs e)
         {
             {
-                RecipeView ar = new RecipeView("Chocolate Rush", "03 min", 5);
-                RecipeView br = new RecipeView("Diabetes in a bowl", "05 min", 4);
-                RecipeView cr = new RecipeView("Sugar Rush", "07 min", 3.5);
-                RecipeView dr = new RecipeView("Monster and IceCream Float", "09 min", 3.5);
-
-
-
-
                 myMain.itemOfLists[0] = new ListItem(ar);
                 myMain.itemOfLists[1] = new ListItem(dr);
                 myMain.itemOfLists[2] = new ListItem(br);

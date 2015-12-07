@@ -21,20 +21,97 @@ namespace WpfApplication1
     public partial class LunchCategory : UserControl
     {
         private MainWindow myMain;
+        private RecipeView ar, br, cr, dr;
         public LunchCategory(MainWindow aMain)
         {
+            initRecipes();
             myMain = aMain;
             InitializeComponent();
             defaultView();
         }
 
+        void initRecipes()
+        {
+            ar = new RecipeView("Fried Rice", "30 min", 5);
+            br = new RecipeView("Biriyani", "35 min", 4);
+            cr = new RecipeView("Lamb Chops", "27 min", 3.5);
+            dr = new RecipeView("Naan and ButterChicken", "30 min", 3.5);
+        }
+
         void defaultView()
         {
-            ListItem item1 =  new ListItem(myMain.orangeAvoChicken.getName(),myMain.orangeAvoChicken.getTime(),myMain.orangeAvoChicken);
-            Sp1.Children.Add(item1);
-            ListItem item2 = new ListItem(myMain.stirFry.getName(),myMain.stirFry.getTime(),myMain.stirFry);
-            Sp1.Children.Add(item2);
+            ListItem al = new ListItem(ar);
+            ListItem bl = new ListItem(dr);
+            ListItem cl = new ListItem(br);
+            ListItem dl = new ListItem(cr);
+            ListItem e1 =  new ListItem(myMain.orangeAvoChicken);
+            Sp1.Children.Add(bl);
+            Sp1.Children.Add(cl);
+            Sp1.Children.Add(al);
+            Sp1.Children.Add(dl);
+            Sp1.Children.Add(e1);
+        }
+
+        private void AlphabeticalSelected(object sender, RoutedEventArgs e)
+        {
+            myMain.itemOfLists[0] = new ListItem(ar);
+            myMain.itemOfLists[1] = new ListItem(dr);
+            myMain.itemOfLists[2] = new ListItem(br);
+            myMain.itemOfLists[3] = new ListItem(cr);
+            myMain.itemOfLists[4] = new ListItem(myMain.orangeAvoChicken);
+
+            Sp1.Children.Clear();
+
+            myMain.sortAlphabetically();
+
+            for (int i = 0; i < myMain.itemOfLists.Length; i++)
+            {
+
+                Sp1.Children.Add(myMain.itemOfLists[i]);
+            }
+        }
+
+        private void RatingSelected(object sender, RoutedEventArgs e)
+        {
+
+            myMain.itemOfLists[0] = new ListItem(ar);
+            myMain.itemOfLists[1] = new ListItem(dr);
+            myMain.itemOfLists[2] = new ListItem(br);
+            myMain.itemOfLists[3] = new ListItem(cr);
+            myMain.itemOfLists[4] = new ListItem(myMain.orangeAvoChicken);
+
+            Sp1.Children.Clear();
+
+            myMain.sortRating();
+
+            for (int i = 0; i < myMain.itemOfLists.Length; i++)
+            {
+
+                Sp1.Children.Add(myMain.itemOfLists[i]);
+            }
 
         }
+
+        private void TimeSelected(object sender, RoutedEventArgs e)
+        {
+            myMain.itemOfLists[0] = new ListItem(ar);
+            myMain.itemOfLists[1] = new ListItem(dr);
+            myMain.itemOfLists[2] = new ListItem(br);
+            myMain.itemOfLists[3] = new ListItem(cr);
+            myMain.itemOfLists[4] = new ListItem(myMain.orangeAvoChicken);
+
+            Sp1.Children.Clear();
+
+            myMain.sortTime();
+
+            for (int i = 0; i < myMain.itemOfLists.Length; i++)
+            {
+
+                Sp1.Children.Add(myMain.itemOfLists[i]);
+            }
+        }
+
+
+
     }
 }
