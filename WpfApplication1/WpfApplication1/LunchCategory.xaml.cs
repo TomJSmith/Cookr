@@ -45,6 +45,7 @@ namespace WpfApplication1
 
         void defaultView()
         {
+            Sp1.Children.Clear();
             ListItem al = new ListItem(ar);
             ListItem bl = new ListItem(dr);
             ListItem cl = new ListItem(br);
