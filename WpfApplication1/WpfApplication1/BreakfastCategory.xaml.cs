@@ -30,6 +30,11 @@ namespace WpfApplication1
             defaultView();
 
         }
+        private void goBack(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow mainWindow = (MainWindow)Window.GetWindow(this);
+            mainWindow.switchPrevView();
+        }
 
         void initRecipes()
         {

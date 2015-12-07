@@ -27,7 +27,11 @@ namespace WpfApplication1
             myMain = mainWindow;
             InitializeComponent();
         }
-
+        private void goBack(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow mainWindow = (MainWindow)Window.GetWindow(this);
+            mainWindow.switchPrevView();
+        }
         private void button_Click(object sender, RoutedEventArgs e)
         {
             myMain.switchToDiscover();
