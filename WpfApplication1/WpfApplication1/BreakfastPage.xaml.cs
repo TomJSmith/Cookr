@@ -25,6 +25,7 @@ namespace WpfApplication1
         public BreakfastPage()
         {
             InitializeComponent();
+            comboBox.SelectedIndex = 1;
         }
 
         public double getRatingValue()
@@ -77,7 +78,13 @@ namespace WpfApplication1
 
         private void serves1(object sender, RoutedEventArgs e)
         {
-
+            label4_Copy1.Content = "1/2 teaspoon Salt";
+            label4_Copy5.Content = "1 tablespoons sugar";
+            label4_Copy2.Content = "1/2 large egg";
+            label4_Copy3.Content = "1 tablespoons canola\noil";
+            label4_Copy8.Content = "1/2 cup All-purpose flour";
+            label4_Copy9.Content = "1/2 teaspoon Baking\npowder";
+            label4_Copy10.Content = "1/2 cup milk";
         }
 
         private void serves2(object sender, RoutedEventArgs e)
@@ -88,23 +95,41 @@ namespace WpfApplication1
             label4_Copy2.Content="1 large egg";
             label4_Copy3.Content="2 tablespoons canola\noil";
             label4_Copy8.Content="1 cup All-purpose flour";
-            label4_Copy9.Content="Baking pouder";
+            label4_Copy9.Content="1 teaspoon Baking powder";
             label4_Copy10.Content="1 cup milk";
         }
 
         private void serves3(object sender, RoutedEventArgs e)
         {
-
+            label4_Copy1.Content = "1 and 1/2 teaspoon Salt";
+            label4_Copy5.Content = "3 tablespoons sugar";
+            label4_Copy2.Content = "1 and 1/2 large egg";
+            label4_Copy3.Content = "3 tablespoons canola\noil";
+            label4_Copy8.Content = "1 and 1/2 cup\nAll-purpose flour";
+            label4_Copy9.Content = "1 and 1/2 teaspoons\nBaking powder";
+            label4_Copy10.Content = "1 and 1/2 cup milk";
         }
 
         private void serves4(object sender, RoutedEventArgs e)
         {
-
+            label4_Copy1.Content = "2 teaspoon Salt";
+            label4_Copy5.Content = "4 tablespoons sugar";
+            label4_Copy2.Content = "2 large egg";
+            label4_Copy3.Content = "4 tablespoons canola\noil";
+            label4_Copy8.Content = "2 cup All-purpose\nflour";
+            label4_Copy9.Content = "2 teaspoons Baking\npowder";
+            label4_Copy10.Content = "2 cup milk";
         }
 
         private void serves5(object sender, RoutedEventArgs e)
         {
-
+            label4_Copy1.Content = "2 and 1/2 teaspoon Salt";
+            label4_Copy5.Content = "5 tablespoons sugar";
+            label4_Copy2.Content = "2 and 1/2 large egg";
+            label4_Copy3.Content = "5 tablespoons canola\noil";
+            label4_Copy8.Content = "2 and 1/2 cup\nAll-purpose flour";
+            label4_Copy9.Content = "2 and 1/2 teaspoons\nBaking powder";
+            label4_Copy10.Content = "2 and 1/2 cup milk";
         }
     }
 }
