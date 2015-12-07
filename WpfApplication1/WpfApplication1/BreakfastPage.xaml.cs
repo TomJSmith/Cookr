@@ -74,5 +74,37 @@ namespace WpfApplication1
         {
             return image2.Source;
         }
+
+        private void serves1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void serves2(object sender, RoutedEventArgs e)
+        {
+            label4.Content="10 inch\nnon-stick pan";
+            label4_Copy1.Content="1 teaspoon Salt";
+            label4_Copy5.Content="2 tablespoons sugar";
+            label4_Copy2.Content="1 large egg";
+            label4_Copy3.Content="2 tablespoons canola\noil";
+            label4_Copy8.Content="1 cup All-purpose flour";
+            label4_Copy9.Content="Baking pouder";
+            label4_Copy10.Content="1 cup milk";
+        }
+
+        private void serves3(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void serves4(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void serves5(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

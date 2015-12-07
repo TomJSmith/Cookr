@@ -20,7 +20,7 @@
         <Grid Grid.Column="1" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="620" Grid.RowSpan="2" Margin="0,70,0,0">
             <local:SearchBarHeader Margin="0,-56,0,56"/>
         </Grid>
-        <ScrollViewer HorizontalAlignment="Left" Height="747" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3">
+        <ScrollViewer HorizontalAlignment="Left" Height="1599" VerticalAlignment="Top" Width="760" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,-819">
             <Grid Grid.Column="1" HorizontalAlignment="Center" Height="1603" Grid.Row="1" VerticalAlignment="Top" Width="620">
                 <Image x:Name="image" HorizontalAlignment="Left" Height="168" Margin="10,50,0,0" VerticalAlignment="Top" Width="168" Source="Pics/pancake.jpg"/>
                 <Label x:Name="name" Content="Pancakes" Margin="178,50,158,1431" FontSize="24" />
@@ -29,11 +29,13 @@
                 <Label x:Name="label1" Content="Serves:" HorizontalAlignment="Left" Height="36" Margin="467,99,0,0" VerticalAlignment="Top" Width="75" FontSize="21.333"/>
                 <Image x:Name="image3" HorizontalAlignment="Left" Height="47" Margin="467,140,0,0" VerticalAlignment="Top" Width="48" Source="Images/timerIcon.png" RenderTransformOrigin="-0.083,0.489"/>
                 <Label x:Name="time" Content="30 min" HorizontalAlignment="Left" Height="36" Margin="529,146,0,0" VerticalAlignment="Top" Width="81" FontSize="21.333"/>
-                <ComboBox x:Name="comboBox" IsEditable="True" IsReadOnly="True" HorizontalAlignment="Left" Margin="547,101,0,0" VerticalAlignment="Top" Width="63" Height="36" SelectedIndex="1" FontSize="21.333">
-                    <ComboBoxItem HorizontalContentAlignment="Center">1</ComboBoxItem>
-                    <ComboBoxItem HorizontalContentAlignment="Center">2</ComboBoxItem>
-                    <ComboBoxItem HorizontalContentAlignment="Center">3</ComboBoxItem>
-                    <ComboBoxItem HorizontalContentAlignment="Center">4</ComboBoxItem>
+                <ComboBox x:Name="comboBox" IsEditable="True" IsReadOnly="True" HorizontalAlignment="Left" Margin="547,101,0,0" VerticalAlignment="Top" Width="63" Height="36" FontSize="21.333">
+                    <ComboBoxItem HorizontalContentAlignment="Center" Selected="serves1">1</ComboBoxItem>
+                    <ComboBoxItem HorizontalContentAlignment="Center" Selected="serves2">2</ComboBoxItem>
+                    <ComboBoxItem HorizontalContentAlignment="Center" Selected="serves3">3</ComboBoxItem>
+                    <ComboBoxItem HorizontalContentAlignment="Center" Selected="serves4">4</ComboBoxItem>
+                    <ComboBoxItem HorizontalContentAlignment="Center" Selected="serves5">5</ComboBoxItem>
+
                 </ComboBox>
                 <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="310" Margin="10,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="18.667" Text="This recipe doesn't require much thought early in the morning, and tastes great!"/>
                 <Label x:Name="label2" Content="Nutrition Information" HorizontalAlignment="Left" Margin="335,210,0,0" VerticalAlignment="Top" Width="285" FontSize="21.333"/>
