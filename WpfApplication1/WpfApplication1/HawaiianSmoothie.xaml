@@ -28,7 +28,7 @@
                 <Image x:Name="image2" HorizontalAlignment="Left" Height="63" Margin="178,99,0,0" VerticalAlignment="Top" Width="152" Source="Images/4star.png"/>
                 <Label x:Name="label1" Content="Serves:" HorizontalAlignment="Left" Height="36" Margin="467,99,0,0" VerticalAlignment="Top" Width="75" FontSize="21.333"/>
                 <Image x:Name="image3" HorizontalAlignment="Left" Height="47" Margin="467,140,0,0" VerticalAlignment="Top" Width="48" Source="Images/timerIcon.png" RenderTransformOrigin="-0.083,0.489"/>
-                <Label x:Name="time" Content="5 min" HorizontalAlignment="Left" Height="36" Margin="529,146,0,0" VerticalAlignment="Top" Width="81" FontSize="21.333"/>
+                <Label x:Name="time" Content="05 min" HorizontalAlignment="Left" Height="36" Margin="529,146,0,0" VerticalAlignment="Top" Width="81" FontSize="21.333"/>
                 <ComboBox x:Name="comboBox" IsEditable="True" IsReadOnly="True" HorizontalAlignment="Left" Margin="547,101,0,0" VerticalAlignment="Top" Width="63" Height="36" FontSize="21.333">
                     <ComboBoxItem HorizontalContentAlignment="Center" Selected="serves1">1</ComboBoxItem>
                     <ComboBoxItem HorizontalContentAlignment="Center" Selected="serves2">2</ComboBoxItem>

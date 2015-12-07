@@ -150,22 +150,22 @@ namespace WpfApplication1
 
         public void sortAlphabetically()
         {
+           // for (int i = 0; i < itemOfLists.Length; i++)
            
                 Array.Sort(itemOfLists, delegate(ListItem x, ListItem y)
-                {
-                    return (x.recipeName.Text).CompareTo(y.recipeName.Text);
-                });
-          
+                { return (x.recipeName.Text).CompareTo(y.recipeName.Text);});
+           
+            //itemOfLists.OrderByDescending(itemOfLists => this.(String)itemOfLists.recipeName())
+            //;
 
         }// end of sort Alphabetically()
 
 
-        public void sortByTime()
+        public void sortTime()
         {
+
             Array.Sort(itemOfLists, delegate(ListItem x, ListItem y)
-            {
-                return ((x.time.Content).ToString()).CompareTo((y.time.Content).ToString());
-            });
+            { return (x.time.Content.ToString()).CompareTo(y.time.Content.ToString()); });
 
         }
 
